@@ -1,0 +1,29 @@
+{
+ "displayTopicName": "Motivations for Canopy",
+ "paragraphsBySubtopic": {
+  "Motivations for Canopy": [
+   {
+    "text": "There are problems Canopy is intended to solve. There are interactions Canopy is designed to support. There are reasons why a solution like Canopy should be possible.",
+    "type": "text"
+   }
+  ],
+  "Problems Canopy is intended to solve": [
+   {
+    "text": "There are certain inefficiencies in the current creation and consumption of explanation that motivate the creation and use of Canopy.",
+    "type": "text"
+   }
+  ],
+  "Interactions Canopy is designed to support": [
+   {
+    "text": "There are certain desirable ways of interacting with explanation that Canopy supports.",
+    "type": "text"
+   }
+  ],
+  "Reasons why a solution like Canopy should be possible": [
+   {
+    "text": "Here they are.",
+    "type": "text"
+   }
+  ]
+ }
+}

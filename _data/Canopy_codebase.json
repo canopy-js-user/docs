@@ -1,0 +1,35 @@
+{
+ "displayTopicName": "Canopy codebase",
+ "paragraphsBySubtopic": {
+  "Canopy codebase": [
+   {
+    "text": "The Canopy codebase contains the Canopy front-end library, the Canopy parser library, and the Canopy command-line interface.",
+    "type": "text"
+   }
+  ],
+  "Canopy front-end library": [
+   {
+    "text": "The Canopy codebase contains a front-end library. The front-end code can be found in the repository. The front-end library consumes JSON produced by the parser library which is served by a Canopy server. The code base implements the Canopy project.",
+    "type": "text"
+   }
+  ],
+  "The front-end code can be found in the repository": [
+   {
+    "text": "The front-end code can be found in the repository under the `src/client` path.",
+    "type": "text"
+   }
+  ],
+  "Canopy parser library": [
+   {
+    "text": "The Canopy codebase contains the backend code for the parser that Canopy uses to convert diagraph script into the JSON that is consumed by the front-end library.",
+    "type": "text"
+   }
+  ],
+  "Canopy command-line interface": [
+   {
+    "text": "Canopy has a command-line interface that you can use to set up a Canopy project, convert dgs files into JSON, and run a Canopy server!",
+    "type": "text"
+   }
+  ]
+ }
+}

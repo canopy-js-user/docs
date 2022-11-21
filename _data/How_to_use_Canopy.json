@@ -1,0 +1,23 @@
+{
+ "displayTopicName": "How to use Canopy",
+ "paragraphsBySubtopic": {
+  "How to use Canopy": [
+   {
+    "text": "There are instructions for how to produce diagraph with Canopy, and how to use a Canopy website.",
+    "type": "text"
+   }
+  ],
+  "How to use a Canopy website": [
+   {
+    "text": "Here is how.",
+    "type": "text"
+   }
+  ],
+  "How to produce diagraph with Canopy": [
+   {
+    "text": "Canopy turns a directory of diagraph script files into -",
+    "type": "text"
+   }
+  ]
+ }
+}
