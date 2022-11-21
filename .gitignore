@@ -1,7 +1,5 @@
 build/
-.canopy_watch.pid
-.canopy_watch_dev.pid
-.canopy_bulk_temp
-canopy_bulk_temp
+canopy_bulk_file
 **/.DS_Store
-
+.canopy_bulk_last_session_files
+.canopy_bulk_backups/**
