@@ -1,0 +1,159 @@
+[Canopy JS]
+
+* Canopy JS: Text here. This is an example reference to a [[subtopic]].
+
+Subtopic: This is a subtopic paragraph.
+
+
+[Applications]
+
+* - Applications of Canopy in programming: The original author of a codebase is often more comfortable maintaining it than are later team members. Canopy can help original authors organize the information they know, such as which parts of the code power which features, where certain decisions are made, and what the original motivations for various design choices were. One could begin at a business requirement, and look at the features that satisfy it, the design decisions made for that feature, and the code that implements it, or one could begin with a line of code and work up, seeing what it does, and why, all the way to the original business requirement.
+
+- The train of thought leading to each test case, from a description of the system under test.
+
+- Applications of Canopy in academia and journalism: Some of the same subjects that are discussed in popularly are also studied in academic institutions. If explanations that were produced in academia were organized differently, it might be more easy for journalists and popular commentators to connect stories of the day to long-term historical or economic analysis, allowing readers who begin at a story to drill into its larger themes, and for students of theoretical ideas to find practical examples of how they play out in the world.
+
+- Canopy can be used as your school notebook for a class, and your goal in reviewing your notes is to come up with an explanation that subsumes all the points made in class, why was each necessary.
+
+- Applications of Canopy in library science: For any set of books, one can imagine a librarian who has read all of them, and could answer questions like "what author addresses this or that point", and without taking sides, that librarian could through quotations put one author in conversation with another, and could list for you all the arguments made in the literature for one position or the other, and the responses, in neutral terms, exerting judgement only in the potential meaning of terms in ordinary language. Therefore, for any set of static resources and a shared language, there exists a set of valid "library diagraphs", which present the indexing of the different parts of those resources by what questions they address and what answers they give, and it might be desirable to produce such diagraphs for popular consumption.
+
+
+[Benefits]
+
+- Giving information in stages creates earlier images that forereference later ones, so that the information is recallable.
+
+
+[Canopy]
+
+* The Canopy project: This is the documentation of the Canopy.js project. First, it is useful to understand the [ problems Canopy solves]. Then, we can discuss [how Canopy helps], and also specifically, the [ applications of Canopy] in different use-cases. Those interested can inquire into [how Canopy works] on a technical level and understand the [ design of Canopy]. Those wishing to make their own project with Canopy can read about [how Canopy is used] practically speaking. Anyone unfamiliar with the user interface can do a short [walk through]. (Try using the arrow keys.)
+
+Canopy is a JavaScript library for creating and browsing the diagraph data structure. There are functions of the Canopy library. There are motivations for Canopy. There are design principles of Canopy. There are applications of Canopy. There is a way how to use Canopy. There is a Canopy codebase.
+
+- Canopy has features/desiderata? There need to be clause links, so that you can zoom in on a description white paper archive notes
+- English as programming language
+- Use question topic names.
+
+
+[Comparisons]
+
+Compare diagraph to programming, eg scope, call stack, functional paradigms versus imperative, etc.
+
+
+[Desiderata]
+
+Spaced repetition heat map
+
+
+[Fragmentation]
+
+A source of fragmentation is that experts use generic predication rather than explicit forereference because for _them_ it _is_ a reliable reference.
+
+
+[Patterns]
+
+The way that you sometimes zoom in and sometimes zoom out to analyze a thing
+
+A course is like a diagraph in that everything you mention has to be connected to some previous thing, subsuming even the whole discipline.
+
+We can add invariants like "how do you know" to every point.
+
+Maybe there is a habit of only referencing entities even in prose if they have been imported via link in that paragraph or a direct ancestor.
+
+Overlapping entities like a perek with sugya subtopics and the sugyas as topics, and the differences in how the same information is covered in those two contexts.
+
+
+[Production]
+
+* - If I make a provisional subcategory I can add a note to the parent reminding that it exists and should receive a forereference at some point – ie AT: how do I get visibility into nearby categories that need to be subsumed?
+
+- Maybe when all the children of a point cohere into 4 subcategories I descend.
+
+- Most disambiguation is probably all global references, and maybe even new categories at every level.
+
+I didn't see subcategories could proceed
+
+
+[code]
+
+* Canopy codebase: The Canopy codebase contains the Canopy front-end library, the Canopy parser library, and the Canopy command-line interface.
+
+Canopy front-end library: The Canopy codebase contains a front-end library. The front-end code can be found in the repository. The front-end library consumes JSON produced by the parser library which is served by a Canopy server. The code base implements the Canopy project.
+
+The front-end code can be found in the repository: The front-end code can be found in the repository under the `src/client` path.
+
+Canopy parser library: The Canopy codebase contains the backend code for the parser that Canopy uses to convert diagraph script into the JSON that is consumed by the front-end library.
+
+Canopy command-line interface: Canopy has a command-line interface that you can use to set up a Canopy project, convert dgs files into JSON, and run a Canopy server!
+
+
+[design]
+
+* Design principles of Canopy: Canopy is designed to mimic the interface of human explanation. The Canopy parser is intended to recognize the same patterns in text as does a human listener.
+
+Mimic the interface of human explanation: Canopy is intended to present the same options to the reader as does a human explainer. The same way that an expert can summarize a domain and then be asked follow up questions, Canopy presents a small amount of information that contains within it follow-up queries that are supported.
+
+The same patterns in text as does a human listener: When a later paragraph references an earlier one, it shouldn't need to be identified with a hypertext reference, because a human reader wouldn't need hypertext to identify the reference as a reference. It must be that the reader recognizes something in the later paragraph they saw in the earlier one, and on this basis recognizes the reference. Canopy is intended to make the same recognition based on the same information.
+
+- Links that reify ordinary language reference - synchronized with no way for links to change from linguistic reference.
+
+
+[diagraph]
+
+* The diagraph data structure: There is a definition of diagraph. There are things that make good diagraph. There are different methods of making diagraph. There are implementations of the diagraph data structure.
+
+Definition of diagraph: Diagraph is a graph data structure. Traversals of diagraph are valid prose explanations. A diagraph is composed of a global namespace of topics. Each topic contains a local namespace of subtopic names. One subtopic of the topic matches the topic.
+
+- For each line of the definition, give an example as a local reference.
+
+Good diagraph: Certain qualities make diagraph good.
+
+Methods of making diagraph: There are different methods for making diagraph. You can use the canopy bulk mode for example.
+
+Canopy bulk mode: The canopy bulk mode is a CLI tool for making diagraph.
+
+- Library diagraph and the motivation ie the need for uncontroversial summaries of what views exist without trust for the summarizer.
+
+Implementations of the diagraph data structure: Of which, the Canopy project is one.
+
+
+[functions]
+
+* Functions of the Canopy library: There are certain functions the Canopy library performs, like run a Canopy server.
+
+Canopy server: A Canopy server is a server that serves and supports the Canopy.js library. The Canopy server can be a static assets server or a node.js script. The server delivers the Canopy.js library on the first request, and then handles subsequent requests from the browser for JSON data files. The Canopy server is necessary to view an example of the Canopy project.
+
+Diagraph script: Diagraph script is a natural language text format that Canopy uses to construct a Canopy website.
+
+
+[motivations]
+
+* Motivations for Canopy: There are problems Canopy is intended to solve. There are interactions Canopy is designed to support. There are reasons why a solution like Canopy should be possible.
+
+- The idea that experts have a massively redundant graph where every topic relates to every other topic.
+
+Problems Canopy is intended to solve: There are certain inefficiencies in the current creation and consumption of explanation that motivate the creation and use of Canopy.
+
+- Canopy can be compared to other solutions to those same problems, wikis, annotation, semantic web, etc.
+
+Interactions Canopy is designed to support: There are certain desirable ways of interacting with explanation that Canopy supports.
+
+
+Reasons why a solution like Canopy should be possible: Here they are.
+
+THe fact that infinite tree storage has only existed for a bit, and binary search being the most efficient way to look things up.
+
+
+[usage]
+
+* How to use Canopy: There are instructions for how to produce diagraph with Canopy, and how to use a Canopy website.
+
+How to use a Canopy website: Here is how.
+
+How to produce diagraph with Canopy: Canopy turns a directory of diagraph script files into -
+
+
+[Inbox]
+
+This is for notes that don't yet have a category.
+
+
