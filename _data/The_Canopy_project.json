@@ -6,40 +6,6 @@
     "text": "This is the documentation of the Canopy.js project. First, it is useful to understand the [ problems Canopy solves]. Then, we can discuss [how Canopy helps], and also specifically, the [ applications of Canopy] in different use-cases. Those interested can inquire into [how Canopy works] on a technical level and understand the [ design of Canopy]. Those wishing to make their own project with Canopy can read about [how Canopy is used] practically speaking. Anyone unfamiliar with the user interface can do a short [walk through]. (Try using the arrow keys.)",
     "type": "text"
    }
-  ],
-  "- Canopy has features/desiderata?": [
-   {
-    "text": "There need to be clause links, so that you can zoom in on a description white paper archive notes",
-    "type": "text"
-   },
-   {
-    "topLevelNodes": [
-     {
-      "ordinal": "-",
-      "ordered": false,
-      "tokensOfLine": [
-       {
-        "text": "English as programming language",
-        "type": "text"
-       }
-      ],
-      "children": []
-     },
-     {
-      "ordinal": "-",
-      "ordered": false,
-      "tokensOfLine": [
-       {
-        "text": "Use question topic names.",
-        "type": "text"
-       }
-      ],
-      "children": []
-     }
-    ],
-    "type": "list",
-    "text": "- English as programming language\n- Use question topic names.\n"
-   }
   ]
  }
 }
