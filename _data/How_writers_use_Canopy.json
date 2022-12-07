@@ -1,0 +1,101 @@
+{
+ "displayTopicName": "How writers use Canopy",
+ "paragraphsBySubtopic": {
+  "How writers use Canopy": [
+   {
+    "text": "Writers use Canopy by ",
+    "type": "text"
+   },
+   {
+    "text": "creating a project",
+    "type": "local",
+    "targetSubtopic": "Creating a project",
+    "targetTopic": "How writers use Canopy",
+    "enclosingTopic": "How writers use Canopy",
+    "enclosingSubtopic": "How writers use Canopy"
+   },
+   {
+    "text": ", ",
+    "type": "text"
+   },
+   {
+    "text": "adding content",
+    "type": "global",
+    "targetSubtopic": "Adding content",
+    "targetTopic": "Adding content",
+    "enclosingTopic": "How writers use Canopy",
+    "enclosingSubtopic": "How writers use Canopy"
+   },
+   {
+    "text": ", [building the project], [serving the project locally], and ",
+    "type": "text"
+   },
+   {
+    "text": "deploying the project",
+    "type": "global",
+    "targetSubtopic": "Deploying the project",
+    "targetTopic": "Deploying the project",
+    "enclosingTopic": "How writers use Canopy",
+    "enclosingSubtopic": "How writers use Canopy"
+   },
+   {
+    "text": ".",
+    "type": "text"
+   }
+  ],
+  "Creating a project": [
+   {
+    "text": "Creating a Canopy project involves ",
+    "type": "text"
+   },
+   {
+    "text": "creating a project directory",
+    "type": "local",
+    "targetSubtopic": "Creating a project directory",
+    "targetTopic": "How writers use Canopy",
+    "enclosingTopic": "How writers use Canopy",
+    "enclosingSubtopic": "Creating a project"
+   },
+   {
+    "text": " and ",
+    "type": "text"
+   },
+   {
+    "text": "initializing the project",
+    "type": "local",
+    "targetSubtopic": "Initializing the project",
+    "targetTopic": "How writers use Canopy",
+    "enclosingTopic": "How writers use Canopy",
+    "enclosingSubtopic": "Creating a project"
+   },
+   {
+    "text": ".",
+    "type": "text"
+   }
+  ],
+  "Creating a project directory": [
+   {
+    "text": "Creating the project directory is done by creating a directory, eg running `mkdir my_project` on a Unix-like system. There is nothing special about the type of directory.",
+    "type": "text"
+   }
+  ],
+  "Initializing the project": [
+   {
+    "text": "To initialize a project, enter the project directory (`cd` on a Unix system), then run `canopy init`. The ",
+    "type": "text"
+   },
+   {
+    "text": "canopy init",
+    "type": "global",
+    "targetSubtopic": "Canopy init",
+    "targetTopic": "Canopy init",
+    "enclosingTopic": "How writers use Canopy",
+    "enclosingSubtopic": "Initializing the project"
+   },
+   {
+    "text": " command creates various files and folders that are necessary for your Canopy project.",
+    "type": "text"
+   }
+  ]
+ }
+}

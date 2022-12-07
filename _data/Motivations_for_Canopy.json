@@ -3,25 +3,211 @@
  "paragraphsBySubtopic": {
   "Motivations for Canopy": [
    {
-    "text": "There are problems Canopy is intended to solve. There are interactions Canopy is designed to support. There are reasons why a solution like Canopy should be possible.",
+    "text": "The motivations for Canopy include ",
     "type": "text"
-   }
-  ],
-  "Problems Canopy is intended to solve": [
+   },
    {
-    "text": "There are certain inefficiencies in the current creation and consumption of explanation that motivate the creation and use of Canopy.",
+    "text": "customization",
+    "type": "global",
+    "targetSubtopic": "Customization",
+    "targetTopic": "Customization",
+    "enclosingTopic": "Motivations for Canopy",
+    "enclosingSubtopic": "Motivations for Canopy"
+   },
+   {
+    "text": ", ",
     "type": "text"
-   }
-  ],
-  "Interactions Canopy is designed to support": [
+   },
    {
-    "text": "There are certain desirable ways of interacting with explanation that Canopy supports.",
+    "text": "reusability",
+    "type": "global",
+    "targetSubtopic": "Reusability",
+    "targetTopic": "Reusability",
+    "enclosingTopic": "Motivations for Canopy",
+    "enclosingSubtopic": "Motivations for Canopy"
+   },
+   {
+    "text": ", ",
     "type": "text"
-   }
-  ],
-  "Reasons why a solution like Canopy should be possible": [
+   },
    {
-    "text": "Here they are.",
+    "text": "scale",
+    "type": "global",
+    "targetSubtopic": "Scale",
+    "targetTopic": "Scale",
+    "enclosingTopic": "Motivations for Canopy",
+    "enclosingSubtopic": "Motivations for Canopy"
+   },
+   {
+    "text": ", ",
+    "type": "text"
+   },
+   {
+    "text": "fragmentation",
+    "type": "global",
+    "targetSubtopic": "Fragmentation",
+    "targetTopic": "Fragmentation",
+    "enclosingTopic": "Motivations for Canopy",
+    "enclosingSubtopic": "Motivations for Canopy"
+   },
+   {
+    "text": ", ",
+    "type": "text"
+   },
+   {
+    "text": "interconnection",
+    "type": "global",
+    "targetSubtopic": "Interconnection",
+    "targetTopic": "Interconnection",
+    "enclosingTopic": "Motivations for Canopy",
+    "enclosingSubtopic": "Motivations for Canopy"
+   },
+   {
+    "text": ", ",
+    "type": "text"
+   },
+   {
+    "text": "discoverability",
+    "type": "global",
+    "targetSubtopic": "Discoverability",
+    "targetTopic": "Discoverability",
+    "enclosingTopic": "Motivations for Canopy",
+    "enclosingSubtopic": "Motivations for Canopy"
+   },
+   {
+    "text": ", ",
+    "type": "text"
+   },
+   {
+    "text": "completeness",
+    "type": "global",
+    "targetSubtopic": "Completeness",
+    "targetTopic": "Completeness",
+    "enclosingTopic": "Motivations for Canopy",
+    "enclosingSubtopic": "Motivations for Canopy"
+   },
+   {
+    "text": ", ",
+    "type": "text"
+   },
+   {
+    "text": "interface of the expert",
+    "type": "global",
+    "targetSubtopic": "Interface of the expert",
+    "targetTopic": "Interface of the expert",
+    "enclosingTopic": "Motivations for Canopy",
+    "enclosingSubtopic": "Motivations for Canopy"
+   },
+   {
+    "text": ", ",
+    "type": "text"
+   },
+   {
+    "text": "relative addressing",
+    "type": "global",
+    "targetSubtopic": "Relative addressing",
+    "targetTopic": "Relative addressing",
+    "enclosingTopic": "Motivations for Canopy",
+    "enclosingSubtopic": "Motivations for Canopy"
+   },
+   {
+    "text": ", ",
+    "type": "text"
+   },
+   {
+    "text": "precise addressing",
+    "type": "global",
+    "targetSubtopic": "Precise addressing",
+    "targetTopic": "Precise addressing",
+    "enclosingTopic": "Motivations for Canopy",
+    "enclosingSubtopic": "Motivations for Canopy"
+   },
+   {
+    "text": ", ",
+    "type": "text"
+   },
+   {
+    "text": "mergability",
+    "type": "global",
+    "targetSubtopic": "Mergability",
+    "targetTopic": "Mergability",
+    "enclosingTopic": "Motivations for Canopy",
+    "enclosingSubtopic": "Motivations for Canopy"
+   },
+   {
+    "text": ", ",
+    "type": "text"
+   },
+   {
+    "text": "memorability",
+    "type": "global",
+    "targetSubtopic": "Memorability",
+    "targetTopic": "Memorability",
+    "enclosingTopic": "Motivations for Canopy",
+    "enclosingSubtopic": "Motivations for Canopy"
+   },
+   {
+    "text": ", ",
+    "type": "text"
+   },
+   {
+    "text": "hierarchy",
+    "type": "global",
+    "targetSubtopic": "Hierarchy",
+    "targetTopic": "Hierarchy",
+    "enclosingTopic": "Motivations for Canopy",
+    "enclosingSubtopic": "Motivations for Canopy"
+   },
+   {
+    "text": ", ",
+    "type": "text"
+   },
+   {
+    "text": "explicit scope",
+    "type": "global",
+    "targetSubtopic": "Explicit scope",
+    "targetTopic": "Explicit scope",
+    "enclosingTopic": "Motivations for Canopy",
+    "enclosingSubtopic": "Motivations for Canopy"
+   },
+   {
+    "text": ", ",
+    "type": "text"
+   },
+   {
+    "text": "explicit state",
+    "type": "global",
+    "targetSubtopic": "Explicit state",
+    "targetTopic": "Explicit state",
+    "enclosingTopic": "Motivations for Canopy",
+    "enclosingSubtopic": "Motivations for Canopy"
+   },
+   {
+    "text": ", and ",
+    "type": "text"
+   },
+   {
+    "text": "inline inclusion",
+    "type": "global",
+    "targetSubtopic": "Inline inclusion",
+    "targetTopic": "Inline inclusion",
+    "enclosingTopic": "Motivations for Canopy",
+    "enclosingSubtopic": "Motivations for Canopy"
+   },
+   {
+    "text": ", and ",
+    "type": "text"
+   },
+   {
+    "text": "gaps",
+    "type": "global",
+    "targetSubtopic": "Gaps",
+    "targetTopic": "Gaps",
+    "enclosingTopic": "Motivations for Canopy",
+    "enclosingSubtopic": "Motivations for Canopy"
+   },
+   {
+    "text": ".",
     "type": "text"
    }
   ]

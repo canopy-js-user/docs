@@ -1,0 +1,95 @@
+{
+ "displayTopicName": "Subtopic",
+ "paragraphsBySubtopic": {
+  "Subtopic": [
+   {
+    "text": "A subtopic is an entity that requires context before it can be explained, as opposed to a ",
+    "type": "text"
+   },
+   {
+    "text": "topic",
+    "type": "global",
+    "targetSubtopic": "Topic",
+    "targetTopic": "Topic",
+    "enclosingTopic": "Subtopic",
+    "enclosingSubtopic": "Subtopic"
+   },
+   {
+    "text": ". A subtopic has a ",
+    "type": "text"
+   },
+   {
+    "text": "topic",
+    "type": "global",
+    "targetSubtopic": "Topic",
+    "targetTopic": "Topic",
+    "enclosingTopic": "Subtopic",
+    "enclosingSubtopic": "Subtopic"
+   },
+   {
+    "text": ". Here's an ",
+    "type": "text"
+   },
+   {
+    "text": "example of a subtopic",
+    "type": "local",
+    "targetSubtopic": "Example of a subtopic",
+    "targetTopic": "Subtopic",
+    "enclosingTopic": "Subtopic",
+    "enclosingSubtopic": "Subtopic"
+   },
+   {
+    "text": ". Because a subtopic requires context, it is displayed at a ",
+    "type": "text"
+   },
+   {
+    "text": "subtopic path",
+    "type": "local",
+    "targetSubtopic": "Subtopic path",
+    "targetTopic": "Subtopic",
+    "enclosingTopic": "Subtopic",
+    "enclosingSubtopic": "Subtopic"
+   },
+   {
+    "text": ".",
+    "type": "text"
+   }
+  ],
+  "Subtopic path": [
+   {
+    "text": "A subtopic exists within a certain ",
+    "type": "text"
+   },
+   {
+    "text": "topic",
+    "type": "global",
+    "targetSubtopic": "Topic",
+    "targetTopic": "Topic",
+    "enclosingTopic": "Subtopic",
+    "enclosingSubtopic": "Subtopic path"
+   },
+   {
+    "text": ", which has a ",
+    "type": "text"
+   },
+   {
+    "text": "tree",
+    "type": "import",
+    "targetSubtopic": "Tree",
+    "targetTopic": "Topic",
+    "enclosingTopic": "Subtopic",
+    "enclosingSubtopic": "Subtopic path"
+   },
+   {
+    "text": ", and a given subtopic paragraph exists at a path on that tree.",
+    "type": "text"
+   }
+  ],
+  "Example of a subtopic": [
+   {
+    "text": "An example of a subtopic is \"Bob's nose.\" The topic of this subtopic is \"Bob.\" \"Bob's nose\" can only be explained after explaining who \"Bob\" is.",
+    "type": "text"
+   }
+  ]
+ }
+}

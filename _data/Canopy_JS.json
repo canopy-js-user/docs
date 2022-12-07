@@ -3,25 +3,92 @@
  "paragraphsBySubtopic": {
   "Canopy JS": [
    {
-    "text": "Text here. This is an example reference to a ",
+    "text": "Welcome! This is the documentation of the Canopy JS project. You can use Canopy to create interactive explanatory websites like this one. ",
     "type": "text"
    },
    {
-    "text": "subtopic",
-    "type": "local",
-    "targetSubtopic": "Subtopic",
-    "targetTopic": "Canopy JS",
+    "text": "There are various ",
+    "type": "text"
+   },
+   {
+    "text": "motivations for Canopy",
+    "type": "global",
+    "targetSubtopic": "Motivations for Canopy",
+    "targetTopic": "Motivations for Canopy",
     "enclosingTopic": "Canopy JS",
     "enclosingSubtopic": "Canopy JS"
    },
    {
-    "text": ".",
+    "text": ". ",
     "type": "text"
-   }
-  ],
-  "Subtopic": [
+   },
    {
-    "text": "This is a subtopic paragraph.",
+    "text": "These are instructions for ",
+    "type": "text"
+   },
+   {
+    "text": "how readers use Canopy",
+    "type": "global",
+    "targetSubtopic": "How readers use Canopy",
+    "targetTopic": "How readers use Canopy",
+    "enclosingTopic": "Canopy JS",
+    "enclosingSubtopic": "Canopy JS"
+   },
+   {
+    "text": " and ",
+    "type": "text"
+   },
+   {
+    "text": "how writers use Canopy",
+    "type": "global",
+    "targetSubtopic": "How writers use Canopy",
+    "targetTopic": "How writers use Canopy",
+    "enclosingTopic": "Canopy JS",
+    "enclosingSubtopic": "Canopy JS"
+   },
+   {
+    "text": ", and this is an explanation of ",
+    "type": "text"
+   },
+   {
+    "text": "how Canopy works",
+    "type": "global",
+    "targetSubtopic": "How Canopy works",
+    "targetTopic": "How Canopy works",
+    "enclosingTopic": "Canopy JS",
+    "enclosingSubtopic": "Canopy JS"
+   },
+   {
+    "text": ". ",
+    "type": "text"
+   },
+   {
+    "text": "Canopy has a ",
+    "type": "text"
+   },
+   {
+    "text": "codebase",
+    "type": "global",
+    "targetSubtopic": "Codebase",
+    "targetTopic": "Codebase",
+    "enclosingTopic": "Canopy JS",
+    "enclosingSubtopic": "Canopy JS"
+   },
+   {
+    "text": " which you can find on the ",
+    "type": "text"
+   },
+   {
+    "type": "url",
+    "text": "project Github page",
+    "url": "https://github.com/canopy-js/canopy-js"
+   },
+   {
+    "text": ". ",
+    "type": "text"
+   },
+   {
+    "text": "(And try using the arrow keys!)",
     "type": "text"
    }
   ]

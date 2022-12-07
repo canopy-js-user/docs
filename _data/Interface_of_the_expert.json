@@ -1,0 +1,11 @@
+{
+ "displayTopicName": "Interface of the expert",
+ "paragraphsBySubtopic": {
+  "Interface of the expert": [
+   {
+    "text": "One of the design goals of Canopy is to mimic the interface of speaking with an expert.",
+    "type": "text"
+   }
+  ]
+ }
+}
