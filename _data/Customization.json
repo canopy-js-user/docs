@@ -51,7 +51,7 @@
     "enclosingSubtopic": "Customization"
    },
    {
-    "text": ". – ",
+    "text": ". (",
     "type": "text"
    },
    {
@@ -61,6 +61,10 @@
     "targetTopic": "Customization",
     "enclosingTopic": "Customization",
     "enclosingSubtopic": "Customization"
+   },
+   {
+    "text": ")",
+    "type": "text"
    }
   ],
   "A human explainer can customize explanations for a given listener": [
