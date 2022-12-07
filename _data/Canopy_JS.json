@@ -1,9 +1,9 @@
 {
- "displayTopicName": "Canopy",
+ "displayTopicName": "Canopy JS",
  "paragraphsBySubtopic": {
-  "Canopy": [
+  "Canopy JS": [
    {
-    "text": "Welcome! This is the documentation of the Canopy.js project. You can use Canopy to create interactive explanatory websites like this one. ",
+    "text": "Welcome! This is the documentation of the Canopy JS project. You can use Canopy to create interactive explanatory websites like this one. ",
     "type": "text"
    },
    {
@@ -15,8 +15,8 @@
     "type": "global",
     "targetSubtopic": "Motivations for Canopy",
     "targetTopic": "Motivations for Canopy",
-    "enclosingTopic": "Canopy",
-    "enclosingSubtopic": "Canopy"
+    "enclosingTopic": "Canopy JS",
+    "enclosingSubtopic": "Canopy JS"
    },
    {
     "text": ". ",
@@ -31,8 +31,8 @@
     "type": "global",
     "targetSubtopic": "How readers use Canopy",
     "targetTopic": "How readers use Canopy",
-    "enclosingTopic": "Canopy",
-    "enclosingSubtopic": "Canopy"
+    "enclosingTopic": "Canopy JS",
+    "enclosingSubtopic": "Canopy JS"
    },
    {
     "text": " and ",
@@ -43,8 +43,8 @@
     "type": "global",
     "targetSubtopic": "How writers use Canopy",
     "targetTopic": "How writers use Canopy",
-    "enclosingTopic": "Canopy",
-    "enclosingSubtopic": "Canopy"
+    "enclosingTopic": "Canopy JS",
+    "enclosingSubtopic": "Canopy JS"
    },
    {
     "text": ", and this is an explanation of ",
@@ -55,8 +55,8 @@
     "type": "global",
     "targetSubtopic": "How Canopy works",
     "targetTopic": "How Canopy works",
-    "enclosingTopic": "Canopy",
-    "enclosingSubtopic": "Canopy"
+    "enclosingTopic": "Canopy JS",
+    "enclosingSubtopic": "Canopy JS"
    },
    {
     "text": ". ",
@@ -71,8 +71,8 @@
     "type": "global",
     "targetSubtopic": "Codebase",
     "targetTopic": "Codebase",
-    "enclosingTopic": "Canopy",
-    "enclosingSubtopic": "Canopy"
+    "enclosingTopic": "Canopy JS",
+    "enclosingSubtopic": "Canopy JS"
    },
    {
     "text": " which you can find on the ",
@@ -88,7 +88,7 @@
     "type": "text"
    },
    {
-    "text": "(And try using the arrow keys!)",
+    "text": "(Try using the arrow keys!)",
     "type": "text"
    }
   ]
