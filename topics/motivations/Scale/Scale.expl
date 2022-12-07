@@ -1,0 +1,43 @@
+Scale: Scale is the idea that [[fixed explanations limit the maximum size of explanations]], whereas [[non-linear media allows greater explanation size]].
+
+Non-linear media allows greater explanation size: Non-linear media can grow larger than linear media because [[non-linear media is more navigable at large sizes]], and also [[non-linear media isn't constrained by audience interest]].
+
+Non-linear media is more navigable at large sizes: [[Difficulty navigating large corpuses limits corpus size]], so because [[non-linear organization increases the ease of navigating large corpuses]], [[non-linear media enables larger explanations]]. (But [[what about search?]])
+
+What about search? Doesn't the existence of search make it tractable to find things in a large corpus of linear explanations very quickly? Yes, but [[identifying the right search terms and content tagging is difficult]], and [[search doesn't give the reader an organizational scheme]].
+
+Identifying the right search terms and content tagging is difficult: If I am searching for content, I have to predict what keywords it will include, or the author will have to have labeled it properly, and in large corpuses, anticipating how to label content and search for it becomes more difficult.
+
+Search doesn't give the reader an organizational scheme: When the reader accesses the portions of a corpus by search, they are jumping directly to one piece of information, and don't know anything about where it is in the grand scheme of things, whereas if they access the information via a subsuming tree structure, they will have a general idea of what exists, and can use that structure to organize the information in their mind.
+
+Non-linear media isn't constrained by audience interest: Non-linear media can grow large even if people prefer to consume small explanations because [[non-linear explanations decouple storage from presentation]], and so [[demand for content of a certain size won't prevent large corpuses]].
+
+Fixed explanations limit the maximum size of explanations: Authors are constrained in the length of books and articles by [[medium constraints]] and [[audience relevance]], and so even if they have information they would like to publish, often they have no good place to do it. (And [[even niche explanations assume homogeneous readership]].)
+
+Medium constraints: A book or article conventionally cannot be greater than a certain size, both because of audience demand for works of a certain size, and sometimes literal constraints on how much content could be printed and circulated.
+
+Audience relevance: Given that most readers of a book or article are reading more or less from beginning to end, an author can't include things that aren't relevant to all readers, and even footnotes can only add a certain percentage of extra material for interested parties, not entire extra
+
+Even niche explanations assume homogeneous readership: You might say [[niche content solves problems of space for content]], but even so, [[niche content will have the same problem on a smaller scale]], and [[fragmented works create problems of discoverability]].
+
+Niche content solves problems of space for content: You might say when there is a subpopulation that wants more information than the rest of the audience, an author can produce additional chapters, books, or articles just for them, meaning there will always be space for any given piece of information.
+
+Niche content will have the same problem on a smaller scale: Niche books and articles will also be forced to leave things out, because within the niche readership there will be people with different particular interests, and the author won't be able to include points that aren't relevant to all readers.
+
+Fragmented works create problems of discoverability: If an author finds space for everything they want to share by producing multiple works for different audiences, this produces problems of [[discoverability]] because eventually not everyone will know about the existence of all the various works and what they contain, defeating the purpose of finding a place for all useful information.
+
+difficulty navigating large corpuses limits corpus size: Even if we are physically able to store large corpuses of information, if we don't have a good way of navigating them, then people aren't going to go to the trouble to assemble that much information in the first place.
+
+Non-linear organization increases the ease of navigating large corpuses: One of the foundational findings of computer science is that [[finding things in a list is slow]], but [[finding things in a tree is quick]], and so if non-linear media organizes content by tree, it will drastically increase the speed at which the reader can find what they are looking for.
+
+Non-linear media enables larger explanations: Because it is more easily navigable at large sizes, non-linear media removes one of the limiting factors on the size of explanations.
+
+Finding things in a list is slow: Finding something in a linear sequence like a book requires scanning the entire sequence, and even tables of contents require scanning the table of contents, which becomes impracticable if there are many things in it.
+
+Finding things in a tree is quick: By looking at one node, and then looking at one child node, and its child node, you can find what you are looking for while only seeing a few things, much faster than if you had to go through the whole list. That is information in databases is generally stored in tree formats.
+
+If tree organization makes it easier for users to find what they are looking for in large corpuses of information, then it will be worth while for authors to produce larger corpuses.
+
+non-linear explanations decouple storage from presentation: With customized explanations, what the author produces and what the reader consumes don't have to be the same thing, and so the author is no longer constrained to produce content in exactly the format in which the reader wants to read it.
+
+Demand for content of a certain size won't prevent large corpuses: Even if readers want explanations of a certain size, authors will not be constrained to produce only that much content, but can produce much more, and let each reader read what they want to.

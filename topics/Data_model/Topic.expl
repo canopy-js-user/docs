@@ -1,0 +1,3 @@
+Topic: Topics are the fundamental organizing units of a Canopy project. A Canopy topic is a unit of explanation corresponding to some entity. A topic is an entity that can be explained without prior context, as opposed to a [[subtopic]]. A topic in Canopy has a [[topic paragraph]], and it has child paragraphs that form a [[tree]]. The data of a topic is stored in a [[topic file]].
+
+Tree: A topic has a tree which is formed by the root [[topic paragraph]], which contains [[local reference|local references]], which connect it to [[subtopic paragraph|subtopic paragraphs]], which also contain local references, which connect it to further subtopic paragraphs, forming a tree.

@@ -1,0 +1,41 @@
+Customization: Customization is the idea that [[a human explainer can customize explanations for a given listener]]. A book, by contrast, is [[mostly the same experience for every reader]], and while [[linear text is efficient for homogeneous groups]], [[Canopy aims to provide the type of customization a human explainer can provide]]. ([[But isn't human explanation too complex to reproduce with digital tools?]])
+
+A human explainer can customize explanations for a given listener: A human explainer can follow the listener's particular interests, adding more detail for someone advanced, or more background information for a beginner.
+
+Mostly the same experience for every reader: A reader can flip around and read some chapters and not others, but fundamentally they are consuming long fixed blocks of linear content, unlike spoken explanation where the units are small, and the direction of the explanation can change based on feedback from the listener.
+
+Linear text is efficient for homogeneous groups: Sometimes you have a group of people who want an explanation, and due to the circumstances [[their needs are very similar]]. In these cases, [[it is more efficient to use linear prose than it is to use Canopy]].
+
+Their needs are very similar: Two examples of groups of people with similar needs are [[standardized test takers]] and [[news readers]].
+
+Standardized test takers: If students are taking a standardized test, and it is testing them on a subject area that is new to all of them, and the test requires the same level of knowledge for everbody, perhaps their background knowledge is identical, and their desired knowledge is identical, in which case they might not benefit from having customized explanations. (However, even in such a case it might be helpful to have [[customization in review]].)
+
+Customization in review: When students are reviewing information, even if they all are aiming for the same level of final understanding, each particular student might benefit from reviewing different aspects of the content based on where they are having difficulties.
+
+News readers: When an event occurs in the news and there isn't very much information available, most people are in the market for the same explanation, because that's all that is available. However, [[some news stories might benefit from customization]].
+
+Some news stories might benefit from customization: [[Some news stories are complex]], and [[some news stories relate to background knowledge]], therefore some news stories do benefit from customization.
+
+Some news stories are complex: When a news event involves an ongoing sequence of interrelated events, some readers might benefit a recap of the prior context, whereas others don't need it and would be annoyed by it.
+
+Some news stories relate to background knowledge: If a news event has historical context or benefits from theoretical background knowledge, some readers may be interested to learn more about the related background knowledge, and some might just want the practical facts.
+
+It is more efficient to use linear prose than it is to use Canopy: If a group of people all need the same explanation, writing it in linear text is more efficient than writing it in reusable blocks because [[the author can make better assumptions about the prior knowledge of the readers]], and [[the author can more easily express requirements]].
+
+The author can make better assumptions about the prior knowledge of the readers: [[An author of a book or article knows the context of the reader's session]], and [[a customized explanation does not]].
+
+The author can more easily express requirements: If the user is allowed to explore content freely, they might not learn everything they are responsible for knowing, whereas linear text can force them to go through a certain set of content.
+
+An author of a book or article knows the context of the reader's session: An author of a book or article knows what the readers have read so far and what they are going to read, and so the author can reference things they know the reader has seen already, or avoid a certain subject for now because they know it will be explained later at a better time.
+
+A customized explanation does not: Customized explanations are produced by combining reusable units that were not written with knowledge of what the reader has seen or will see, and so customized explanations might accidentally offer the reader information they already know from earlier in the session, or offer information before it is optimal for the reader to learn it.
+
+Canopy aims to provide the type of customization a human explainer can provide: Canopy aims to provide customized explanations to each reader, allowing them to follow their specific interests and request additional information or clarification.
+
+But isn't human explanation too complex to reproduce with digital tools? One of the theses of Canopy is that [[explanation composition is complex]], but [[explanation assembly is not complex]], and [[Canopy only models explanation assembly]].
+
+Explanation composition is complex: When a human composes a new explanation, they are drawing on the sum of their life experience and linguistic abilities, and this is an extremely complex process. In order for a computer to duplicate this task well, it would have to have similar breadth of knowledge to a human, which would be very difficult to accomplish.
+
+Explanation assembly is not complex: The hope of Canopy is that if an author produces explanation in reusable blocks, the assembly of these blocks to fit the needs of the listener is a task that can be automated and done without requiring further input from the expert.
+
+Canopy only models explanation assembly: The purpose of Canopy is to have the author express their knowledge in reusable units that the front-end client can combine into new explanations. Therefore, Canopy is not attempting to replace the author or the process of explanation composition, but only the latter stage of explanation assembly.
