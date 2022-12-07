@@ -1,0 +1,11 @@
+Discoverability: Discoverability is the idea that [[it should be easy to find out what information exists in general]], and that [[it should be easy to find information related to a given point]]. Canopy attempts to [[make discovering the scope of available information easier]], and to [[make discovering related points easier]].
+
+It should be easy to find out what information exists in general: Often it is very difficult even to just find out what information exists in a domain so that one can know what to request.
+
+It should be easy to find information related to a given point: When someone sees a given piece of information, they should be made aware of other related information, which requires the media to represent the interconnections between the different pieces.
+
+Make discovering the scope of available information easier: By [[decoupling detail from scope]], Canopy makes it easier to get a bird's-eye view of the corpus in order to inform one's requests for information.
+
+Make discovering related points easier: By representing the [[interconnection]] between points, Canopy lets the user discover all the information related to what they're reading.
+
+Decoupling detail from scope: Whereas linear prose will contain a mix of new points and details, in Canopy, details are displayed separately from new points, making it easier to see the scope of available content without getting bogged down in all the available details.

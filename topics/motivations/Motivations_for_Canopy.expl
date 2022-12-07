@@ -1,14 +1,1 @@
-Motivations for Canopy: There are problems Canopy is intended to solve. There are interactions Canopy is designed to support. There are reasons why a solution like Canopy should be possible.
-
-- The idea that experts have a massively redundant graph where every topic relates to every other topic.
-
-Problems Canopy is intended to solve: There are certain inefficiencies in the current creation and consumption of explanation that motivate the creation and use of Canopy.
-
-- Canopy can be compared to other solutions to those same problems, wikis, annotation, semantic web, etc.
-
-Interactions Canopy is designed to support: There are certain desirable ways of interacting with explanation that Canopy supports.
-
-
-Reasons why a solution like Canopy should be possible: Here they are.
-
-THe fact that infinite tree storage has only existed for a bit, and binary search being the most efficient way to look things up.
+Motivations for Canopy: The motivations for Canopy include [[customization]], [[reusability]], [[scale]], [[fragmentation]], [[interconnection]], [[discoverability]], [[completeness]], [[interface of the expert]], [[relative addressing]], [[precise addressing]], [[mergability]], [[memorability]], [[hierarchy]], [[explicit scope]], [[explicit state]], and [[inline inclusion]], and [[gaps]].

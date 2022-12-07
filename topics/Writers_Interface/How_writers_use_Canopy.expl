@@ -1,0 +1,7 @@
+How writers use Canopy: Writers use Canopy by [[creating a project]], [[adding content]], [building the project], [serving the project locally], and [[deploying the project]].
+
+Creating a project: Creating a Canopy project involves [[creating a project directory]] and [[initializing the project]].
+
+Creating a project directory: Creating the project directory is done by creating a directory, eg running `mkdir my_project` on a Unix-like system. There is nothing special about the type of directory.
+
+Initializing the project: To initialize a project, enter the project directory (`cd` on a Unix system), then run `canopy init`. The [[canopy init]] command creates various files and folders that are necessary for your Canopy project.

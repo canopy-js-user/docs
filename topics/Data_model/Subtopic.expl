@@ -1,0 +1,5 @@
+Subtopic: A subtopic is an entity that requires context before it can be explained, as opposed to a [[topic]]. A subtopic has a [[topic]]. Here's an [[example of a subtopic]]. Because a subtopic requires context, it is displayed at a [[subtopic path]].
+
+Subtopic path: A subtopic exists within a certain [[topic]], which has a [[tree]], and a given subtopic paragraph exists at a path on that tree.
+
+Example of a subtopic: An example of a subtopic is "Bob's nose." The topic of this subtopic is "Bob." "Bob's nose" can only be explained after explaining who "Bob" is.

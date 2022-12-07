@@ -1,0 +1,6 @@
+Canopy JS:
+Welcome! This is the documentation of the Canopy JS project. You can use Canopy to create interactive explanatory websites like this one.
+There are various [[motivations for Canopy]].
+These are instructions for [[how readers use Canopy]] and [[how writers use Canopy]], and this is an explanation of [[how Canopy works]].
+Canopy has a [[codebase]] which you can find on the [project Github page](https://github.com/canopy-js/canopy-js).
+(And try using the arrow keys!)
