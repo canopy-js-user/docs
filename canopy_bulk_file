@@ -97,7 +97,7 @@ Initializing the project: To initialize a project, enter the project directory (
 
 [motivations]
 
-* Motivations for Canopy: The motivations for Canopy include [[customization]], [[reusability]], [[scale]], [[fragmentation]], [[interconnection]], [[discoverability]], [[completeness]], [[interface of the expert]], [[relative addressing]], [[precise addressing]], [[mergability]], [[memorability]], [[hierarchy]], [[explicit scope]], [[explicit state]], and [[inline inclusion]], and [[gaps]].
+* Motivations for Canopy: The motivations for Canopy include [[customization]], [[reusability]], [[scale]], [[fragmentation]], [[interconnection]], [[discoverability]], [[completeness]], [[interface of the expert]], [[relative addressing]], [[precise addressing]], [[data as metadata]], [[metadata as data]], [[mergability]], [[memorability]], [[hierarchy]], [[explicit scope]], [[explicit state]], and [[inline inclusion]], and [[gaps]].
 
 
 [motivations/Accuracy]
@@ -161,6 +161,11 @@ Explanation composition is complex: When a human composes a new explanation, the
 Explanation assembly is not complex: The hope of Canopy is that if an author produces explanation in reusable blocks, the assembly of these blocks to fit the needs of the listener is a task that can be automated and done without requiring further input from the expert.
 
 Canopy only models explanation assembly: The purpose of Canopy is to have the author express their knowledge in reusable units that the front-end client can combine into new explanations. Therefore, Canopy is not attempting to replace the author or the process of explanation composition, but only the latter stage of explanation assembly.
+
+
+[motivations/Data as Metadata]
+
+* Data as Metadata:
 
 
 [motivations/Discoverability]
@@ -264,6 +269,11 @@ Canopy increases the number of connections that can be stored: The author can st
 [motivations/Mergability]
 
 * Mergability:
+
+
+[motivations/Metadata as Data]
+
+* Metadata as Data:
 
 
 [motivations/Precise addressing]
