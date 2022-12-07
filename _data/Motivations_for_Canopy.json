@@ -127,6 +127,30 @@
     "type": "text"
    },
    {
+    "text": "data as metadata",
+    "type": "global",
+    "targetSubtopic": "Data as Metadata",
+    "targetTopic": "Data as Metadata",
+    "enclosingTopic": "Motivations for Canopy",
+    "enclosingSubtopic": "Motivations for Canopy"
+   },
+   {
+    "text": ", ",
+    "type": "text"
+   },
+   {
+    "text": "metadata as data",
+    "type": "global",
+    "targetSubtopic": "Metadata as Data",
+    "targetTopic": "Metadata as Data",
+    "enclosingTopic": "Motivations for Canopy",
+    "enclosingSubtopic": "Motivations for Canopy"
+   },
+   {
+    "text": ", ",
+    "type": "text"
+   },
+   {
     "text": "mergability",
     "type": "global",
     "targetSubtopic": "Mergability",
