@@ -1,6 +1,61 @@
 {
  "displayTopicName": "Explicit state",
  "paragraphsBySubtopic": {
-  "Explicit state": []
+  "Explicit state": [
+   {
+    "text": "Explanation has state",
+    "type": "local",
+    "targetSubtopic": "Explanation has state",
+    "targetTopic": "Explicit state",
+    "enclosingTopic": "Explicit state",
+    "enclosingSubtopic": "Explicit state"
+   },
+   {
+    "text": ", but ",
+    "type": "text"
+   },
+   {
+    "text": "linear prose makes it unclear what the state of the explanation is",
+    "type": "local",
+    "targetSubtopic": "Linear prose makes it unclear what the state of the explanation is",
+    "targetTopic": "Explicit state",
+    "enclosingTopic": "Explicit state",
+    "enclosingSubtopic": "Explicit state"
+   },
+   {
+    "text": ", whereas ",
+    "type": "text"
+   },
+   {
+    "text": "Canopy makes the state of the explanation visibly clear",
+    "type": "local",
+    "targetSubtopic": "Canopy makes the state of the explanation visibly clear",
+    "targetTopic": "Explicit state",
+    "enclosingTopic": "Explicit state",
+    "enclosingSubtopic": "Explicit state"
+   },
+   {
+    "text": ".",
+    "type": "text"
+   }
+  ],
+  "Explanation has state": [
+   {
+    "text": "In the course of an explanation, we are at a particular point, there are prior points we are developing, and there are further specifications we could make, and a listener needs this information in order to understand what the explainer will say next.",
+    "type": "text"
+   }
+  ],
+  "Linear prose makes it unclear what the state of the explanation is": [
+   {
+    "text": "In linear prose, as I read a given paragraph, I can't easily see how we got to this point, or in what directions we can go, because our early context is scattered throughout the earlier portions, and the possible avenues of specification are scattered throughout the later portions.",
+    "type": "text"
+   }
+  ],
+  "Canopy makes the state of the explanation visibly clear": [
+   {
+    "text": "In Canopy, the screen doesn't show all prior content the reader has read in a given session, but only the path of paragraphs that explains how they got to the current subject, and links on the page describe all the directions the reader can go now given their position, either adding detail to the current paragraph, or regressing to an earlier idea and adding more detail to it.",
+    "type": "text"
+   }
+  ]
  }
 }

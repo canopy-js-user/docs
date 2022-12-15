@@ -189,7 +189,43 @@
   ],
   "A casual reader retains media fragmentation": [
    {
-    "text": "A casual reader will not read all the works of a given domain, and so if information is fragmented into different disconnected works, the reader will come away with a fragmented understanding, only knowing about the points included in the particular work they read.",
+    "text": "A casual reader will have ",
+    "type": "text"
+   },
+   {
+    "text": "a fragmented understanding of the domain as a whole",
+    "type": "local",
+    "targetSubtopic": "A fragmented understanding of the domain as a whole",
+    "targetTopic": "Fragmentation",
+    "enclosingTopic": "Fragmentation",
+    "enclosingSubtopic": "A casual reader retains media fragmentation"
+   },
+   {
+    "text": ", and ",
+    "type": "text"
+   },
+   {
+    "text": "a fragmented understanding of the portions of the domain they do learn",
+    "type": "local",
+    "targetSubtopic": "A fragmented understanding of the portions of the domain they do learn",
+    "targetTopic": "Fragmentation",
+    "enclosingTopic": "Fragmentation",
+    "enclosingSubtopic": "A casual reader retains media fragmentation"
+   },
+   {
+    "text": ".",
+    "type": "text"
+   }
+  ],
+  "A fragmented understanding of the domain as a whole": [
+   {
+    "text": "A casual reader will not read all the works of a given domain, and so if information is fragmented into different disconnected works, the reader will come away with a fragmented understanding, only knowing about the points included in the particular work they read",
+    "type": "text"
+   }
+  ],
+  "A fragmented understanding of the portions of the domain they do learn": [
+   {
+    "text": "Even among the works a casual reader does read, they may fail to connect the information from the different works into a seamless network where every point is accessible by every other, producing a fragmented understanding where each point exists multiple times in different permutations, and a reference seen in one place doesn't end up pointing to the concept the author had in mind, producing vague and incomplete concepts.",
     "type": "text"
    }
   ],

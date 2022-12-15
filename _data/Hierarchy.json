@@ -3,7 +3,97 @@
  "paragraphsBySubtopic": {
   "Hierarchy": [
    {
-    "text": "Ie large size in bite-sized pieces without showing everything at once.",
+    "text": "Hierarchy is the idea that ",
+    "type": "text"
+   },
+   {
+    "text": "in every complex domain, human understanding requires the creation of hierarchy",
+    "type": "local",
+    "targetSubtopic": "In every complex domain, human understanding requires the creation of hierarchy",
+    "targetTopic": "Hierarchy",
+    "enclosingTopic": "Hierarchy",
+    "enclosingSubtopic": "Hierarchy"
+   },
+   {
+    "text": ", and ",
+    "type": "text"
+   },
+   {
+    "text": "Canopy bakes hierarchy into the medium itself",
+    "type": "local",
+    "targetSubtopic": "Canopy bakes hierarchy into the medium itself",
+    "targetTopic": "Hierarchy",
+    "enclosingTopic": "Hierarchy",
+    "enclosingSubtopic": "Hierarchy"
+   },
+   {
+    "text": ".",
+    "type": "text"
+   }
+  ],
+  "In every complex domain, human understanding requires the creation of hierarchy": [
+   {
+    "text": "Because there are ",
+    "type": "text"
+   },
+   {
+    "text": "several limitations on the amount of information that can be dealt with at any given time",
+    "type": "local",
+    "targetSubtopic": "Several limitations on the amount of information that can be dealt with at any given time",
+    "targetTopic": "Hierarchy",
+    "enclosingTopic": "Hierarchy",
+    "enclosingSubtopic": "In every complex domain, human understanding requires the creation of hierarchy"
+   },
+   {
+    "text": ", ",
+    "type": "text"
+   },
+   {
+    "text": "humans deal with complexity by creating hierarchical models",
+    "type": "local",
+    "targetSubtopic": "Humans deal with complexity by creating hierarchical models",
+    "targetTopic": "Hierarchy",
+    "enclosingTopic": "Hierarchy",
+    "enclosingSubtopic": "In every complex domain, human understanding requires the creation of hierarchy"
+   },
+   {
+    "text": ", which ",
+    "type": "text"
+   },
+   {
+    "text": "enable them to manipulate complex information in small units",
+    "type": "local",
+    "targetSubtopic": "Enable them to manipulate complex information in small units",
+    "targetTopic": "Hierarchy",
+    "enclosingTopic": "Hierarchy",
+    "enclosingSubtopic": "In every complex domain, human understanding requires the creation of hierarchy"
+   },
+   {
+    "text": ".",
+    "type": "text"
+   }
+  ],
+  "Several limitations on the amount of information that can be dealt with at any given time": [
+   {
+    "text": "Two such limitations are the fact that working memory can only store ideas composed of a certain number of \"chunks\", and that long-term memory can only directly associate a given fact or entity with a small number of other facts and entities.",
+    "type": "text"
+   }
+  ],
+  "Humans deal with complexity by creating hierarchical models": [
+   {
+    "text": "If a system has many interconnected parts, those who try to understand it might break it up into parts, or organize the interconnections between the pieces into categories so that different layers of the system can be studied one at a time.",
+    "type": "text"
+   }
+  ],
+  "Enable them to manipulate complex information in small units": [
+   {
+    "text": "By having ways of breaking a complex reality into simpler theoretical units, people are able to build models that are highly complex, without the author ever having to think about all the complexity at any single moment. By grouping the entities of the domain into larger hierarchical chunks, more information can be held in working memory at any given time, and by segmenting the connections different entities have by type, one can have good visibility into a single aspect of the network at each time.",
+    "type": "text"
+   }
+  ],
+  "Canopy bakes hierarchy into the medium itself": [
+   {
+    "text": "Canopy gives an author the ability to express a complex system out of a hierarchy of simpler parts, which makes it a natural tool for expressing the connections of a highly complex subject domain.",
     "type": "text"
    }
   ]

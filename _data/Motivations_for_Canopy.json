@@ -7,6 +7,18 @@
     "type": "text"
    },
    {
+    "text": "realism",
+    "type": "global",
+    "targetSubtopic": "Realism",
+    "targetTopic": "Realism",
+    "enclosingTopic": "Motivations for Canopy",
+    "enclosingSubtopic": "Motivations for Canopy"
+   },
+   {
+    "text": ", ",
+    "type": "text"
+   },
+   {
     "text": "customization",
     "type": "global",
     "targetSubtopic": "Customization",
@@ -23,6 +35,18 @@
     "type": "global",
     "targetSubtopic": "Reusability",
     "targetTopic": "Reusability",
+    "enclosingTopic": "Motivations for Canopy",
+    "enclosingSubtopic": "Motivations for Canopy"
+   },
+   {
+    "text": ", ",
+    "type": "text"
+   },
+   {
+    "text": "clarity",
+    "type": "global",
+    "targetSubtopic": "Clarity",
+    "targetTopic": "Clarity",
     "enclosingTopic": "Motivations for Canopy",
     "enclosingSubtopic": "Motivations for Canopy"
    },
@@ -91,6 +115,18 @@
     "type": "text"
    },
    {
+    "text": "hierarchy",
+    "type": "global",
+    "targetSubtopic": "Hierarchy",
+    "targetTopic": "Hierarchy",
+    "enclosingTopic": "Motivations for Canopy",
+    "enclosingSubtopic": "Motivations for Canopy"
+   },
+   {
+    "text": ", ",
+    "type": "text"
+   },
+   {
     "text": "interface of the expert",
     "type": "global",
     "targetSubtopic": "Interface of the expert",
@@ -115,34 +151,10 @@
     "type": "text"
    },
    {
-    "text": "precise addressing",
+    "text": "idea addressing",
     "type": "global",
-    "targetSubtopic": "Precise addressing",
-    "targetTopic": "Precise addressing",
-    "enclosingTopic": "Motivations for Canopy",
-    "enclosingSubtopic": "Motivations for Canopy"
-   },
-   {
-    "text": ", ",
-    "type": "text"
-   },
-   {
-    "text": "data as metadata",
-    "type": "global",
-    "targetSubtopic": "Data as Metadata",
-    "targetTopic": "Data as Metadata",
-    "enclosingTopic": "Motivations for Canopy",
-    "enclosingSubtopic": "Motivations for Canopy"
-   },
-   {
-    "text": ", ",
-    "type": "text"
-   },
-   {
-    "text": "metadata as data",
-    "type": "global",
-    "targetSubtopic": "Metadata as Data",
-    "targetTopic": "Metadata as Data",
+    "targetSubtopic": "Idea addressing",
+    "targetTopic": "Idea addressing",
     "enclosingTopic": "Motivations for Canopy",
     "enclosingSubtopic": "Motivations for Canopy"
    },
@@ -175,22 +187,10 @@
     "type": "text"
    },
    {
-    "text": "hierarchy",
+    "text": "explicit prerequisites",
     "type": "global",
-    "targetSubtopic": "Hierarchy",
-    "targetTopic": "Hierarchy",
-    "enclosingTopic": "Motivations for Canopy",
-    "enclosingSubtopic": "Motivations for Canopy"
-   },
-   {
-    "text": ", ",
-    "type": "text"
-   },
-   {
-    "text": "explicit scope",
-    "type": "global",
-    "targetSubtopic": "Explicit scope",
-    "targetTopic": "Explicit scope",
+    "targetSubtopic": "Explicit Prerequisites",
+    "targetTopic": "Explicit Prerequisites",
     "enclosingTopic": "Motivations for Canopy",
     "enclosingSubtopic": "Motivations for Canopy"
    },
@@ -207,7 +207,7 @@
     "enclosingSubtopic": "Motivations for Canopy"
    },
    {
-    "text": ", and ",
+    "text": ", ",
     "type": "text"
    },
    {
@@ -219,7 +219,31 @@
     "enclosingSubtopic": "Motivations for Canopy"
    },
    {
-    "text": ", and ",
+    "text": ", ",
+    "type": "text"
+   },
+   {
+    "text": "proportionality",
+    "type": "global",
+    "targetSubtopic": "Proportionality",
+    "targetTopic": "Proportionality",
+    "enclosingTopic": "Motivations for Canopy",
+    "enclosingSubtopic": "Motivations for Canopy"
+   },
+   {
+    "text": ", ",
+    "type": "text"
+   },
+   {
+    "text": "natural language classification",
+    "type": "global",
+    "targetSubtopic": "Natural language classification",
+    "targetTopic": "Natural language classification",
+    "enclosingTopic": "Motivations for Canopy",
+    "enclosingSubtopic": "Motivations for Canopy"
+   },
+   {
+    "text": ", ",
     "type": "text"
    },
    {
@@ -227,6 +251,42 @@
     "type": "global",
     "targetSubtopic": "Gaps",
     "targetTopic": "Gaps",
+    "enclosingTopic": "Motivations for Canopy",
+    "enclosingSubtopic": "Motivations for Canopy"
+   },
+   {
+    "text": ", ",
+    "type": "text"
+   },
+   {
+    "text": "rich compositions",
+    "type": "global",
+    "targetSubtopic": "Rich Compositions",
+    "targetTopic": "Rich Compositions",
+    "enclosingTopic": "Motivations for Canopy",
+    "enclosingSubtopic": "Motivations for Canopy"
+   },
+   {
+    "text": ", ",
+    "type": "text"
+   },
+   {
+    "text": "prescriptive understandings",
+    "type": "global",
+    "targetSubtopic": "Prescriptive Understandings",
+    "targetTopic": "Prescriptive Understandings",
+    "enclosingTopic": "Motivations for Canopy",
+    "enclosingSubtopic": "Motivations for Canopy"
+   },
+   {
+    "text": " and ",
+    "type": "text"
+   },
+   {
+    "text": "holistic review",
+    "type": "global",
+    "targetSubtopic": "Holistic Review",
+    "targetTopic": "Holistic Review",
     "enclosingTopic": "Motivations for Canopy",
     "enclosingSubtopic": "Motivations for Canopy"
    },

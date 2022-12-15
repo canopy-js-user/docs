@@ -7,7 +7,7 @@
     "type": "text"
    },
    {
-    "text": "produce works at any scale",
+    "text": "produce works at larger scales",
     "type": "global",
     "targetSubtopic": "Scale",
     "targetTopic": "Scale",
@@ -87,19 +87,7 @@
   ],
   "Even in non-linear media points crowd out others for attention": [
    {
-    "text": "Because Canopy has ",
-    "type": "text"
-   },
-   {
-    "text": "hierarchy",
-    "type": "global",
-    "targetSubtopic": "Hierarchy",
-    "targetTopic": "Hierarchy",
-    "enclosingTopic": "Completeness",
-    "enclosingSubtopic": "Even in non-linear media points crowd out others for attention"
-   },
-   {
-    "text": ", the size of each paragraph is small, and so even if there is unlimited space for points in general, there is limited space for a point to get referenced at \"top billing\" in the paragraph for a given idea.",
+    "text": "Because Canopy has hierarchy, the size of each paragraph is small, and so even if there is unlimited space for points in general, there is limited space for a point to get referenced at \"top billing\" in the paragraph for a given idea..",
     "type": "text"
    }
   ]

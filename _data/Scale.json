@@ -7,9 +7,9 @@
     "type": "text"
    },
    {
-    "text": "fixed explanations limit the maximum size of explanations",
+    "text": "fixed mediums limit the maximum size of explanations",
     "type": "local",
-    "targetSubtopic": "Fixed explanations limit the maximum size of explanations",
+    "targetSubtopic": "Fixed mediums limit the maximum size of explanations",
     "targetTopic": "Scale",
     "enclosingTopic": "Scale",
     "enclosingSubtopic": "Scale"
@@ -183,7 +183,7 @@
     "type": "text"
    }
   ],
-  "Fixed explanations limit the maximum size of explanations": [
+  "Fixed mediums limit the maximum size of explanations": [
    {
     "text": "Authors are constrained in the length of books and articles by ",
     "type": "text"
@@ -194,7 +194,7 @@
     "targetSubtopic": "Medium constraints",
     "targetTopic": "Scale",
     "enclosingTopic": "Scale",
-    "enclosingSubtopic": "Fixed explanations limit the maximum size of explanations"
+    "enclosingSubtopic": "Fixed mediums limit the maximum size of explanations"
    },
    {
     "text": " and ",
@@ -206,19 +206,19 @@
     "targetSubtopic": "Audience relevance",
     "targetTopic": "Scale",
     "enclosingTopic": "Scale",
-    "enclosingSubtopic": "Fixed explanations limit the maximum size of explanations"
+    "enclosingSubtopic": "Fixed mediums limit the maximum size of explanations"
    },
    {
-    "text": ", and so even if they have information they would like to publish, often they have no good place to do it. (And ",
+    "text": ", and so even if the author has information they would like to publish, often they have no good place to put it. (And ",
     "type": "text"
    },
    {
-    "text": "even niche explanations assume homogeneous readership",
+    "text": "even niche works have the same problem",
     "type": "local",
-    "targetSubtopic": "Even niche explanations assume homogeneous readership",
+    "targetSubtopic": "Even niche works have the same problem",
     "targetTopic": "Scale",
     "enclosingTopic": "Scale",
-    "enclosingSubtopic": "Fixed explanations limit the maximum size of explanations"
+    "enclosingSubtopic": "Fixed mediums limit the maximum size of explanations"
    },
    {
     "text": ".)",
@@ -227,40 +227,40 @@
   ],
   "Medium constraints": [
    {
-    "text": "A book or article conventionally cannot be greater than a certain size, both because of audience demand for works of a certain size, and sometimes literal constraints on how much content could be printed and circulated.",
+    "text": "Practically speaking, a book or article cannot become greater than a certain size, both because there isn't an audience for such large works, and sometimes because of literal constraints on how much content can be printed and circulated.",
     "type": "text"
    }
   ],
   "Audience relevance": [
    {
-    "text": "Given that most readers of a book or article are reading more or less from beginning to end, an author can't include things that aren't relevant to all readers, and even footnotes can only add a certain percentage of extra material for interested parties, not entire extra",
+    "text": "Given that most readers of a book or article are reading more or less from beginning to end, an author can't include things that aren't relevant to all readers.",
     "type": "text"
    }
   ],
-  "Even niche explanations assume homogeneous readership": [
+  "Even niche works have the same problem": [
    {
     "text": "You might say ",
     "type": "text"
    },
    {
-    "text": "niche content solves problems of space for content",
+    "text": "niche content solves limitations of audience relevance",
     "type": "local",
-    "targetSubtopic": "Niche content solves problems of space for content",
+    "targetSubtopic": "Niche content solves limitations of audience relevance",
     "targetTopic": "Scale",
     "enclosingTopic": "Scale",
-    "enclosingSubtopic": "Even niche explanations assume homogeneous readership"
+    "enclosingSubtopic": "Even niche works have the same problem"
    },
    {
-    "text": ", but even so, ",
+    "text": ", but ",
     "type": "text"
    },
    {
-    "text": "niche content will have the same problem on a smaller scale",
+    "text": "niche content is constrained by audience relevance on a smaller scale",
     "type": "local",
-    "targetSubtopic": "Niche content will have the same problem on a smaller scale",
+    "targetSubtopic": "Niche content is constrained by audience relevance on a smaller scale",
     "targetTopic": "Scale",
     "enclosingTopic": "Scale",
-    "enclosingSubtopic": "Even niche explanations assume homogeneous readership"
+    "enclosingSubtopic": "Even niche works have the same problem"
    },
    {
     "text": ", and ",
@@ -272,28 +272,28 @@
     "targetSubtopic": "Fragmented works create problems of discoverability",
     "targetTopic": "Scale",
     "enclosingTopic": "Scale",
-    "enclosingSubtopic": "Even niche explanations assume homogeneous readership"
+    "enclosingSubtopic": "Even niche works have the same problem"
    },
    {
     "text": ".",
     "type": "text"
    }
   ],
-  "Niche content solves problems of space for content": [
+  "Niche content solves limitations of audience relevance": [
    {
     "text": "You might say when there is a subpopulation that wants more information than the rest of the audience, an author can produce additional chapters, books, or articles just for them, meaning there will always be space for any given piece of information.",
     "type": "text"
    }
   ],
-  "Niche content will have the same problem on a smaller scale": [
+  "Niche content is constrained by audience relevance on a smaller scale": [
    {
-    "text": "Niche books and articles will also be forced to leave things out, because within the niche readership there will be people with different particular interests, and the author won't be able to include points that aren't relevant to all readers.",
+    "text": "Niche books and articles will also be forced to leave things out, because within the niche readership there will be people with different particular interests, and the author still won't be able to include points that aren't relevant to all readers.",
     "type": "text"
    }
   ],
   "Fragmented works create problems of discoverability": [
    {
-    "text": "If an author finds space for everything they want to share by producing multiple works for different audiences, this produces problems of ",
+    "text": "Even if an author could find space for everything they want to share by producing multiple works for different audiences, this produces problems of ",
     "type": "text"
    },
    {
@@ -305,7 +305,7 @@
     "enclosingSubtopic": "Fragmented works create problems of discoverability"
    },
    {
-    "text": " because eventually not everyone will know about the existence of all the various works and what they contain, defeating the purpose of finding a place for all useful information.",
+    "text": " because eventually not everyone will know about the existence of all the various works and what they contain, defeating the purpose of finding a place for information so that it can be shared.",
     "type": "text"
    }
   ],
@@ -359,7 +359,7 @@
   ],
   "Finding things in a tree is quick": [
    {
-    "text": "By looking at one node, and then looking at one child node, and its child node, you can find what you are looking for while only seeing a few things, much faster than if you had to go through the whole list. That is information in databases is generally stored in tree formats.",
+    "text": "Imagine an employee is trying to find their name in a company org-chart. All they have to do is find their division, department, and team. Thus, they are able to find their name while only looking at a few nodes in the tree, which is much faster than having to read through a list of every employee name. This is an example of how finding things in trees is faster than finding them in lists.",
     "type": "text"
    }
   ],
