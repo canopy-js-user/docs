@@ -1,6 +1,6 @@
-Realism: Realism is the idea that [[human explanation really is a serialization of a graph]], and so [[any representation of explanation besides a graph will be distortive]], which is why [[Canopy represents the underlying explanation graph]], so that [[we preserve all possible explanations that can be produced from the original data]].
+Realism: Realism is the idea that [[human explanation really is the serialization of a graph]], and so [[any representation of explanation besides a graph will be distortive]], which is why [[Canopy represents the underlying explanation graph]], so that [[we preserve all possible explanations that can be produced from the original data]].
 
-Human explanation really is a serialization of a graph: [[Humans explain things in serial]], so [[you might think that explanation is inherently serial]], but actually [[there are many valid serializations of a knowledge set]], and so [[serializations are just one of many presentations of the underlying data structure]], and [[it makes sense to think that the underlying data structure is a graph]].
+Human explanation really is the serialization of a graph: [[Humans explain things in serial]], so [[you might think that explanation is inherently serial]], but actually [[there are many valid serializations of a knowledge set]], and so we see that [[serializations are just one of many presentations of an underlying data structure]], and [[it makes sense to think that the underlying data structure is a graph]].
 
 Humans explain things in serial: A book or lecture is inherently a list of statements, one after another, in a straight line. It has to be this way because speakers can only say one thing at a time and listeners can only listen to one thing at a time.
 
@@ -8,13 +8,13 @@ You might think that explanation is inherently serial: Because all of the explan
 
 There are many valid serializations of a knowledge set: We see that an expert can express the same knowledge in multiple traversals, for example when an expert writes multiple books and articles on the same topic but in different orderings and levels of detail.
 
-Serializations are just one of many presentations of the underlying data structure: Because we see the same knowledge can be used to produce many different explanations, we see that linear explanations are not a true representation of the underling data, but are rather ephemeral permutations being generated on-the-fly from a more fundamental structure.
+Serializations are just one of many presentations of an underlying data structure: Because we see the same knowledge can be used to produce many different explanations, we see that linear explanations are not a true representation of the underling data, but are rather ephemeral permutations being generated on-the-fly from a more fundamental structure.
 
 It makes sense to think that the underlying data structure is a graph: A graph is composed of a series of entities and connections, and so if knowledge were stored as a graph, it would make sense how you could make many different explanations from the same original data, because with a single graph you can explore the nodes via their connections in many different orderings.
 
 Any representation of explanation besides a graph will be distortive: [[There is no good way to represent a large graph as a list]]: [[representing the graph with a breadth-first search will be distortive]], and [[representing the graph as a depth-first search will be distortive]].
 
-There is no good way to represent a large graph as a list: Lets say an expert wants to write down everything they know into one or several books. No matter how they do it, inevitably, pieces of information that should be adjacent will end up very far apart in the resulting output because there is no way to put every node nearby every connected node in a linear sequence.
+There is no good way to represent a large graph as a list: Lets say an expert wants to write down everything they know into one or several books. No matter how they do it, inevitably, pieces of information that should be adjacent will end up very far apart in the resulting output because there is no way to put every fact nearby every related fact in a linear sequence.
 
 Representing the graph with a breadth-first search will be distortive: If we [[represent the graph as a breadth-first search]], then [[it is easy to get a general picture]], but [[it will be hard for readers to get all the details of a subject]].
 
@@ -22,7 +22,7 @@ Represent the graph as a breadth-first search: Breadth-first search is a way of 
 
 It is easy to get a general picture: If the reader wanted to get a general picture, they would just start at the beginning of the book and read onward, and they would get a perfectly broad depiction for however much they wanted to read because the explanation would add every major detail of every aspect before adding any minor details of any aspect.
 
-It will be hard for readers to get all the details of a subject: If a book goes "broad" before going "deep" on any one point, but it would be hard for a reader to find all the information about New York's economy and all of its details because these paragraphs would scattered around the explanation in different places.
+It will be hard for readers to get all the details of a subject: If a book goes "broad" before going "deep" on any one point, it would be hard for a reader to find all the information about New York's economy in all its detail because these paragraphs would scattered around the explanation in different places.
 
 Representing the graph as a depth-first search will be distortive: If we [[represent the graph as a depth-first search]], then [[it is easy to find all the information on a single subject]], but [[it will be hard for readers to get a general picture]].
 
@@ -30,15 +30,15 @@ Represent the graph as a depth-first search: Depth-first search is a way of conv
 
 It is easy to find all the information on a single subject: If a reader wanted to find everything to do with the economy, they would just read the first third of the book front-to-back.
 
-It will be hard for readers to get a general picture: If we organize data as a "depth-first" list, then it is hard for a reader to get a semi-detailed picture of New York's various aspects because all the information is segmented by topic: the basic information about economy is going to be in the first third of the book, organized with the economic information, the basic information about the geography is going to be in the second third, organized with the geographic information, and the basic information about politics is going to be at the end, organized with the politics information, and so to get a general picture the reader would have to skim and jump around a lot.
+It will be hard for readers to get a general picture: If we organize data as a "depth-first" list, then it is hard for a reader to get a semi-detailed picture of New York's various aspects because all the information is segmented by topic: the basic information about economy is going to be in the first third of the book, organized with the economic information, the basic information about the geography is going to be in the second third, organized with the geographic information, and the basic information about politics is going to be in the last third, organized with the politics information, and so to get a general picture the reader would have to skim and jump around a lot.
 
 Canopy represents the underlying explanation graph: Rather than have an author produce a series of books and articles, capturing their knowledge graph only approximately, Canopy has the author capture the underlying graph itself, offering tools to make this easier for them to do.
 
-We preserve all possible explanations that can be produced from the original data: [[The author themselves can produce many linearizations]], but [[capturing their knowledge as a sequence destroys the original flexibility]], however, [[if the author captures their knowledge with a graph]], [[we preserve the original multiplicity of possible explanations]].
+We preserve all possible explanations that can be produced from the original data: [[The author themselves can produce many linearizations]], but [[capturing their knowledge as a sequence destroys this original flexibility]], however, [[if the author captures their knowledge with a graph]], [[we preserve the original multiplicity of possible explanations]].
 
 The author themselves can produce many linearizations: An expert in-person can produce many different linearizations of their knowledge for different people.
 
-Capturing their knowledge as a sequence destroys the original flexibility: If the expert captures their knowledge as one big book, then we went from having the expert, who could produce infinitely many linearizations of their knowledge, to having a book, which is only one linearization, destroying all of the other potential explanations the expert could have produced.
+Capturing their knowledge as a sequence destroys this original flexibility: If the expert captures their knowledge as one big book, then we went from having the expert, who could produce infinitely many linearizations of their knowledge, to having a book, which is only one linearization, destroying all of the other potential explanations the expert could have produced.
 
 If the author captures their knowledge with a graph: If the expert uses a tool like Canopy to capture their underling knowledge graph as opposed to writing a single long book,
 
