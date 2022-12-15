@@ -279,7 +279,7 @@
     "enclosingSubtopic": "Motivations for Canopy"
    },
    {
-    "text": " and ",
+    "text": ", ",
     "type": "text"
    },
    {
@@ -287,6 +287,42 @@
     "type": "global",
     "targetSubtopic": "Holistic Review",
     "targetTopic": "Holistic Review",
+    "enclosingTopic": "Motivations for Canopy",
+    "enclosingSubtopic": "Motivations for Canopy"
+   },
+   {
+    "text": ", ",
+    "type": "text"
+   },
+   {
+    "text": "pervasive concepts",
+    "type": "global",
+    "targetSubtopic": "Pervasive Concepts",
+    "targetTopic": "Pervasive Concepts",
+    "enclosingTopic": "Motivations for Canopy",
+    "enclosingSubtopic": "Motivations for Canopy"
+   },
+   {
+    "text": ", ",
+    "type": "text"
+   },
+   {
+    "text": "redundant indexing",
+    "type": "global",
+    "targetSubtopic": "Redundant Indexing",
+    "targetTopic": "Redundant Indexing",
+    "enclosingTopic": "Motivations for Canopy",
+    "enclosingSubtopic": "Motivations for Canopy"
+   },
+   {
+    "text": ", and ",
+    "type": "text"
+   },
+   {
+    "text": "explanatory invariants",
+    "type": "global",
+    "targetSubtopic": "Explanatory Invariants",
+    "targetTopic": "Explanatory Invariants",
     "enclosingTopic": "Motivations for Canopy",
     "enclosingSubtopic": "Motivations for Canopy"
    },

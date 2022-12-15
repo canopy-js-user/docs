@@ -75,7 +75,7 @@
   ],
   "Canopy helps by presenting information exhaustively": [
    {
-    "text": "In prose, an author might mention a few items from a list, then later mention a few more, and so the reader might miss some items when forming the master list in their mind, but in Canopy, a topic's paragraph is an exhaustive list of all information in the graph about that topic, and so it is much harder for pieces of information to fall between the cracks.",
+    "text": "In Canopy, a topic's paragraph is an exhaustive list of all information in the graph about that topic, and so it is much harder for pieces of information to fall between the cracks, as opposed to someone who is constructing an understanding by reading various books and articles, none of which may be attempting to provide an exhaustive list.",
     "type": "text"
    }
   ]

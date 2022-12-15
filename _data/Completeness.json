@@ -56,38 +56,14 @@
    },
    {
     "text": "non-rival media",
-    "type": "local",
+    "type": "global",
     "targetSubtopic": "Non-rival media",
-    "targetTopic": "Completeness",
+    "targetTopic": "Non-rival media",
     "enclosingTopic": "Completeness",
     "enclosingSubtopic": "Non-inclusion will be clearly intentional"
    },
    {
     "text": " however, when the author doesn't include a point, it will be more clearly a choice, which might motivate authors to present wider coverage.",
-    "type": "text"
-   }
-  ],
-  "Non-rival media": [
-   {
-    "text": "In books, including one point comes at the expense of space for another point, whereas in non-linear media which can grow happily to any size, including one point doesn't crowd out other point for space, although ",
-    "type": "text"
-   },
-   {
-    "text": "even in non-linear media points crowd out others for attention",
-    "type": "local",
-    "targetSubtopic": "Even in non-linear media points crowd out others for attention",
-    "targetTopic": "Completeness",
-    "enclosingTopic": "Completeness",
-    "enclosingSubtopic": "Non-rival media"
-   },
-   {
-    "text": ".",
-    "type": "text"
-   }
-  ],
-  "Even in non-linear media points crowd out others for attention": [
-   {
-    "text": "Because Canopy has hierarchy, the size of each paragraph is small, and so even if there is unlimited space for points in general, there is limited space for a point to get referenced at \"top billing\" in the paragraph for a given idea..",
     "type": "text"
    }
   ]

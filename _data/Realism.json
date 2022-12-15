@@ -7,9 +7,9 @@
     "type": "text"
    },
    {
-    "text": "human explanation really is a serialization of a graph",
+    "text": "human explanation really is the serialization of a graph",
     "type": "local",
-    "targetSubtopic": "Human explanation really is a serialization of a graph",
+    "targetSubtopic": "Human explanation really is the serialization of a graph",
     "targetTopic": "Realism",
     "enclosingTopic": "Realism",
     "enclosingSubtopic": "Realism"
@@ -55,14 +55,14 @@
     "type": "text"
    }
   ],
-  "Human explanation really is a serialization of a graph": [
+  "Human explanation really is the serialization of a graph": [
    {
     "text": "Humans explain things in serial",
     "type": "local",
     "targetSubtopic": "Humans explain things in serial",
     "targetTopic": "Realism",
     "enclosingTopic": "Realism",
-    "enclosingSubtopic": "Human explanation really is a serialization of a graph"
+    "enclosingSubtopic": "Human explanation really is the serialization of a graph"
    },
    {
     "text": ", so ",
@@ -74,7 +74,7 @@
     "targetSubtopic": "You might think that explanation is inherently serial",
     "targetTopic": "Realism",
     "enclosingTopic": "Realism",
-    "enclosingSubtopic": "Human explanation really is a serialization of a graph"
+    "enclosingSubtopic": "Human explanation really is the serialization of a graph"
    },
    {
     "text": ", but actually ",
@@ -86,19 +86,19 @@
     "targetSubtopic": "There are many valid serializations of a knowledge set",
     "targetTopic": "Realism",
     "enclosingTopic": "Realism",
-    "enclosingSubtopic": "Human explanation really is a serialization of a graph"
+    "enclosingSubtopic": "Human explanation really is the serialization of a graph"
    },
    {
-    "text": ", and so ",
+    "text": ", and so we see that ",
     "type": "text"
    },
    {
-    "text": "serializations are just one of many presentations of the underlying data structure",
+    "text": "serializations are just one of many presentations of an underlying data structure",
     "type": "local",
-    "targetSubtopic": "Serializations are just one of many presentations of the underlying data structure",
+    "targetSubtopic": "Serializations are just one of many presentations of an underlying data structure",
     "targetTopic": "Realism",
     "enclosingTopic": "Realism",
-    "enclosingSubtopic": "Human explanation really is a serialization of a graph"
+    "enclosingSubtopic": "Human explanation really is the serialization of a graph"
    },
    {
     "text": ", and ",
@@ -110,7 +110,7 @@
     "targetSubtopic": "It makes sense to think that the underlying data structure is a graph",
     "targetTopic": "Realism",
     "enclosingTopic": "Realism",
-    "enclosingSubtopic": "Human explanation really is a serialization of a graph"
+    "enclosingSubtopic": "Human explanation really is the serialization of a graph"
    },
    {
     "text": ".",
@@ -135,7 +135,7 @@
     "type": "text"
    }
   ],
-  "Serializations are just one of many presentations of the underlying data structure": [
+  "Serializations are just one of many presentations of an underlying data structure": [
    {
     "text": "Because we see the same knowledge can be used to produce many different explanations, we see that linear explanations are not a true representation of the underling data, but are rather ephemeral permutations being generated on-the-fly from a more fundamental structure.",
     "type": "text"
@@ -187,7 +187,7 @@
   ],
   "There is no good way to represent a large graph as a list": [
    {
-    "text": "Lets say an expert wants to write down everything they know into one or several books. No matter how they do it, inevitably, pieces of information that should be adjacent will end up very far apart in the resulting output because there is no way to put every node nearby every connected node in a linear sequence.",
+    "text": "Lets say an expert wants to write down everything they know into one or several books. No matter how they do it, inevitably, pieces of information that should be adjacent will end up very far apart in the resulting output because there is no way to put every fact nearby every related fact in a linear sequence.",
     "type": "text"
    }
   ],
@@ -247,7 +247,7 @@
   ],
   "It will be hard for readers to get all the details of a subject": [
    {
-    "text": "If a book goes \"broad\" before going \"deep\" on any one point, but it would be hard for a reader to find all the information about New York's economy and all of its details because these paragraphs would scattered around the explanation in different places.",
+    "text": "If a book goes \"broad\" before going \"deep\" on any one point, it would be hard for a reader to find all the information about New York's economy in all its detail because these paragraphs would scattered around the explanation in different places.",
     "type": "text"
    }
   ],
@@ -307,7 +307,7 @@
   ],
   "It will be hard for readers to get a general picture": [
    {
-    "text": "If we organize data as a \"depth-first\" list, then it is hard for a reader to get a semi-detailed picture of New York's various aspects because all the information is segmented by topic: the basic information about economy is going to be in the first third of the book, organized with the economic information, the basic information about the geography is going to be in the second third, organized with the geographic information, and the basic information about politics is going to be at the end, organized with the politics information, and so to get a general picture the reader would have to skim and jump around a lot.",
+    "text": "If we organize data as a \"depth-first\" list, then it is hard for a reader to get a semi-detailed picture of New York's various aspects because all the information is segmented by topic: the basic information about economy is going to be in the first third of the book, organized with the economic information, the basic information about the geography is going to be in the second third, organized with the geographic information, and the basic information about politics is going to be in the last third, organized with the politics information, and so to get a general picture the reader would have to skim and jump around a lot.",
     "type": "text"
    }
   ],
@@ -331,9 +331,9 @@
     "type": "text"
    },
    {
-    "text": "capturing their knowledge as a sequence destroys the original flexibility",
+    "text": "capturing their knowledge as a sequence destroys this original flexibility",
     "type": "local",
-    "targetSubtopic": "Capturing their knowledge as a sequence destroys the original flexibility",
+    "targetSubtopic": "Capturing their knowledge as a sequence destroys this original flexibility",
     "targetTopic": "Realism",
     "enclosingTopic": "Realism",
     "enclosingSubtopic": "We preserve all possible explanations that can be produced from the original data"
@@ -373,7 +373,7 @@
     "type": "text"
    }
   ],
-  "Capturing their knowledge as a sequence destroys the original flexibility": [
+  "Capturing their knowledge as a sequence destroys this original flexibility": [
    {
     "text": "If the expert captures their knowledge as one big book, then we went from having the expert, who could produce infinitely many linearizations of their knowledge, to having a book, which is only one linearization, destroying all of the other potential explanations the expert could have produced.",
     "type": "text"
