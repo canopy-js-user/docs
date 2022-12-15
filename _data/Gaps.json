@@ -39,6 +39,18 @@
     "enclosingSubtopic": "Gaps"
    },
    {
+    "text": ", and ",
+    "type": "text"
+   },
+   {
+    "text": "Canopy helps by presenting information exhaustively",
+    "type": "local",
+    "targetSubtopic": "Canopy helps by presenting information exhaustively",
+    "targetTopic": "Gaps",
+    "enclosingTopic": "Gaps",
+    "enclosingSubtopic": "Gaps"
+   },
+   {
     "text": ".",
     "type": "text"
    }
@@ -58,6 +70,12 @@
   "Even for information that is highly valued": [
    {
     "text": "Even if someone is very interested in a subject, there is a good chance that there is basic information about something they would be very interested in hearing about that they happen to have never heard because it just never was relevant to include in any of the narrow books and articles they've happened to see on the topic.",
+    "type": "text"
+   }
+  ],
+  "Canopy helps by presenting information exhaustively": [
+   {
+    "text": "In prose, an author might mention a few items from a list, then later mention a few more, and so the reader might miss some items when forming the master list in their mind, but in Canopy, a topic's paragraph is an exhaustive list of all information in the graph about that topic, and so it is much harder for pieces of information to fall between the cracks.",
     "type": "text"
    }
   ]
