@@ -1,4 +1,4 @@
-Scale: Scale is the idea that [[fixed explanations limit the maximum size of explanations]], whereas [[non-linear media allows greater explanation size]].
+Scale: Scale is the idea that [[fixed mediums limit the maximum size of explanations]], whereas [[non-linear media allows greater explanation size]].
 
 Non-linear media allows greater explanation size: Non-linear media can grow larger than linear media because [[non-linear media is more navigable at large sizes]], and also [[non-linear media isn't constrained by audience interest]].
 
@@ -12,19 +12,19 @@ Search doesn't give the reader an organizational scheme: When the reader accesse
 
 Non-linear media isn't constrained by audience interest: Non-linear media can grow large even if people prefer to consume small explanations because [[non-linear explanations decouple storage from presentation]], and so [[demand for content of a certain size won't prevent large corpuses]].
 
-Fixed explanations limit the maximum size of explanations: Authors are constrained in the length of books and articles by [[medium constraints]] and [[audience relevance]], and so even if they have information they would like to publish, often they have no good place to do it. (And [[even niche explanations assume homogeneous readership]].)
+Fixed mediums limit the maximum size of explanations: Authors are constrained in the length of books and articles by [[medium constraints]] and [[audience relevance]], and so even if the author has information they would like to publish, often they have no good place to put it. (And [[even niche works have the same problem]].)
 
-Medium constraints: A book or article conventionally cannot be greater than a certain size, both because of audience demand for works of a certain size, and sometimes literal constraints on how much content could be printed and circulated.
+Medium constraints: Practically speaking, a book or article cannot become greater than a certain size, both because there isn't an audience for such large works, and sometimes because of literal constraints on how much content can be printed and circulated.
 
-Audience relevance: Given that most readers of a book or article are reading more or less from beginning to end, an author can't include things that aren't relevant to all readers, and even footnotes can only add a certain percentage of extra material for interested parties, not entire extra
+Audience relevance: Given that most readers of a book or article are reading more or less from beginning to end, an author can't include things that aren't relevant to all readers.
 
-Even niche explanations assume homogeneous readership: You might say [[niche content solves problems of space for content]], but even so, [[niche content will have the same problem on a smaller scale]], and [[fragmented works create problems of discoverability]].
+Even niche works have the same problem: You might say [[niche content solves limitations of audience relevance]], but [[niche content is constrained by audience relevance on a smaller scale]], and [[fragmented works create problems of discoverability]].
 
-Niche content solves problems of space for content: You might say when there is a subpopulation that wants more information than the rest of the audience, an author can produce additional chapters, books, or articles just for them, meaning there will always be space for any given piece of information.
+Niche content solves limitations of audience relevance: You might say when there is a subpopulation that wants more information than the rest of the audience, an author can produce additional chapters, books, or articles just for them, meaning there will always be space for any given piece of information.
 
-Niche content will have the same problem on a smaller scale: Niche books and articles will also be forced to leave things out, because within the niche readership there will be people with different particular interests, and the author won't be able to include points that aren't relevant to all readers.
+Niche content is constrained by audience relevance on a smaller scale: Niche books and articles will also be forced to leave things out, because within the niche readership there will be people with different particular interests, and the author still won't be able to include points that aren't relevant to all readers.
 
-Fragmented works create problems of discoverability: If an author finds space for everything they want to share by producing multiple works for different audiences, this produces problems of [[discoverability]] because eventually not everyone will know about the existence of all the various works and what they contain, defeating the purpose of finding a place for all useful information.
+Fragmented works create problems of discoverability: Even if an author could find space for everything they want to share by producing multiple works for different audiences, this produces problems of [[discoverability]] because eventually not everyone will know about the existence of all the various works and what they contain, defeating the purpose of finding a place for information so that it can be shared.
 
 difficulty navigating large corpuses limits corpus size: Even if we are physically able to store large corpuses of information, if we don't have a good way of navigating them, then people aren't going to go to the trouble to assemble that much information in the first place.
 
@@ -34,7 +34,7 @@ Non-linear media enables larger explanations: Because it is more easily navigabl
 
 Finding things in a list is slow: Finding something in a linear sequence like a book requires scanning the entire sequence, and even tables of contents require scanning the table of contents, which becomes impracticable if there are many things in it.
 
-Finding things in a tree is quick: By looking at one node, and then looking at one child node, and its child node, you can find what you are looking for while only seeing a few things, much faster than if you had to go through the whole list. That is information in databases is generally stored in tree formats.
+Finding things in a tree is quick: Imagine an employee is trying to find their name in a company org-chart. All they have to do is find their division, department, and team. Thus, they are able to find their name while only looking at a few nodes in the tree, which is much faster than having to read through a list of every employee name. This is an example of how finding things in trees is faster than finding them in lists.
 
 If tree organization makes it easier for users to find what they are looking for in large corpuses of information, then it will be worth while for authors to produce larger corpuses.
 

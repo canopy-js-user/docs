@@ -1,1 +1,7 @@
-Explicit state:
+Explicit state: [[Explanation has state]], but [[linear prose makes it unclear what the state of the explanation is]], whereas [[Canopy makes the state of the explanation visibly clear]].
+
+Explanation has state: In the course of an explanation, we are at a particular point, there are prior points we are developing, and there are further specifications we could make, and a listener needs this information in order to understand what the explainer will say next.
+
+Linear prose makes it unclear what the state of the explanation is: In linear prose, as I read a given paragraph, I can't easily see how we got to this point, or in what directions we can go, because our early context is scattered throughout the earlier portions, and the possible avenues of specification are scattered throughout the later portions.
+
+Canopy makes the state of the explanation visibly clear: In Canopy, the screen doesn't show all prior content the reader has read in a given session, but only the path of paragraphs that explains how they got to the current subject, and links on the page describe all the directions the reader can go now given their position, either adding detail to the current paragraph, or regressing to an earlier idea and adding more detail to it.
