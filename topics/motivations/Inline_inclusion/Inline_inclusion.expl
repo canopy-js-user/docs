@@ -1,1 +1,7 @@
-Inline inclusion:
+Inline inclusion: Inline inclusion is the idea that [[natural language references are not semantically redirects]], yet [[in most hypertext systems references cause redirects]], so [[in Canopy references are inlined by default]].
+
+Natural language references are not semantically redirects: When in conversation I mention something, my intention is usually not to suggest that we change the subject and discuss the idea for its own sake, but rather that we include a brief description of it here so that we can use it to clarify an idea we were already discussing.
+
+In most hypertext systems references cause redirects: In most hypertext systems, content is composed of documents that have references to other documents, and selecting a reference causes the reader to redirect to another document, "changing the subject" to a discussion of the new idea in its own right, rather than as a means to understand the previous subject.
+
+In Canopy references are inlined by default: When selecting a link in Canopy, by default the paragraph associated with the selected link as added to the current page under the paragraph of the link. This allows the reader to retain their place in the earlier explanation, and peruse an explanation of the new idea only insofar as is necessary to continue reading the earlier paragraph. This user experience is more similar to the natural experience of listening to conversation, and so there is a better chance that the reader will be able to assimilate the given information correctly.

@@ -1,0 +1,9 @@
+Explicit Prerequisites: [[A linear work represents prerequisites implicitly via sequence]], [[making it difficult to consume small parts of a large work]], but [[Canopy represents scope explicitly via prerequisite enumeration]], [[making it easier to consume parts of a large work]].
+
+A linear work represents prerequisites implicitly via sequence: In a book or lecture, the author assumes the listener knows everything that was said earlier in the session. Thus, the set prior knowledge that is assumed and might get referenced in a given paragraph is represented approximately by the set of all earlier paragraphs, even if not all prior paragraphs are actually necessary to understand a given point.
+
+Making it difficult to consume small parts of a large work: If every paragraph could in theory reference ideas developed in any prior paragraph, then there isn't a good way to read just one paragraph of a book because you don't know which specific prior paragraphs it is building one.
+
+Canopy represents scope explicitly via prerequisite enumeration: Canopy represents the prerequisites of each idea explicitly, and so you can in effect "read one paragraph from a book," and only those earlier paragraphs that are necessary to understand it. So, the "scope" of prior knowledge that the author is able to reference is represented explicitly via linked prerequisites, as opposed to implicitly via the sequence of the linear work.
+
+Making it easier to consume parts of a large work: If the scope of each paragraph is defined explicitly, by labeling every prior idea that is mentioned explicitly, then it is very easy to pick a paragraph and read only those paragraphs that are necessary to understand it.

@@ -1,1 +1,7 @@
-Relative addressing:
+Relative addressing: Related to the idea of [[natural language classification]], Relative addressing is the idea that rather than [[having categories and contents]], [[content can itself be the category of further content]], enabling [[a richer addressing system]].
+
+Having categories and contents: A traditional library, for example, has book shelves which represent categories, and books which are the content being put in those categories.
+
+Content can itself be the category of further content: In Canopy, every paragraph can be the "parent" of several other paragraphs, and so a given paragraph is both like a "book" in that it is content, but also like a "book shelf" in that other information can be put under it as a form of classification, expressing that readers of the first paragraph might want to see the second one.
+
+A richer addressing system: In a traditional library, the more things there are, the harder it is to find each things because the categories get very full and hard to sort through. In Canopy however, because every point can be the "bookshelf" for several other points, as the total number of points grows, so does the "surface area" of addresses at which you can put additional points, and so the number of places to discover content grows as the total size of the corpus grows.
