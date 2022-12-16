@@ -441,7 +441,7 @@ Making possible new types of composite works: By making it easy to "merge" diffe
 
 [motivations/Natural language classification]
 
-* Natural language classification: Related to the idea of [[relative addressing]], natural language classification is the idea that [[people use natural language as a classification scheme in conversation]], and [[Canopy follows the natural classification scheme]].
+* Natural language classification: Natural language classification is the idea that [[people use natural language as a classification scheme in conversation]], and [[Canopy follows the natural classification scheme]], related to the idea of [[relative addressing]].
 
 People use natural language as a classification scheme in conversation: When someone says "there is a country called France and there are certain exports that it produces economically," the speaker has specified a category in which further information can be put. Similarly, when requesting information, a person might give a brief explanation and then pose a question about something it mentions. Thus, the introductory sentences themselves are functioning as a classification scheme for storing and requesting information.
 
@@ -565,7 +565,7 @@ Canopy lets you explore the data of a project in these different organizations: 
 
 [motivations/Relative addressing]
 
-* Relative addressing: Related to the idea of [[natural language classification]], Relative addressing is the idea that rather than [[having categories and contents]], [[content can itself be the category of further content]], enabling [[a richer addressing system]].
+* Relative addressing: Relative addressing is the idea that rather than [[having categories and contents]], [[content can itself be the category of further content]], enabling [[a richer addressing system]], related to the idea of [[natural language classification]].
 
 Having categories and contents: A traditional library, for example, has book shelves which represent categories, and books which are the content being put in those categories.
 
