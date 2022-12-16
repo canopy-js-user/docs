@@ -667,6 +667,19 @@ non-linear explanations decouple storage from presentation: With customized expl
 Demand for content of a certain size won't prevent large corpuses: Even if readers want explanations of a certain size, authors will not be constrained to produce only that much content, but can produce much more, and let each reader read what they want to.
 
 
+[motivations/Undersupply]
+
+* Undersupply: Undersupply is the idea that [[there is a systematic undersupply of expert explanation]], and [[systems like Canopy offer good-enough substitutes for expert explanation]].
+
+There is a systematic undersupply of expert explanation: For most students, access to individual tutoring from an expert would be highly beneficial, and the reason that this is impossible is cost and limited expert time, not an excess of student expertise, and so this is reason to believe that customized access to expert explanation would be beneficial to many people who cannot access it at present.
+
+Systems like Canopy offer good-enough substitutes for expert explanation: At the present, [[expert time was the limiting factor to accessing expert knowledge]], and so [[mere access to expert knowledge will make a previously finite resource infinite]].
+
+Expert time was the limiting factor to accessing expert knowledge: Currently, many people would have many more queries for experts than experts have time to answer.
+
+Mere access to expert knowledge will make a previously finite resource infinite: If previously access to expert knowledge was limited, just making that information available, by using mediums more amenable to large interconnected knowledge sets, many people in the market for expert explanations might be able to settle for this "good enough" imitation of access to an expert.
+
+
 [Inbox]
 
 Subtopic paragraphs should be cumulative, and when someone gives cumulative descriptions like in an email thread, it is an approximation of subtopic chains.
