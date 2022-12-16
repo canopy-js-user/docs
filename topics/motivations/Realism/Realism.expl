@@ -34,9 +34,9 @@ It will be hard for readers to get a general picture: If we organize data as a "
 
 Canopy represents the underlying explanation graph: Rather than have an author produce a series of books and articles, capturing their knowledge graph only approximately, Canopy has the author capture the underlying graph itself, offering tools to make this easier for them to do.
 
-We preserve all possible explanations that can be produced from the original data: [[The author themselves can produce many linearizations]], but [[capturing their knowledge as a sequence destroys this original flexibility]], however, [[if the author captures their knowledge with a graph]], [[we preserve the original multiplicity of possible explanations]].
+We preserve all possible explanations that can be produced from the original data: [[The author in person can produce many linearizations]], but [[capturing their knowledge as a sequence destroys this original flexibility]], however, [[if the author captures their knowledge with a graph]], [[we preserve the original multiplicity of possible explanations]].
 
-The author themselves can produce many linearizations: An expert in-person can produce many different linearizations of their knowledge for different people.
+The author in person can produce many linearizations: An expert in-person can produce many different linearizations of their knowledge for different people.
 
 Capturing their knowledge as a sequence destroys this original flexibility: If the expert captures their knowledge as one big book, then we went from having the expert, who could produce infinitely many linearizations of their knowledge, to having a book, which is only one linearization, destroying all of the other potential explanations the expert could have produced.
 

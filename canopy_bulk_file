@@ -97,7 +97,7 @@ Initializing the project: To initialize a project, enter the project directory (
 
 [motivations]
 
-* Motivations for Canopy: The motivations for Canopy include [[realism]], [[customization]], [[reusability]], [[clarity]], [[scale]], [[fragmentation]], [[interconnection]], [[discoverability]], [[completeness]], [[hierarchy]], [[interface of the expert]], [[relative addressing]], [[idea addressing]], [[mergability]], [[memorability]], [[explicit prerequisites]], [[explicit state]], [[inline inclusion]], [[proportionality]], [[natural language classification]], [[gaps]], [[rich compositions]], [[prescriptive understandings]], [[holistic review]], [[pervasive concepts]], [[redundant indexing]], and [[explanatory invariants]].
+* Motivations for Canopy: The motivations for Canopy include [[realism]], [[customization]], [[reusability]], [[clarity]], [[scale]], [[non-rival media]], [[fragmentation]], [[interconnection]], [[discoverability]], [[completeness]], [[hierarchy]], [[interface of the expert]], [[relative addressing]], [[idea addressing]], [[mergability]], [[memorability]], [[explicit prerequisites]], [[explicit state]], [[inline inclusion]], [[proportionality]], [[natural language classification]], [[gaps]], [[rich compositions]], [[prescriptive understandings]], [[holistic review]], [[pervasive concepts]], [[redundant indexing]], and [[explanatory invariants]].
 
 
 [motivations/Clarity]
@@ -126,13 +126,13 @@ Non-inclusion will be clearly intentional: At present, if an author doesn't incl
 
 [motivations/Customization]
 
-* Customization: Customization is the idea that [[a human explainer can customize explanations for a given listener]]. A book, by contrast, is [[mostly the same experience for every reader]], and while [[linear text is efficient for homogeneous groups]], [[Canopy aims to provide the type of customization a human explainer can provide]]. ([[But isn't human explanation too complex to reproduce with digital tools?]])
+* Customization: Customization is the idea that whereas [[a human explainer can customize explanations for a given listener]], a book, by contrast, is [[mostly the same experience for every reader]], and while [[linear text is efficient for homogeneous groups]], [[Canopy aims to provide the type of customization a human explainer can provide]].
 
 A human explainer can customize explanations for a given listener: A human explainer can follow the listener's particular interests, adding more detail for someone advanced, or more background information for a beginner.
 
 Mostly the same experience for every reader: A reader can flip around and read some chapters and not others, but fundamentally they are consuming long fixed blocks of linear content, unlike spoken explanation where the units are small, and the direction of the explanation can change based on feedback from the listener.
 
-Linear text is efficient for homogeneous groups: Sometimes you have a group of people who want an explanation, and due to the circumstances [[their needs are very similar]]. In these cases, [[it is more efficient to use linear prose than it is to use Canopy]].
+Linear text is efficient for homogeneous groups: Sometimes you have a group of people who want an explanation, and due to the circumstances, [[their needs are very similar]]. In these cases, [[it is more efficient to use linear prose than it is to use Canopy]].
 
 Their needs are very similar: Two examples of groups of people with similar needs are [[standardized test takers]] and [[news readers]].
 
@@ -148,17 +148,17 @@ Some news stories are complex: When a news event involves an ongoing sequence of
 
 Some news stories relate to background knowledge: If a news event has historical context or benefits from theoretical background knowledge, some readers may be interested to learn more about the related background knowledge, and some might just want the practical facts.
 
-It is more efficient to use linear prose than it is to use Canopy: If a group of people all need the same explanation, writing it in linear text is more efficient than writing it in reusable blocks because [[the author can make better assumptions about the prior knowledge of the readers]], and [[the author can more easily express requirements]].
+It is more efficient to use linear prose than it is to use Canopy: If a group of people all need the same explanation, writing it in linear text is more efficient than writing it in reusable blocks because [[the author can make better assumptions about the prior knowledge of the readers]], and [[the author can more easily capture learning requirements]].
 
 The author can make better assumptions about the prior knowledge of the readers: [[An author of a book or article knows the context of the reader's session]], and [[a customized explanation does not]].
 
-The author can more easily express requirements: If the user is allowed to explore content freely, they might not learn everything they are responsible for knowing, whereas linear text can force them to go through a certain set of content.
+The author can more easily capture learning requirements: If the user is allowed to explore content freely, they might not learn everything they are responsible for knowing, whereas linear text can force them to go through a certain set of content.
 
 An author of a book or article knows the context of the reader's session: An author of a book or article knows what the readers have read so far and what they are going to read, and so the author can reference things they know the reader has seen already, or avoid a certain subject for now because they know it will be explained later at a better time.
 
 A customized explanation does not: Customized explanations are produced by combining reusable units that were not written with knowledge of what the reader has seen or will see, and so customized explanations might accidentally offer the reader information they already know from earlier in the session, or offer information before it is optimal for the reader to learn it.
 
-Canopy aims to provide the type of customization a human explainer can provide: Canopy aims to provide customized explanations to each reader, allowing them to follow their specific interests and request additional information or clarification.
+Canopy aims to provide the type of customization a human explainer can provide: Canopy aims to provide customized explanations to each reader, allowing them to follow their specific interests and request additional information or clarification. ([[But isn't human explanation too complex to reproduce with digital tools?]])
 
 But isn't human explanation too complex to reproduce with digital tools? One of the theses of Canopy is that [[explanation composition is complex]], but [[explanation assembly is not complex]], and [[Canopy only models explanation assembly]].
 
@@ -450,9 +450,17 @@ Canopy follows the natural classification scheme: By having the reader navigate 
 
 [motivations/Non-rival media]
 
-* Non-rival media: In books, including one point comes at the expense of space for another point, whereas in non-linear media which can grow happily to any size, including one point doesn't crowd out other point for space, although [[even in non-linear media points crowd out others for attention]].
+* Non-rival media: Non-rival media is the idea that [[linear mediums are rival]], whereas [[non-linear mediums like Canopy are non-rival]], and [[non-rival mediums have various benefits]].
 
-Even in non-linear media points crowd out others for attention: Because Canopy has hierarchy, the size of each paragraph is small, and so even if there is unlimited space for points in general, there is limited space for a point to get referenced at "top billing" in the paragraph for a given idea.
+Linear mediums are rival: In books and articles, including one point comes at the expense of space for another, and thus they are "rival," because each point crowds out some other point.
+
+Non-linear mediums like Canopy are non-rival: [[Non-linear mediums are non-rival for space]], although [[they are rival for attention]].
+
+Non-linear mediums are non-rival for space: Non-linear media can grow happily to any size, and so no point is taking space from any other point, because every category of point has a its own special location in the project.
+
+They are rival for attention: Because Canopy presents information in a hierarchical format, even if there is unlimited space for points in general, there is limited space for a point to get "top billing" in a high-order paragraph. So in that sense even Canopy isn't entirely "non-rival."
+
+Non-rival mediums have various benefits: When different points don't take space from one another, then authors can adopt an attitude of default inclusion, making space for any point any reader might want to see, even if most readers aren't interested, (thus creating works of greater [[scale]] and [[customization]].)
 
 
 [motivations/Pervasive Concepts]
@@ -532,9 +540,9 @@ It will be hard for readers to get a general picture: If we organize data as a "
 
 Canopy represents the underlying explanation graph: Rather than have an author produce a series of books and articles, capturing their knowledge graph only approximately, Canopy has the author capture the underlying graph itself, offering tools to make this easier for them to do.
 
-We preserve all possible explanations that can be produced from the original data: [[The author themselves can produce many linearizations]], but [[capturing their knowledge as a sequence destroys this original flexibility]], however, [[if the author captures their knowledge with a graph]], [[we preserve the original multiplicity of possible explanations]].
+We preserve all possible explanations that can be produced from the original data: [[The author in person can produce many linearizations]], but [[capturing their knowledge as a sequence destroys this original flexibility]], however, [[if the author captures their knowledge with a graph]], [[we preserve the original multiplicity of possible explanations]].
 
-The author themselves can produce many linearizations: An expert in-person can produce many different linearizations of their knowledge for different people.
+The author in person can produce many linearizations: An expert in-person can produce many different linearizations of their knowledge for different people.
 
 Capturing their knowledge as a sequence destroys this original flexibility: If the expert captures their knowledge as one big book, then we went from having the expert, who could produce infinitely many linearizations of their knowledge, to having a book, which is only one linearization, destroying all of the other potential explanations the expert could have produced.
 
