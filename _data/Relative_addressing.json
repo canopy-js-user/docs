@@ -7,9 +7,9 @@
     "type": "text"
    },
    {
-    "text": "having categories and contents",
+    "text": "having categories and category contents",
     "type": "local",
-    "targetSubtopic": "Having categories and contents",
+    "targetSubtopic": "Having categories and category contents",
     "targetTopic": "Relative addressing",
     "enclosingTopic": "Relative addressing",
     "enclosingSubtopic": "Relative addressing"
@@ -55,7 +55,7 @@
     "type": "text"
    }
   ],
-  "Having categories and contents": [
+  "Having categories and category contents": [
    {
     "text": "A traditional library, for example, has book shelves which represent categories, and books which are the content being put in those categories.",
     "type": "text"
