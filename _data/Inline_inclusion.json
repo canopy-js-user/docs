@@ -1,0 +1,65 @@
+{
+ "displayTopicName": "Inline inclusion",
+ "paragraphsBySubtopic": {
+  "Inline inclusion": [
+   {
+    "text": "Inline inclusion is the idea that ",
+    "type": "text"
+   },
+   {
+    "text": "natural language references are not semantically redirects",
+    "type": "local",
+    "targetSubtopic": "Natural language references are not semantically redirects",
+    "targetTopic": "Inline inclusion",
+    "enclosingTopic": "Inline inclusion",
+    "enclosingSubtopic": "Inline inclusion"
+   },
+   {
+    "text": ", yet ",
+    "type": "text"
+   },
+   {
+    "text": "in most hypertext systems references cause redirects",
+    "type": "local",
+    "targetSubtopic": "In most hypertext systems references cause redirects",
+    "targetTopic": "Inline inclusion",
+    "enclosingTopic": "Inline inclusion",
+    "enclosingSubtopic": "Inline inclusion"
+   },
+   {
+    "text": ", so ",
+    "type": "text"
+   },
+   {
+    "text": "in Canopy references are inlined by default",
+    "type": "local",
+    "targetSubtopic": "In Canopy references are inlined by default",
+    "targetTopic": "Inline inclusion",
+    "enclosingTopic": "Inline inclusion",
+    "enclosingSubtopic": "Inline inclusion"
+   },
+   {
+    "text": ".",
+    "type": "text"
+   }
+  ],
+  "Natural language references are not semantically redirects": [
+   {
+    "text": "When in conversation I mention something, my intention is usually not to suggest that we change the subject and discuss the idea for its own sake, but rather that we include a brief description of it here so that we can use it to clarify an idea we were already discussing.",
+    "type": "text"
+   }
+  ],
+  "In most hypertext systems references cause redirects": [
+   {
+    "text": "In most hypertext systems, content is composed of documents that have references to other documents, and selecting a reference causes the reader to redirect to another document, \"changing the subject\" to a discussion of the new idea in its own right, rather than as a means to understand the previous subject.",
+    "type": "text"
+   }
+  ],
+  "In Canopy references are inlined by default": [
+   {
+    "text": "When selecting a link in Canopy, by default the paragraph associated with the selected link as added to the current page under the paragraph of the link. This allows the reader to retain their place in the earlier explanation, and peruse an explanation of the new idea only insofar as is necessary to continue reading the earlier paragraph. This user experience is more similar to the natural experience of listening to conversation, and so there is a better chance that the reader will be able to assimilate the given information correctly.",
+    "type": "text"
+   }
+  ]
+ }
+}

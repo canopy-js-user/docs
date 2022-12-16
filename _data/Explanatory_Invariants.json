@@ -1,0 +1,125 @@
+{
+ "displayTopicName": "Explanatory Invariants",
+ "paragraphsBySubtopic": {
+  "Explanatory Invariants": [
+   {
+    "text": "Explanatory invariants is the idea that ",
+    "type": "text"
+   },
+   {
+    "text": "there are reoccuring types of relation between facts in a corpus",
+    "type": "local",
+    "targetSubtopic": "There are reoccuring types of relation between facts in a corpus",
+    "targetTopic": "Explanatory Invariants",
+    "enclosingTopic": "Explanatory Invariants",
+    "enclosingSubtopic": "Explanatory Invariants"
+   },
+   {
+    "text": ", and that ",
+    "type": "text"
+   },
+   {
+    "text": "it is sometimes desirable to capture every such relation",
+    "type": "local",
+    "targetSubtopic": "It is sometimes desirable to capture every such relation",
+    "targetTopic": "Explanatory Invariants",
+    "enclosingTopic": "Explanatory Invariants",
+    "enclosingSubtopic": "Explanatory Invariants"
+   },
+   {
+    "text": ", and while ",
+    "type": "text"
+   },
+   {
+    "text": "free-form prose makes it difficult to capture explanatory invariants",
+    "type": "local",
+    "targetSubtopic": "Free-form prose makes it difficult to capture explanatory invariants",
+    "targetTopic": "Explanatory Invariants",
+    "enclosingTopic": "Explanatory Invariants",
+    "enclosingSubtopic": "Explanatory Invariants"
+   },
+   {
+    "text": ", ",
+    "type": "text"
+   },
+   {
+    "text": "Canopy makes it easy to capture them",
+    "type": "local",
+    "targetSubtopic": "Canopy makes it easy to capture them",
+    "targetTopic": "Explanatory Invariants",
+    "enclosingTopic": "Explanatory Invariants",
+    "enclosingSubtopic": "Explanatory Invariants"
+   },
+   {
+    "text": ", ",
+    "type": "text"
+   },
+   {
+    "text": "without edging out existing analysis",
+    "type": "local",
+    "targetSubtopic": "Without edging out existing analysis",
+    "targetTopic": "Explanatory Invariants",
+    "enclosingTopic": "Explanatory Invariants",
+    "enclosingSubtopic": "Explanatory Invariants"
+   },
+   {
+    "text": ".",
+    "type": "text"
+   }
+  ],
+  "There are reoccuring types of relation between facts in a corpus": [
+   {
+    "text": "You might have a corpus of historical facts and for every fact claim one could ask \"what historical documents exist to corroborate this fact?\" Or, you might have a description of the components of a system, and for each one you might ask \"how does this component work?\" Or for every idea stated in a discussion you can ask, \"what is the historical origin of this idea?\" – Thus, a corpus can be composed of reoccuring types of fact, and each type of fact might always have a certain related question.",
+    "type": "text"
+   }
+  ],
+  "It is sometimes desirable to capture every such relation": [
+   {
+    "text": "If we want to have ",
+    "type": "text"
+   },
+   {
+    "text": "completeness",
+    "type": "global",
+    "targetSubtopic": "Completeness",
+    "targetTopic": "Completeness",
+    "enclosingTopic": "Explanatory Invariants",
+    "enclosingSubtopic": "It is sometimes desirable to capture every such relation"
+   },
+   {
+    "text": " in capturing a corpus, it might be desirable to express the expectation that every fact of a certain type should have a relation of a certain type.",
+    "type": "text"
+   }
+  ],
+  "Free-form prose makes it difficult to capture explanatory invariants": [
+   {
+    "text": "When writing books and articles in free-form prose, different questions and forms of analysis are applied ad-hoc, and it can be difficult to see whether a certain question is asked uniformly in every place where it is relevant.",
+    "type": "text"
+   }
+  ],
+  "Canopy makes it easy to capture them": [
+   {
+    "text": "In Canopy, by modeling topics and all their relations in an abstract way before filling in the details, it is easier to see whether a certain question or relation is being expressed for every statement of a given type, and writers can make templates that require topics of a certain type to have different expected subcomponents, for example every historical event having a date or corroborating documents.",
+    "type": "text"
+   }
+  ],
+  "Without edging out existing analysis": [
+   {
+    "text": "If you take a book about different historical events and add a list of historical documents corroborating every point, then these added sources are making it harder for people to get the flow of the events themselves. Yet with Canopy, every point of type \"historical claim\" can have a subpoint \"corroborating documentation\" without these subpoints taking space away from the original analysis, because it is an example of ",
+    "type": "text"
+   },
+   {
+    "text": "non-rival media",
+    "type": "global",
+    "targetSubtopic": "Non-rival media",
+    "targetTopic": "Non-rival media",
+    "enclosingTopic": "Explanatory Invariants",
+    "enclosingSubtopic": "Without edging out existing analysis"
+   },
+   {
+    "text": ".",
+    "type": "text"
+   }
+  ]
+ }
+}

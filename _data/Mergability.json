@@ -1,0 +1,83 @@
+{
+ "displayTopicName": "Mergability",
+ "paragraphsBySubtopic": {
+  "Mergability": [
+   {
+    "text": "Mergability is the idea that whereas ",
+    "type": "text"
+   },
+   {
+    "text": "linear works address content approximately",
+    "type": "local",
+    "targetSubtopic": "Linear works address content approximately",
+    "targetTopic": "Mergability",
+    "enclosingTopic": "Mergability",
+    "enclosingSubtopic": "Mergability"
+   },
+   {
+    "text": ", ",
+    "type": "text"
+   },
+   {
+    "text": "Canopy addresses ideas individually",
+    "type": "local",
+    "targetSubtopic": "Canopy addresses ideas individually",
+    "targetTopic": "Mergability",
+    "enclosingTopic": "Mergability",
+    "enclosingSubtopic": "Mergability"
+   },
+   {
+    "text": ", ",
+    "type": "text"
+   },
+   {
+    "text": "it is easier to merge multiple explanations",
+    "type": "local",
+    "targetSubtopic": "It is easier to merge multiple explanations",
+    "targetTopic": "Mergability",
+    "enclosingTopic": "Mergability",
+    "enclosingSubtopic": "Mergability"
+   },
+   {
+    "text": ", ",
+    "type": "text"
+   },
+   {
+    "text": "making possible new types of composite works",
+    "type": "local",
+    "targetSubtopic": "Making possible new types of composite works",
+    "targetTopic": "Mergability",
+    "enclosingTopic": "Mergability",
+    "enclosingSubtopic": "Mergability"
+   },
+   {
+    "text": ".",
+    "type": "text"
+   }
+  ],
+  "Linear works address content approximately": [
+   {
+    "text": "In a book, ideas are organized by chapter and page number, and so the system of addressing isn't very precise.",
+    "type": "text"
+   }
+  ],
+  "Canopy addresses ideas individually": [
+   {
+    "text": "Every idea in Canopy has a unique address, and it exists at a point in a larger series of topics.",
+    "type": "text"
+   }
+  ],
+  "It is easier to merge multiple explanations": [
+   {
+    "text": "If two books speak about the same subjects, it is not very easy to \"put them into conversation\" and line up the bits that speak about the same things. With Canopy however, because the content is already organized in small labeled units, it might be much easier to line up one work with another and compare what they both say on a given topic.",
+    "type": "text"
+   }
+  ],
+  "Making possible new types of composite works": [
+   {
+    "text": "By making it easy to \"merge\" different works together, it might become possible to produce new types of work that cull all the points of a set of works by topic and present them in dialog, capturing every point made in the original works, but without following the exact train of thought of each original author, allowing readers to take a complex topic, break it into smaller questions, and see the range of perspectives that exist on each one. Thus, a group of people could produce a \"balanced\" presentation of views on all the points of a topic area even if they do not agree, so long as they agree on what question each view is coming to answer.",
+    "type": "text"
+   }
+  ]
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "displayTopicName": "Completeness",
+ "paragraphsBySubtopic": {
+  "Completeness": [
+   {
+    "text": "Completeness is the idea that once an author is able to ",
+    "type": "text"
+   },
+   {
+    "text": "produce works at larger scales",
+    "type": "global",
+    "targetSubtopic": "Scale",
+    "targetTopic": "Scale",
+    "enclosingTopic": "Completeness",
+    "enclosingSubtopic": "Completeness"
+   },
+   {
+    "text": ", it will be possible to achieve completeness of analysis, such as ",
+    "type": "text"
+   },
+   {
+    "text": "recursive consideration of arguments",
+    "type": "local",
+    "targetSubtopic": "Recursive consideration of arguments",
+    "targetTopic": "Completeness",
+    "enclosingTopic": "Completeness",
+    "enclosingSubtopic": "Completeness"
+   },
+   {
+    "text": ", and ",
+    "type": "text"
+   },
+   {
+    "text": "non-inclusion will be clearly intentional",
+    "type": "local",
+    "targetSubtopic": "Non-inclusion will be clearly intentional",
+    "targetTopic": "Completeness",
+    "enclosingTopic": "Completeness",
+    "enclosingSubtopic": "Completeness"
+   },
+   {
+    "text": ".",
+    "type": "text"
+   }
+  ],
+  "Recursive consideration of arguments": [
+   {
+    "text": "Sometimes an author will give an argument for a view, and maybe also show a problem with the argument, but in theory, the tree of arguments and problems with the arguments, and problems with the problems, etc, can become very large, and it is difficult to achieve such coverage of even a small subject area.",
+    "type": "text"
+   }
+  ],
+  "Non-inclusion will be clearly intentional": [
+   {
+    "text": "At present, if an author doesn't include a given point or argument, they can claim it is because there isn't space to consider every view. With ",
+    "type": "text"
+   },
+   {
+    "text": "non-rival media",
+    "type": "global",
+    "targetSubtopic": "Non-rival media",
+    "targetTopic": "Non-rival media",
+    "enclosingTopic": "Completeness",
+    "enclosingSubtopic": "Non-inclusion will be clearly intentional"
+   },
+   {
+    "text": " however, when the author doesn't include a point, it will be more clearly a choice, which might motivate authors to present wider coverage.",
+    "type": "text"
+   }
+  ]
+ }
+}

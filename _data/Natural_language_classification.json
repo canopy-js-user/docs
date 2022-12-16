@@ -1,0 +1,59 @@
+{
+ "displayTopicName": "Natural language classification",
+ "paragraphsBySubtopic": {
+  "Natural language classification": [
+   {
+    "text": "Natural language classification is the idea that ",
+    "type": "text"
+   },
+   {
+    "text": "people use natural language as a classification scheme in conversation",
+    "type": "local",
+    "targetSubtopic": "People use natural language as a classification scheme in conversation",
+    "targetTopic": "Natural language classification",
+    "enclosingTopic": "Natural language classification",
+    "enclosingSubtopic": "Natural language classification"
+   },
+   {
+    "text": ", and ",
+    "type": "text"
+   },
+   {
+    "text": "Canopy follows the natural classification scheme",
+    "type": "local",
+    "targetSubtopic": "Canopy follows the natural classification scheme",
+    "targetTopic": "Natural language classification",
+    "enclosingTopic": "Natural language classification",
+    "enclosingSubtopic": "Natural language classification"
+   },
+   {
+    "text": ", related to the idea of ",
+    "type": "text"
+   },
+   {
+    "text": "relative addressing",
+    "type": "global",
+    "targetSubtopic": "Relative addressing",
+    "targetTopic": "Relative addressing",
+    "enclosingTopic": "Natural language classification",
+    "enclosingSubtopic": "Natural language classification"
+   },
+   {
+    "text": ".",
+    "type": "text"
+   }
+  ],
+  "People use natural language as a classification scheme in conversation": [
+   {
+    "text": "When someone says \"there is a country called France and there are certain exports that it produces economically,\" the speaker has specified a category in which further information can be put. Similarly, when requesting information, a person might give a brief explanation and then pose a question about something it mentions. Thus, the introductory sentences themselves are functioning as a classification scheme for storing and requesting information.",
+    "type": "text"
+   }
+  ],
+  "Canopy follows the natural classification scheme": [
+   {
+    "text": "By having the reader navigate by reading paragraphs and selecting certain portions of them, the user is using the natural language content as the form of navigation, similar to how they would request information in a conversation.",
+    "type": "text"
+   }
+  ]
+ }
+}

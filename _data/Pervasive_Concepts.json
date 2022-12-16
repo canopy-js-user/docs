@@ -1,0 +1,95 @@
+{
+ "displayTopicName": "Pervasive Concepts",
+ "paragraphsBySubtopic": {
+  "Pervasive Concepts": [
+   {
+    "text": "Pervasive concepts is the idea that ",
+    "type": "text"
+   },
+   {
+    "text": "within a domain, there are certain pervasive concepts",
+    "type": "local",
+    "targetSubtopic": "Within a domain, there are certain pervasive concepts",
+    "targetTopic": "Pervasive Concepts",
+    "enclosingTopic": "Pervasive Concepts",
+    "enclosingSubtopic": "Pervasive Concepts"
+   },
+   {
+    "text": ", and ",
+    "type": "text"
+   },
+   {
+    "text": "it can be difficult for the reader to keep track of all the situations in which they've seen a pervasive concept",
+    "type": "local",
+    "targetSubtopic": "It can be difficult for the reader to keep track of all the situations in which they've seen a pervasive concept",
+    "targetTopic": "Pervasive Concepts",
+    "enclosingTopic": "Pervasive Concepts",
+    "enclosingSubtopic": "Pervasive Concepts"
+   },
+   {
+    "text": ", and ",
+    "type": "text"
+   },
+   {
+    "text": "keeping track of different examples is be necessary to produce an abstract understanding of a pervasive concept",
+    "type": "local",
+    "targetSubtopic": "Keeping track of different examples is be necessary to produce an abstract understanding of a pervasive concept",
+    "targetTopic": "Pervasive Concepts",
+    "enclosingTopic": "Pervasive Concepts",
+    "enclosingSubtopic": "Pervasive Concepts"
+   },
+   {
+    "text": ", and so ",
+    "type": "text"
+   },
+   {
+    "text": "Canopy helps by allowing you to link to pervasive concepts as you work through the material of a course",
+    "type": "local",
+    "targetSubtopic": "Canopy helps by allowing you to link to pervasive concepts as you work through the material of a course",
+    "targetTopic": "Pervasive Concepts",
+    "enclosingTopic": "Pervasive Concepts",
+    "enclosingSubtopic": "Pervasive Concepts"
+   },
+   {
+    "text": ".",
+    "type": "text"
+   }
+  ],
+  "Within a domain, there are certain pervasive concepts": [
+   {
+    "text": "In programming for example, you have the concept of modularity, that large systems can be composed of smaller units that hide their internal structure in order to make things more understandable.",
+    "type": "text"
+   }
+  ],
+  "It can be difficult for the reader to keep track of all the situations in which they've seen a pervasive concept": [
+   {
+    "text": "Throughout a computer science education, a student might have seen a concept like modularity crop up in hundreds of situations, and if they were a more casual reader, they might have forgotten some of them.",
+    "type": "text"
+   }
+  ],
+  "Keeping track of different examples is be necessary to produce an abstract understanding of a pervasive concept": [
+   {
+    "text": "In order to have an abstract and flexible concept of modularity, it might be necessary to remember many different examples, and hold in mind at the same time the way in which each example has unique details but still expresses the concept abstractly.",
+    "type": "text"
+   }
+  ],
+  "Canopy helps by allowing you to link to pervasive concepts as you work through the material of a course": [
+   {
+    "text": "By using ",
+    "type": "text"
+   },
+   {
+    "text": "redundant indexing",
+    "type": "global",
+    "targetSubtopic": "Redundant Indexing",
+    "targetTopic": "Redundant Indexing",
+    "enclosingTopic": "Pervasive Concepts",
+    "enclosingSubtopic": "Canopy helps by allowing you to link to pervasive concepts as you work through the material of a course"
+   },
+   {
+    "text": ", all the units of a curriculum can be accessible by topic, but also accessible by theme, and so a reader can review prior material specifically in so far as it illustrates a pervasive concept like modularity.",
+    "type": "text"
+   }
+  ]
+ }
+}

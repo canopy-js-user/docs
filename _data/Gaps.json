@@ -1,0 +1,83 @@
+{
+ "displayTopicName": "Gaps",
+ "paragraphsBySubtopic": {
+  "Gaps": [
+   {
+    "text": "\"Gaps\" is the idea that ",
+    "type": "text"
+   },
+   {
+    "text": "when transmitting a graph via smaller linearizations",
+    "type": "local",
+    "targetSubtopic": "When transmitting a graph via smaller linearizations",
+    "targetTopic": "Gaps",
+    "enclosingTopic": "Gaps",
+    "enclosingSubtopic": "Gaps"
+   },
+   {
+    "text": ", ",
+    "type": "text"
+   },
+   {
+    "text": "as the corpus gets larger, the chances of having incomplete information at any given point grows",
+    "type": "local",
+    "targetSubtopic": "As the corpus gets larger, the chances of having incomplete information at any given point grows",
+    "targetTopic": "Gaps",
+    "enclosingTopic": "Gaps",
+    "enclosingSubtopic": "Gaps"
+   },
+   {
+    "text": ", and ",
+    "type": "text"
+   },
+   {
+    "text": "even for information that is highly valued",
+    "type": "local",
+    "targetSubtopic": "Even for information that is highly valued",
+    "targetTopic": "Gaps",
+    "enclosingTopic": "Gaps",
+    "enclosingSubtopic": "Gaps"
+   },
+   {
+    "text": ", and ",
+    "type": "text"
+   },
+   {
+    "text": "Canopy helps by presenting information exhaustively",
+    "type": "local",
+    "targetSubtopic": "Canopy helps by presenting information exhaustively",
+    "targetTopic": "Gaps",
+    "enclosingTopic": "Gaps",
+    "enclosingSubtopic": "Gaps"
+   },
+   {
+    "text": ".",
+    "type": "text"
+   }
+  ],
+  "When transmitting a graph via smaller linearizations": [
+   {
+    "text": "If a person builds an understanding for example by reading many books and articles on the subject.",
+    "type": "text"
+   }
+  ],
+  "As the corpus gets larger, the chances of having incomplete information at any given point grows": [
+   {
+    "text": "If the domain is very large, there is a good chance that there are points that didn't make it into any of the particular books or articles read by the person.",
+    "type": "text"
+   }
+  ],
+  "Even for information that is highly valued": [
+   {
+    "text": "Even if someone is very interested in a subject, there is a good chance that there is basic information about something they would be very interested in hearing about that they happen to have never heard because it just never was relevant to include in any of the narrow books and articles they've happened to see on the topic.",
+    "type": "text"
+   }
+  ],
+  "Canopy helps by presenting information exhaustively": [
+   {
+    "text": "In Canopy, a topic's paragraph is an exhaustive list of all information in the graph about that topic, and so it is much harder for pieces of information to fall between the cracks, as opposed to someone who is constructing an understanding by reading various books and articles, none of which may be attempting to provide an exhaustive list.",
+    "type": "text"
+   }
+  ]
+ }
+}

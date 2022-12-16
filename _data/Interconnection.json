@@ -1,0 +1,167 @@
+{
+ "displayTopicName": "Interconnection",
+ "paragraphsBySubtopic": {
+  "Interconnection": [
+   {
+    "text": "Interconnection is the idea that ",
+    "type": "text"
+   },
+   {
+    "text": "the connections between different facts are valuable data",
+    "type": "local",
+    "targetSubtopic": "The connections between different facts are valuable data",
+    "targetTopic": "Interconnection",
+    "enclosingTopic": "Interconnection",
+    "enclosingSubtopic": "Interconnection"
+   },
+   {
+    "text": ", but that ",
+    "type": "text"
+   },
+   {
+    "text": "linear content limits the representation of interconnections",
+    "type": "local",
+    "targetSubtopic": "Linear content limits the representation of interconnections",
+    "targetTopic": "Interconnection",
+    "enclosingTopic": "Interconnection",
+    "enclosingSubtopic": "Interconnection"
+   },
+   {
+    "text": ", whereas ",
+    "type": "text"
+   },
+   {
+    "text": "Canopy decouples information storage from presentation",
+    "type": "local",
+    "targetSubtopic": "Canopy decouples information storage from presentation",
+    "targetTopic": "Interconnection",
+    "enclosingTopic": "Interconnection",
+    "enclosingSubtopic": "Interconnection"
+   },
+   {
+    "text": ", and so ",
+    "type": "text"
+   },
+   {
+    "text": "Canopy increases the number of connections that can be stored",
+    "type": "local",
+    "targetSubtopic": "Canopy increases the number of connections that can be stored",
+    "targetTopic": "Interconnection",
+    "enclosingTopic": "Interconnection",
+    "enclosingSubtopic": "Interconnection"
+   },
+   {
+    "text": ", making it more similar to the ",
+    "type": "text"
+   },
+   {
+    "text": "interface of the expert",
+    "type": "global",
+    "targetSubtopic": "Interface of the expert",
+    "targetTopic": "Interface of the expert",
+    "enclosingTopic": "Interconnection",
+    "enclosingSubtopic": "Interconnection"
+   },
+   {
+    "text": ".",
+    "type": "text"
+   }
+  ],
+  "The connections between different facts are valuable data": [
+   {
+    "text": "Even if a person knows many facts, if they lack an understanding of the connection between them, they will miss implications from one to another, and new information might not update all relevant knowledge.",
+    "type": "text"
+   }
+  ],
+  "Linear content limits the representation of interconnections": [
+   {
+    "text": "When information is stored in linear books and articles, the author cannot share every relevant interconnection because ",
+    "type": "text"
+   },
+   {
+    "text": "audience interest is limited",
+    "type": "local",
+    "targetSubtopic": "Audience interest is limited",
+    "targetTopic": "Interconnection",
+    "enclosingTopic": "Interconnection",
+    "enclosingSubtopic": "Linear content limits the representation of interconnections"
+   },
+   {
+    "text": " and ",
+    "type": "text"
+   },
+   {
+    "text": "the shared prior knowledge is small",
+    "type": "local",
+    "targetSubtopic": "The shared prior knowledge is small",
+    "targetTopic": "Interconnection",
+    "enclosingTopic": "Interconnection",
+    "enclosingSubtopic": "Linear content limits the representation of interconnections"
+   },
+   {
+    "text": ".",
+    "type": "text"
+   }
+  ],
+  "Audience interest is limited": [
+   {
+    "text": "The audience might not be interested in hearing every connection between every idea, and so the author won't include them even for those readers who do.",
+    "type": "text"
+   }
+  ],
+  "The shared prior knowledge is small": [
+   {
+    "text": "The author can only include interconnections between facts that the readers know about, which limits the author to interconnections between facts mentioned in the given book or article, but because ",
+    "type": "text"
+   },
+   {
+    "text": "there are constraints on the size of books and articles",
+    "type": "local",
+    "targetSubtopic": "There are constraints on the size of books and articles",
+    "targetTopic": "Interconnection",
+    "enclosingTopic": "Interconnection",
+    "enclosingSubtopic": "The shared prior knowledge is small"
+   },
+   {
+    "text": ", this ends up meaning that ",
+    "type": "text"
+   },
+   {
+    "text": "there is no work that stores enough facts to also include all interconnections",
+    "type": "local",
+    "targetSubtopic": "There is no work that stores enough facts to also include all interconnections",
+    "targetTopic": "Interconnection",
+    "enclosingTopic": "Interconnection",
+    "enclosingSubtopic": "The shared prior knowledge is small"
+   },
+   {
+    "text": ".",
+    "type": "text"
+   }
+  ],
+  "There are constraints on the size of books and articles": [
+   {
+    "text": "Practically speaking a book or article can only become so long and retain reader interest.",
+    "type": "text"
+   }
+  ],
+  "There is no work that stores enough facts to also include all interconnections": [
+   {
+    "text": "No work has all the given points, and no work can connect points that it doesn't include, and so no work exists that can include all the interconnections of a domain, even if there would be reader interest.",
+    "type": "text"
+   }
+  ],
+  "Canopy decouples information storage from presentation": [
+   {
+    "text": "With Canopy, what the author writes and what the reader reads doesn't have to be the same thing.",
+    "type": "text"
+   }
+  ],
+  "Canopy increases the number of connections that can be stored": [
+   {
+    "text": "The author can store all the points and interconnections they know about, and not every reader has to read every one.",
+    "type": "text"
+   }
+  ]
+ }
+}

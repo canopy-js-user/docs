@@ -1,0 +1,83 @@
+{
+ "displayTopicName": "Prescriptive Understandings",
+ "paragraphsBySubtopic": {
+  "Prescriptive Understandings": [
+   {
+    "text": "Prescriptive understandings is the idea that ",
+    "type": "text"
+   },
+   {
+    "text": "experts have vast organizational structures",
+    "type": "local",
+    "targetSubtopic": "Experts have vast organizational structures",
+    "targetTopic": "Prescriptive Understandings",
+    "enclosingTopic": "Prescriptive Understandings",
+    "enclosingSubtopic": "Prescriptive Understandings"
+   },
+   {
+    "text": ", but that ",
+    "type": "text"
+   },
+   {
+    "text": "experts omit portions of their mental representation when speaking",
+    "type": "local",
+    "targetSubtopic": "Experts omit portions of their mental representation when speaking",
+    "targetTopic": "Prescriptive Understandings",
+    "enclosingTopic": "Prescriptive Understandings",
+    "enclosingSubtopic": "Prescriptive Understandings"
+   },
+   {
+    "text": ", and ",
+    "type": "text"
+   },
+   {
+    "text": "this prevents listeners from building the proper understanding",
+    "type": "local",
+    "targetSubtopic": "This prevents listeners from building the proper understanding",
+    "targetTopic": "Prescriptive Understandings",
+    "enclosingTopic": "Prescriptive Understandings",
+    "enclosingSubtopic": "Prescriptive Understandings"
+   },
+   {
+    "text": " but ",
+    "type": "text"
+   },
+   {
+    "text": "Canopy requires the author to enumerate the desired understanding",
+    "type": "local",
+    "targetSubtopic": "Canopy requires the author to enumerate the desired understanding",
+    "targetTopic": "Prescriptive Understandings",
+    "enclosingTopic": "Prescriptive Understandings",
+    "enclosingSubtopic": "Prescriptive Understandings"
+   },
+   {
+    "text": ".",
+    "type": "text"
+   }
+  ],
+  "Experts have vast organizational structures": [
+   {
+    "text": "Experts don't just memorize a list of facts, they have many heuristic subcategories that are a function of their way of grouping things.",
+    "type": "text"
+   }
+  ],
+  "Experts omit portions of their mental representation when speaking": [
+   {
+    "text": "Sometimes an expert's private groupings are extremely useful practically to have, yet aspects of them may be controversial or oversimple, and so the expert might be motivated to omit them and just present the facts in sequence without offering any helpful mnemonics or groupings.",
+    "type": "text"
+   }
+  ],
+  "This prevents listeners from building the proper understanding": [
+   {
+    "text": "The expert is only able to navigate their knowledge using these helpful groupings, and so by removing them from the explanation, the expert is failing to fully enumerate the mental structure that the listener should produce from the data.",
+    "type": "text"
+   }
+  ],
+  "Canopy requires the author to enumerate the desired understanding": [
+   {
+    "text": "Canopy requires information be presented hierarchically, and so it isn't possible to give undifferentiated lists, and so authors will be forced to provide the reader with helpful intermediary groupings with which to retrieve the information in question.",
+    "type": "text"
+   }
+  ]
+ }
+}

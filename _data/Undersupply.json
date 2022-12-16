@@ -1,0 +1,83 @@
+{
+ "displayTopicName": "Undersupply",
+ "paragraphsBySubtopic": {
+  "Undersupply": [
+   {
+    "text": "Undersupply is the idea that ",
+    "type": "text"
+   },
+   {
+    "text": "there is a systematic undersupply of expert explanation",
+    "type": "local",
+    "targetSubtopic": "There is a systematic undersupply of expert explanation",
+    "targetTopic": "Undersupply",
+    "enclosingTopic": "Undersupply",
+    "enclosingSubtopic": "Undersupply"
+   },
+   {
+    "text": ", and ",
+    "type": "text"
+   },
+   {
+    "text": "systems like Canopy offer good-enough substitutes for expert explanation",
+    "type": "local",
+    "targetSubtopic": "Systems like Canopy offer good-enough substitutes for expert explanation",
+    "targetTopic": "Undersupply",
+    "enclosingTopic": "Undersupply",
+    "enclosingSubtopic": "Undersupply"
+   },
+   {
+    "text": ".",
+    "type": "text"
+   }
+  ],
+  "There is a systematic undersupply of expert explanation": [
+   {
+    "text": "For most students, access to individual tutoring from an expert would be highly beneficial, and the reason that this is impossible is cost and limited expert time, not an excess of student expertise, and so this is reason to believe that customized access to expert explanation would be beneficial to many people who cannot access it at present.",
+    "type": "text"
+   }
+  ],
+  "Systems like Canopy offer good-enough substitutes for expert explanation": [
+   {
+    "text": "At the present, ",
+    "type": "text"
+   },
+   {
+    "text": "expert time was the limiting factor to accessing expert knowledge",
+    "type": "local",
+    "targetSubtopic": "Expert time was the limiting factor to accessing expert knowledge",
+    "targetTopic": "Undersupply",
+    "enclosingTopic": "Undersupply",
+    "enclosingSubtopic": "Systems like Canopy offer good-enough substitutes for expert explanation"
+   },
+   {
+    "text": ", and so ",
+    "type": "text"
+   },
+   {
+    "text": "mere access to expert knowledge will make a previously finite resource infinite",
+    "type": "local",
+    "targetSubtopic": "Mere access to expert knowledge will make a previously finite resource infinite",
+    "targetTopic": "Undersupply",
+    "enclosingTopic": "Undersupply",
+    "enclosingSubtopic": "Systems like Canopy offer good-enough substitutes for expert explanation"
+   },
+   {
+    "text": ".",
+    "type": "text"
+   }
+  ],
+  "Expert time was the limiting factor to accessing expert knowledge": [
+   {
+    "text": "Currently, many people would have many more queries for experts than experts have time to answer.",
+    "type": "text"
+   }
+  ],
+  "Mere access to expert knowledge will make a previously finite resource infinite": [
+   {
+    "text": "If previously access to expert knowledge was limited, just making that information available, by using mediums more amenable to large interconnected knowledge sets, many people in the market for expert explanations might be able to settle for this \"good enough\" imitation of access to an expert.",
+    "type": "text"
+   }
+  ]
+ }
+}
