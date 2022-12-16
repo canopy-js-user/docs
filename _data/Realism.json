@@ -319,9 +319,9 @@
   ],
   "We preserve all possible explanations that can be produced from the original data": [
    {
-    "text": "The author themselves can produce many linearizations",
+    "text": "The author in person can produce many linearizations",
     "type": "local",
-    "targetSubtopic": "The author themselves can produce many linearizations",
+    "targetSubtopic": "The author in person can produce many linearizations",
     "targetTopic": "Realism",
     "enclosingTopic": "Realism",
     "enclosingSubtopic": "We preserve all possible explanations that can be produced from the original data"
@@ -367,7 +367,7 @@
     "type": "text"
    }
   ],
-  "The author themselves can produce many linearizations": [
+  "The author in person can produce many linearizations": [
    {
     "text": "An expert in-person can produce many different linearizations of their knowledge for different people.",
     "type": "text"

@@ -3,7 +3,7 @@
  "paragraphsBySubtopic": {
   "Customization": [
    {
-    "text": "Customization is the idea that ",
+    "text": "Customization is the idea that whereas ",
     "type": "text"
    },
    {
@@ -15,7 +15,7 @@
     "enclosingSubtopic": "Customization"
    },
    {
-    "text": ". A book, by contrast, is ",
+    "text": ", a book, by contrast, is ",
     "type": "text"
    },
    {
@@ -51,19 +51,7 @@
     "enclosingSubtopic": "Customization"
    },
    {
-    "text": ". (",
-    "type": "text"
-   },
-   {
-    "text": "But isn't human explanation too complex to reproduce with digital tools?",
-    "type": "local",
-    "targetSubtopic": "But isn't human explanation too complex to reproduce with digital tools?",
-    "targetTopic": "Customization",
-    "enclosingTopic": "Customization",
-    "enclosingSubtopic": "Customization"
-   },
-   {
-    "text": ")",
+    "text": ".",
     "type": "text"
    }
   ],
@@ -81,7 +69,7 @@
   ],
   "Linear text is efficient for homogeneous groups": [
    {
-    "text": "Sometimes you have a group of people who want an explanation, and due to the circumstances ",
+    "text": "Sometimes you have a group of people who want an explanation, and due to the circumstances, ",
     "type": "text"
    },
    {
@@ -237,9 +225,9 @@
     "type": "text"
    },
    {
-    "text": "the author can more easily express requirements",
+    "text": "the author can more easily capture learning requirements",
     "type": "local",
-    "targetSubtopic": "The author can more easily express requirements",
+    "targetSubtopic": "The author can more easily capture learning requirements",
     "targetTopic": "Customization",
     "enclosingTopic": "Customization",
     "enclosingSubtopic": "It is more efficient to use linear prose than it is to use Canopy"
@@ -275,7 +263,7 @@
     "type": "text"
    }
   ],
-  "The author can more easily express requirements": [
+  "The author can more easily capture learning requirements": [
    {
     "text": "If the user is allowed to explore content freely, they might not learn everything they are responsible for knowing, whereas linear text can force them to go through a certain set of content.",
     "type": "text"
@@ -295,7 +283,19 @@
   ],
   "Canopy aims to provide the type of customization a human explainer can provide": [
    {
-    "text": "Canopy aims to provide customized explanations to each reader, allowing them to follow their specific interests and request additional information or clarification.",
+    "text": "Canopy aims to provide customized explanations to each reader, allowing them to follow their specific interests and request additional information or clarification. (",
+    "type": "text"
+   },
+   {
+    "text": "But isn't human explanation too complex to reproduce with digital tools?",
+    "type": "local",
+    "targetSubtopic": "But isn't human explanation too complex to reproduce with digital tools?",
+    "targetTopic": "Customization",
+    "enclosingTopic": "Customization",
+    "enclosingSubtopic": "Canopy aims to provide the type of customization a human explainer can provide"
+   },
+   {
+    "text": ")",
     "type": "text"
    }
   ],

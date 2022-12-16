@@ -3,13 +3,37 @@
  "paragraphsBySubtopic": {
   "Non-rival media": [
    {
-    "text": "In books, including one point comes at the expense of space for another point, whereas in non-linear media which can grow happily to any size, including one point doesn't crowd out other point for space, although ",
+    "text": "Non-rival media is the idea that ",
     "type": "text"
    },
    {
-    "text": "even in non-linear media points crowd out others for attention",
+    "text": "linear mediums are rival",
     "type": "local",
-    "targetSubtopic": "Even in non-linear media points crowd out others for attention",
+    "targetSubtopic": "Linear mediums are rival",
+    "targetTopic": "Non-rival media",
+    "enclosingTopic": "Non-rival media",
+    "enclosingSubtopic": "Non-rival media"
+   },
+   {
+    "text": ", whereas ",
+    "type": "text"
+   },
+   {
+    "text": "non-linear mediums like Canopy are non-rival",
+    "type": "local",
+    "targetSubtopic": "Non-linear mediums like Canopy are non-rival",
+    "targetTopic": "Non-rival media",
+    "enclosingTopic": "Non-rival media",
+    "enclosingSubtopic": "Non-rival media"
+   },
+   {
+    "text": ", and ",
+    "type": "text"
+   },
+   {
+    "text": "non-rival mediums have various benefits",
+    "type": "local",
+    "targetSubtopic": "Non-rival mediums have various benefits",
     "targetTopic": "Non-rival media",
     "enclosingTopic": "Non-rival media",
     "enclosingSubtopic": "Non-rival media"
@@ -19,9 +43,77 @@
     "type": "text"
    }
   ],
-  "Even in non-linear media points crowd out others for attention": [
+  "Linear mediums are rival": [
    {
-    "text": "Because Canopy has hierarchy, the size of each paragraph is small, and so even if there is unlimited space for points in general, there is limited space for a point to get referenced at \"top billing\" in the paragraph for a given idea.",
+    "text": "In books and articles, including one point comes at the expense of space for another, and thus they are \"rival,\" because each point crowds out some other point.",
+    "type": "text"
+   }
+  ],
+  "Non-linear mediums like Canopy are non-rival": [
+   {
+    "text": "Non-linear mediums are non-rival for space",
+    "type": "local",
+    "targetSubtopic": "Non-linear mediums are non-rival for space",
+    "targetTopic": "Non-rival media",
+    "enclosingTopic": "Non-rival media",
+    "enclosingSubtopic": "Non-linear mediums like Canopy are non-rival"
+   },
+   {
+    "text": ", although ",
+    "type": "text"
+   },
+   {
+    "text": "they are rival for attention",
+    "type": "local",
+    "targetSubtopic": "They are rival for attention",
+    "targetTopic": "Non-rival media",
+    "enclosingTopic": "Non-rival media",
+    "enclosingSubtopic": "Non-linear mediums like Canopy are non-rival"
+   },
+   {
+    "text": ".",
+    "type": "text"
+   }
+  ],
+  "Non-linear mediums are non-rival for space": [
+   {
+    "text": "Non-linear media can grow happily to any size, and so no point is taking space from any other point, because every category of point has a its own special location in the project.",
+    "type": "text"
+   }
+  ],
+  "They are rival for attention": [
+   {
+    "text": "Because Canopy presents information in a hierarchical format, even if there is unlimited space for points in general, there is limited space for a point to get \"top billing\" in a high-order paragraph. So in that sense even Canopy isn't entirely \"non-rival.\"",
+    "type": "text"
+   }
+  ],
+  "Non-rival mediums have various benefits": [
+   {
+    "text": "When different points don't take space from one another, then authors can adopt an attitude of default inclusion, making space for any point any reader might want to see, even if most readers aren't interested, (thus creating works of greater ",
+    "type": "text"
+   },
+   {
+    "text": "scale",
+    "type": "global",
+    "targetSubtopic": "Scale",
+    "targetTopic": "Scale",
+    "enclosingTopic": "Non-rival media",
+    "enclosingSubtopic": "Non-rival mediums have various benefits"
+   },
+   {
+    "text": " and ",
+    "type": "text"
+   },
+   {
+    "text": "customization",
+    "type": "global",
+    "targetSubtopic": "Customization",
+    "targetTopic": "Customization",
+    "enclosingTopic": "Non-rival media",
+    "enclosingSubtopic": "Non-rival mediums have various benefits"
+   },
+   {
+    "text": ".)",
     "type": "text"
    }
   ]

@@ -67,6 +67,18 @@
     "type": "text"
    },
    {
+    "text": "non-rival media",
+    "type": "global",
+    "targetSubtopic": "Non-rival media",
+    "targetTopic": "Non-rival media",
+    "enclosingTopic": "Motivations for Canopy",
+    "enclosingSubtopic": "Motivations for Canopy"
+   },
+   {
+    "text": ", ",
+    "type": "text"
+   },
+   {
     "text": "fragmentation",
     "type": "global",
     "targetSubtopic": "Fragmentation",
