@@ -3,19 +3,7 @@
  "paragraphsBySubtopic": {
   "Natural language classification": [
    {
-    "text": "Related to the idea of ",
-    "type": "text"
-   },
-   {
-    "text": "relative addressing",
-    "type": "global",
-    "targetSubtopic": "Relative addressing",
-    "targetTopic": "Relative addressing",
-    "enclosingTopic": "Natural language classification",
-    "enclosingSubtopic": "Natural language classification"
-   },
-   {
-    "text": ", natural language classification is the idea that ",
+    "text": "Natural language classification is the idea that ",
     "type": "text"
    },
    {
@@ -35,6 +23,18 @@
     "type": "local",
     "targetSubtopic": "Canopy follows the natural classification scheme",
     "targetTopic": "Natural language classification",
+    "enclosingTopic": "Natural language classification",
+    "enclosingSubtopic": "Natural language classification"
+   },
+   {
+    "text": ", related to the idea of ",
+    "type": "text"
+   },
+   {
+    "text": "relative addressing",
+    "type": "global",
+    "targetSubtopic": "Relative addressing",
+    "targetTopic": "Relative addressing",
     "enclosingTopic": "Natural language classification",
     "enclosingSubtopic": "Natural language classification"
    },

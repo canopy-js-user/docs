@@ -3,19 +3,7 @@
  "paragraphsBySubtopic": {
   "Relative addressing": [
    {
-    "text": "Related to the idea of ",
-    "type": "text"
-   },
-   {
-    "text": "natural language classification",
-    "type": "global",
-    "targetSubtopic": "Natural language classification",
-    "targetTopic": "Natural language classification",
-    "enclosingTopic": "Relative addressing",
-    "enclosingSubtopic": "Relative addressing"
-   },
-   {
-    "text": ", Relative addressing is the idea that rather than ",
+    "text": "Relative addressing is the idea that rather than ",
     "type": "text"
    },
    {
@@ -47,6 +35,18 @@
     "type": "local",
     "targetSubtopic": "A richer addressing system",
     "targetTopic": "Relative addressing",
+    "enclosingTopic": "Relative addressing",
+    "enclosingSubtopic": "Relative addressing"
+   },
+   {
+    "text": ", related to the idea of ",
+    "type": "text"
+   },
+   {
+    "text": "natural language classification",
+    "type": "global",
+    "targetSubtopic": "Natural language classification",
+    "targetTopic": "Natural language classification",
     "enclosingTopic": "Relative addressing",
     "enclosingSubtopic": "Relative addressing"
    },
