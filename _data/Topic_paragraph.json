@@ -1,6 +1,71 @@
 {
  "displayTopicName": "Topic paragraph",
  "paragraphsBySubtopic": {
-  "Topic paragraph": []
+  "Topic paragraph": [
+   {
+    "text": "A topic paragraph is the paragraph associated with a given ",
+    "type": "text"
+   },
+   {
+    "text": "topic",
+    "type": "global",
+    "targetSubtopic": "Topic",
+    "targetTopic": "Topic",
+    "enclosingTopic": "Topic paragraph",
+    "enclosingSubtopic": "Topic paragraph"
+   },
+   {
+    "text": ". The topic paragraph has ",
+    "type": "text"
+   },
+   {
+    "text": "local references",
+    "type": "global",
+    "targetSubtopic": "Local reference",
+    "targetTopic": "Local reference",
+    "enclosingTopic": "Topic paragraph",
+    "enclosingSubtopic": "Topic paragraph"
+   },
+   {
+    "text": " to ",
+    "type": "text"
+   },
+   {
+    "text": "subtopics",
+    "type": "global",
+    "targetSubtopic": "Subtopic",
+    "targetTopic": "Subtopic",
+    "enclosingTopic": "Topic paragraph",
+    "enclosingSubtopic": "Topic paragraph"
+   },
+   {
+    "text": " that have ",
+    "type": "text"
+   },
+   {
+    "text": "subtopic paragraphs",
+    "type": "global",
+    "targetSubtopic": "Subtopic paragraph",
+    "targetTopic": "Subtopic paragraph",
+    "enclosingTopic": "Topic paragraph",
+    "enclosingSubtopic": "Topic paragraph"
+   },
+   {
+    "text": ", forming a ",
+    "type": "text"
+   },
+   {
+    "text": "topic tree",
+    "type": "global",
+    "targetSubtopic": "Topic tree",
+    "targetTopic": "Topic tree",
+    "enclosingTopic": "Topic paragraph",
+    "enclosingSubtopic": "Topic paragraph"
+   },
+   {
+    "text": ".",
+    "type": "text"
+   }
+  ]
  }
 }

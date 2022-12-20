@@ -1,0 +1,65 @@
+{
+ "displayTopicName": "Canopy Path",
+ "paragraphsBySubtopic": {
+  "Canopy Path": [
+   {
+    "text": "A Canopy website displays a currently selected path. The path determines which paragraphs are displayed, and is also visible in the ",
+    "type": "text"
+   },
+   {
+    "text": "URL",
+    "type": "local",
+    "targetSubtopic": "URL",
+    "targetTopic": "Canopy Path",
+    "enclosingTopic": "Canopy Path",
+    "enclosingSubtopic": "Canopy Path"
+   },
+   {
+    "text": ". The path is composed of ",
+    "type": "text"
+   },
+   {
+    "text": "path segments",
+    "type": "global",
+    "targetSubtopic": "Path segment",
+    "targetTopic": "Path segment",
+    "enclosingTopic": "Canopy Path",
+    "enclosingSubtopic": "Canopy Path"
+   },
+   {
+    "text": ". The path begins with the ",
+    "type": "text"
+   },
+   {
+    "text": "root topic",
+    "type": "global",
+    "targetSubtopic": "Root topic",
+    "targetTopic": "Root topic",
+    "enclosingTopic": "Canopy Path",
+    "enclosingSubtopic": "Canopy Path"
+   },
+   {
+    "text": ".",
+    "type": "text"
+   }
+  ],
+  "URL": [
+   {
+    "text": "A Canopy path is displayed as a URL by joining each ",
+    "type": "text"
+   },
+   {
+    "text": "path segment",
+    "type": "global",
+    "targetSubtopic": "Path segment",
+    "targetTopic": "Path segment",
+    "enclosingTopic": "Canopy Path",
+    "enclosingSubtopic": "URL"
+   },
+   {
+    "text": " separated with a forward slash, and if the path segment has a subtopic, it is appended to the topic name with a leading pound sign, for example, `A/B#C/D`.",
+    "type": "text"
+   }
+  ]
+ }
+}

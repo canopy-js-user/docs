@@ -3,25 +3,13 @@
  "paragraphsBySubtopic": {
   "Fragmentation": [
    {
-    "text": "Fragmentation is the idea that ",
+    "text": "Fragmentation is the idea that some systems of information storage unintentionally ",
     "type": "text"
    },
    {
-    "text": "when storage is coupled to presentation",
+    "text": "separate things that are connected",
     "type": "local",
-    "targetSubtopic": "When storage is coupled to presentation",
-    "targetTopic": "Fragmentation",
-    "enclosingTopic": "Fragmentation",
-    "enclosingSubtopic": "Fragmentation"
-   },
-   {
-    "text": ", ",
-    "type": "text"
-   },
-   {
-    "text": "information will often be stored far from related information",
-    "type": "local",
-    "targetSubtopic": "Information will often be stored far from related information",
+    "targetSubtopic": "Separate things that are connected",
     "targetTopic": "Fragmentation",
     "enclosingTopic": "Fragmentation",
     "enclosingSubtopic": "Fragmentation"
@@ -51,6 +39,60 @@
     "enclosingSubtopic": "Fragmentation"
    },
    {
+    "text": ", ",
+    "type": "text"
+   },
+   {
+    "text": "producing fragmented understandings in the minds of readers",
+    "type": "local",
+    "targetSubtopic": "Producing fragmented understandings in the minds of readers",
+    "targetTopic": "Fragmentation",
+    "enclosingTopic": "Fragmentation",
+    "enclosingSubtopic": "Fragmentation"
+   },
+   {
+    "text": ". Fragmentation is the opposite of ",
+    "type": "text"
+   },
+   {
+    "text": "interconnection",
+    "type": "global",
+    "targetSubtopic": "Interconnection",
+    "targetTopic": "Interconnection",
+    "enclosingTopic": "Fragmentation",
+    "enclosingSubtopic": "Fragmentation"
+   },
+   {
+    "text": ".",
+    "type": "text"
+   }
+  ],
+  "Separate things that are connected": [
+   {
+    "text": "Systems that store linear information as linear prose or verbal lectures create fragmentation because ",
+    "type": "text"
+   },
+   {
+    "text": "when storage is coupled to presentation",
+    "type": "local",
+    "targetSubtopic": "When storage is coupled to presentation",
+    "targetTopic": "Fragmentation",
+    "enclosingTopic": "Fragmentation",
+    "enclosingSubtopic": "Separate things that are connected"
+   },
+   {
+    "text": ", ",
+    "type": "text"
+   },
+   {
+    "text": "information will end up far from related information",
+    "type": "local",
+    "targetSubtopic": "Information will end up far from related information",
+    "targetTopic": "Fragmentation",
+    "enclosingTopic": "Fragmentation",
+    "enclosingSubtopic": "Separate things that are connected"
+   },
+   {
     "text": ".",
     "type": "text"
    }
@@ -61,7 +103,7 @@
     "type": "text"
    }
   ],
-  "Information will often be stored far from related information": [
+  "Information will end up far from related information": [
    {
     "text": "If understanding of a news story could benefit from an understanding of a historical fact, but not everyone would be interested in hearing about it, then the news story will be stored in a newspaper, and the historical fact will be stored in a textbook, and either the reader of the newspaper won't know about the historical fact, or at the very least there will be great friction in going from the newspaper to the historical fact.",
     "type": "text"
@@ -112,6 +154,12 @@
    },
    {
     "text": ".",
+    "type": "text"
+   }
+  ],
+  "Producing fragmented understandings in the minds of readers": [
+   {
+    "text": "The reader of disconnected media will by default end up with the same disconnections in their understanding as exist in the media itself.",
     "type": "text"
    }
   ],

@@ -1,0 +1,100 @@
+{
+ "displayTopicName": "Canopy CLI build command",
+ "paragraphsBySubtopic": {
+  "Canopy CLI build command": [
+   {
+    "text": "The `canopy build` command takes the ",
+    "type": "text"
+   },
+   {
+    "text": "topic files",
+    "type": "global",
+    "targetSubtopic": "Topic file",
+    "targetTopic": "Topic file",
+    "enclosingTopic": "Canopy CLI build command",
+    "enclosingSubtopic": "Canopy CLI build command"
+   },
+   {
+    "text": " in the ",
+    "type": "text"
+   },
+   {
+    "text": "topics directory",
+    "type": "global",
+    "targetSubtopic": "Topics Directory",
+    "targetTopic": "Topics Directory",
+    "enclosingTopic": "Canopy CLI build command",
+    "enclosingSubtopic": "Canopy CLI build command"
+   },
+   {
+    "text": " and uses them to populate the ",
+    "type": "text"
+   },
+   {
+    "text": "build directory",
+    "type": "global",
+    "targetSubtopic": "Build directory",
+    "targetTopic": "Build directory",
+    "enclosingTopic": "Canopy CLI build command",
+    "enclosingSubtopic": "Canopy CLI build command"
+   },
+   {
+    "text": ". The Canopy CLI build command takes varies ",
+    "type": "text"
+   },
+   {
+    "text": "parameters",
+    "type": "local",
+    "targetSubtopic": "Parameters",
+    "targetTopic": "Canopy CLI build command",
+    "enclosingTopic": "Canopy CLI build command",
+    "enclosingSubtopic": "Canopy CLI build command"
+   },
+   {
+    "text": ". It must be run from the project directory.",
+    "type": "text"
+   }
+  ],
+  "Parameters": [
+   {
+    "text": "There are various optional parameters to the build function. There is the ",
+    "type": "text"
+   },
+   {
+    "text": "project path prefix parameter",
+    "type": "local",
+    "targetSubtopic": "Project path prefix parameter",
+    "targetTopic": "Canopy CLI build command",
+    "enclosingTopic": "Canopy CLI build command",
+    "enclosingSubtopic": "Parameters"
+   },
+   {
+    "text": ".",
+    "type": "text"
+   }
+  ],
+  "Project path prefix parameter": [
+   {
+    "text": "The project path prefix parameter lets the user specify the ",
+    "type": "text"
+   },
+   {
+    "text": "project path prefix",
+    "type": "global",
+    "targetSubtopic": "Project Path Prefix",
+    "targetTopic": "Project Path Prefix",
+    "enclosingTopic": "Canopy CLI build command",
+    "enclosingSubtopic": "Project path prefix parameter"
+   },
+   {
+    "text": ". If the hosting URL will be `www.example.com/myProject/`, then the project should be built like this: ",
+    "type": "text"
+   },
+   {
+    "type": "code_block",
+    "open": true,
+    "text": "canopy build --project-path-prefix myProject\n"
+   }
+  ]
+ }
+}

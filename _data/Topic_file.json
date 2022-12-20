@@ -1,6 +1,65 @@
 {
  "displayTopicName": "Topic file",
  "paragraphsBySubtopic": {
-  "Topic file": []
+  "Topic file": [
+   {
+    "text": "An topic file is a file stored in the ",
+    "type": "text"
+   },
+   {
+    "text": "topics directory",
+    "type": "global",
+    "targetSubtopic": "Topics Directory",
+    "targetTopic": "Topics Directory",
+    "enclosingTopic": "Topic file",
+    "enclosingSubtopic": "Topic file"
+   },
+   {
+    "text": " that defines a ",
+    "type": "text"
+   },
+   {
+    "text": "topic",
+    "type": "global",
+    "targetSubtopic": "Topic",
+    "targetTopic": "Topic",
+    "enclosingTopic": "Topic file",
+    "enclosingSubtopic": "Topic file"
+   },
+   {
+    "text": " of a Canopy project. Topic files end in a `.expl` extension. Topic files have a certain ",
+    "type": "text"
+   },
+   {
+    "text": "file format",
+    "type": "local",
+    "targetSubtopic": "File format",
+    "targetTopic": "Topic file",
+    "enclosingTopic": "Topic file",
+    "enclosingSubtopic": "Topic file"
+   },
+   {
+    "text": ".",
+    "type": "text"
+   }
+  ],
+  "File format": [
+   {
+    "text": "An topic file is composed of ",
+    "type": "text"
+   },
+   {
+    "text": "blocks",
+    "type": "global",
+    "targetSubtopic": "Block",
+    "targetTopic": "Block",
+    "enclosingTopic": "Topic file",
+    "enclosingSubtopic": "File format"
+   },
+   {
+    "text": ".",
+    "type": "text"
+   }
+  ]
  }
 }

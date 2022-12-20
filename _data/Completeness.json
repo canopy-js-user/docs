@@ -3,11 +3,11 @@
  "paragraphsBySubtopic": {
   "Completeness": [
    {
-    "text": "Completeness is the idea that once an author is able to ",
+    "text": "Completeness is the idea that once an author is able to produce works of larger ",
     "type": "text"
    },
    {
-    "text": "produce works at larger scales",
+    "text": "scale",
     "type": "global",
     "targetSubtopic": "Scale",
     "targetTopic": "Scale",
@@ -27,13 +27,25 @@
     "enclosingSubtopic": "Completeness"
    },
    {
-    "text": ", and ",
+    "text": ", so ",
     "type": "text"
    },
    {
     "text": "non-inclusion will be clearly intentional",
     "type": "local",
     "targetSubtopic": "Non-inclusion will be clearly intentional",
+    "targetTopic": "Completeness",
+    "enclosingTopic": "Completeness",
+    "enclosingSubtopic": "Completeness"
+   },
+   {
+    "text": " and ",
+    "type": "text"
+   },
+   {
+    "text": "the costs of including objectionable content will be lower",
+    "type": "local",
+    "targetSubtopic": "The costs of including objectionable content will be lower",
     "targetTopic": "Completeness",
     "enclosingTopic": "Completeness",
     "enclosingSubtopic": "Completeness"
@@ -64,6 +76,24 @@
    },
    {
     "text": " however, when the author doesn't include a point, it will be more clearly a choice, which might motivate authors to present wider coverage.",
+    "type": "text"
+   }
+  ],
+  "The costs of including objectionable content will be lower": [
+   {
+    "text": "Many are skeptical of including coverage of arguments they disagree with for fear a reader will see the argument and not the rebuttal, and walk away with an incorrect view, but in Canopy (which has ",
+    "type": "text"
+   },
+   {
+    "text": "informed abridgement",
+    "type": "global",
+    "targetSubtopic": "Informed Abridgement",
+    "targetTopic": "Informed Abridgement",
+    "enclosingTopic": "Completeness",
+    "enclosingSubtopic": "The costs of including objectionable content will be lower"
+   },
+   {
+    "text": "), the same paragraph that mentions a view will include mention of its rebuttal, and so the reader can only come away with an incomplete view if they themselves choose to, making it less risky for authors to include discussion of objectionable views.",
     "type": "text"
    }
   ]

@@ -1,0 +1,71 @@
+{
+ "displayTopicName": "Subsumed Subtopic",
+ "paragraphsBySubtopic": {
+  "Subsumed Subtopic": [
+   {
+    "text": "A subsumed subtopic is a ",
+    "type": "text"
+   },
+   {
+    "text": "subtopic",
+    "type": "global",
+    "targetSubtopic": "Subtopic",
+    "targetTopic": "Subtopic",
+    "enclosingTopic": "Subsumed Subtopic",
+    "enclosingSubtopic": "Subsumed Subtopic"
+   },
+   {
+    "text": " of a ",
+    "type": "text"
+   },
+   {
+    "text": "topic",
+    "type": "global",
+    "targetSubtopic": "Topic",
+    "targetTopic": "Topic",
+    "enclosingTopic": "Subsumed Subtopic",
+    "enclosingSubtopic": "Subsumed Subtopic"
+   },
+   {
+    "text": " that is connected to the ",
+    "type": "text"
+   },
+   {
+    "text": "topic paragraph",
+    "type": "global",
+    "targetSubtopic": "Topic paragraph",
+    "targetTopic": "Topic paragraph",
+    "enclosingTopic": "Subsumed Subtopic",
+    "enclosingSubtopic": "Subsumed Subtopic"
+   },
+   {
+    "text": " via a ",
+    "type": "text"
+   },
+   {
+    "text": "subtopic path",
+    "type": "global",
+    "targetSubtopic": "Subtopic path",
+    "targetTopic": "Subtopic path",
+    "enclosingTopic": "Subsumed Subtopic",
+    "enclosingSubtopic": "Subsumed Subtopic"
+   },
+   {
+    "text": ", unlike an ",
+    "type": "text"
+   },
+   {
+    "text": "orphan subtopic",
+    "type": "global",
+    "targetSubtopic": "Orphan Subtopic",
+    "targetTopic": "Orphan Subtopic",
+    "enclosingTopic": "Subsumed Subtopic",
+    "enclosingSubtopic": "Subsumed Subtopic"
+   },
+   {
+    "text": ".",
+    "type": "text"
+   }
+  ]
+ }
+}

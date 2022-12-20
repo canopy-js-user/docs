@@ -1,0 +1,11 @@
+{
+ "displayTopicName": "Canopy CLI serve command",
+ "paragraphsBySubtopic": {
+  "Canopy CLI serve command": [
+   {
+    "text": "The `canopy serve` command runs a local server to display your project. It must be run from the project directory. The server runs on port 4001 by default. The `serve` command takes various parameters.",
+    "type": "text"
+   }
+  ]
+ }
+}

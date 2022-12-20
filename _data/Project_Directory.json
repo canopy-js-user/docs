@@ -1,0 +1,47 @@
+{
+ "displayTopicName": "Project Directory",
+ "paragraphsBySubtopic": {
+  "Project Directory": [
+   {
+    "text": "The project directory is a directory that contains the data for a Canopy project. The project directory contains the ",
+    "type": "text"
+   },
+   {
+    "text": "topics directory",
+    "type": "global",
+    "targetSubtopic": "Topics Directory",
+    "targetTopic": "Topics Directory",
+    "enclosingTopic": "Project Directory",
+    "enclosingSubtopic": "Project Directory"
+   },
+   {
+    "text": ", the ",
+    "type": "text"
+   },
+   {
+    "text": "default topic specifier file",
+    "type": "global",
+    "targetSubtopic": "Default topic specifier file",
+    "targetTopic": "Default topic specifier file",
+    "enclosingTopic": "Project Directory",
+    "enclosingSubtopic": "Project Directory"
+   },
+   {
+    "text": ", and the ",
+    "type": "text"
+   },
+   {
+    "text": "build directory",
+    "type": "global",
+    "targetSubtopic": "Build directory",
+    "targetTopic": "Build directory",
+    "enclosingTopic": "Project Directory",
+    "enclosingSubtopic": "Project Directory"
+   },
+   {
+    "text": " when the project has been built.",
+    "type": "text"
+   }
+  ]
+ }
+}

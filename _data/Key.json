@@ -1,0 +1,142 @@
+{
+ "displayTopicName": "Key",
+ "paragraphsBySubtopic": {
+  "Key": [
+   {
+    "text": "A key is an optional prefix for the first line of a ",
+    "type": "text"
+   },
+   {
+    "text": "block",
+    "type": "global",
+    "targetSubtopic": "Block",
+    "targetTopic": "Block",
+    "enclosingTopic": "Key",
+    "enclosingSubtopic": "Key"
+   },
+   {
+    "text": ". A key is a string that ends in a `:` or `?` character. The key represents The presence of a key indicates that a ",
+    "type": "text"
+   },
+   {
+    "text": "block",
+    "type": "global",
+    "targetSubtopic": "Block",
+    "targetTopic": "Block",
+    "enclosingTopic": "Key",
+    "enclosingSubtopic": "Key"
+   },
+   {
+    "text": " is a ",
+    "type": "text"
+   },
+   {
+    "text": "topic",
+    "type": "global",
+    "targetSubtopic": "Topic",
+    "targetTopic": "Topic",
+    "enclosingTopic": "Key",
+    "enclosingSubtopic": "Key"
+   },
+   {
+    "text": " or ",
+    "type": "text"
+   },
+   {
+    "text": "subtopic",
+    "type": "global",
+    "targetSubtopic": "Subtopic",
+    "targetTopic": "Subtopic",
+    "enclosingTopic": "Key",
+    "enclosingSubtopic": "Key"
+   },
+   {
+    "text": " definition, as opposed to a ",
+    "type": "text"
+   },
+   {
+    "text": "note",
+    "type": "global",
+    "targetSubtopic": "Note",
+    "targetTopic": "Note",
+    "enclosingTopic": "Key",
+    "enclosingSubtopic": "Key"
+   },
+   {
+    "text": ", unless the block is an ",
+    "type": "text"
+   },
+   {
+    "text": "orphan subtopic",
+    "type": "global",
+    "targetSubtopic": "Orphan Subtopic",
+    "targetTopic": "Orphan Subtopic",
+    "enclosingTopic": "Key",
+    "enclosingSubtopic": "Key"
+   },
+   {
+    "text": ", which has a key but nevertheless functions as ",
+    "type": "text"
+   },
+   {
+    "text": "note",
+    "type": "global",
+    "targetSubtopic": "Note",
+    "targetTopic": "Note",
+    "enclosingTopic": "Key",
+    "enclosingSubtopic": "Key"
+   },
+   {
+    "text": ". The key specifies the ",
+    "type": "text"
+   },
+   {
+    "text": "topic name",
+    "type": "global",
+    "targetSubtopic": "Topic name",
+    "targetTopic": "Topic name",
+    "enclosingTopic": "Key",
+    "enclosingSubtopic": "Key"
+   },
+   {
+    "text": " or ",
+    "type": "text"
+   },
+   {
+    "text": "subtopic name",
+    "type": "global",
+    "targetSubtopic": "Subtopic name",
+    "targetTopic": "Subtopic name",
+    "enclosingTopic": "Key",
+    "enclosingSubtopic": "Key"
+   },
+   {
+    "text": ". ",
+    "type": "text"
+   },
+   {
+    "text": "A key can be given on its own line",
+    "type": "local",
+    "targetSubtopic": "A key can be given on its own line",
+    "targetTopic": "Key",
+    "enclosingTopic": "Key",
+    "enclosingSubtopic": "Key"
+   },
+   {
+    "text": ".",
+    "type": "text"
+   }
+  ],
+  "A key can be given on its own line": [
+   {
+    "text": "Eg you can have: ",
+    "type": "text"
+   },
+   {
+    "type": "code_block",
+    "open": true,
+    "text": "Key:\nSentence 1\nSentence 2\nSentence 3\n"
+   }
+  ]
+ }
+}

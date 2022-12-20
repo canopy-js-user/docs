@@ -19,18 +19,30 @@
     "enclosingSubtopic": "Canopy JS"
    },
    {
+    "text": ", and different ",
+    "type": "text"
+   },
+   {
+    "text": "applications of Canopy",
+    "type": "global",
+    "targetSubtopic": "Applications of Canopy",
+    "targetTopic": "Applications of Canopy",
+    "enclosingTopic": "Canopy JS",
+    "enclosingSubtopic": "Canopy JS"
+   },
+   {
     "text": ". ",
     "type": "text"
    },
    {
-    "text": "These are instructions for ",
+    "text": "Canopy is used by ",
     "type": "text"
    },
    {
-    "text": "how readers use Canopy",
+    "text": "readers",
     "type": "global",
-    "targetSubtopic": "How readers use Canopy",
-    "targetTopic": "How readers use Canopy",
+    "targetSubtopic": "Readers",
+    "targetTopic": "Readers",
     "enclosingTopic": "Canopy JS",
     "enclosingSubtopic": "Canopy JS"
    },
@@ -39,10 +51,10 @@
     "type": "text"
    },
    {
-    "text": "how writers use Canopy",
+    "text": "writers",
     "type": "global",
-    "targetSubtopic": "How writers use Canopy",
-    "targetTopic": "How writers use Canopy",
+    "targetSubtopic": "Writers",
+    "targetTopic": "Writers",
     "enclosingTopic": "Canopy JS",
     "enclosingSubtopic": "Canopy JS"
    },
@@ -75,7 +87,7 @@
     "enclosingSubtopic": "Canopy JS"
    },
    {
-    "text": " which you can find on the ",
+    "text": ", which you can find on the ",
     "type": "text"
    },
    {

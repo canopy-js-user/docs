@@ -3,7 +3,31 @@
  "paragraphsBySubtopic": {
   "Codebase": [
    {
-    "text": "The Canopy codebase is composed of a CLI and a front-end client.",
+    "text": "The Canopy codebase is composed of the ",
+    "type": "text"
+   },
+   {
+    "text": "Canopy CLI",
+    "type": "global",
+    "targetSubtopic": "Canopy CLI",
+    "targetTopic": "Canopy CLI",
+    "enclosingTopic": "Codebase",
+    "enclosingSubtopic": "Codebase"
+   },
+   {
+    "text": " and ",
+    "type": "text"
+   },
+   {
+    "text": "Canopy front-end client",
+    "type": "global",
+    "targetSubtopic": "Canopy front-end client",
+    "targetTopic": "Canopy front-end client",
+    "enclosingTopic": "Codebase",
+    "enclosingSubtopic": "Codebase"
+   },
+   {
+    "text": ".",
     "type": "text"
    }
   ]

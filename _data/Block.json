@@ -1,0 +1,83 @@
+{
+ "displayTopicName": "Block",
+ "paragraphsBySubtopic": {
+  "Block": [
+   {
+    "text": "A block is a unit of information in an ",
+    "type": "text"
+   },
+   {
+    "text": "topic file",
+    "type": "global",
+    "targetSubtopic": "Topic file",
+    "targetTopic": "Topic file",
+    "enclosingTopic": "Block",
+    "enclosingSubtopic": "Block"
+   },
+   {
+    "text": ". Blocks are multi-line units of text separated by double newlines. If the first block of the file has a ",
+    "type": "text"
+   },
+   {
+    "text": "key",
+    "type": "global",
+    "targetSubtopic": "Key",
+    "targetTopic": "Key",
+    "enclosingTopic": "Block",
+    "enclosingSubtopic": "Block"
+   },
+   {
+    "text": ", it is the ",
+    "type": "text"
+   },
+   {
+    "text": "topic definition",
+    "type": "global",
+    "targetSubtopic": "Topic definition",
+    "targetTopic": "Topic definition",
+    "enclosingTopic": "Block",
+    "enclosingSubtopic": "Block"
+   },
+   {
+    "text": ". If a block after the first has a key, it is a ",
+    "type": "text"
+   },
+   {
+    "text": "subtopic",
+    "type": "global",
+    "targetSubtopic": "Subtopic",
+    "targetTopic": "Subtopic",
+    "enclosingTopic": "Block",
+    "enclosingSubtopic": "Block"
+   },
+   {
+    "text": " definition, so long as it is a ",
+    "type": "text"
+   },
+   {
+    "text": "subsumed subtopic",
+    "type": "global",
+    "targetSubtopic": "Subsumed Subtopic",
+    "targetTopic": "Subsumed Subtopic",
+    "enclosingTopic": "Block",
+    "enclosingSubtopic": "Block"
+   },
+   {
+    "text": ". If there is no key, the block defines a ",
+    "type": "text"
+   },
+   {
+    "text": "note",
+    "type": "global",
+    "targetSubtopic": "Note",
+    "targetTopic": "Note",
+    "enclosingTopic": "Block",
+    "enclosingSubtopic": "Block"
+   },
+   {
+    "text": ".",
+    "type": "text"
+   }
+  ]
+ }
+}

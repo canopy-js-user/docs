@@ -7,9 +7,9 @@
     "type": "text"
    },
    {
-    "text": "fixed mediums limit the maximum size of explanations",
+    "text": "linear mediums limit the maximum size of explanations",
     "type": "local",
-    "targetSubtopic": "Fixed mediums limit the maximum size of explanations",
+    "targetSubtopic": "Linear mediums limit the maximum size of explanations",
     "targetTopic": "Scale",
     "enclosingTopic": "Scale",
     "enclosingSubtopic": "Scale"
@@ -183,7 +183,7 @@
     "type": "text"
    }
   ],
-  "Fixed mediums limit the maximum size of explanations": [
+  "Linear mediums limit the maximum size of explanations": [
    {
     "text": "Authors are constrained in the length of books and articles by ",
     "type": "text"
@@ -194,7 +194,7 @@
     "targetSubtopic": "Medium constraints",
     "targetTopic": "Scale",
     "enclosingTopic": "Scale",
-    "enclosingSubtopic": "Fixed mediums limit the maximum size of explanations"
+    "enclosingSubtopic": "Linear mediums limit the maximum size of explanations"
    },
    {
     "text": " and ",
@@ -206,7 +206,7 @@
     "targetSubtopic": "Audience relevance",
     "targetTopic": "Scale",
     "enclosingTopic": "Scale",
-    "enclosingSubtopic": "Fixed mediums limit the maximum size of explanations"
+    "enclosingSubtopic": "Linear mediums limit the maximum size of explanations"
    },
    {
     "text": ", and so even if the author has information they would like to publish, often they have no good place to put it. (And ",
@@ -218,7 +218,7 @@
     "targetSubtopic": "Even niche works have the same problem",
     "targetTopic": "Scale",
     "enclosingTopic": "Scale",
-    "enclosingSubtopic": "Fixed mediums limit the maximum size of explanations"
+    "enclosingSubtopic": "Linear mediums limit the maximum size of explanations"
    },
    {
     "text": ".)",

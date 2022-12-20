@@ -1,0 +1,59 @@
+{
+ "displayTopicName": "Category directory",
+ "paragraphsBySubtopic": {
+  "Category directory": [
+   {
+    "text": "A category directory is the on-disk representation of a Canopy ",
+    "type": "text"
+   },
+   {
+    "text": "category",
+    "type": "global",
+    "targetSubtopic": "Category",
+    "targetTopic": "Category",
+    "enclosingTopic": "Category directory",
+    "enclosingSubtopic": "Category directory"
+   },
+   {
+    "text": ". It is a simple directory in the ",
+    "type": "text"
+   },
+   {
+    "text": "topics directory",
+    "type": "global",
+    "targetSubtopic": "Topics Directory",
+    "targetTopic": "Topics Directory",
+    "enclosingTopic": "Category directory",
+    "enclosingSubtopic": "Category directory"
+   },
+   {
+    "text": ", and has no special behavior. The subdirectory structure of the ",
+    "type": "text"
+   },
+   {
+    "text": "topics directory",
+    "type": "global",
+    "targetSubtopic": "Topics Directory",
+    "targetTopic": "Topics Directory",
+    "enclosingTopic": "Category directory",
+    "enclosingSubtopic": "Category directory"
+   },
+   {
+    "text": " is ignored by the build process and all ",
+    "type": "text"
+   },
+   {
+    "text": "topic files",
+    "type": "global",
+    "targetSubtopic": "Topic file",
+    "targetTopic": "Topic file",
+    "enclosingTopic": "Category directory",
+    "enclosingSubtopic": "Category directory"
+   },
+   {
+    "text": " are processed as a flat list.",
+    "type": "text"
+   }
+  ]
+ }
+}

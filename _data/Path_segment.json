@@ -1,0 +1,59 @@
+{
+ "displayTopicName": "Path segment",
+ "paragraphsBySubtopic": {
+  "Path segment": [
+   {
+    "text": "A path segment is a unit of a ",
+    "type": "text"
+   },
+   {
+    "text": "Canopy path",
+    "type": "global",
+    "targetSubtopic": "Canopy Path",
+    "targetTopic": "Canopy Path",
+    "enclosingTopic": "Path segment",
+    "enclosingSubtopic": "Path segment"
+   },
+   {
+    "text": ". It is composed of a ",
+    "type": "text"
+   },
+   {
+    "text": "topic",
+    "type": "global",
+    "targetSubtopic": "Topic",
+    "targetTopic": "Topic",
+    "enclosingTopic": "Path segment",
+    "enclosingSubtopic": "Path segment"
+   },
+   {
+    "text": ", and an optional ",
+    "type": "text"
+   },
+   {
+    "text": "subtopic",
+    "type": "global",
+    "targetSubtopic": "Subtopic",
+    "targetTopic": "Subtopic",
+    "enclosingTopic": "Path segment",
+    "enclosingSubtopic": "Path segment"
+   },
+   {
+    "text": ". The path segment represents the ",
+    "type": "text"
+   },
+   {
+    "text": "subtopic path",
+    "type": "global",
+    "targetSubtopic": "Subtopic path",
+    "targetTopic": "Subtopic path",
+    "enclosingTopic": "Path segment",
+    "enclosingSubtopic": "Path segment"
+   },
+   {
+    "text": " from that topic to that subtopic.",
+    "type": "text"
+   }
+  ]
+ }
+}

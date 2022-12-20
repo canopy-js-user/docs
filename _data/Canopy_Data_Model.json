@@ -7,6 +7,18 @@
     "type": "text"
    },
    {
+    "text": "categories",
+    "type": "global",
+    "targetSubtopic": "Category",
+    "targetTopic": "Category",
+    "enclosingTopic": "Canopy Data Model",
+    "enclosingSubtopic": "Canopy Data Model"
+   },
+   {
+    "text": ", ",
+    "type": "text"
+   },
+   {
     "text": "topics",
     "type": "global",
     "targetSubtopic": "Topic",

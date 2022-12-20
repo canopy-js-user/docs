@@ -1,0 +1,23 @@
+{
+ "displayTopicName": "Data directory",
+ "paragraphsBySubtopic": {
+  "Data directory": [
+   {
+    "text": "The data directory is a directory that the Canopy CLI creates inside the project's ",
+    "type": "text"
+   },
+   {
+    "text": "build directory",
+    "type": "global",
+    "targetSubtopic": "Build directory",
+    "targetTopic": "Build directory",
+    "enclosingTopic": "Data directory",
+    "enclosingSubtopic": "Data directory"
+   },
+   {
+    "text": ". The data directory is named `_data` (because there might be a topic in the project called `data`.)",
+    "type": "text"
+   }
+  ]
+ }
+}

@@ -1,0 +1,24 @@
+{
+ "displayTopicName": "Canopy CLI Code",
+ "paragraphsBySubtopic": {
+  "Canopy CLI Code": [
+   {
+    "text": "The CLI code uses the Commander.js library and is composed of several ",
+    "type": "text"
+   },
+   {
+    "text": "command functions",
+    "type": "local",
+    "targetSubtopic": "Command functions",
+    "targetTopic": "Canopy CLI Code",
+    "enclosingTopic": "Canopy CLI Code",
+    "enclosingSubtopic": "Canopy CLI Code"
+   },
+   {
+    "text": ".",
+    "type": "text"
+   }
+  ],
+  "Command functions": []
+ }
+}

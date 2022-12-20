@@ -1,0 +1,23 @@
+{
+ "displayTopicName": "Representing different versions of the same idea for different purposes",
+ "paragraphsBySubtopic": {
+  "Representing different versions of the same idea for different purposes": [
+   {
+    "text": "Sometimes there will be multiple explanations of the same things appropriate for different times or levels of interest, and this can be modeled using one overarching topic with subtopics for what purpose or level of depth is desired, and these can be referenced using an ",
+    "type": "text"
+   },
+   {
+    "text": "import reference",
+    "type": "global",
+    "targetSubtopic": "Import reference",
+    "targetTopic": "Import reference",
+    "enclosingTopic": "Representing different versions of the same idea for different purposes",
+    "enclosingSubtopic": "Representing different versions of the same idea for different purposes"
+   },
+   {
+    "text": ".",
+    "type": "text"
+   }
+  ]
+ }
+}

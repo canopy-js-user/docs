@@ -1,0 +1,71 @@
+{
+ "displayTopicName": "Best practices",
+ "paragraphsBySubtopic": {
+  "Best practices": [
+   {
+    "text": "There are various best practices for making content with Canopy, such as ",
+    "type": "text"
+   },
+   {
+    "text": "when to use topics versus subtopics",
+    "type": "global",
+    "targetSubtopic": "When to use topics versus subtopics",
+    "targetTopic": "When to use topics versus subtopics",
+    "enclosingTopic": "Best practices",
+    "enclosingSubtopic": "Best practices"
+   },
+   {
+    "text": ", ",
+    "type": "text"
+   },
+   {
+    "text": "when to repeat versus reference content",
+    "type": "global",
+    "targetSubtopic": "When to repeat versus reference content",
+    "targetTopic": "When to repeat versus reference content",
+    "enclosingTopic": "Best practices",
+    "enclosingSubtopic": "Best practices"
+   },
+   {
+    "text": ", ",
+    "type": "text"
+   },
+   {
+    "text": "thinking about entities and relations rather than explanations",
+    "type": "global",
+    "targetSubtopic": "Thinking about entities and relations rather than explanations",
+    "targetTopic": "Thinking about entities and relations rather than explanations",
+    "enclosingTopic": "Best practices",
+    "enclosingSubtopic": "Best practices"
+   },
+   {
+    "text": ", ",
+    "type": "text"
+   },
+   {
+    "text": "creating hyperlinks that follow sentence syntax",
+    "type": "global",
+    "targetSubtopic": "Creating hyperlinks that follow sentence syntax",
+    "targetTopic": "Creating hyperlinks that follow sentence syntax",
+    "enclosingTopic": "Best practices",
+    "enclosingSubtopic": "Best practices"
+   },
+   {
+    "text": " and ",
+    "type": "text"
+   },
+   {
+    "text": "representing different versions of the same idea for different purposes",
+    "type": "global",
+    "targetSubtopic": "Representing different versions of the same idea for different purposes",
+    "targetTopic": "Representing different versions of the same idea for different purposes",
+    "enclosingTopic": "Best practices",
+    "enclosingSubtopic": "Best practices"
+   },
+   {
+    "text": ".",
+    "type": "text"
+   }
+  ]
+ }
+}

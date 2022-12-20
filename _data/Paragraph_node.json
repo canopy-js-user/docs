@@ -1,0 +1,47 @@
+{
+ "displayTopicName": "Paragraph node",
+ "paragraphsBySubtopic": {
+  "Paragraph node": [
+   {
+    "text": "A paragraph node is a ",
+    "type": "text"
+   },
+   {
+    "text": "block",
+    "type": "global",
+    "targetSubtopic": "Block",
+    "targetTopic": "Block",
+    "enclosingTopic": "Paragraph node",
+    "enclosingSubtopic": "Paragraph node"
+   },
+   {
+    "text": " that defines a ",
+    "type": "text"
+   },
+   {
+    "text": "topic",
+    "type": "global",
+    "targetSubtopic": "Topic",
+    "targetTopic": "Topic",
+    "enclosingTopic": "Paragraph node",
+    "enclosingSubtopic": "Paragraph node"
+   },
+   {
+    "text": " or ",
+    "type": "text"
+   },
+   {
+    "text": "subtopic",
+    "type": "global",
+    "targetSubtopic": "Subtopic",
+    "targetTopic": "Subtopic",
+    "enclosingTopic": "Paragraph node",
+    "enclosingSubtopic": "Paragraph node"
+   },
+   {
+    "text": ".",
+    "type": "text"
+   }
+  ]
+ }
+}

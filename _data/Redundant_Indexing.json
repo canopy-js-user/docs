@@ -33,7 +33,7 @@
   ],
   "The different entities of a subject area can be organized in different ways": [
    {
-    "text": "You could have the battles of a given war organized chronologically, or you could also have them organized by size or length, so we want the same entities with all their details to be available via different organizational schemes.",
+    "text": "You might want to access a list of diseases by the part of the body they affect, but you might also want to practice recalling them based on symptoms, so we want to access the same entities with all their optional detail, but via different organizational schemes.",
     "type": "text"
    }
   ],

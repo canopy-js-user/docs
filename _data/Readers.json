@@ -1,0 +1,65 @@
+{
+ "displayTopicName": "Readers",
+ "paragraphsBySubtopic": {
+  "Readers": [
+   {
+    "text": "Readers use Canopy by navigating to a Canopy website, reading the ",
+    "type": "text"
+   },
+   {
+    "text": "root paragraph",
+    "type": "global",
+    "targetSubtopic": "Root paragraph",
+    "targetTopic": "Root paragraph",
+    "enclosingTopic": "Readers",
+    "enclosingSubtopic": "Readers"
+   },
+   {
+    "text": " and ",
+    "type": "text"
+   },
+   {
+    "text": "selecting links",
+    "type": "local",
+    "targetSubtopic": "Selecting links",
+    "targetTopic": "Readers",
+    "enclosingTopic": "Readers",
+    "enclosingSubtopic": "Readers"
+   },
+   {
+    "text": " to explore additional content.",
+    "type": "text"
+   }
+  ],
+  "Selecting links": [
+   {
+    "text": "Readers can select links using ",
+    "type": "text"
+   },
+   {
+    "text": "mouse interactions",
+    "type": "global",
+    "targetSubtopic": "Mouse interactions",
+    "targetTopic": "Mouse interactions",
+    "enclosingTopic": "Readers",
+    "enclosingSubtopic": "Selecting links"
+   },
+   {
+    "text": ", or ",
+    "type": "text"
+   },
+   {
+    "text": "keyboard shortcuts",
+    "type": "global",
+    "targetSubtopic": "Keyboard shortcuts",
+    "targetTopic": "Keyboard shortcuts",
+    "enclosingTopic": "Readers",
+    "enclosingSubtopic": "Selecting links"
+   },
+   {
+    "text": ".",
+    "type": "text"
+   }
+  ]
+ }
+}

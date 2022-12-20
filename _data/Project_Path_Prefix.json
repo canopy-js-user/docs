@@ -1,0 +1,47 @@
+{
+ "displayTopicName": "Project Path Prefix",
+ "paragraphsBySubtopic": {
+  "Project Path Prefix": [
+   {
+    "text": "A project path prefix is a string that comes after the domain name of your hosting provider. For example, if you will be hosting your project on `www.example.com/myProject/Topic_1`, then the project path prefix is \"myProject\". If you are hosting your project on `www.example.com/A/B/Topic_1`, then your project path prefix is `A/B`. Canopy needs to know about this string in order to determine what portion of the URL is the current ",
+    "type": "text"
+   },
+   {
+    "text": "page path string",
+    "type": "global",
+    "targetSubtopic": "Page path string",
+    "targetTopic": "Page path string",
+    "enclosingTopic": "Project Path Prefix",
+    "enclosingSubtopic": "Project Path Prefix"
+   },
+   {
+    "text": ". The project path prefix is specified via the ",
+    "type": "text"
+   },
+   {
+    "text": "project path prefix parameter",
+    "type": "import",
+    "targetSubtopic": "Project path prefix parameter",
+    "targetTopic": "Canopy CLI build command",
+    "enclosingTopic": "Project Path Prefix",
+    "enclosingSubtopic": "Project Path Prefix"
+   },
+   {
+    "text": " to the ",
+    "type": "text"
+   },
+   {
+    "text": "Canopy CLI build command",
+    "type": "global",
+    "targetSubtopic": "Canopy CLI build command",
+    "targetTopic": "Canopy CLI build command",
+    "enclosingTopic": "Project Path Prefix",
+    "enclosingSubtopic": "Project Path Prefix"
+   },
+   {
+    "text": ".",
+    "type": "text"
+   }
+  ]
+ }
+}

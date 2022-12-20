@@ -1,0 +1,47 @@
+{
+ "displayTopicName": "Root paragraph",
+ "paragraphsBySubtopic": {
+  "Root paragraph": [
+   {
+    "text": "The root topic paragraph is the first paragraph on the page, and is the ",
+    "type": "text"
+   },
+   {
+    "text": "topic paragraph",
+    "type": "global",
+    "targetSubtopic": "Topic paragraph",
+    "targetTopic": "Topic paragraph",
+    "enclosingTopic": "Root paragraph",
+    "enclosingSubtopic": "Root paragraph"
+   },
+   {
+    "text": " of the ",
+    "type": "text"
+   },
+   {
+    "text": "topic",
+    "type": "global",
+    "targetSubtopic": "Topic",
+    "targetTopic": "Topic",
+    "enclosingTopic": "Root paragraph",
+    "enclosingSubtopic": "Root paragraph"
+   },
+   {
+    "text": " of the first ",
+    "type": "text"
+   },
+   {
+    "text": "path segment",
+    "type": "global",
+    "targetSubtopic": "Path segment",
+    "targetTopic": "Path segment",
+    "enclosingTopic": "Root paragraph",
+    "enclosingSubtopic": "Root paragraph"
+   },
+   {
+    "text": ".",
+    "type": "text"
+   }
+  ]
+ }
+}

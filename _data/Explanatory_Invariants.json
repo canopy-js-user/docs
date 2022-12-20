@@ -19,9 +19,9 @@
     "type": "text"
    },
    {
-    "text": "it is sometimes desirable to capture every such relation",
+    "text": "it is sometimes desirable to capture every relation of a given type",
     "type": "local",
-    "targetSubtopic": "It is sometimes desirable to capture every such relation",
+    "targetSubtopic": "It is sometimes desirable to capture every relation of a given type",
     "targetTopic": "Explanatory Invariants",
     "enclosingTopic": "Explanatory Invariants",
     "enclosingSubtopic": "Explanatory Invariants"
@@ -51,7 +51,7 @@
     "enclosingSubtopic": "Explanatory Invariants"
    },
    {
-    "text": ", ",
+    "text": ", and ",
     "type": "text"
    },
    {
@@ -73,7 +73,7 @@
     "type": "text"
    }
   ],
-  "It is sometimes desirable to capture every such relation": [
+  "It is sometimes desirable to capture every relation of a given type": [
    {
     "text": "If we want to have ",
     "type": "text"
@@ -84,7 +84,7 @@
     "targetSubtopic": "Completeness",
     "targetTopic": "Completeness",
     "enclosingTopic": "Explanatory Invariants",
-    "enclosingSubtopic": "It is sometimes desirable to capture every such relation"
+    "enclosingSubtopic": "It is sometimes desirable to capture every relation of a given type"
    },
    {
     "text": " in capturing a corpus, it might be desirable to express the expectation that every fact of a certain type should have a relation of a certain type.",
@@ -105,7 +105,7 @@
   ],
   "Without edging out existing analysis": [
    {
-    "text": "If you take a book about different historical events and add a list of historical documents corroborating every point, then these added sources are making it harder for people to get the flow of the events themselves. Yet with Canopy, every point of type \"historical claim\" can have a subpoint \"corroborating documentation\" without these subpoints taking space away from the original analysis, because it is an example of ",
+    "text": "If you take a book about different historical events and add a list of historical documents corroborating every point, then these added sources are making it harder for people to get the flow of the events themselves. Yet with Canopy, every point of type \"historical claim\" can have a subpoint of type \"corroborating documentation\" without these subpoints taking space away from the original analysis, which is an example of how Canopy is ",
     "type": "text"
    },
    {

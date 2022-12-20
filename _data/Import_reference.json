@@ -1,0 +1,71 @@
+{
+ "displayTopicName": "Import reference",
+ "paragraphsBySubtopic": {
+  "Import reference": [
+   {
+    "text": "An import reference is a link to a ",
+    "type": "text"
+   },
+   {
+    "text": "subtopic",
+    "type": "global",
+    "targetSubtopic": "Subtopic",
+    "targetTopic": "Subtopic",
+    "enclosingTopic": "Import reference",
+    "enclosingSubtopic": "Import reference"
+   },
+   {
+    "text": " of a different ",
+    "type": "text"
+   },
+   {
+    "text": "topic",
+    "type": "global",
+    "targetSubtopic": "Topic",
+    "targetTopic": "Topic",
+    "enclosingTopic": "Import reference",
+    "enclosingSubtopic": "Import reference"
+   },
+   {
+    "text": ". Import references must be near a ",
+    "type": "text"
+   },
+   {
+    "text": "global reference",
+    "type": "global",
+    "targetSubtopic": "Global reference",
+    "targetTopic": "Global reference",
+    "enclosingTopic": "Import reference",
+    "enclosingSubtopic": "Import reference"
+   },
+   {
+    "text": " to the topic of the target subtopic, and selecting the import reference displays the path from that topic to the subtopic in question. An import reference can sometimes be converted into a ",
+    "type": "text"
+   },
+   {
+    "text": "global reference",
+    "type": "global",
+    "targetSubtopic": "Global reference",
+    "targetTopic": "Global reference",
+    "enclosingTopic": "Import reference",
+    "enclosingSubtopic": "Import reference"
+   },
+   {
+    "text": " by converting a subtopic to a ",
+    "type": "text"
+   },
+   {
+    "text": "subordinate topic",
+    "type": "global",
+    "targetSubtopic": "Subordinate topic",
+    "targetTopic": "Subordinate topic",
+    "enclosingTopic": "Import reference",
+    "enclosingSubtopic": "Import reference"
+   },
+   {
+    "text": ".",
+    "type": "text"
+   }
+  ]
+ }
+}

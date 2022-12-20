@@ -1,0 +1,65 @@
+{
+ "displayTopicName": "Canopy CLI",
+ "paragraphsBySubtopic": {
+  "Canopy CLI": [
+   {
+    "text": "The Canopy CLI is a command-line tool for managing Canopy projects. It has various ",
+    "type": "text"
+   },
+   {
+    "text": "commands",
+    "type": "local",
+    "targetSubtopic": "Commands",
+    "targetTopic": "Canopy CLI",
+    "enclosingTopic": "Canopy CLI",
+    "enclosingSubtopic": "Canopy CLI"
+   },
+   {
+    "text": ".",
+    "type": "text"
+   }
+  ],
+  "Commands": [
+   {
+    "text": "There is a ",
+    "type": "text"
+   },
+   {
+    "text": "Canopy CLI init command",
+    "type": "global",
+    "targetSubtopic": "Canopy CLI init command",
+    "targetTopic": "Canopy CLI init command",
+    "enclosingTopic": "Canopy CLI",
+    "enclosingSubtopic": "Commands"
+   },
+   {
+    "text": ", a ",
+    "type": "text"
+   },
+   {
+    "text": "Canopy CLI build command",
+    "type": "global",
+    "targetSubtopic": "Canopy CLI build command",
+    "targetTopic": "Canopy CLI build command",
+    "enclosingTopic": "Canopy CLI",
+    "enclosingSubtopic": "Commands"
+   },
+   {
+    "text": ", a ",
+    "type": "text"
+   },
+   {
+    "text": "Canopy CLI bulk command",
+    "type": "global",
+    "targetSubtopic": "Canopy CLI bulk command",
+    "targetTopic": "Canopy CLI bulk command",
+    "enclosingTopic": "Canopy CLI",
+    "enclosingSubtopic": "Commands"
+   },
+   {
+    "text": " along with a few others.",
+    "type": "text"
+   }
+  ]
+ }
+}

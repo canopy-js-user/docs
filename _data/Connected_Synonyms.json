@@ -1,0 +1,77 @@
+{
+ "displayTopicName": "Connected Synonyms",
+ "paragraphsBySubtopic": {
+  "Connected Synonyms": [
+   {
+    "text": "Connected synonyms is the idea that explanations often ",
+    "type": "text"
+   },
+   {
+    "text": "include unclear synonyms",
+    "type": "local",
+    "targetSubtopic": "Include unclear synonyms",
+    "targetTopic": "Connected Synonyms",
+    "enclosingTopic": "Connected Synonyms",
+    "enclosingSubtopic": "Connected Synonyms"
+   },
+   {
+    "text": ", which ",
+    "type": "text"
+   },
+   {
+    "text": "produces a fragmented understanding",
+    "type": "local",
+    "targetSubtopic": "Produces a fragmented understanding",
+    "targetTopic": "Connected Synonyms",
+    "enclosingTopic": "Connected Synonyms",
+    "enclosingSubtopic": "Connected Synonyms"
+   },
+   {
+    "text": ", and Canopy helps by ",
+    "type": "text"
+   },
+   {
+    "text": "interlinking synonyms",
+    "type": "local",
+    "targetSubtopic": "Interlinking synonyms",
+    "targetTopic": "Connected Synonyms",
+    "enclosingTopic": "Connected Synonyms",
+    "enclosingSubtopic": "Connected Synonyms"
+   },
+   {
+    "text": ".",
+    "type": "text"
+   }
+  ],
+  "Include unclear synonyms": [
+   {
+    "text": "Sometimes an expert will use one term for something, and sometimes another, and this could be intentional, in order to refer to slightly different aspects of that thing.",
+    "type": "text"
+   }
+  ],
+  "Produces a fragmented understanding": [
+   {
+    "text": "If the listener does not know that these synonyms are referring to the same thing, they might come away with the impression that there are two different things, and that they haven't gotten the full story about either one of them, an example of the phenomenon of ",
+    "type": "text"
+   },
+   {
+    "text": "fragmentation",
+    "type": "global",
+    "targetSubtopic": "Fragmentation",
+    "targetTopic": "Fragmentation",
+    "enclosingTopic": "Connected Synonyms",
+    "enclosingSubtopic": "Produces a fragmented understanding"
+   },
+   {
+    "text": ".",
+    "type": "text"
+   }
+  ],
+  "Interlinking synonyms": [
+   {
+    "text": "In Canopy, the author can represent every synonym as its own entity, and then use natural language explanation to connect the different synonyms, so that no matter which term they use, the reader can burrow into the reference to connect it with all the related terms.",
+    "type": "text"
+   }
+  ]
+ }
+}

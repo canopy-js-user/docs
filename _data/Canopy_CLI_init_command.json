@@ -1,0 +1,35 @@
+{
+ "displayTopicName": "Canopy CLI init command",
+ "paragraphsBySubtopic": {
+  "Canopy CLI init command": [
+   {
+    "text": "The `canopy init` command is one of the commands of the ",
+    "type": "text"
+   },
+   {
+    "text": "Canopy CLI",
+    "type": "global",
+    "targetSubtopic": "Canopy CLI",
+    "targetTopic": "Canopy CLI",
+    "enclosingTopic": "Canopy CLI init command",
+    "enclosingSubtopic": "Canopy CLI init command"
+   },
+   {
+    "text": ". The `init` command initializes the project, which entails adding all files and directories expected in the ",
+    "type": "text"
+   },
+   {
+    "text": "project directory",
+    "type": "global",
+    "targetSubtopic": "Project Directory",
+    "targetTopic": "Project Directory",
+    "enclosingTopic": "Canopy CLI init command",
+    "enclosingSubtopic": "Canopy CLI init command"
+   },
+   {
+    "text": ". It must be run from the project directory.",
+    "type": "text"
+   }
+  ]
+ }
+}

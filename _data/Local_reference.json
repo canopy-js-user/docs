@@ -3,7 +3,7 @@
  "paragraphsBySubtopic": {
   "Local reference": [
    {
-    "text": "A local reference is a link to a ",
+    "text": "A local reference is a reference to a ",
     "type": "text"
    },
    {
@@ -27,7 +27,7 @@
     "enclosingSubtopic": "Local reference"
    },
    {
-    "text": ".",
+    "text": ". Selecting a local reference inlines the target subtopic paragraph onto the page below the current paragraph.",
     "type": "text"
    }
   ]

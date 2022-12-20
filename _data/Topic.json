@@ -3,7 +3,7 @@
  "paragraphsBySubtopic": {
   "Topic": [
    {
-    "text": "Topics are the fundamental organizing units of a Canopy project. A Canopy topic is a unit of explanation corresponding to some entity. A topic is an entity that can be explained without prior context, as opposed to a ",
+    "text": "Topics are the fundamental organizing units of information in a Canopy project. A Canopy topic is an explanation of some idea or entity. A topic is an entity that can be explained without prior context, as opposed to a ",
     "type": "text"
    },
    {
@@ -19,6 +19,18 @@
     "type": "text"
    },
    {
+    "text": "topic name",
+    "type": "global",
+    "targetSubtopic": "Topic name",
+    "targetTopic": "Topic name",
+    "enclosingTopic": "Topic",
+    "enclosingSubtopic": "Topic"
+   },
+   {
+    "text": ", and a ",
+    "type": "text"
+   },
+   {
     "text": "topic paragraph",
     "type": "global",
     "targetSubtopic": "Topic paragraph",
@@ -27,14 +39,26 @@
     "enclosingSubtopic": "Topic"
    },
    {
-    "text": ", and it has child paragraphs that form a ",
+    "text": ", whose ",
     "type": "text"
    },
    {
-    "text": "tree",
-    "type": "local",
-    "targetSubtopic": "Tree",
-    "targetTopic": "Topic",
+    "text": "subtopics",
+    "type": "global",
+    "targetSubtopic": "Subtopic",
+    "targetTopic": "Subtopic",
+    "enclosingTopic": "Topic",
+    "enclosingSubtopic": "Topic"
+   },
+   {
+    "text": " form a ",
+    "type": "text"
+   },
+   {
+    "text": "topic tree",
+    "type": "global",
+    "targetSubtopic": "Topic tree",
+    "targetTopic": "Topic tree",
     "enclosingTopic": "Topic",
     "enclosingSubtopic": "Topic"
    },
@@ -51,49 +75,31 @@
     "enclosingSubtopic": "Topic"
    },
    {
+    "text": ". Every project must have a ",
+    "type": "text"
+   },
+   {
+    "text": "default topic",
+    "type": "global",
+    "targetSubtopic": "Default Topic",
+    "targetTopic": "Default Topic",
+    "enclosingTopic": "Topic",
+    "enclosingSubtopic": "Topic"
+   },
+   {
+    "text": ". It is important to know ",
+    "type": "text"
+   },
+   {
+    "text": "when to use topics versus subtopics",
+    "type": "global",
+    "targetSubtopic": "When to use topics versus subtopics",
+    "targetTopic": "When to use topics versus subtopics",
+    "enclosingTopic": "Topic",
+    "enclosingSubtopic": "Topic"
+   },
+   {
     "text": ".",
-    "type": "text"
-   }
-  ],
-  "Tree": [
-   {
-    "text": "A topic has a tree which is formed by the root ",
-    "type": "text"
-   },
-   {
-    "text": "topic paragraph",
-    "type": "global",
-    "targetSubtopic": "Topic paragraph",
-    "targetTopic": "Topic paragraph",
-    "enclosingTopic": "Topic",
-    "enclosingSubtopic": "Tree"
-   },
-   {
-    "text": ", which contains ",
-    "type": "text"
-   },
-   {
-    "text": "local references",
-    "type": "global",
-    "targetSubtopic": "Local reference",
-    "targetTopic": "Local reference",
-    "enclosingTopic": "Topic",
-    "enclosingSubtopic": "Tree"
-   },
-   {
-    "text": ", which connect it to ",
-    "type": "text"
-   },
-   {
-    "text": "subtopic paragraphs",
-    "type": "global",
-    "targetSubtopic": "Subtopic paragraph",
-    "targetTopic": "Subtopic paragraph",
-    "enclosingTopic": "Topic",
-    "enclosingSubtopic": "Tree"
-   },
-   {
-    "text": ", which also contain local references, which connect it to further subtopic paragraphs, forming a tree.",
     "type": "text"
    }
   ]

@@ -1,0 +1,71 @@
+{
+ "displayTopicName": "Orphan Subtopic",
+ "paragraphsBySubtopic": {
+  "Orphan Subtopic": [
+   {
+    "text": "An orphan subtopic is a ",
+    "type": "text"
+   },
+   {
+    "text": "subtopic",
+    "type": "global",
+    "targetSubtopic": "Subtopic",
+    "targetTopic": "Subtopic",
+    "enclosingTopic": "Orphan Subtopic",
+    "enclosingSubtopic": "Orphan Subtopic"
+   },
+   {
+    "text": " that has a valid ",
+    "type": "text"
+   },
+   {
+    "text": "subtopic name",
+    "type": "global",
+    "targetSubtopic": "Subtopic name",
+    "targetTopic": "Subtopic name",
+    "enclosingTopic": "Orphan Subtopic",
+    "enclosingSubtopic": "Orphan Subtopic"
+   },
+   {
+    "text": " and ",
+    "type": "text"
+   },
+   {
+    "text": "subtopic paragraph",
+    "type": "global",
+    "targetSubtopic": "Subtopic paragraph",
+    "targetTopic": "Subtopic paragraph",
+    "enclosingTopic": "Orphan Subtopic",
+    "enclosingSubtopic": "Orphan Subtopic"
+   },
+   {
+    "text": ", but which is not connected to the subtopic's ",
+    "type": "text"
+   },
+   {
+    "text": "topic",
+    "type": "global",
+    "targetSubtopic": "Topic",
+    "targetTopic": "Topic",
+    "enclosingTopic": "Orphan Subtopic",
+    "enclosingSubtopic": "Orphan Subtopic"
+   },
+   {
+    "text": " via any ",
+    "type": "text"
+   },
+   {
+    "text": "subtopic path",
+    "type": "global",
+    "targetSubtopic": "Subtopic path",
+    "targetTopic": "Subtopic path",
+    "enclosingTopic": "Orphan Subtopic",
+    "enclosingSubtopic": "Orphan Subtopic"
+   },
+   {
+    "text": ". Orphan subtopics are ignored by the build process because they are inaccessible to the user.",
+    "type": "text"
+   }
+  ]
+ }
+}

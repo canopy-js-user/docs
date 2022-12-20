@@ -1,0 +1,11 @@
+{
+ "displayTopicName": "Thinking about entities and relations rather than explanations",
+ "paragraphsBySubtopic": {
+  "Thinking about entities and relations rather than explanations": [
+   {
+    "text": "A good practice in Canopy is instead of designing what \"explanations\" ie paths through the content you think should exist, first choosing what entities exist in the corpus, and what relationships they have, and then letting paths and explanations emerge via these relations, even ones the author didn't themselves anticipate.",
+    "type": "text"
+   }
+  ]
+ }
+}

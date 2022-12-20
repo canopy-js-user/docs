@@ -1,0 +1,23 @@
+{
+ "displayTopicName": "Subtopic name",
+ "paragraphsBySubtopic": {
+  "Subtopic name": [
+   {
+    "text": "A subtopic name is a string that represents the name of a ",
+    "type": "text"
+   },
+   {
+    "text": "subtopic",
+    "type": "global",
+    "targetSubtopic": "Subtopic",
+    "targetTopic": "Subtopic",
+    "enclosingTopic": "Subtopic name",
+    "enclosingSubtopic": "Subtopic name"
+   },
+   {
+    "text": ".",
+    "type": "text"
+   }
+  ]
+ }
+}

@@ -1,0 +1,23 @@
+{
+ "displayTopicName": "Subtopic path",
+ "paragraphsBySubtopic": {
+  "Subtopic path": [
+   {
+    "text": "A subtopic path is a path beginning from a root topic paragraph, and following its local references to subtopic paragraphs, and their local references to subtopic paragraphs, until reaching the target paragraph. A subtopic path is one branch of a ",
+    "type": "text"
+   },
+   {
+    "text": "topic tree",
+    "type": "global",
+    "targetSubtopic": "Topic tree",
+    "targetTopic": "Topic tree",
+    "enclosingTopic": "Subtopic path",
+    "enclosingSubtopic": "Subtopic path"
+   },
+   {
+    "text": ".",
+    "type": "text"
+   }
+  ]
+ }
+}

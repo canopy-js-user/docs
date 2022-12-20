@@ -1,0 +1,11 @@
+{
+ "displayTopicName": "Software engineering",
+ "paragraphsBySubtopic": {
+  "Software engineering": [
+   {
+    "text": "One of the challenges of code documentation is that there is often no good place to put information about the system as a whole where it will for sure be seen without becoming too long for people to read, or for explaining how a certain piece of the system fits into the system as a whole, but Canopy excels at expressing information about a domain at a high-level and letting users burrow into the details, or starting from a part and zooming out to see its role in the big picture.",
+    "type": "text"
+   }
+  ]
+ }
+}

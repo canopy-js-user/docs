@@ -1,0 +1,11 @@
+{
+ "displayTopicName": "Organizational knowledge",
+ "paragraphsBySubtopic": {
+  "Organizational knowledge": [
+   {
+    "text": "Information in an organization is often complex and interrelated, and only specific pieces are relevant for given individuals at any given time, so Canopy's graph format is a natural way to represent such information because it lets users discover related information and context they might not have been aware of, without forcing them to sift through general information not specific to their needs.",
+    "type": "text"
+   }
+  ]
+ }
+}

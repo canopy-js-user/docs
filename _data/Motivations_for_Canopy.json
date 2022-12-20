@@ -319,6 +319,18 @@
     "type": "text"
    },
    {
+    "text": "informed abridgement",
+    "type": "global",
+    "targetSubtopic": "Informed Abridgement",
+    "targetTopic": "Informed Abridgement",
+    "enclosingTopic": "Motivations for Canopy",
+    "enclosingSubtopic": "Motivations for Canopy"
+   },
+   {
+    "text": ", ",
+    "type": "text"
+   },
+   {
     "text": "pervasive concepts",
     "type": "global",
     "targetSubtopic": "Pervasive Concepts",
@@ -335,6 +347,42 @@
     "type": "global",
     "targetSubtopic": "Redundant Indexing",
     "targetTopic": "Redundant Indexing",
+    "enclosingTopic": "Motivations for Canopy",
+    "enclosingSubtopic": "Motivations for Canopy"
+   },
+   {
+    "text": ", ",
+    "type": "text"
+   },
+   {
+    "text": "document metaphor",
+    "type": "global",
+    "targetSubtopic": "Document Metaphor",
+    "targetTopic": "Document Metaphor",
+    "enclosingTopic": "Motivations for Canopy",
+    "enclosingSubtopic": "Motivations for Canopy"
+   },
+   {
+    "text": ", ",
+    "type": "text"
+   },
+   {
+    "text": "recursive clarification",
+    "type": "global",
+    "targetSubtopic": "Recursive Clarification",
+    "targetTopic": "Recursive Clarification",
+    "enclosingTopic": "Motivations for Canopy",
+    "enclosingSubtopic": "Motivations for Canopy"
+   },
+   {
+    "text": ", ",
+    "type": "text"
+   },
+   {
+    "text": "connected synonyms",
+    "type": "global",
+    "targetSubtopic": "Connected Synonyms",
+    "targetTopic": "Connected Synonyms",
     "enclosingTopic": "Motivations for Canopy",
     "enclosingSubtopic": "Motivations for Canopy"
    },

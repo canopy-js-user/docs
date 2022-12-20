@@ -1,6 +1,23 @@
 {
  "displayTopicName": "Subtopic paragraph",
  "paragraphsBySubtopic": {
-  "Subtopic paragraph": []
+  "Subtopic paragraph": [
+   {
+    "text": "A subtopic paragraph is the paragraph that belongs to a ",
+    "type": "text"
+   },
+   {
+    "text": "subtopic",
+    "type": "global",
+    "targetSubtopic": "Subtopic",
+    "targetTopic": "Subtopic",
+    "enclosingTopic": "Subtopic paragraph",
+    "enclosingSubtopic": "Subtopic paragraph"
+   },
+   {
+    "text": ".",
+    "type": "text"
+   }
+  ]
  }
 }

@@ -3,7 +3,7 @@
  "paragraphsBySubtopic": {
   "Subtopic": [
    {
-    "text": "A subtopic is an entity that requires context before it can be explained, as opposed to a ",
+    "text": "Subtopics are a major type of entity in the Canopy data model. Subtopics belong to a ",
     "type": "text"
    },
    {
@@ -15,7 +15,7 @@
     "enclosingSubtopic": "Subtopic"
    },
    {
-    "text": ". A subtopic has a ",
+    "text": ". A subtopic models an entity or idea that requires additional context before it can be explained, as opposed to a ",
     "type": "text"
    },
    {
@@ -23,18 +23,6 @@
     "type": "global",
     "targetSubtopic": "Topic",
     "targetTopic": "Topic",
-    "enclosingTopic": "Subtopic",
-    "enclosingSubtopic": "Subtopic"
-   },
-   {
-    "text": ". Here's an ",
-    "type": "text"
-   },
-   {
-    "text": "example of a subtopic",
-    "type": "local",
-    "targetSubtopic": "Example of a subtopic",
-    "targetTopic": "Subtopic",
     "enclosingTopic": "Subtopic",
     "enclosingSubtopic": "Subtopic"
    },
@@ -44,50 +32,38 @@
    },
    {
     "text": "subtopic path",
-    "type": "local",
+    "type": "global",
     "targetSubtopic": "Subtopic path",
-    "targetTopic": "Subtopic",
+    "targetTopic": "Subtopic path",
+    "enclosingTopic": "Subtopic",
+    "enclosingSubtopic": "Subtopic"
+   },
+   {
+    "text": ". Sometimes information modeled using a subtopic should instead be modeled with a ",
+    "type": "text"
+   },
+   {
+    "text": "subordinate topic",
+    "type": "global",
+    "targetSubtopic": "Subordinate topic",
+    "targetTopic": "Subordinate topic",
+    "enclosingTopic": "Subtopic",
+    "enclosingSubtopic": "Subtopic"
+   },
+   {
+    "text": ". It is important to know ",
+    "type": "text"
+   },
+   {
+    "text": "when to use topics versus subtopics",
+    "type": "global",
+    "targetSubtopic": "When to use topics versus subtopics",
+    "targetTopic": "When to use topics versus subtopics",
     "enclosingTopic": "Subtopic",
     "enclosingSubtopic": "Subtopic"
    },
    {
     "text": ".",
-    "type": "text"
-   }
-  ],
-  "Subtopic path": [
-   {
-    "text": "A subtopic exists within a certain ",
-    "type": "text"
-   },
-   {
-    "text": "topic",
-    "type": "global",
-    "targetSubtopic": "Topic",
-    "targetTopic": "Topic",
-    "enclosingTopic": "Subtopic",
-    "enclosingSubtopic": "Subtopic path"
-   },
-   {
-    "text": ", which has a ",
-    "type": "text"
-   },
-   {
-    "text": "tree",
-    "type": "import",
-    "targetSubtopic": "Tree",
-    "targetTopic": "Topic",
-    "enclosingTopic": "Subtopic",
-    "enclosingSubtopic": "Subtopic path"
-   },
-   {
-    "text": ", and a given subtopic paragraph exists at a path on that tree.",
-    "type": "text"
-   }
-  ],
-  "Example of a subtopic": [
-   {
-    "text": "An example of a subtopic is \"Bob's nose.\" The topic of this subtopic is \"Bob.\" \"Bob's nose\" can only be explained after explaining who \"Bob\" is.",
     "type": "text"
    }
   ]

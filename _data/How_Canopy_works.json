@@ -1,6 +1,77 @@
 {
  "displayTopicName": "How Canopy works",
  "paragraphsBySubtopic": {
-  "How Canopy works": []
+  "How Canopy works": [
+   {
+    "text": "Canopy takes ",
+    "type": "text"
+   },
+   {
+    "text": "explanation files",
+    "type": "global",
+    "targetSubtopic": "Explanation files",
+    "targetTopic": "Explanation files",
+    "enclosingTopic": "How Canopy works",
+    "enclosingSubtopic": "How Canopy works"
+   },
+   {
+    "text": " and ",
+    "type": "text"
+   },
+   {
+    "text": "uses them to produce build data",
+    "type": "local",
+    "targetSubtopic": "Uses them to produce build data",
+    "targetTopic": "How Canopy works",
+    "enclosingTopic": "How Canopy works",
+    "enclosingSubtopic": "How Canopy works"
+   },
+   {
+    "text": ", which ",
+    "type": "text"
+   },
+   {
+    "text": "the front-end client uses to build a web interface",
+    "type": "local",
+    "targetSubtopic": "The front-end client uses to build a web interface",
+    "targetTopic": "How Canopy works",
+    "enclosingTopic": "How Canopy works",
+    "enclosingSubtopic": "How Canopy works"
+   },
+   {
+    "text": " and ",
+    "type": "text"
+   },
+   {
+    "text": "the user interacts with it",
+    "type": "local",
+    "targetSubtopic": "The user interacts with it",
+    "targetTopic": "How Canopy works",
+    "enclosingTopic": "How Canopy works",
+    "enclosingSubtopic": "How Canopy works"
+   },
+   {
+    "text": ".",
+    "type": "text"
+   }
+  ],
+  "Uses them to produce build data": [
+   {
+    "text": "The build process produces JSON files that tell the front-end client how to render the paragraphs of the project.",
+    "type": "text"
+   }
+  ],
+  "The front-end client uses to build a web interface": [
+   {
+    "text": "The web interface requests the default topic, and uses it to render the initial page.",
+    "type": "text"
+   }
+  ],
+  "The user interacts with it": [
+   {
+    "text": "When the user select a new link, the Canopy web interface rerenders the page.",
+    "type": "text"
+   }
+  ]
  }
 }

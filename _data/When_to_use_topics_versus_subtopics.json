@@ -1,0 +1,35 @@
+{
+ "displayTopicName": "When to use topics versus subtopics",
+ "paragraphsBySubtopic": {
+  "When to use topics versus subtopics": [
+   {
+    "text": "It is often ambiguous whether to represent a tangential idea as a ",
+    "type": "text"
+   },
+   {
+    "text": "subtopic",
+    "type": "global",
+    "targetSubtopic": "Subtopic",
+    "targetTopic": "Subtopic",
+    "enclosingTopic": "When to use topics versus subtopics",
+    "enclosingSubtopic": "When to use topics versus subtopics"
+   },
+   {
+    "text": " or a ",
+    "type": "text"
+   },
+   {
+    "text": "subordinate topic",
+    "type": "global",
+    "targetSubtopic": "Subordinate topic",
+    "targetTopic": "Subordinate topic",
+    "enclosingTopic": "When to use topics versus subtopics",
+    "enclosingSubtopic": "When to use topics versus subtopics"
+   },
+   {
+    "text": ". In general, if something could be explained in its own right without first explaining the original idea, even if no reader will end up doing so, it makes sense to model it as a subordinate topic. If something cannot be explained without first mentioning another idea, it should be a subtopic.",
+    "type": "text"
+   }
+  ]
+ }
+}

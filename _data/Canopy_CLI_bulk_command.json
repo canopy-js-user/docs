@@ -1,0 +1,102 @@
+{
+ "displayTopicName": "Canopy CLI bulk command",
+ "paragraphsBySubtopic": {
+  "Canopy CLI bulk command": [
+   {
+    "text": "The Canopy CLI bulk command is a tool for creating a large quantity of content at a single time, rather than creating ",
+    "type": "text"
+   },
+   {
+    "text": "topic files",
+    "type": "global",
+    "targetSubtopic": "Topic file",
+    "targetTopic": "Topic file",
+    "enclosingTopic": "Canopy CLI bulk command",
+    "enclosingSubtopic": "Canopy CLI bulk command"
+   },
+   {
+    "text": " individually by hand. The writer runs the `canopy bulk` command, and the project topic files get loaded into the ",
+    "type": "text"
+   },
+   {
+    "text": "Canopy bulk file format",
+    "type": "global",
+    "targetSubtopic": "Canopy bulk file format",
+    "targetTopic": "Canopy bulk file format",
+    "enclosingTopic": "Canopy CLI bulk command",
+    "enclosingSubtopic": "Canopy CLI bulk command"
+   },
+   {
+    "text": ". The author makes whatever changes they want, and then closes the editor to update the ",
+    "type": "text"
+   },
+   {
+    "text": "topics directory",
+    "type": "global",
+    "targetSubtopic": "Topics Directory",
+    "targetTopic": "Topics Directory",
+    "enclosingTopic": "Canopy CLI bulk command",
+    "enclosingSubtopic": "Canopy CLI bulk command"
+   },
+   {
+    "text": " with their changes. The bulk command has a ",
+    "type": "text"
+   },
+   {
+    "text": "sync mode",
+    "type": "local",
+    "targetSubtopic": "Sync mode",
+    "targetTopic": "Canopy CLI bulk command",
+    "enclosingTopic": "Canopy CLI bulk command",
+    "enclosingSubtopic": "Canopy CLI bulk command"
+   },
+   {
+    "text": ", and it has a ",
+    "type": "text"
+   },
+   {
+    "text": "delayed mode",
+    "type": "local",
+    "targetSubtopic": "Delayed mode",
+    "targetTopic": "Canopy CLI bulk command",
+    "enclosingTopic": "Canopy CLI bulk command",
+    "enclosingSubtopic": "Canopy CLI bulk command"
+   },
+   {
+    "text": ".",
+    "type": "text"
+   }
+  ],
+  "Sync mode": [
+   {
+    "text": "Sync mode is a feature of the ",
+    "type": "text"
+   },
+   {
+    "text": "Canopy CLI bulk command",
+    "type": "global",
+    "targetSubtopic": "Canopy CLI bulk command",
+    "targetTopic": "Canopy CLI bulk command",
+    "enclosingTopic": "Canopy CLI bulk command",
+    "enclosingSubtopic": "Sync mode"
+   },
+   {
+    "text": ". Sync mode lets you open the topics of your project in a bulk file that is watched by the CLI, and changes are continuously processed to update the ",
+    "type": "text"
+   },
+   {
+    "text": "topic files",
+    "type": "global",
+    "targetSubtopic": "Topic file",
+    "targetTopic": "Topic file",
+    "enclosingTopic": "Canopy CLI bulk command",
+    "enclosingSubtopic": "Sync mode"
+   },
+   {
+    "text": " and build the project.",
+    "type": "text"
+   }
+  ],
+  "Delayed mode": []
+ }
+}

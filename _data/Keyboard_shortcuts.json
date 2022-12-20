@@ -1,0 +1,143 @@
+{
+ "displayTopicName": "Keyboard shortcuts",
+ "paragraphsBySubtopic": {
+  "Keyboard shortcuts": [
+   {
+    "text": "You can navigate Canopy using the ",
+    "type": "text"
+   },
+   {
+    "text": "arrow keys",
+    "type": "local",
+    "targetSubtopic": "Arrow keys",
+    "targetTopic": "Keyboard shortcuts",
+    "enclosingTopic": "Keyboard shortcuts",
+    "enclosingSubtopic": "Keyboard shortcuts"
+   },
+   {
+    "text": ", ",
+    "type": "text"
+   },
+   {
+    "text": "the return key",
+    "type": "local",
+    "targetSubtopic": "The return key",
+    "targetTopic": "Keyboard shortcuts",
+    "enclosingTopic": "Keyboard shortcuts",
+    "enclosingSubtopic": "Keyboard shortcuts"
+   },
+   {
+    "text": ", using ",
+    "type": "text"
+   },
+   {
+    "text": "z for zoom",
+    "type": "local",
+    "targetSubtopic": "Z for zoom",
+    "targetTopic": "Keyboard shortcuts",
+    "enclosingTopic": "Keyboard shortcuts",
+    "enclosingSubtopic": "Keyboard shortcuts"
+   },
+   {
+    "text": ", ",
+    "type": "text"
+   },
+   {
+    "text": "d for duplicate",
+    "type": "local",
+    "targetSubtopic": "D for duplicate",
+    "targetTopic": "Keyboard shortcuts",
+    "enclosingTopic": "Keyboard shortcuts",
+    "enclosingSubtopic": "Keyboard shortcuts"
+   },
+   {
+    "text": ", ",
+    "type": "text"
+   },
+   {
+    "text": "tab for iteration",
+    "type": "local",
+    "targetSubtopic": "Tab for iteration",
+    "targetTopic": "Keyboard shortcuts",
+    "enclosingTopic": "Keyboard shortcuts",
+    "enclosingSubtopic": "Keyboard shortcuts"
+   },
+   {
+    "text": ", and ",
+    "type": "text"
+   },
+   {
+    "text": "escape for deselect",
+    "type": "local",
+    "targetSubtopic": "Escape for deselect",
+    "targetTopic": "Keyboard shortcuts",
+    "enclosingTopic": "Keyboard shortcuts",
+    "enclosingSubtopic": "Keyboard shortcuts"
+   },
+   {
+    "text": ".",
+    "type": "text"
+   }
+  ],
+  "Arrow keys": [
+   {
+    "text": "Users can navigate a Canopy project using the arrow keys (or their vim-key equivalents.) `Up` returns to the current paragraph's parent link, `left` and `right` iterate through the siblings of the selected link, and `down` selects the first link of the currently selected paragraph. Pressing `shift-up` goes to the parent of the previous topic.",
+    "type": "text"
+   }
+  ],
+  "The return key": [
+   {
+    "text": "Pressing the return key when selecting a ",
+    "type": "text"
+   },
+   {
+    "text": "global reference",
+    "type": "global",
+    "targetSubtopic": "Global reference",
+    "targetTopic": "Global reference",
+    "enclosingTopic": "Keyboard shortcuts",
+    "enclosingSubtopic": "The return key"
+   },
+   {
+    "text": " or an external link will redirect the page to the link target.",
+    "type": "text"
+   }
+  ],
+  "Z for zoom": [
+   {
+    "text": "Pressing `z` will \"zoom\" the path to the lowest order ",
+    "type": "text"
+   },
+   {
+    "text": "path segment",
+    "type": "global",
+    "targetSubtopic": "Path segment",
+    "targetTopic": "Path segment",
+    "enclosingTopic": "Keyboard shortcuts",
+    "enclosingSubtopic": "Z for zoom"
+   },
+   {
+    "text": ". For example, if the user has iterated through many topics and is currently reading about the topic \"T\" and its subtopic \"S\", then pressing `z` will redirect the user to the page for T with the path to S selected, which can be useful for sharing a link.",
+    "type": "text"
+   }
+  ],
+  "D for duplicate": [
+   {
+    "text": "Pressing `d` will open a new tab open to the same path.",
+    "type": "text"
+   }
+  ],
+  "Tab for iteration": [
+   {
+    "text": "Pressing `tab` will iterate through the subtopics of a topic in a depth-first search.",
+    "type": "text"
+   }
+  ],
+  "Escape for deselect": [
+   {
+    "text": "Pressing `escape` will deselect all links and display the page's root paragraph.",
+    "type": "text"
+   }
+  ]
+ }
+}

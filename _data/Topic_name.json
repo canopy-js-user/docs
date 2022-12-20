@@ -1,0 +1,47 @@
+{
+ "displayTopicName": "Topic name",
+ "paragraphsBySubtopic": {
+  "Topic name": [
+   {
+    "text": "A topic name is a string that represents the name of a Canopy topic. The topic name is defined by the ",
+    "type": "text"
+   },
+   {
+    "text": "key",
+    "type": "global",
+    "targetSubtopic": "Key",
+    "targetTopic": "Key",
+    "enclosingTopic": "Topic name",
+    "enclosingSubtopic": "Topic name"
+   },
+   {
+    "text": " of the first block in a ",
+    "type": "text"
+   },
+   {
+    "text": "topic file",
+    "type": "global",
+    "targetSubtopic": "Topic file",
+    "targetTopic": "Topic file",
+    "enclosingTopic": "Topic name",
+    "enclosingSubtopic": "Topic name"
+   },
+   {
+    "text": ". The topic name is the target of ",
+    "type": "text"
+   },
+   {
+    "text": "Global references",
+    "type": "global",
+    "targetSubtopic": "Global reference",
+    "targetTopic": "Global reference",
+    "enclosingTopic": "Topic name",
+    "enclosingSubtopic": "Topic name"
+   },
+   {
+    "text": ".",
+    "type": "text"
+   }
+  ]
+ }
+}

@@ -1,0 +1,77 @@
+{
+ "displayTopicName": "Default topic specifier file",
+ "paragraphsBySubtopic": {
+  "Default topic specifier file": [
+   {
+    "text": "The default topic specifier file is a file called `canopy_default_topic` that exists in the root level of the ",
+    "type": "text"
+   },
+   {
+    "text": "project directory",
+    "type": "global",
+    "targetSubtopic": "Project Directory",
+    "targetTopic": "Project Directory",
+    "enclosingTopic": "Default topic specifier file",
+    "enclosingSubtopic": "Default topic specifier file"
+   },
+   {
+    "text": ". The `canopy_default_topic` file contains the ",
+    "type": "text"
+   },
+   {
+    "text": "file path",
+    "type": "local",
+    "targetSubtopic": "File path",
+    "targetTopic": "Default topic specifier file",
+    "enclosingTopic": "Default topic specifier file",
+    "enclosingSubtopic": "Default topic specifier file"
+   },
+   {
+    "text": " of the ",
+    "type": "text"
+   },
+   {
+    "text": "topic file",
+    "type": "global",
+    "targetSubtopic": "Topic file",
+    "targetTopic": "Topic file",
+    "enclosingTopic": "Default topic specifier file",
+    "enclosingSubtopic": "Default topic specifier file"
+   },
+   {
+    "text": " for the project's ",
+    "type": "text"
+   },
+   {
+    "text": "default topic",
+    "type": "global",
+    "targetSubtopic": "Default Topic",
+    "targetTopic": "Default Topic",
+    "enclosingTopic": "Default topic specifier file",
+    "enclosingSubtopic": "Default topic specifier file"
+   },
+   {
+    "text": ".",
+    "type": "text"
+   }
+  ],
+  "File path": [
+   {
+    "text": "The file path of the ",
+    "type": "text"
+   },
+   {
+    "text": "default topic",
+    "type": "global",
+    "targetSubtopic": "Default Topic",
+    "targetTopic": "Default Topic",
+    "enclosingTopic": "Default topic specifier file",
+    "enclosingSubtopic": "File path"
+   },
+   {
+    "text": " should be given relative to the root of the project directory, eg `topics/Category_A/Topic.expl`.",
+    "type": "text"
+   }
+  ]
+ }
+}

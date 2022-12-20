@@ -1,0 +1,89 @@
+{
+ "displayTopicName": "Category",
+ "paragraphsBySubtopic": {
+  "Category": [
+   {
+    "text": "A category is an entity in the ",
+    "type": "text"
+   },
+   {
+    "text": "Canopy data model",
+    "type": "global",
+    "targetSubtopic": "Canopy Data Model",
+    "targetTopic": "Canopy Data Model",
+    "enclosingTopic": "Category",
+    "enclosingSubtopic": "Category"
+   },
+   {
+    "text": " that helps organize ",
+    "type": "text"
+   },
+   {
+    "text": "topics",
+    "type": "global",
+    "targetSubtopic": "Topic",
+    "targetTopic": "Topic",
+    "enclosingTopic": "Category",
+    "enclosingSubtopic": "Category"
+   },
+   {
+    "text": ". Categories can contain other categories, and can contain topics. A top-level category is a category that is not inside any other category. Categories are ",
+    "type": "text"
+   },
+   {
+    "text": "merely an organizational tool",
+    "type": "local",
+    "targetSubtopic": "Merely an organizational tool",
+    "targetTopic": "Category",
+    "enclosingTopic": "Category",
+    "enclosingSubtopic": "Category"
+   },
+   {
+    "text": ". A category is represented on disk by a ",
+    "type": "text"
+   },
+   {
+    "text": "category directory",
+    "type": "global",
+    "targetSubtopic": "Category directory",
+    "targetTopic": "Category directory",
+    "enclosingTopic": "Category",
+    "enclosingSubtopic": "Category"
+   },
+   {
+    "text": ", and the category directory may contain a ",
+    "type": "text"
+   },
+   {
+    "text": "category notes file",
+    "type": "global",
+    "targetSubtopic": "Category Notes File",
+    "targetTopic": "Category Notes File",
+    "enclosingTopic": "Category",
+    "enclosingSubtopic": "Category"
+   },
+   {
+    "text": ".",
+    "type": "text"
+   }
+  ],
+  "Merely an organizational tool": [
+   {
+    "text": "Categories exist to help the author organize their ",
+    "type": "text"
+   },
+   {
+    "text": "topics",
+    "type": "global",
+    "targetSubtopic": "Topic",
+    "targetTopic": "Topic",
+    "enclosingTopic": "Category",
+    "enclosingSubtopic": "Merely an organizational tool"
+   },
+   {
+    "text": ", and categories do not affect the front-end behavior in any way. A user navigates to a topic directly, and then follows links to other topics, regardless of what categories those topics happen to be in. The URL path eg `A/B/C` does not represent a category hierarchy, but rather the chronology of the user's path through the various topics they've interacted with.",
+    "type": "text"
+   }
+  ]
+ }
+}

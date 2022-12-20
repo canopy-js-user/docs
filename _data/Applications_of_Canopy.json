@@ -1,0 +1,95 @@
+{
+ "displayTopicName": "Applications of Canopy",
+ "paragraphsBySubtopic": {
+  "Applications of Canopy": [
+   {
+    "text": "There are applications of Canopy in ",
+    "type": "text"
+   },
+   {
+    "text": "journalism",
+    "type": "global",
+    "targetSubtopic": "Journalism",
+    "targetTopic": "Journalism",
+    "enclosingTopic": "Applications of Canopy",
+    "enclosingSubtopic": "Applications of Canopy"
+   },
+   {
+    "text": ", ",
+    "type": "text"
+   },
+   {
+    "text": "academia",
+    "type": "global",
+    "targetSubtopic": "Academia",
+    "targetTopic": "Academia",
+    "enclosingTopic": "Applications of Canopy",
+    "enclosingSubtopic": "Applications of Canopy"
+   },
+   {
+    "text": ", ",
+    "type": "text"
+   },
+   {
+    "text": "economics",
+    "type": "global",
+    "targetSubtopic": "Economics",
+    "targetTopic": "Economics",
+    "enclosingTopic": "Applications of Canopy",
+    "enclosingSubtopic": "Applications of Canopy"
+   },
+   {
+    "text": ", ",
+    "type": "text"
+   },
+   {
+    "text": "education",
+    "type": "global",
+    "targetSubtopic": "Education",
+    "targetTopic": "Education",
+    "enclosingTopic": "Applications of Canopy",
+    "enclosingSubtopic": "Applications of Canopy"
+   },
+   {
+    "text": ", ",
+    "type": "text"
+   },
+   {
+    "text": "software engineering",
+    "type": "global",
+    "targetSubtopic": "Software engineering",
+    "targetTopic": "Software engineering",
+    "enclosingTopic": "Applications of Canopy",
+    "enclosingSubtopic": "Applications of Canopy"
+   },
+   {
+    "text": ", ",
+    "type": "text"
+   },
+   {
+    "text": "organizational knowledge",
+    "type": "global",
+    "targetSubtopic": "Organizational knowledge",
+    "targetTopic": "Organizational knowledge",
+    "enclosingTopic": "Applications of Canopy",
+    "enclosingSubtopic": "Applications of Canopy"
+   },
+   {
+    "text": " and ",
+    "type": "text"
+   },
+   {
+    "text": "library science",
+    "type": "global",
+    "targetSubtopic": "Library science",
+    "targetTopic": "Library science",
+    "enclosingTopic": "Applications of Canopy",
+    "enclosingSubtopic": "Applications of Canopy"
+   },
+   {
+    "text": ".",
+    "type": "text"
+   }
+  ]
+ }
+}

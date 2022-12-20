@@ -1,0 +1,47 @@
+{
+ "displayTopicName": "HTML index file",
+ "paragraphsBySubtopic": {
+  "HTML index file": [
+   {
+    "text": "The HTML index file is an `index.html` file that is created in the ",
+    "type": "text"
+   },
+   {
+    "text": "build directory",
+    "type": "global",
+    "targetSubtopic": "Build directory",
+    "targetTopic": "Build directory",
+    "enclosingTopic": "HTML index file",
+    "enclosingSubtopic": "HTML index file"
+   },
+   {
+    "text": " either by the ",
+    "type": "text"
+   },
+   {
+    "text": "Canopy CLI build command",
+    "type": "global",
+    "targetSubtopic": "Canopy CLI build command",
+    "targetTopic": "Canopy CLI build command",
+    "enclosingTopic": "HTML index file",
+    "enclosingSubtopic": "HTML index file"
+   },
+   {
+    "text": ", or by the user in the case of a custom build process. The `index.html` file must include the ",
+    "type": "text"
+   },
+   {
+    "text": "Canopy Javascript asset",
+    "type": "global",
+    "targetSubtopic": "Canopy Javascript asset",
+    "targetTopic": "Canopy Javascript asset",
+    "enclosingTopic": "HTML index file",
+    "enclosingSubtopic": "HTML index file"
+   },
+   {
+    "text": ", and it must have an HTML element with the id `_canopy`, which the JS will fill with content.",
+    "type": "text"
+   }
+  ]
+ }
+}

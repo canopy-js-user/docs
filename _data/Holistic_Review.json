@@ -39,6 +39,18 @@
     "enclosingSubtopic": "Holistic Review"
    },
    {
+    "text": " and because ",
+    "type": "text"
+   },
+   {
+    "text": "Canopy allows repeated access to complex structures",
+    "type": "local",
+    "targetSubtopic": "Canopy allows repeated access to complex structures",
+    "targetTopic": "Holistic Review",
+    "enclosingTopic": "Holistic Review",
+    "enclosingSubtopic": "Holistic Review"
+   },
+   {
     "text": ".",
     "type": "text"
    }
@@ -97,9 +109,9 @@
     "type": "text"
    },
    {
-    "text": "larger review sessions produce a better resulting understanding",
+    "text": "larger review sessions produce better understanding",
     "type": "local",
-    "targetSubtopic": "Larger review sessions produce a better resulting understanding",
+    "targetSubtopic": "Larger review sessions produce better understanding",
     "targetTopic": "Holistic Review",
     "enclosingTopic": "Holistic Review",
     "enclosingSubtopic": "Canopy allows progressive occlusion of referenced prerequisites"
@@ -127,9 +139,33 @@
     "type": "text"
    }
   ],
-  "Larger review sessions produce a better resulting understanding": [
+  "Larger review sessions produce better understanding": [
    {
     "text": "If a reader sees a description of something and then sees it referenced on the same day, there is a much better chance that this will produce a seamless, unfragmented understanding where new knowledge added to any point becomes accessible from every other.",
+    "type": "text"
+   }
+  ],
+  "Canopy allows repeated access to complex structures": [
+   {
+    "text": "When learning a complex new domain, one inherent difficulty is that you can't create interconnected knowledge without review of the various parts and their connections, but on the other hand, it is difficult to review a complex interconnected domain without continued access to the instructor because you lack a master copy of the interconnected knowledge you're trying to internalize, (and ",
+    "type": "text"
+   },
+   {
+    "text": "review of a complex system in stages can be problematic",
+    "type": "local",
+    "targetSubtopic": "Review of a complex system in stages can be problematic",
+    "targetTopic": "Holistic Review",
+    "enclosingTopic": "Holistic Review",
+    "enclosingSubtopic": "Canopy allows repeated access to complex structures"
+   },
+   {
+    "text": ".) So, Canopy allows the instructor to make available a perfect copy of the \"goal\" understanding, so that students have a reliable version to review in the first place.",
+    "type": "text"
+   }
+  ],
+  "Review of a complex system in stages can be problematic": [
+   {
+    "text": "Why not just have the student take notes on the basics, review that, and over time build their understanding of the system as a whole? It is possible, but one difficulty is that an oversimple initial understanding can stick long after it is time to have understood better, and so if the student begins by reviewing notes on a few disconnected incomplete statements, it will be much harder to later add the missing information than if from the get-go they had reviewed definitions that mentioned the existence of further complexity and interrelation so that later they could add that nuanced information without fundamentally changing their initial understanding.",
     "type": "text"
    }
   ]

@@ -63,6 +63,18 @@
     "enclosingSubtopic": "Interconnection"
    },
    {
+    "text": ". Interconnection is the opposite of ",
+    "type": "text"
+   },
+   {
+    "text": "fragmentation",
+    "type": "global",
+    "targetSubtopic": "Fragmentation",
+    "targetTopic": "Fragmentation",
+    "enclosingTopic": "Interconnection",
+    "enclosingSubtopic": "Interconnection"
+   },
+   {
     "text": ".",
     "type": "text"
    }

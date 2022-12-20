@@ -1,0 +1,23 @@
+{
+ "displayTopicName": "Note",
+ "paragraphsBySubtopic": {
+  "Note": [
+   {
+    "text": "A note is a block of a topic file that does not begin with a key and so is ignored by the build process. Notes can be used to express information that will later be converted into proper ",
+    "type": "text"
+   },
+   {
+    "text": "paragraph nodes",
+    "type": "global",
+    "targetSubtopic": "Paragraph node",
+    "targetTopic": "Paragraph node",
+    "enclosingTopic": "Note",
+    "enclosingSubtopic": "Note"
+   },
+   {
+    "text": ".",
+    "type": "text"
+   }
+  ]
+ }
+}

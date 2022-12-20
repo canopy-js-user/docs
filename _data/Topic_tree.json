@@ -1,0 +1,59 @@
+{
+ "displayTopicName": "Topic tree",
+ "paragraphsBySubtopic": {
+  "Topic tree": [
+   {
+    "text": "A topic tree is the tree formed by a ",
+    "type": "text"
+   },
+   {
+    "text": "topic paragraph",
+    "type": "global",
+    "targetSubtopic": "Topic paragraph",
+    "targetTopic": "Topic paragraph",
+    "enclosingTopic": "Topic tree",
+    "enclosingSubtopic": "Topic tree"
+   },
+   {
+    "text": ", which contains in it ",
+    "type": "text"
+   },
+   {
+    "text": "local references",
+    "type": "global",
+    "targetSubtopic": "Local reference",
+    "targetTopic": "Local reference",
+    "enclosingTopic": "Topic tree",
+    "enclosingSubtopic": "Topic tree"
+   },
+   {
+    "text": ", which reference ",
+    "type": "text"
+   },
+   {
+    "text": "subtopics",
+    "type": "global",
+    "targetSubtopic": "Subtopic",
+    "targetTopic": "Subtopic",
+    "enclosingTopic": "Topic tree",
+    "enclosingSubtopic": "Topic tree"
+   },
+   {
+    "text": " which have ",
+    "type": "text"
+   },
+   {
+    "text": "subtopic paragraphs",
+    "type": "global",
+    "targetSubtopic": "Subtopic paragraph",
+    "targetTopic": "Subtopic paragraph",
+    "enclosingTopic": "Topic tree",
+    "enclosingSubtopic": "Topic tree"
+   },
+   {
+    "text": ", which also contain local references, which connect the subtopic paragraphs to further subtopic paragraphs, forming a tree.",
+    "type": "text"
+   }
+  ]
+ }
+}

@@ -1,0 +1,113 @@
+{
+ "displayTopicName": "Canopy bulk file format",
+ "paragraphsBySubtopic": {
+  "Canopy bulk file format": [
+   {
+    "text": "A Canopy bulk file is composed of sections, each of which begins with a ",
+    "type": "text"
+   },
+   {
+    "text": "category path header",
+    "type": "local",
+    "targetSubtopic": "Category path header",
+    "targetTopic": "Canopy bulk file format",
+    "enclosingTopic": "Canopy bulk file format",
+    "enclosingSubtopic": "Canopy bulk file format"
+   },
+   {
+    "text": " followed by ",
+    "type": "text"
+   },
+   {
+    "text": "topic files",
+    "type": "local",
+    "targetSubtopic": "Topic files",
+    "targetTopic": "Canopy bulk file format",
+    "enclosingTopic": "Canopy bulk file format",
+    "enclosingSubtopic": "Canopy bulk file format"
+   },
+   {
+    "text": " or ",
+    "type": "text"
+   },
+   {
+    "text": "note files",
+    "type": "local",
+    "targetSubtopic": "Note files",
+    "targetTopic": "Canopy bulk file format",
+    "enclosingTopic": "Canopy bulk file format",
+    "enclosingSubtopic": "Canopy bulk file format"
+   },
+   {
+    "text": ".",
+    "type": "text"
+   }
+  ],
+  "Category path header": [
+   {
+    "text": "In a Canopy bulk file, a section begins with a square-bracket enclosed category path like [Category 1/Category 2/Category 3] on is own line, followed by a double newline. The writer uses spaces and not underscores, although the resulting directories will have underscores.",
+    "type": "text"
+   }
+  ],
+  "Topic files": [
+   {
+    "text": "Below a category path header you can have a topic file, which is an asterisk and space followed by desired contents of a topic file. Canopy bulk mode will look at the key of the topic file and use it to infer the appropriate name for the ",
+    "type": "text"
+   },
+   {
+    "text": "topic file",
+    "type": "global",
+    "targetSubtopic": "Topic file",
+    "targetTopic": "Topic file",
+    "enclosingTopic": "Canopy bulk file format",
+    "enclosingSubtopic": "Topic files"
+   },
+   {
+    "text": ".",
+    "type": "text"
+   }
+  ],
+  "Note files": [
+   {
+    "text": "Below a category path header you can have notes, which are ",
+    "type": "text"
+   },
+   {
+    "text": "blocks",
+    "type": "global",
+    "targetSubtopic": "Block",
+    "targetTopic": "Block",
+    "enclosingTopic": "Canopy bulk file format",
+    "enclosingSubtopic": "Note files"
+   },
+   {
+    "text": " not preceded by an asterisk, or a series of blocks that have an asterisk before them, but no ",
+    "type": "text"
+   },
+   {
+    "text": "key",
+    "type": "global",
+    "targetSubtopic": "Key",
+    "targetTopic": "Key",
+    "enclosingTopic": "Canopy bulk file format",
+    "enclosingSubtopic": "Note files"
+   },
+   {
+    "text": " on the first line. In such a case, these blocks are added to the ",
+    "type": "text"
+   },
+   {
+    "text": "category notes file",
+    "type": "global",
+    "targetSubtopic": "Category Notes File",
+    "targetTopic": "Category Notes File",
+    "enclosingTopic": "Canopy bulk file format",
+    "enclosingSubtopic": "Note files"
+   },
+   {
+    "text": ".",
+    "type": "text"
+   }
+  ]
+ }
+}
