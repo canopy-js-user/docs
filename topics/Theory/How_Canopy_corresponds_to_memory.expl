@@ -1,0 +1,11 @@
+How Canopy corresponds to memory: It seems that [[memory only supports one for one recall]], but [[most information is composed of trees]], and so people get around the one-for-one restriction by using [[generic predication]] or through [[object reference]], and Canopy encourages the latter because [[object reference is more reliable]].
+
+Memory only supports one for one recall: It seems as if memory can only associate one thought with one other thought.
+
+Most information is composed of trees: Most information involves large hierarchical bodies of information, not just lists of one thing triggering recall of one more thing.
+
+Generic predication: In generic predication, a person associates the name "Fifi" with "dog", associates the word "dog" with "has owner," and so when "Fifi" comes to mind, the person can use the associated value "dog" to retrieve the generically expectation of "owner", and can turn around and compose a further query, "Fifi's owner", and now we have a key to make a further request to long-term memory. Thus, even though memory is only associating one thing with each name, by incorporating generic types we can store further specification under related keys and hope that we reconstruct them again next time.
+
+Object reference: Object reference is when I associate names with large multi-part sentences that explicitly include references to all subordinate concepts. So "Fifi" would be associated with the sentence "is a dog with an owner and a collar", and "Fifi's owner" will be associated with Bob, etc. Thus, object reference is similar to generic predication, except the found associations are stored in the value of the key itself. Each value has a size limit, and so if there are many associated properties or relations, they will have to be broken up into a series of sub-entities that in turn have further object references, etc.
+
+Object reference is more reliable: Generic predication requires a person to construct a key for a lookup by combining generic information with an existing piece of data, but the generic information could itself be forgotten, so memorizing object references explicitly is a more reliable way of associating things in memory.

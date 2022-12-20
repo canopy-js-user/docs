@@ -1,0 +1,7 @@
+Canopy bulk file format: A Canopy bulk file is composed of sections, each of which begins with a [[category path header]] followed by [[topic files]] or [[note files]].
+
+Category path header: In a Canopy bulk file, a section begins with a square-bracket enclosed category path like [Category 1/Category 2/Category 3] on is own line, followed by a double newline. The writer uses spaces and not underscores, although the resulting directories will have underscores.
+
+Topic files: Below a category path header you can have a topic file, which is an asterisk and space followed by desired contents of a topic file. Canopy bulk mode will look at the key of the topic file and use it to infer the appropriate name for the [[topic file]].
+
+Note files: Below a category path header you can have notes, which are [[block|blocks]] not preceded by an asterisk, or a series of blocks that have an asterisk before them, but no [[key]] on the first line. In such a case, these blocks are added to the [[category notes file]].

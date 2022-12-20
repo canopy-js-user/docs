@@ -1,0 +1,1 @@
+Page path string: The page path string is the portion of the URL that indicates the current path of the reader. If the user began on the page for `A`, and then opened a subtopic of `A` called `B`, then opened a [[global reference]] to a topic called `C`, the reader's page path string would be `A#B/C`.

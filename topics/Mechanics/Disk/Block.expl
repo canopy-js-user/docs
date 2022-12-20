@@ -1,0 +1,1 @@
+Block: A block is a unit of information in an [[topic file]]. Blocks are multi-line units of text separated by double newlines. If the first block of the file has a [[key]], it is the [[topic definition]]. If a block after the first has a key, it is a [[subtopic]] definition, so long as it is a [[subsumed subtopic]]. If there is no key, the block defines a [[note]].

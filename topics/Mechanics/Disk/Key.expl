@@ -1,0 +1,10 @@
+Key: A key is an optional prefix for the first line of a [[block]]. A key is a string that ends in a `:` or `?` character. The key represents The presence of a key indicates that a [[block]] is a [[topic]] or [[subtopic]] definition, as opposed to a [[note]], unless the block is an [[orphan subtopic]], which has a key but nevertheless functions as [[note]]. The key specifies the [[topic name]] or [[subtopic name]]. [[A key can be given on its own line]].
+
+A key can be given on its own line: Eg you can have:
+```
+Key:
+Sentence 1
+Sentence 2
+Sentence 3
+
+```

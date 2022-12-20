@@ -1,0 +1,17 @@
+Recursive Clarification: Recursive clarification is the idea that [[explainers must provide conceptual prerequisites]], and whereas the most common solution is to use a [[topological sort]], there are [[downsides to topological sort]], and so Canopy allows readers to [[access prerequisites through recursion]], and there are [[benefits to using recursion]].
+
+Explainers must provide conceptual prerequisites: Most concepts require other concepts in order to understand them, and so when an explainer wants to explain something, they're also going to need to impart all the various concepts that are prerequisite for the given idea.
+
+Topological sort: Topological sort entails taking a set of ideas and their prerequisites and producing a linear ordering in which every prerequisite comes before every idea that requires it. So, the explainer would explain all the simpler ideas first, and only later would attempt to explain the more complex ideas that require the simpler ones. This is the approach followed by most books and lectures.
+
+Downsides to topological sort: Two downsides of topological sort is that it [[produces redundant explanations]], it [[produces unnecessary explanation]], and that it fails to communicate [[the motivation for prerequisites]].
+
+Produces redundant explanations: If all the prerequisites of every idea are front-loaded, then if the reader reads multiple ideas that require the same prerequisite, the reader will be shown that prerequisite every time, even if they already know it.
+
+Produces unnecessary explanation: If all the prerequisites of every idea are always shown before the given idea, then a reader who already knows some of them is forced to wade through information that they already know in order to find the information they don't.
+
+The motivation for prerequisites: If prerequisites are given before the ideas that require them, then the reader isn't entirely clear on why they are learning the idea, as opposed to trying to learn the complex idea, failing due to the lack of the prerequisite, and then going on a tangent to learn the prerequisite in order to learn the given idea.
+
+Access prerequisites through recursion: In Canopy, if a concept requires other concepts, they are not "front-loaded", but rather are referenced as if the reader already knows them, and if the reader doesn't, they may burrow into additional explanation of those prerequisites, and the prerequisites of the prerequisites, etc.
+
+Benefits to using recursion: If the writer assumes the reader has the required background knowledge and the reader must opt in to further explanation, then there is never a problem of over-explaining. Also, because the complex idea was shown first, it is clear to the reader why they are learning the required prerequisite and they will have motivation to learn it.

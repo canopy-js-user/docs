@@ -1,0 +1,1 @@
+Default Topic: A default topic is the topic of the project that the user first sees if no specific path is selected. Every project must have a default topic, chosen when the project is initialized. The default topic is specified in the `project/canopy_default_topic` file, which contains a path to the default topic's `expl` file in the `topics` directory.

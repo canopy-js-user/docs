@@ -1,0 +1,3 @@
+Canopy CLI: The Canopy CLI is a command-line tool for managing Canopy projects. It has various [[commands]].
+
+Commands: There is a [[Canopy CLI init command]], a [[Canopy CLI build command]], a [[Canopy CLI bulk command]] along with a few others.

@@ -1,1 +1,1 @@
-Codebase: The Canopy codebase is composed of a CLI and a front-end client.
+Codebase: The Canopy codebase is composed of the [[Canopy CLI code]] and [[Canopy client code]]. (Ideally this section would include every major component of the code, with cross references to how that component factors into [[how Canopy works]].)

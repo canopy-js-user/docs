@@ -1,0 +1,5 @@
+Canopy CLI bulk command: The Canopy CLI bulk command is a tool for creating a large quantity of content at a single time, rather than creating [[topic file|topic files]] individually by hand. The writer runs the `canopy bulk` command, and the project topic files get loaded into the [[Canopy bulk file format]]. The author makes whatever changes they want, and then closes the editor to update the [[topics directory]] with their changes. The bulk command has a [[sync mode]], and it has a [[delayed mode]].
+
+Sync mode: Sync mode is a feature of the [[Canopy CLI bulk command]]. Sync mode lets you open the topics of your project in a bulk file that is watched by the CLI, and changes are continuously processed to update the [[topic file|topic files]] and build the project.
+
+Delayed mode:
