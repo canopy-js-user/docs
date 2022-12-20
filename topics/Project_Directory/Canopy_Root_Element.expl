@@ -1,0 +1,7 @@
+Canopy Root Element: The Canopy root element is a DOM element that has the id `_canopy_`. If the user is using the standard [[Canopy CLI build command]], then this element is created automatically in the [[HTML index file]]. The Canopy root element is expected to have several [[data attributes]].
+
+Data attributes: The Canopy root element is expected to have:
+1. A `default-topic` data attribute, which gives the mixed-case topic name of the [[default topic]]
+2. A `project-path-prefix` data attribute, which gives the [[project path prefix]]
+3. A `hash-urls` data attribute, which indicates whether Canopy should use the hash URLs feature.
+Only the `default-topic` attribute is strictly mandatory.

@@ -1,0 +1,1 @@
+Orphan Subtopic: An orphan subtopic is a [[subtopic]] that has a valid [[subtopic name]] and [[subtopic paragraph]], but which is not connected to the subtopic's [[topic]] via any [[subtopic path]]. Orphan subtopics are ignored by the build process because they are inaccessible to the user.

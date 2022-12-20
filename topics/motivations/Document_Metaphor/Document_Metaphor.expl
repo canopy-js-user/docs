@@ -1,0 +1,13 @@
+Document Metaphor: Document metaphor is the idea that [[existing hypertext systems retain the metaphor of documents]], but [[there are shortcomings to the document metaphor]], and so [[Canopy replaces documents with graph traversal]], and [[is itself a generator of documents]].
+
+Existing hypertext systems retain the metaphor of documents: Hypertext systems like the modern internet are modeled as linear lists of paragraphs ("documents") that contain references to other documents.
+
+There are shortcomings to the document metaphor: Hypertext composed of documents is [[less customizable]] and [[more disjointed]] than Canopy explanations.
+
+Less customizable: Hypertext composed of documents does have more ability for [[customization]] than linear text like a book, but because it is itself composed of large blocks of linear text, the customization is less fine-tuned, and explanations shorter than a document cannot be produced, even if not every reader wants to read an entire document.
+
+More disjointed: When a reader traverses a network of hyperlinked documents, the experience is very different from a human explanation. Each document is a new explanation, and so the reader is constantly starting new explanations, and, when a link is opened, the user hasn't finished reading the first document, and so is simultaneously at one spot in the first document and in the second, and may forget the context of the first by the time they return, unlike Canopy where the explanation is composed of small paragraphs so the user always finishes the previous one before starting a new one.
+
+Canopy replaces documents with graph traversal: Instead of making documents the smallest unit of explanation, in Canopy the unit of explanation is the single-sentence paragraph, and paragraphs get woven together to produce a single explanation, not a series of interlinked explanations, similar to how human conversation and explanation is continuous and not composed of disjointed pieces.
+
+Is itself a generator of documents: Not only isn't Canopy a hypertext composed of fixed documents, Canopy is a definition of what makes a valid document, ie, paragraphs in a prose explanation are valid if every a later paragraph specifies a point made in an earlier paragraph like paths in Canopy, and so Canopy is a system for producing valid linear documents of explanation, rather than itself being a hypertext composed of such documents.

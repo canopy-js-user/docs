@@ -1,0 +1,1 @@
+Build directory: The build directory is a directory that gets created by the [[Canopy CLI build command]], or which the author can provide in the case of a custom build. The build directory includes a [[data directory]], an [[HTML index file]], and a [[Canopy javascript asset]].

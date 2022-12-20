@@ -1,0 +1,42 @@
+Writers: Writers use Canopy by [[creating a Canopy project]], [[adding content to their project]] that follows [[best practices]], [[serving their project locally]] and [[deploying the project]].
+
+Creating a Canopy project: Creating a Canopy project involves [[creating a project directory]], [[initializing the project]], and optionally [[initializing version control]].
+
+Creating a project directory: Creating the project directory is done by creating a directory, eg running `mkdir my_project` on a Unix-like system. There is nothing special about the type of directory.
+
+Initializing the project: To initialize a project, enter the project directory (`cd` on a Unix system), then run `canopy init`. The [[Canopy CLI init command]] creates various files and folders that are necessary for your Canopy project. Initializing the project entails selecting a [[default topic]].
+
+Initializing version control: At this point you might want to run a `git init` in your project directory and store your project on a service like Github. Storing your project on a hosting service like Github makes it easier to host and deploy your project when it changes.
+
+Adding content to their project: Content is added to a Canopy project by creating files that follow the [[Canopy data model]] and using [[Canopy markup]]. There are several [[methods of producing content]]. Authors can follow [[best practices]] in deciding how to model their ideas in the Canopy data model.
+
+Methods of producing content: Content can be produced by [[manually creating topic files]], or using the [[Canopy CLI bulk command]].
+
+Manually creating topic files: If you create a file in your `topics` directory like `project/topics/category/topic.expl`, and you add a root paragraph to the file like this:
+`
+` Topic: This is a paragraph for the topic "Topic."
+`
+Then, when you build your project, this topic can be viewed in the web interface.
+
+Canopy markup: Typical markdown-style styling is available, such as lists, code blocks, tables, footnotes, block quotes, and styling characters. Inline HTML is supported. Asterisks indicate bold and underscores indicate italics.
+
+
+Building the project: Building your Canopy project entails taking the `expl` files and generating JSON from them that can be used by the front-end client. You can build your project by navigating to your project directory and running the [[Canopy CLI build command]].
+
+Serving their project locally: To serve your Canopy project locally, navigate to your project folder and running the [[Canopy CLI serve command]].
+
+Deploying the project: There are various ways of deploying a Canopy project to an external hosting provider. Canopy's use of [[cosmetic paths]] prevents it from being hosted on a simple static assets server, however, there are several ways of overcoming this limitation and [[hosting a Canopy project]], and there are resources for [[continuously building a Canopy project]].
+
+Cosmetic paths: When reading a Canopy website, the URL adapts to reflect the path of topics and subtopics that the reader has navigated through. The URL of the page might for example read `www.example.com/Topic_1/Topic_2`. However, if the site is hosted on a static assets server, the client will request a directory `Topic_1` that contains a directory `Topic_2`, neither of which exists, when really we just want to serve the root `index.html` asset regardless of the requested path.
+
+Hosting a Canopy project: In order to get around the problem of cosmetic paths, there are four ways of hosting a Canopy project, [[dynamic server]], [[hash URLs]], [[symlinks]], or a [[custom static hosting provider]].
+
+Dynamic server: The simplest way of avoiding the problem of cosmetic paths is to not use a static assets server. The Canopy CLI ships with a dynamic Express server that will ignore request paths and serve the root `index.html` file for all requests. The downside of this option is that dynamic hosting is often more expensive than static assets hosting.
+
+Hash URLs: Canopy has a build option called "hash URLs" that causes the project to prepend all paths with `/#/`, making it irrelevant to the server what comes after the hash symbol. The downside of this approach is that it adds an extra character to all URLs.
+
+Symlinks: Symlinks is build option that creates directories for every topic in the project and symlinks to every other topic directory, each of which contains the same `index.html` asset, so requests like `www.example.com/Topic_A/Topic_B` follow a valid directory path via the symlinks. The downside of this approach is that most hosting providers do not permit symlinks, and creating the directories and linking them is an O(N<sup>2</sup>) operation at build-time.
+
+Custom static hosting provider: Some static asset hosting providers allow the webmaster to specify a redirect when a user requests a non-existent resource. This is the recommended option, and an example of this set up can be found in the [Canopy Github's "example workflows" repo](https://github.com/canopy-js/example-workflows).
+
+Continuously building a Canopy project: You might want to store your Canopy project on Github and trigger builds whenever an `expl` file is changed. Template Github workflows for continuously building a Canopy project hosted in a Github repository can be found on the [Canopy Github's "example workflows" repo](https://github.com/canopy-js/example-workflows).

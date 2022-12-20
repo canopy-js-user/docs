@@ -1,0 +1,1 @@
+HTML index file: The HTML index file is an `index.html` file that is created in the [[build directory]] either by the [[Canopy CLI build command]], or by the user in the case of a custom build process. The `index.html` file must include the [[Canopy Javascript asset]], and it must have an HTML element with the id `_canopy`, which the JS will fill with content.

@@ -1,0 +1,3 @@
+Canopy Path: A Canopy website displays a currently selected path. The path determines which paragraphs are displayed, and is also visible in the [[URL]]. The path is composed of [[path segment|path segments]]. The path begins with the [[root topic]].
+
+URL: A Canopy path is displayed as a URL by joining each [[path segment]] separated with a forward slash, and if the path segment has a subtopic, it is appended to the topic name with a leading pound sign, for example, `A/B#C/D`.

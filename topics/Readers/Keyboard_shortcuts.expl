@@ -1,0 +1,13 @@
+Keyboard shortcuts: You can navigate Canopy using the [[arrow keys]], [[the return key]], using [[z for zoom]], [[d for duplicate]], [[tab for iteration]], and [[escape for deselect]].
+
+Arrow keys: Users can navigate a Canopy project using the arrow keys (or their vim-key equivalents.) `Up` returns to the current paragraph's parent link, `left` and `right` iterate through the siblings of the selected link, and `down` selects the first link of the currently selected paragraph. Pressing `shift-up` goes to the parent of the previous topic.
+
+The return key: Pressing the return key when selecting a [[global reference]] or an external link will redirect the page to the link target.
+
+Z for zoom: Pressing `z` will "zoom" the path to the lowest order [[path segment]]. For example, if the user has iterated through many topics and is currently reading about the topic "T" and its subtopic "S", then pressing `z` will redirect the user to the page for T with the path to S selected, which can be useful for sharing a link.
+
+D for duplicate: Pressing `d` will open a new tab open to the same path.
+
+Tab for iteration: Pressing `tab` will iterate through the subtopics of a topic in a depth-first search.
+
+Escape for deselect: Pressing `escape` will deselect all links and display the page's root paragraph.

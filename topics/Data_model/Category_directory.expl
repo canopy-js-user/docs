@@ -1,0 +1,1 @@
+Category directory: A category directory is the on-disk representation of a Canopy [[category]]. It is a simple directory in the [[topics directory]], and has no special behavior. The subdirectory structure of the [[topics directory]] is ignored by the build process and all [[topic file|topic files]] are processed as a flat list.

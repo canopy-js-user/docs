@@ -125,3 +125,7 @@ Canopy is a JavaScript library for creating and browsing the diagraph data struc
 - Use question topic names.
 
 When does a person use a subtopic eg "France#Economy" and when does a person use a topic
+
+Different kinds of diagraph eg pedagogic diagraph where a simple version of the idea is the root, and specifications are complications.
+
+Diagraph is a dependency graph

@@ -1,0 +1,1 @@
+Canopy Javascript asset: The Canopy Javascript asset is a file called `canopy.js` that contains the front-end client code. The `canopy.js` file is expecting to be loaded on a page that has an HTML element with a `_canopy` id, which it will fill with content.

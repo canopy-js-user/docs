@@ -1,0 +1,1 @@
+Topic name: A topic name is a string that represents the name of a Canopy topic. The topic name is defined by the [[key]] of the first block in a [[topic file]]. The topic name is the target of [[Global reference|Global references]].

@@ -2,102 +2,375 @@
 
 * Canopy JS:
 Welcome! This is the documentation of the Canopy JS project. You can use Canopy to create interactive explanatory websites like this one.
-There are various [[motivations for Canopy]].
-These are instructions for [[how readers use Canopy]] and [[how writers use Canopy]], and this is an explanation of [[how Canopy works]].
-Canopy has a [[codebase]] which you can find on the [project Github page](https://github.com/canopy-js/canopy-js).
+There are various [[motivations for Canopy]], and different [[applications of Canopy]].
+Canopy is used by [[readers]] and [[writers]], and this is an explanation of [[how Canopy works]].
+Canopy has a [[codebase]], which you can find on the [project Github page](https://github.com/canopy-js/canopy-js).
 (Try using the arrow keys!)
+
+
+[Applications]
+
+* Academia: Canopy would allow academics to produce larger cumulative works: Rather than producing original research on a narrow point, some academics want to express their view of a domain or discipline in its entirety, yet this type of work would be difficult to produce in the format of books and articles, but Canopy makes it easy to produce very large interconnected works.
+
+
+* Applications of Canopy: There are applications of Canopy in [[journalism]], [[academia]], [[economics]], [[education]], [[software engineering]], [[organizational knowledge]] and [[library science]].
+
+
+* Economics: Canopy could model complex markets and surface opportunities: As the global economy becomes more and more complex, it can be difficult for beginners to even know what sorts of goods and services are in demand, and so Canopy would enable doing things like modeling a market in all its details, what sorts of firms it includes and what sorts of needs they have, so that job seekers and entrepreneurs can more easily find out about new opportunities.
+
+
+* Education: Canopy can [[help organize pedagogic content knowledge]], [[offer more clarificatory information]], and [[make accessing prerequisites easier]].
+
+Help organize pedagogic content knowledge: Sometimes there are specific examples or analogies that help strengthen students' intuitions for why a given point is true, but not every teacher might know of every such example, so Canopy can help produce amalgam works that have room to collect all such examples.
+
+Offer more clarificatory information: It isn't always clear to everyone what the author means by a certain statement, but it might be clear to most students, so Canopy allows the author to include as much clarification as they want, allowing a student who is confused to get more explanation without forcing students who understand to wade through it.
+
+Make accessing prerequisites easier: Every point assumes some prior knowledge, but a textbook can't explain every such point, yet some students will be lacking prior knowledge on a given point and will be prevented from understanding, so Canopy lets the author explain required background information only for those students who need it, and not for those students who don't.
+
+Some aspects of teaching are universal, but sometimes a certain topic has specific pedagogic information that is helpful for students, like analogies or examples that provide intuitive reasons why a certain fact is true, yet sometimes it is hard for students to find this type of information, and space limits on linear works make it hard to include everything, but because Canopy enables explanations of larger [[scale]] and the expression of [[explanatory invariants]], those interested can produce pedagogic works that attempt to cumulatively assemble all such knowledge for a discipline.
+
+
+* Journalism: Canopy would let journalists tap into reusable background content: When a journalist discusses a news story that has larger historical context, Canopy would let them connect their story to reusable background content, allowing readers who are interested to burrow into the historical context without every journalist having to produce it from scratch.
+
+
+* Library science: Canopy would allow the creation of new types of work that synthesized information from multiple sources, [[showing all the information related to a point in a classic work]], or [[all the words that discuss a given point]], [[without taking any content positions]], [[similar to the speech of a librarian]].
+
+Showing all the information related to a point in a classic work: For a given paragraph in a classic work, librarians could assemble all the commentary on that specific point, and all the commentary on those commentaries, and so on.
+
+All the words that discuss a given point: Rather than start from an existing work, librarians could produce a general description of a domain, and assemble specifications and perspectives from different works on each detail, allowing readers to burrow and discover what discussions exist in each domain, and to access the specific portions of the original sources involved in the discussion.
+
+Without taking any content positions: Such works would never have to take positions on what is actually true, because their job would just be to say what has been said on a given subject, and so as long as everyone agrees on what has been said, it should be uncontroversial to produce such a structure even if the individuals doing it disagree strongly in their content views.
+
+Similar to the speech of a librarian: We can think of librarian speech as being a genre of writing, things that a librarian might tell you about the sorts of works that are available, and which works discuss which points. Just as a librarian would not take positions even on very obvious points, so too would such works merely point the reader in the direction of notable works that discuss a given question.
+
+
+* Organizational knowledge: Information in an organization is often complex and interrelated, and only specific pieces are relevant for given individuals at any given time, so Canopy's graph format is a natural way to represent such information because it lets users discover related information and context they might not have been aware of, without forcing them to sift through general information not specific to their needs.
+
+
+* Software engineering: One of the challenges of code documentation is that there is often no good place to put information about the system as a whole where it will for sure be seen without becoming too long for people to read, or for explaining how a certain piece of the system fits into the system as a whole, but Canopy excels at expressing information about a domain at a high-level and letting users burrow into the details, or starting from a part and zooming out to see its role in the big picture.
+
+
+[CLI]
+
+* Canopy CLI: The Canopy CLI is a command-line tool for managing Canopy projects. It has various [[commands]].
+
+Commands: There is a [[Canopy CLI init command]], a [[Canopy CLI build command]], a [[Canopy CLI bulk command]] along with a few others.
+
+
+* Canopy CLI build command: The `canopy build` command takes the [[topic file|topic files]] in the [[topics directory]] and uses them to populate the [[build directory]]. The Canopy CLI build command takes varies [[parameters]]. It must be run from the project directory.
+
+Parameters: There are various optional parameters to the build function. There is the [[project path prefix parameter]].
+
+Project path prefix parameter: The project path prefix parameter lets the user specify the [[project path prefix]]. If the hosting URL will be `www.example.com/myProject/`, then the project should be built like this:
+```
+canopy build --project-path-prefix myProject
+
+```
+
+
+* Canopy CLI bulk command: The Canopy CLI bulk command is a tool for creating a large quantity of content at a single time, rather than creating [[topic file|topic files]] individually by hand. The writer runs the `canopy bulk` command, and the project topic files get loaded into the [[Canopy bulk file format]]. The author makes whatever changes they want, and then closes the editor to update the [[topics directory]] with their changes. The bulk command has a [[sync mode]], and it has a [[delayed mode]].
+
+Sync mode: Sync mode is a feature of the [[Canopy CLI bulk command]]. Sync mode lets you open the topics of your project in a bulk file that is watched by the CLI, and changes are continuously processed to update the [[topic file|topic files]] and build the project.
+
+Delayed mode:
+
+
+* Canopy CLI init command: The `canopy init` command is one of the commands of the [[Canopy CLI]]. The `init` command initializes the project, which entails adding all files and directories expected in the [[project directory]]. It must be run from the project directory.
+
+
+* Canopy CLI serve command: The `canopy serve` command runs a local server to display your project. It must be run from the project directory. The server runs on port 4001 by default. The `serve` command takes various parameters.
+
+
+* Canopy bulk file format: A Canopy bulk file is composed of sections, each of which begins with a [[category path header]] followed by [[topic files]] or [[note files]].
+
+Category path header: In a Canopy bulk file, a section begins with a square-bracket enclosed category path like [Category 1/Category 2/Category 3] on is own line, followed by a double newline. The writer uses spaces and not underscores, although the resulting directories will have underscores.
+
+Topic files: Below a category path header you can have a topic file, which is an asterisk and space followed by desired contents of a topic file. Canopy bulk mode will look at the key of the topic file and use it to infer the appropriate name for the [[topic file]].
+
+Note files: Below a category path header you can have notes, which are [[block|blocks]] not preceded by an asterisk, or a series of blocks that have an asterisk before them, but no [[key]] on the first line. In such a case, these blocks are added to the [[category notes file]].
 
 
 [Code]
 
-* Codebase: The Canopy codebase is composed of a CLI and a front-end client.
+* Codebase: The Canopy codebase is composed of the [[Canopy CLI]] and [[Canopy front-end client]].
+
+
+[Code/CLI]
+
+* Canopy CLI Code: The CLI code uses the Commander.js library and is composed of several [[command functions]].
+
+Command functions:
+
+
+[Code/Client]
+
+* Canopy front-end client: The Canopy front-end client is composed of several major components.
 
 
 [Data model]
 
-* Canopy Data Model: Content in Canopy is composed of data in the form of [[topic|topics]] and [[subtopic|subtopics]].
+* Canopy Data Model: Content in Canopy is composed of data in the form of [[category|categories]], [[topic|topics]] and [[subtopic|subtopics]].
 
 
-* Global reference: A global reference is a link to a [[topic]], as opposed to a [[local reference]].
+* Canopy Path: A Canopy website displays a currently selected path. The path determines which paragraphs are displayed, and is also visible in the [[URL]]. The path is composed of [[path segment|path segments]]. The path begins with the [[root topic]].
+
+URL: A Canopy path is displayed as a URL by joining each [[path segment]] separated with a forward slash, and if the path segment has a subtopic, it is appended to the topic name with a leading pound sign, for example, `A/B#C/D`.
 
 
-* Local reference: A local reference is a link to a [[subtopic]], as opposed to a [[global reference]].
+* Category: A category is an entity in the [[Canopy data model]] that helps organize [[topic|topics]]. Categories can contain other categories, and can contain topics. A top-level category is a category that is not inside any other category. Categories are [[merely an organizational tool]]. A category is represented on disk by a [[category directory]], and the category directory may contain a [[category notes file]].
+
+Merely an organizational tool: Categories exist to help the author organize their [[topic|topics]], and categories do not affect the front-end behavior in any way. A user navigates to a topic directly, and then follows links to other topics, regardless of what categories those topics happen to be in. The URL path eg `A/B/C` does not represent a category hierarchy, but rather the chronology of the user's path through the various topics they've interacted with.
 
 
-* Subtopic: A subtopic is an entity that requires context before it can be explained, as opposed to a [[topic]]. A subtopic has a [[topic]]. Here's an [[example of a subtopic]]. Because a subtopic requires context, it is displayed at a [[subtopic path]].
-
-Subtopic path: A subtopic exists within a certain [[topic]], which has a [[tree]], and a given subtopic paragraph exists at a path on that tree.
-
-Example of a subtopic: An example of a subtopic is "Bob's nose." The topic of this subtopic is "Bob." "Bob's nose" can only be explained after explaining who "Bob" is.
+* Category Notes File: A category notes file is a file inside a [[category directory]] whose name follows the category name. A category notes file is for notes related to the category that do not yet have a permanent topic. Even if a category notes file has a valid topic key, unless that key matches the filename, the build process will ignore the file. This is to prevent false-positives where category notes begin with a question that is mistakenly interpreted as a topic key.
 
 
-* Subtopic paragraph:
+* Category directory: A category directory is the on-disk representation of a Canopy [[category]]. It is a simple directory in the [[topics directory]], and has no special behavior. The subdirectory structure of the [[topics directory]] is ignored by the build process and all [[topic file|topic files]] are processed as a flat list.
 
 
-* Topic: Topics are the fundamental organizing units of a Canopy project. A Canopy topic is a unit of explanation corresponding to some entity. A topic is an entity that can be explained without prior context, as opposed to a [[subtopic]]. A topic in Canopy has a [[topic paragraph]], and it has child paragraphs that form a [[tree]]. The data of a topic is stored in a [[topic file]].
-
-Tree: A topic has a tree which is formed by the root [[topic paragraph]], which contains [[local reference|local references]], which connect it to [[subtopic paragraph|subtopic paragraphs]], which also contain local references, which connect it to further subtopic paragraphs, forming a tree.
+* Default Topic: A default topic is the topic of the project that the user first sees if no specific path is selected. Every project must have a default topic, chosen when the project is initialized. The default topic is specified in the `project/canopy_default_topic` file, which contains a path to the default topic's `expl` file in the `topics` directory.
 
 
-* Topic file:
+* Global reference: A global reference is a link to a [[topic]], as opposed to a [[local reference]]. Selecting a global reference can inline the target topic paragraph onto the page below the current paragraph, or the reader can redirect to the target paragraph as the new root of the page.
 
 
-* Topic paragraph:
+* Import reference: An import reference is a link to a [[subtopic]] of a different [[topic]]. Import references must be near a [[global reference]] to the topic of the target subtopic, and selecting the import reference displays the path from that topic to the subtopic in question. An import reference can sometimes be converted into a [[global reference]] by converting a subtopic to a [[subordinate topic]].
+
+
+* Local reference: A local reference is a reference to a [[subtopic]], as opposed to a [[global reference]]. Selecting a local reference inlines the target subtopic paragraph onto the page below the current paragraph.
+
+
+* Orphan Subtopic: An orphan subtopic is a [[subtopic]] that has a valid [[subtopic name]] and [[subtopic paragraph]], but which is not connected to the subtopic's [[topic]] via any [[subtopic path]]. Orphan subtopics are ignored by the build process because they are inaccessible to the user.
+
+
+* Path segment: A path segment is a unit of a [[Canopy path]]. It is composed of a [[topic]], and an optional [[subtopic]]. The path segment represents the [[subtopic path]] from that topic to that subtopic.
+
+
+* Root paragraph: The root topic paragraph is the first paragraph on the page, and is the [[topic paragraph]] of the [[topic]] of the first [[path segment]].
+
+
+* Root topic: A root topic is the topic that an explanation begins from. It is the topic of the first [[path segment]], and is the topic of the [[root paragraph]].
+
+
+* Subordinate topic: A subordinate topic is a topic that is usually only accessed via a global reference from a more frequently seen topic. Subordinate topics are contrasted with [[subtopic|subtopics]] as a way of expressing an idea that is subordinate to another. In general, subtopics should be used for ideas that cannot be explained without first having explained another, whereas subordinate topics can be used for ideas that can be explained independently, even if they require the context of a prior idea to be fully understood.
+
+
+* Subsumed Subtopic: A subsumed subtopic is a [[subtopic]] of a [[topic]] that is connected to the [[topic paragraph]] via a [[subtopic path]], unlike an [[orphan subtopic]].
+
+
+* Subtopic: Subtopics are a major type of entity in the Canopy data model. Subtopics belong to a [[topic]]. A subtopic models an entity or idea that requires additional context before it can be explained, as opposed to a [[topic]]. Because a subtopic requires context, it is displayed at a [[subtopic path]]. Sometimes information modeled using a subtopic should instead be modeled with a [[subordinate topic]]. It is important to know [[when to use topics versus subtopics]].
+
+
+* Subtopic name: A subtopic name is a string that represents the name of a [[subtopic]].
+
+
+* Subtopic paragraph: A subtopic paragraph is the paragraph that belongs to a [[subtopic]].
+
+
+* Subtopic path: A subtopic path is a path beginning from a root topic paragraph, and following its local references to subtopic paragraphs, and their local references to subtopic paragraphs, until reaching the target paragraph. A subtopic path is one branch of a [[topic tree]].
+
+
+* Topic: Topics are the fundamental organizing units of information in a Canopy project. A Canopy topic is an explanation of some idea or entity. A topic is an entity that can be explained without prior context, as opposed to a [[subtopic]]. A topic in Canopy has a [[topic name]], and a [[topic paragraph]], whose [[subtopic|subtopics]] form a [[topic tree]]. The data of a topic is stored in a [[topic file]]. Every project must have a [[default topic]]. It is important to know [[when to use topics versus subtopics]].
+
+
+* Topic name: A topic name is a string that represents the name of a Canopy topic. The topic name is defined by the [[key]] of the first block in a [[topic file]]. The topic name is the target of [[Global reference|Global references]].
+
+
+* Topic paragraph: A topic paragraph is the paragraph associated with a given [[topic]]. The topic paragraph has [[local reference|local references]] to [[subtopic|subtopics]] that have [[subtopic paragraph|subtopic paragraphs]], forming a [[topic tree]].
+
+
+* Topic tree: A topic tree is the tree formed by a [[topic paragraph]], which contains in it [[local reference|local references]], which reference [[subtopic|subtopics]] which have [[subtopic paragraph|subtopic paragraphs]], which also contain local references, which connect the subtopic paragraphs to further subtopic paragraphs, forming a tree.
 
 
 [Mechanics]
 
-* How Canopy works:
+* How Canopy works: Canopy takes [[explanation files]] and [[uses them to produce build data]], which [[the front-end client uses to build a web interface]] and [[the user interacts with it]].
+
+Uses them to produce build data: The build process produces JSON files that tell the front-end client how to render the paragraphs of the project.
+
+The front-end client uses to build a web interface: The web interface requests the default topic, and uses it to render the initial page.
+
+The user interacts with it: When the user select a new link, the Canopy web interface rerenders the page.
 
 
-[Mechanics/CLI]
+[Mechanics/Disk]
 
-* Canopy init: The `canopy init` command initializes the project. That entails creating a [[topics directory]], creating a [[default topic indicator file]], and creating the [[default topic file]] and a [default category].
-
-
-[Mechanics/Project]
-
-* Canopy project directory structure: ABC.
+* Block: A block is a unit of information in an [[topic file]]. Blocks are multi-line units of text separated by double newlines. If the first block of the file has a [[key]], it is the [[topic definition]]. If a block after the first has a key, it is a [[subtopic]] definition, so long as it is a [[subsumed subtopic]]. If there is no key, the block defines a [[note]].
 
 
-* Default Topic File: The default topic file is a topic file in the [[topics directory]]
+* Key: A key is an optional prefix for the first line of a [[block]]. A key is a string that ends in a `:` or `?` character. The key represents The presence of a key indicates that a [[block]] is a [[topic]] or [[subtopic]] definition, as opposed to a [[note]], unless the block is an [[orphan subtopic]], which has a key but nevertheless functions as [[note]]. The key specifies the [[topic name]] or [[subtopic name]]. [[A key can be given on its own line]].
+
+A key can be given on its own line: Eg you can have:
+```
+Key:
+Sentence 1
+Sentence 2
+Sentence 3
+
+```
 
 
-* Default Topic Indicator File:
+* Note: A note is a block of a topic file that does not begin with a key and so is ignored by the build process. Notes can be used to express information that will later be converted into proper [[paragraph node|paragraph nodes]].
 
 
-* Topics Directory: The topics directory is a directory found in the root level of a Canopy project. It contains subdirectories which represent [categories], and those subdirectories contain [topic files].
+* Paragraph node: A paragraph node is a [[block]] that defines a [[topic]] or [[subtopic]].
 
 
-[Readers Interface]
-
-* How readers use Canopy: How do readers use Canopy? The page begins with a paragraph explaining the selected [[topic]], and the user selects links to explore the content. You can [[navigate by mouse]], or [[keyboard shortcuts]].
-
-Navigate by mouse: To navigate by mouse, click a link to inline its paragraph below the current one. If the link is a [[global reference]],
-
-Keyboard shortcuts: ABC.
+* Topic definition: A topic definition is a type of [[block]] in a topic file that defines a [[topic]].
 
 
-[Writers Interface]
+* Topic file: An topic file is a file stored in the [[topics directory]] that defines a [[topic]] of a Canopy project. Topic files end in a `.expl` extension. Topic files have a certain [[file format]].
 
-* Adding content: Content is added to a Canopy project by creating files that follow the [[Canopy data model]].
-
-
-* Deploying the project: ABC.
+File format: An topic file is composed of [[block|blocks]].
 
 
-* How writers use Canopy: Writers use Canopy by [[creating a project]], [[adding content]], [building the project], [serving the project locally], and [[deploying the project]].
+[Mechanics/Settings]
 
-Creating a project: Creating a Canopy project involves [[creating a project directory]] and [[initializing the project]].
+* Project Path Prefix: A project path prefix is a string that comes after the domain name of your hosting provider. For example, if you will be hosting your project on `www.example.com/myProject/Topic_1`, then the project path prefix is "myProject". If you are hosting your project on `www.example.com/A/B/Topic_1`, then your project path prefix is `A/B`. Canopy needs to know about this string in order to determine what portion of the URL is the current [[page path string]]. The project path prefix is specified via the [[project path prefix parameter]] to the [[Canopy CLI build command]].
+
+
+[Project Directory]
+
+* Build directory: The build directory is a directory that gets created by the [[Canopy CLI build command]], or which the author can provide in the case of a custom build. The build directory includes a [[data directory]], an [[HTML index file]], and a [[Canopy javascript asset]].
+
+
+* Canopy Javascript asset: The Canopy Javascript asset is a file called `canopy.js` that contains the front-end client code. The `canopy.js` file is expecting to be loaded on a page that has an HTML element with a `_canopy` id, which it will fill with content.
+
+
+* Canopy Root Element: The Canopy root element is a DOM element that has the id `_canopy_`. If the user is using the standard [[Canopy CLI build command]], then this element is created automatically in the [[HTML index file]]. The Canopy root element is expected to have several [[data attributes]].
+
+Data attributes: The Canopy root element is expected to have:
+1. A `default-topic` data attribute, which gives the mixed-case topic name of the [[default topic]]
+2. A `project-path-prefix` data attribute, which gives the [[project path prefix]]
+3. A `hash-urls` data attribute, which indicates whether Canopy should use the hash URLs feature.
+Only the `default-topic` attribute is strictly mandatory.
+
+
+* Data directory: The data directory is a directory that the Canopy CLI creates inside the project's [[build directory]]. The data directory is named `_data` (because there might be a topic in the project called `data`.)
+
+
+* Default topic specifier file: The default topic specifier file is a file called `canopy_default_topic` that exists in the root level of the [[project directory]]. The `canopy_default_topic` file contains the [[file path]] of the [[topic file]] for the project's [[default topic]].
+
+File path: The file path of the [[default topic]] should be given relative to the root of the project directory, eg `topics/Category_A/Topic.expl`.
+
+
+* Explanation files: Explanation files are files ending in the `.expl` extension. Explanation files are the [[topic file|topic files]] that live in the [[topics directory]].
+
+
+* HTML index file: The HTML index file is an `index.html` file that is created in the [[build directory]] either by the [[Canopy CLI build command]], or by the user in the case of a custom build process. The `index.html` file must include the [[Canopy Javascript asset]], and it must have an HTML element with the id `_canopy`, which the JS will fill with content.
+
+
+* Project Directory: The project directory is a directory that contains the data for a Canopy project. The project directory contains the [[topics directory]], the [[default topic specifier file]], and the [[build directory]] when the project has been built.
+
+
+* Topics Directory: The topics directory is a top-level subdirectory of the [[project directory]] that contains the project's [[topic file|topic files]].
+
+
+[Readers]
+
+* Keyboard shortcuts: You can navigate Canopy using the [[arrow keys]], [[the return key]], using [[z for zoom]], [[d for duplicate]], [[tab for iteration]], and [[escape for deselect]].
+
+Arrow keys: Users can navigate a Canopy project using the arrow keys (or their vim-key equivalents.) `Up` returns to the current paragraph's parent link, `left` and `right` iterate through the siblings of the selected link, and `down` selects the first link of the currently selected paragraph. Pressing `shift-up` goes to the parent of the previous topic.
+
+The return key: Pressing the return key when selecting a [[global reference]] or an external link will redirect the page to the link target.
+
+Z for zoom: Pressing `z` will "zoom" the path to the lowest order [[path segment]]. For example, if the user has iterated through many topics and is currently reading about the topic "T" and its subtopic "S", then pressing `z` will redirect the user to the page for T with the path to S selected, which can be useful for sharing a link.
+
+D for duplicate: Pressing `d` will open a new tab open to the same path.
+
+Tab for iteration: Pressing `tab` will iterate through the subtopics of a topic in a depth-first search.
+
+Escape for deselect: Pressing `escape` will deselect all links and display the page's root paragraph.
+
+
+* Mouse interactions: To navigate by mouse, you can [[click local references]] and you can [[click global references]].
+
+Click Local References: If you click a [[local reference]], the target paragraph will be inlined below the current paragraph.
+
+Click Global References: If you click a [[global reference]], if alt/option is not pressed, the target paragraph will be inlined below the current paragraph, and if alt/option _is_ pressed, then the page will redirect to the target paragraph as the new page root.
+
+
+* Page path string: The page path string is the portion of the URL that indicates the current path of the reader. If the user began on the page for `A`, and then opened a subtopic of `A` called `B`, then opened a [[global reference]] to a topic called `C`, the reader's page path string would be `A#B/C`.
+
+
+* Readers: Readers use Canopy by navigating to a Canopy website, reading the [[root paragraph]] and [[selecting links]] to explore additional content.
+
+Selecting links: Readers can select links using [[mouse interactions]], or [[keyboard shortcuts]].
+
+
+[Writers]
+
+* Writers: Writers use Canopy by [[creating a Canopy project]], [[adding content to their project]] that follows [[best practices]], [[serving their project locally]] and [[deploying the project]].
+
+Creating a Canopy project: Creating a Canopy project involves [[creating a project directory]], [[initializing the project]], and optionally [[initializing version control]].
 
 Creating a project directory: Creating the project directory is done by creating a directory, eg running `mkdir my_project` on a Unix-like system. There is nothing special about the type of directory.
 
-Initializing the project: To initialize a project, enter the project directory (`cd` on a Unix system), then run `canopy init`. The [[canopy init]] command creates various files and folders that are necessary for your Canopy project.
+Initializing the project: To initialize a project, enter the project directory (`cd` on a Unix system), then run `canopy init`. The [[Canopy CLI init command]] creates various files and folders that are necessary for your Canopy project. Initializing the project entails selecting a [[default topic]].
+
+Initializing version control: At this point you might want to run a `git init` in your project directory and store your project on a service like Github. Storing your project on a hosting service like Github makes it easier to host and deploy your project when it changes.
+
+Adding content to their project: Content is added to a Canopy project by creating files that follow the [[Canopy data model]] and using [[Canopy markup]]. There are several [[methods of producing content]]. Authors can follow [[best practices]] in deciding how to model their ideas in the Canopy data model.
+
+Methods of producing content: Content can be produced by [[manually creating topic files]], or using the [[Canopy CLI bulk command]].
+
+Manually creating topic files: If you create a file in your `topics` directory like `project/topics/category/topic.expl`, and you add a root paragraph to the file like this:
+`
+` Topic: This is a paragraph for the topic "Topic."
+`
+Then, when you build your project, this topic can be viewed in the web interface.
+
+Canopy markup: Typical markdown-style styling is available, such as lists, code blocks, tables, footnotes, block quotes, and styling characters. Inline HTML is supported. Asterisks indicate bold and underscores indicate italics.
+
+
+Building the project: Building your Canopy project entails taking the `expl` files and generating JSON from them that can be used by the front-end client. You can build your project by navigating to your project directory and running the [[Canopy CLI build command]].
+
+Serving their project locally: To serve your Canopy project locally, navigate to your project folder and running the [[Canopy CLI serve command]].
+
+Deploying the project: There are various ways of deploying a Canopy project to an external hosting provider. Canopy's use of [[cosmetic paths]] prevents it from being hosted on a simple static assets server, however, there are several ways of overcoming this limitation and [[hosting a Canopy project]], and there are resources for [[continuously building a Canopy project]].
+
+Cosmetic paths: When reading a Canopy website, the URL adapts to reflect the path of topics and subtopics that the reader has navigated through. The URL of the page might for example read `www.example.com/Topic_1/Topic_2`. However, if the site is hosted on a static assets server, the client will request a directory `Topic_1` that contains a directory `Topic_2`, neither of which exists, when really we just want to serve the root `index.html` asset regardless of the requested path.
+
+Hosting a Canopy project: In order to get around the problem of cosmetic paths, there are four ways of hosting a Canopy project, [[dynamic server]], [[hash URLs]], [[symlinks]], or a [[custom static hosting provider]].
+
+Dynamic server: The simplest way of avoiding the problem of cosmetic paths is to not use a static assets server. The Canopy CLI ships with a dynamic Express server that will ignore request paths and serve the root `index.html` file for all requests. The downside of this option is that dynamic hosting is often more expensive than static assets hosting.
+
+Hash URLs: Canopy has a build option called "hash URLs" that causes the project to prepend all paths with `/#/`, making it irrelevant to the server what comes after the hash symbol. The downside of this approach is that it adds an extra character to all URLs.
+
+Symlinks: Symlinks is build option that creates directories for every topic in the project and symlinks to every other topic directory, each of which contains the same `index.html` asset, so requests like `www.example.com/Topic_A/Topic_B` follow a valid directory path via the symlinks. The downside of this approach is that most hosting providers do not permit symlinks, and creating the directories and linking them is an O(N<sup>2</sup>) operation at build-time.
+
+Custom static hosting provider: Some static asset hosting providers allow the webmaster to specify a redirect when a user requests a non-existent resource. This is the recommended option, and an example of this set up can be found in the [Canopy Github's "example workflows" repo](https://github.com/canopy-js/example-workflows).
+
+Continuously building a Canopy project: You might want to store your Canopy project on Github and trigger builds whenever an `expl` file is changed. Template Github workflows for continuously building a Canopy project hosted in a Github repository can be found on the [Canopy Github's "example workflows" repo](https://github.com/canopy-js/example-workflows).
+
+
+[Writers/Best Practices]
+
+* Best practices: There are various best practices for making content with Canopy, such as [[when to use topics versus subtopics]], [[when to repeat versus reference content]], [[thinking about entities and relations rather than explanations]], [[creating hyperlinks that follow sentence syntax]] and [[representing different versions of the same idea for different purposes]].
+
+
+* Creating hyperlinks that follow sentence syntax: It is common to find [[hyperlinks that do not match sentence syntax]], but it is recommended to instead [[create intermediary syntactic subtopics]].
+
+Hyperlinks that do not match sentence syntax: If I have the sentence "Bob lives on 4th Street", and I make the word "street" into a hyperlink to the topic of "streets" generally, then this is a hyperlink that does not match sentence syntax, because in our sentence, "4th Street" is one unit, and it is a name, and so the word "street" is not actually being used as the generic term, (like in the sentence: "I prefer streets to alleyways,") and so if one hyperlinks "4th `street`" to the generic topic "street", then there is a mismatch between how the term is being used syntactically and what the hyperlink is pointing to, which can be confusing to the reader.
+
+Create intermediary syntactic subtopics: If I have the sentence "Bob lives on 4th Street," and I am worried that someone will not know what a "street" is, and I want to link them to that concept, then rather than linkifying the word "street", I can create a subtopic called "4th Street", and make "Bob lives on `4th Street`" a local reference to that subtopic, and in the [[subtopic paragraph]] I can say "4th Street is a `street`", and put the hyperlink in the subtopic, and thus, I am able to offer the reader a definition of the word "street", without creating any hyperlinks that are mismatched to sentence syntax.
+
+
+* Representing different versions of the same idea for different purposes: Sometimes there will be multiple explanations of the same things appropriate for different times or levels of interest, and this can be modeled using one overarching topic with subtopics for what purpose or level of depth is desired, and these can be referenced using an [[import reference]].
+
+
+* Thinking about entities and relations rather than explanations: A good practice in Canopy is instead of designing what "explanations" ie paths through the content you think should exist, first choosing what entities exist in the corpus, and what relationships they have, and then letting paths and explanations emerge via these relations, even ones the author didn't themselves anticipate.
+
+
+* When to repeat versus reference content: Not every idea that is mentioned in multiple places should be referenced by link, because sometimes the author is trying to define an idea for a local purpose, and not send the reader meandering to a new topic and all its relations. In such a case, the author might repeat information that can be found elsewhere as subtopics of a given topic, so that the reader only sees that which is necessary for the current point being made, (and if the reader chooses to read more, a hyperlink to the topic proper can be included in parentheses, indicating optionality)
+
+
+* When to use topics versus subtopics: It is often ambiguous whether to represent a tangential idea as a [[subtopic]] or a [[subordinate topic]]. In general, if something could be explained in its own right without first explaining the original idea, even if no reader will end up doing so, it makes sense to model it as a subordinate topic. If something cannot be explained without first mentioning another idea, it should be a subtopic.
 
 
 [motivations]
 
-* Motivations for Canopy: The motivations for Canopy include [[realism]], [[customization]], [[reusability]], [[clarity]], [[scale]], [[non-rival media]], [[undersupply]], [[fragmentation]], [[interconnection]], [[discoverability]], [[completeness]], [[hierarchy]], [[interface of the expert]], [[relative addressing]], [[idea addressing]], [[mergability]], [[memorability]], [[explicit prerequisites]], [[explicit state]], [[inline inclusion]], [[proportionality]], [[natural language classification]], [[gaps]], [[rich compositions]], [[prescriptive understandings]], [[holistic review]], [[pervasive concepts]], [[redundant indexing]], and [[explanatory invariants]].
+* Motivations for Canopy: The motivations for Canopy include [[realism]], [[customization]], [[reusability]], [[clarity]], [[scale]], [[non-rival media]], [[undersupply]], [[fragmentation]], [[interconnection]], [[discoverability]], [[completeness]], [[hierarchy]], [[interface of the expert]], [[relative addressing]], [[idea addressing]], [[mergability]], [[memorability]], [[explicit prerequisites]], [[explicit state]], [[inline inclusion]], [[proportionality]], [[natural language classification]], [[gaps]], [[rich compositions]], [[prescriptive understandings]], [[holistic review]], [[informed abridgement]], [[pervasive concepts]], [[redundant indexing]], [[document metaphor]], [[recursive clarification]], [[connected synonyms]], and [[explanatory invariants]].
 
 
 [motivations/Clarity]
@@ -117,11 +390,24 @@ Canopy forces authors to include this information: In Canopy, every idea is expr
 
 [motivations/Completeness]
 
-* Completeness: Completeness is the idea that once an author is able to [[scale|produce works at larger scales]], it will be possible to achieve completeness of analysis, such as [[recursive consideration of arguments]], and [[non-inclusion will be clearly intentional]].
+* Completeness: Completeness is the idea that once an author is able to produce works of larger [[scale]], it will be possible to achieve completeness of analysis, such as [[recursive consideration of arguments]], so [[non-inclusion will be clearly intentional]] and [[the costs of including objectionable content will be lower]].
 
 Recursive consideration of arguments: Sometimes an author will give an argument for a view, and maybe also show a problem with the argument, but in theory, the tree of arguments and problems with the arguments, and problems with the problems, etc, can become very large, and it is difficult to achieve such coverage of even a small subject area.
 
 Non-inclusion will be clearly intentional: At present, if an author doesn't include a given point or argument, they can claim it is because there isn't space to consider every view. With [[non-rival media]] however, when the author doesn't include a point, it will be more clearly a choice, which might motivate authors to present wider coverage.
+
+The costs of including objectionable content will be lower: Many are skeptical of including coverage of arguments they disagree with for fear a reader will see the argument and not the rebuttal, and walk away with an incorrect view, but in Canopy (which has [[informed abridgement]]), the same paragraph that mentions a view will include mention of its rebuttal, and so the reader can only come away with an incomplete view if they themselves choose to, making it less risky for authors to include discussion of objectionable views.
+
+
+[motivations/Connected Synonyms]
+
+* Connected Synonyms: Connected synonyms is the idea that explanations often [[include unclear synonyms]], which [[produces a fragmented understanding]], and Canopy helps by [[interlinking synonyms]].
+
+Include unclear synonyms: Sometimes an expert will use one term for something, and sometimes another, and this could be intentional, in order to refer to slightly different aspects of that thing.
+
+Produces a fragmented understanding: If the listener does not know that these synonyms are referring to the same thing, they might come away with the impression that there are two different things, and that they haven't gotten the full story about either one of them, an example of the phenomenon of [[fragmentation]].
+
+Interlinking synonyms: In Canopy, the author can represent every synonym as its own entity, and then use natural language explanation to connect the different synonyms, so that no matter which term they use, the reader can burrow into the reference to connect it with all the related terms.
 
 
 [motivations/Customization]
@@ -184,19 +470,36 @@ Make discovering related points easier: By representing the [[interconnection]] 
 Decoupling detail from scope: Whereas linear prose will contain a mix of new points and details, in Canopy, details are displayed separately from new points, making it easier to see the scope of available content without getting bogged down in all the available details.
 
 
+[motivations/Document Metaphor]
+
+* Document Metaphor: Document metaphor is the idea that [[existing hypertext systems retain the metaphor of documents]], but [[there are shortcomings to the document metaphor]], and so [[Canopy replaces documents with graph traversal]], and [[is itself a generator of documents]].
+
+Existing hypertext systems retain the metaphor of documents: Hypertext systems like the modern internet are modeled as linear lists of paragraphs ("documents") that contain references to other documents.
+
+There are shortcomings to the document metaphor: Hypertext composed of documents is [[less customizable]] and [[more disjointed]] than Canopy explanations.
+
+Less customizable: Hypertext composed of documents does have more ability for [[customization]] than linear text like a book, but because it is itself composed of large blocks of linear text, the customization is less fine-tuned, and explanations shorter than a document cannot be produced, even if not every reader wants to read an entire document.
+
+More disjointed: When a reader traverses a network of hyperlinked documents, the experience is very different from a human explanation. Each document is a new explanation, and so the reader is constantly starting new explanations, and, when a link is opened, the user hasn't finished reading the first document, and so is simultaneously at one spot in the first document and in the second, and may forget the context of the first by the time they return, unlike Canopy where the explanation is composed of small paragraphs so the user always finishes the previous one before starting a new one.
+
+Canopy replaces documents with graph traversal: Instead of making documents the smallest unit of explanation, in Canopy the unit of explanation is the single-sentence paragraph, and paragraphs get woven together to produce a single explanation, not a series of interlinked explanations, similar to how human conversation and explanation is continuous and not composed of disjointed pieces.
+
+Is itself a generator of documents: Not only isn't Canopy a hypertext composed of fixed documents, Canopy is a definition of what makes a valid document, ie, paragraphs in a prose explanation are valid if every a later paragraph specifies a point made in an earlier paragraph like paths in Canopy, and so Canopy is a system for producing valid linear documents of explanation, rather than itself being a hypertext composed of such documents.
+
+
 [motivations/Explanatory Invariants]
 
-* Explanatory Invariants: Explanatory invariants is the idea that [[there are reoccuring types of relation between facts in a corpus]], and that [[it is sometimes desirable to capture every such relation]], and while [[free-form prose makes it difficult to capture explanatory invariants]], [[Canopy makes it easy to capture them]], [[without edging out existing analysis]].
+* Explanatory Invariants: Explanatory invariants is the idea that [[there are reoccuring types of relation between facts in a corpus]], and that [[it is sometimes desirable to capture every relation of a given type]], and while [[free-form prose makes it difficult to capture explanatory invariants]], [[Canopy makes it easy to capture them]], and [[without edging out existing analysis]].
 
 There are reoccuring types of relation between facts in a corpus: You might have a corpus of historical facts and for every fact claim one could ask "what historical documents exist to corroborate this fact?" Or, you might have a description of the components of a system, and for each one you might ask "how does this component work?" Or for every idea stated in a discussion you can ask, "what is the historical origin of this idea?" – Thus, a corpus can be composed of reoccuring types of fact, and each type of fact might always have a certain related question.
 
-It is sometimes desirable to capture every such relation: If we want to have [[completeness]] in capturing a corpus, it might be desirable to express the expectation that every fact of a certain type should have a relation of a certain type.
+It is sometimes desirable to capture every relation of a given type: If we want to have [[completeness]] in capturing a corpus, it might be desirable to express the expectation that every fact of a certain type should have a relation of a certain type.
 
 Free-form prose makes it difficult to capture explanatory invariants: When writing books and articles in free-form prose, different questions and forms of analysis are applied ad-hoc, and it can be difficult to see whether a certain question is asked uniformly in every place where it is relevant.
 
 Canopy makes it easy to capture them: In Canopy, by modeling topics and all their relations in an abstract way before filling in the details, it is easier to see whether a certain question or relation is being expressed for every statement of a given type, and writers can make templates that require topics of a certain type to have different expected subcomponents, for example every historical event having a date or corroborating documents.
 
-Without edging out existing analysis: If you take a book about different historical events and add a list of historical documents corroborating every point, then these added sources are making it harder for people to get the flow of the events themselves. Yet with Canopy, every point of type "historical claim" can have a subpoint "corroborating documentation" without these subpoints taking space away from the original analysis, because it is an example of [[non-rival media]].
+Without edging out existing analysis: If you take a book about different historical events and add a list of historical documents corroborating every point, then these added sources are making it harder for people to get the flow of the events themselves. Yet with Canopy, every point of type "historical claim" can have a subpoint of type "corroborating documentation" without these subpoints taking space away from the original analysis, which is an example of how Canopy is [[non-rival media]].
 
 
 [motivations/Explicit Prerequisites]
@@ -225,15 +528,19 @@ Canopy makes the state of the explanation visibly clear: In Canopy, the screen d
 
 [motivations/Fragmentation]
 
-* Fragmentation: Fragmentation is the idea that [[when storage is coupled to presentation]], [[information will often be stored far from related information]], which [[harms discoverability]], and [[harms the development of mastery]].
+* Fragmentation: Fragmentation is the idea that some systems of information storage unintentionally [[separate things that are connected]], which [[harms discoverability]], and [[harms the development of mastery]], [[producing fragmented understandings in the minds of readers]]. Fragmentation is the opposite of [[interconnection]].
+
+Separate things that are connected: Systems that store linear information as linear prose or verbal lectures create fragmentation because [[when storage is coupled to presentation]], [[information will end up far from related information]].
 
 When storage is coupled to presentation: If people only read from books and articles, then the way we store information will be by storing it as books and articles, and so the amount of information and interconnections we can store is constrained by the size and audience of the book, and so we are limited by the fact that the format of storage and the format of presentation have to be the same.
 
-Information will often be stored far from related information: If understanding of a news story could benefit from an understanding of a historical fact, but not everyone would be interested in hearing about it, then the news story will be stored in a newspaper, and the historical fact will be stored in a textbook, and either the reader of the newspaper won't know about the historical fact, or at the very least there will be great friction in going from the newspaper to the historical fact.
+Information will end up far from related information: If understanding of a news story could benefit from an understanding of a historical fact, but not everyone would be interested in hearing about it, then the news story will be stored in a newspaper, and the historical fact will be stored in a textbook, and either the reader of the newspaper won't know about the historical fact, or at the very least there will be great friction in going from the newspaper to the historical fact.
 
 Harms discoverability: If two pieces of information that are objectively related are stored in different places, then people who see one will not necessarily hear about the other, and at best it will be a missed opportunity for offering something of interest, and at worst the reader may form a completely incorrect understanding due to the missing fact.
 
 Harms the development of mastery: If [[mastery requires interconnection]] and [[explanations are siloed]], then [[only experts will achieve any mastery]].
+
+Producing fragmented understandings in the minds of readers: The reader of disconnected media will by default end up with the same disconnections in their understanding as exist in the media itself.
 
 Mastery requires interconnection: Some portion of mastery over a subject matter is knowledge of the combinatorial interrelations between the pieces, such that if you see any part in any context, you can recognize the concept and connect it to the whole.
 
@@ -284,13 +591,13 @@ Canopy bakes hierarchy into the medium itself: Canopy gives an author the abilit
 
 [motivations/Holistic Review]
 
-* Holistic Review: Holistic review is the idea that rather than [[reviewing information in small pieces]], [[Canopy allows people to review information in large connected units]], which is possible because [[Canopy allows progressive occlusion of referenced prerequisites]].
+* Holistic Review: Holistic review is the idea that rather than [[reviewing information in small pieces]], [[Canopy allows people to review information in large connected units]], which is possible because [[Canopy allows progressive occlusion of referenced prerequisites]] and because [[Canopy allows repeated access to complex structures]].
 
 Reviewing information in small pieces: When someone makes flash cards to learn an interconnected subject matter, they are reviewing pieces of that subject matter independently without also reviewing the connections at the same time.
 
 Canopy allows people to review information in large connected units: By iterating repeatedly over a Canopy graph in different traversals, a reader is able to review not only the facts but also an organizing structure that includes the facts and relates them to one another.
 
-Canopy allows progressive occlusion of referenced prerequisites: While [[a first time reader only can cover small portions of graph in each session]], [[over multiple reviews the size that can be reviewed in each session increases]], and because [[references reviewed in separate sessions can become fragmented]], [[larger review sessions produce a better resulting understanding]].
+Canopy allows progressive occlusion of referenced prerequisites: While [[a first time reader only can cover small portions of graph in each session]], [[over multiple reviews the size that can be reviewed in each session increases]], and because [[references reviewed in separate sessions can become fragmented]], [[larger review sessions produce better understanding]].
 
 A first time reader only can cover small portions of graph in each session: When a person reads a Canopy paragraph for the first time, they might have to open many child paragraphs to understand all the different prerequisite concepts, so they end up not covering that much material because they need to burrow into so much clarification.
 
@@ -298,7 +605,11 @@ Over multiple reviews the size that can be reviewed in each session increases: A
 
 References reviewed in separate sessions can become fragmented: If someone learns about New York on Sunday and hears that its capital is Albany, and then on Friday learns about New Jersey and hears that it is next to another state called New York, the person might fail to connect that the New York they heard about on Sunday is the same one they later heard about on Friday, and so they would fail to understand that New Jersey is next to a state whose capital is Albany, even though they've heard everything they need to understand it.
 
-Larger review sessions produce a better resulting understanding: If a reader sees a description of something and then sees it referenced on the same day, there is a much better chance that this will produce a seamless, unfragmented understanding where new knowledge added to any point becomes accessible from every other.
+Larger review sessions produce better understanding: If a reader sees a description of something and then sees it referenced on the same day, there is a much better chance that this will produce a seamless, unfragmented understanding where new knowledge added to any point becomes accessible from every other.
+
+Canopy allows repeated access to complex structures: When learning a complex new domain, one inherent difficulty is that you can't create interconnected knowledge without review of the various parts and their connections, but on the other hand, it is difficult to review a complex interconnected domain without continued access to the instructor because you lack a master copy of the interconnected knowledge you're trying to internalize, (and [[review of a complex system in stages can be problematic]].) So, Canopy allows the instructor to make available a perfect copy of the "goal" understanding, so that students have a reliable version to review in the first place.
+
+Review of a complex system in stages can be problematic: Why not just have the student take notes on the basics, review that, and over time build their understanding of the system as a whole? It is possible, but one difficulty is that an oversimple initial understanding can stick long after it is time to have understood better, and so if the student begins by reviewing notes on a few disconnected incomplete statements, it will be much harder to later add the missing information than if from the get-go they had reviewed definitions that mentioned the existence of further complexity and interrelation so that later they could add that nuanced information without fundamentally changing their initial understanding.
 
 
 [motivations/Idea addressing]
@@ -314,6 +625,17 @@ The work: In a traditional library, one unit of information is the work, like a 
 We can address individual ideas: In Canopy, every idea gets a paragraph, and every idea gets a name, and from that name the idea gets a URL, and so we can speak about ideas and recommend explanations on a much finer-grain basis.
 
 
+[motivations/Informed Abridgement]
+
+* Informed Abridgement: Informed abridgement is the idea that whereas [[other mediums abridge without informing the reader]], [[in a Canopy project the reader makes an informed decision about when to stop reading]], and thus [[the reader has a better sense of their level of knowledge]].
+
+Other mediums abridge without informing the reader: When an expert writes in a popular publication, they will often simplify concepts and leave out opposing views due to the limitations of the venue, all without informing the reader of this, and so the reader doesn't know how much they don't know about the subject.
+
+In a Canopy project the reader makes an informed decision about when to stop reading: In a Canopy project, an expert can include all relevant information on a subject, and so the reader can begin with a brief description that mentions the existence of more information, and if they request that information, it will mention the existence of still more information, and so at each level of detail, the reader is notified of what else there is to know, so that if they decide to stop reading, it is with full knowledge that they haven't seen everything there was to read.
+
+The reader has a better sense of their level of knowledge: If the reader is offered more information and makes an informed decision to stop reading, then they will be much more modest in their self-appraisal because they know they are missing information, not like the reader of a popular publication.
+
+
 [motivations/Inline inclusion]
 
 * Inline inclusion: Inline inclusion is the idea that [[natural language references are not semantically redirects]], yet [[in most hypertext systems references cause redirects]], so [[in Canopy references are inlined by default]].
@@ -327,7 +649,7 @@ In Canopy references are inlined by default: When selecting a link in Canopy, by
 
 [motivations/Interconnection]
 
-* Interconnection: Interconnection is the idea that [[the connections between different facts are valuable data]], but that [[linear content limits the representation of interconnections]], whereas [[Canopy decouples information storage from presentation]], and so [[Canopy increases the number of connections that can be stored]], making it more similar to the [[interface of the expert]].
+* Interconnection: Interconnection is the idea that [[the connections between different facts are valuable data]], but that [[linear content limits the representation of interconnections]], whereas [[Canopy decouples information storage from presentation]], and so [[Canopy increases the number of connections that can be stored]], making it more similar to the [[interface of the expert]]. Interconnection is the opposite of [[fragmentation]].
 
 The connections between different facts are valuable data: Even if a person knows many facts, if they lack an understanding of the connection between them, they will miss implications from one to another, and new information might not update all relevant knowledge.
 
@@ -554,11 +876,32 @@ We preserve the original multiplicity of possible explanations: From the graph t
 The author can produce many possible linearizations, but if the author produces a linearization, we only captures their underlying graph rather than capturing only a few particular traversals like books or articles, then we have richer data from which we can can generate all the possible linearizations of the graph, allowing one reader to go into depth whereas another reader can get a general picture, a potential that would have been lost if the author had just produced one big text.
 
 
+[motivations/Recursive Clarification]
+
+* Recursive Clarification: Recursive clarification is the idea that [[explainers must provide conceptual prerequisites]], and whereas the most common solution is to use a [[topological sort]], there are [[downsides to topological sort]], and so Canopy allows readers to [[access prerequisites through recursion]], and there are [[benefits to using recursion]].
+
+Explainers must provide conceptual prerequisites: Most concepts require other concepts in order to understand them, and so when an explainer wants to explain something, they're also going to need to impart all the various concepts that are prerequisite for the given idea.
+
+Topological sort: Topological sort entails taking a set of ideas and their prerequisites and producing a linear ordering in which every prerequisite comes before every idea that requires it. So, the explainer would explain all the simpler ideas first, and only later would attempt to explain the more complex ideas that require the simpler ones. This is the approach followed by most books and lectures.
+
+Downsides to topological sort: Two downsides of topological sort is that it [[produces redundant explanations]], it [[produces unnecessary explanation]], and that it fails to communicate [[the motivation for prerequisites]].
+
+Produces redundant explanations: If all the prerequisites of every idea are front-loaded, then if the reader reads multiple ideas that require the same prerequisite, the reader will be shown that prerequisite every time, even if they already know it.
+
+Produces unnecessary explanation: If all the prerequisites of every idea are always shown before the given idea, then a reader who already knows some of them is forced to wade through information that they already know in order to find the information they don't.
+
+The motivation for prerequisites: If prerequisites are given before the ideas that require them, then the reader isn't entirely clear on why they are learning the idea, as opposed to trying to learn the complex idea, failing due to the lack of the prerequisite, and then going on a tangent to learn the prerequisite in order to learn the given idea.
+
+Access prerequisites through recursion: In Canopy, if a concept requires other concepts, they are not "front-loaded", but rather are referenced as if the reader already knows them, and if the reader doesn't, they may burrow into additional explanation of those prerequisites, and the prerequisites of the prerequisites, etc.
+
+Benefits to using recursion: If the writer assumes the reader has the required background knowledge and the reader must opt in to further explanation, then there is never a problem of over-explaining. Also, because the complex idea was shown first, it is clear to the reader why they are learning the required prerequisite and they will have motivation to learn it.
+
+
 [motivations/Redundant Indexing]
 
 * Redundant Indexing: Redundant indexing is the idea that [[the different entities of a subject area can be organized in different ways]], and [[Canopy lets you explore the data of a project in these different organizations]].
 
-The different entities of a subject area can be organized in different ways: You could have the battles of a given war organized chronologically, or you could also have them organized by size or length, so we want the same entities with all their details to be available via different organizational schemes.
+The different entities of a subject area can be organized in different ways: You might want to access a list of diseases by the part of the body they affect, but you might also want to practice recalling them based on symptoms, so we want to access the same entities with all their optional detail, but via different organizational schemes.
 
 Canopy lets you explore the data of a project in these different organizations: Canopy lets you define a set of topics with all their details and subcomponents, but also to define arbitrarily many indexes of these topics, listing different groups of topics in different ways, and no matter what manner you arrive at a given topic, you can still burrow into the details and remind yourself of the specifics of the topic before trying to redundantly index it via multiple organizational schemes.
 
@@ -605,24 +948,32 @@ What the reader wants is a single merged understanding: What the reader needs is
 
 [motivations/Rich Compositions]
 
-* Rich Compositions: Rich compositions is the idea that [[descriptions can be deeply nested]], but [[limits of human cognition limit composition size]], and so [[Canopy makes it easier to reconstruct complex compositions]], [[increasing the complexity of ideas that can be successfully communicated]].
+* Rich Compositions: Rich compositions is the idea that [[descriptions can be complex]], but [[humans are currently limited in the size of the descriptions they can consume]], and so because [[Canopy makes it easier to share rich compositions]], [[Canopy increases the maximum complexity of ideas that can be successfully communicated]], creating the potential for a world where [[complex ideas are communicated with higher fidelity]].
 
-Descriptions can be deeply nested: A description of a complex thing might require describing a complex part, which in turn might require describing a complex part, and so on.
+Descriptions can be complex: A description of a complex thing might require describing several aspects of the thing, which might in turn require defining several terms, which might require giving background information, and so the overall description could end up being a complex structure of many small nested explanations.
 
-Limits of human cognition limit composition size: There are [[limits to working memory size]], and there are [[limits to maximum session length]].
+Humans are currently limited in the size of the descriptions they can consume: There are [[limits to working memory size]], and there are [[limits to maximum session length]].
 
-Limits to working memory size: A person can only keep track of a certain number of things at any given time, so a definition that contains a definition that contains a definition might end up overflowing the amount of things the person can keep track of, causing them to fail to assemble the explanation.
+Limits to working memory size: A person can only keep track of a certain number of things at any given time, so a definition that contains a definition that contains a definition might end up overflowing the amount of things the person can keep track of, causing them to forget how all the parts fit together into the original big picture.
 
-Limits to maximum session length: The amount of content that can be communicated in a given session is limited by the listener's attention span, and information communicated in one session might be forgotten by the next, making it difficult to keep all the required subdefinitions in memory long enough to form the desired original picture.
+Limits to maximum session length: The amount of content that can be communicated in a given session is limited by the listener's attention span, and information communicated in one session might be forgotten by the next, making it difficult to keep all the required subdefinitions in memory long enough to form the desired picture.
 
-Canopy makes it easier to reconstruct complex compositions: By showing an explanation as a brief paragraph, followed by a brief definition, and so on, a reader can burrow many levels down in the composition of an idea, and yet still retain very clearly on the page the path by which they got there, so that they can later reassemble the pieces they are reading into the original big picture.
+Canopy makes it easier to share rich compositions: Canopy makes it easier to make rich compositions because [[Canopy makes it easier for readers to reconstruct complex compositions]], [[reusability makes it easier for authors to produce complex compositions]], and [[Canopy removes traditional limits on content length]].
 
-Increasing the complexity of ideas that can be successfully communicated: If it becomes easier for authors to communicate to readers complex ideas that require the proper assembly of many complex subcomponents, and if readers become more likely to be successful in reconstructing such complex compositions, then authors and readers might choose to express and consume ideas of greater complexity than are currently communicated.
+Canopy makes it easier for readers to reconstruct complex compositions: By showing a brief paragraph, followed by a definition, followed by a definition required for the definition, and so on, a reader can burrow many levels down in the composition of an idea, and yet still still see clearly on the page how they got to a given point, and afterwords can regress back upwards and progressively reassemble the pieces they've seen into the overarching original composition, all without having themselves to keep track of the complexity of what piece goes where.
+
+Canopy removes traditional limits on content length: Whereas books and articles have a fixed maximum length, preventing authors from sharing many rich compositions due to length constraints, Canopy projects decouple storage from presentation, and so can grow to a very large [[scale]].
+
+Canopy increases the maximum complexity of ideas that can be successfully communicated: If it becomes easier for authors to communicate to readers complex ideas that require the proper assembly of many complex subcomponents, and if readers become more likely to be successful in reconstructing such complex compositions, then authors and readers might choose to express and consume ideas of greater complexity than are currently communicated.
+
+Reusability makes it easier for authors to produce complex compositions: Canopy allows authors to produce [[reusability|reusable units of explanation]], and thus it is easier for authors to produce complex compositions because they can reuse terms and ideas that they've defined elsewhere.
+
+Complex ideas are communicated with higher fidelity: The friction with which complex ideas are communicated is one of the major limiting factors of growth and economic mobility in the world today. Access to videos and textbooks is high, but career paths like medicine and engineering still are extremely challenging for most people due to the difficulty entailed in converting these resources to a nuanced understanding, so any medium that reduced this friction could benefit many people.
 
 
 [motivations/Scale]
 
-* Scale: Scale is the idea that [[fixed mediums limit the maximum size of explanations]], whereas [[non-linear media allows greater explanation size]].
+* Scale: Scale is the idea that [[linear mediums limit the maximum size of explanations]], whereas [[non-linear media allows greater explanation size]].
 
 Non-linear media allows greater explanation size: Non-linear media can grow larger than linear media because [[non-linear media is more navigable at large sizes]], and also [[non-linear media isn't constrained by audience interest]].
 
@@ -636,7 +987,7 @@ Search doesn't give the reader an organizational scheme: When the reader accesse
 
 Non-linear media isn't constrained by audience interest: Non-linear media can grow large even if people prefer to consume small explanations because [[non-linear explanations decouple storage from presentation]], and so [[demand for content of a certain size won't prevent large corpuses]].
 
-Fixed mediums limit the maximum size of explanations: Authors are constrained in the length of books and articles by [[medium constraints]] and [[audience relevance]], and so even if the author has information they would like to publish, often they have no good place to put it. (And [[even niche works have the same problem]].)
+Linear mediums limit the maximum size of explanations: Authors are constrained in the length of books and articles by [[medium constraints]] and [[audience relevance]], and so even if the author has information they would like to publish, often they have no good place to put it. (And [[even niche works have the same problem]].)
 
 Medium constraints: Practically speaking, a book or article cannot become greater than a certain size, both because there isn't an audience for such large works, and sometimes because of literal constraints on how much content can be printed and circulated.
 
@@ -809,5 +1160,9 @@ Canopy is a JavaScript library for creating and browsing the diagraph data struc
 - Use question topic names.
 
 When does a person use a subtopic eg "France#Economy" and when does a person use a topic
+
+Different kinds of diagraph eg pedagogic diagraph where a simple version of the idea is the root, and specifications are complications.
+
+Diagraph is a dependency graph
 
 
