@@ -387,6 +387,18 @@
     "enclosingSubtopic": "Motivations for Canopy"
    },
    {
+    "text": ", ",
+    "type": "text"
+   },
+   {
+    "text": "exhaustive description",
+    "type": "global",
+    "targetSubtopic": "Exhaustive Description",
+    "targetTopic": "Exhaustive Description",
+    "enclosingTopic": "Motivations for Canopy",
+    "enclosingSubtopic": "Motivations for Canopy"
+   },
+   {
     "text": ", and ",
     "type": "text"
    },

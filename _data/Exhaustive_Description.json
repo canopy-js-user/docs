@@ -1,0 +1,77 @@
+{
+ "displayTopicName": "Exhaustive Description",
+ "paragraphsBySubtopic": {
+  "Exhaustive Description": [
+   {
+    "text": "Exhaustive description is the idea that whereas linear prose is ",
+    "type": "text"
+   },
+   {
+    "text": "written additively",
+    "type": "local",
+    "targetSubtopic": "Written additively",
+    "targetTopic": "Exhaustive Description",
+    "enclosingTopic": "Exhaustive Description",
+    "enclosingSubtopic": "Exhaustive Description"
+   },
+   {
+    "text": ", in Canopy text is ",
+    "type": "text"
+   },
+   {
+    "text": "written exhaustively",
+    "type": "local",
+    "targetSubtopic": "Written exhaustively",
+    "targetTopic": "Exhaustive Description",
+    "enclosingTopic": "Exhaustive Description",
+    "enclosingSubtopic": "Exhaustive Description"
+   },
+   {
+    "text": ", and this ",
+    "type": "text"
+   },
+   {
+    "text": "simplifies learning",
+    "type": "local",
+    "targetSubtopic": "Simplifies learning",
+    "targetTopic": "Exhaustive Description",
+    "enclosingTopic": "Exhaustive Description",
+    "enclosingSubtopic": "Exhaustive Description"
+   },
+   {
+    "text": ".",
+    "type": "text"
+   }
+  ],
+  "Written additively": [
+   {
+    "text": "In prose, the author might say \"there are cats and there are dogs,\" but I have no way of knowing if these are all the kinds of animal, or whether there will be other ones scattered throughout the work.",
+    "type": "text"
+   }
+  ],
+  "Written exhaustively": [
+   {
+    "text": "In Canopy, you would have a paragraph called \"kinds of animal\" and it would exhaustively list all the kinds of animal, because every category or entity has one dedicated paragraph in Canopy which must exhaustively contain all information on that topic.",
+    "type": "text"
+   }
+  ],
+  "Simplifies learning": [
+   {
+    "text": "If paragraphs are not written cumulatively, students might end up learning incomplete lists in multiple places, causing ",
+    "type": "text"
+   },
+   {
+    "text": "fragmentation",
+    "type": "global",
+    "targetSubtopic": "Fragmentation",
+    "targetTopic": "Fragmentation",
+    "enclosingTopic": "Exhaustive Description",
+    "enclosingSubtopic": "Simplifies learning"
+   },
+   {
+    "text": ", whereas exhaustive descriptions put everything in one place, and are more likely to end up together in the mind of the reader.",
+    "type": "text"
+   }
+  ]
+ }
+}
