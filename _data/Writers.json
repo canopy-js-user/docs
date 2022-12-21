@@ -241,16 +241,8 @@
     "type": "text"
    },
    {
-    "text": "` ",
-    "type": "text"
-   },
-   {
-    "text": "` Topic: This is a paragraph for the topic \"Topic.\" ",
-    "type": "text"
-   },
-   {
-    "text": "` ",
-    "type": "text"
+    "type": "code_block",
+    "text": "\nTopic: This is a paragraph for the topic \"Topic.\"\n\n"
    },
    {
     "text": "Then, when you build your project, this topic can be viewed in the web interface.",
