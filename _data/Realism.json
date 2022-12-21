@@ -149,7 +149,7 @@
   ],
   "Any representation of explanation besides a graph will be distortive": [
    {
-    "text": "If you represent the graph as a linearization that goes deep into detail before going broad, then different aspects of the same thing will be explained very far apart in the work, and if you go broad before going deep, then the different details of a subject are scattered around different parts of the sequence.",
+    "text": "If you represent the graph as a linearization that goes deep into detail before going broad, then different parts of the same thing will be explained very far apart from one another in the resulting work, making it hard to get a high-level picture, but if you go broad before going deep, then the different details of a subject are scattered around different parts of the work, making it hard to dive into details of a subject.",
     "type": "text"
    }
   ],
