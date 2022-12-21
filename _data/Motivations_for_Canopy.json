@@ -109,18 +109,6 @@
     "type": "text"
    },
    {
-    "text": "reusability",
-    "type": "global",
-    "targetSubtopic": "Reusability",
-    "targetTopic": "Reusability",
-    "enclosingTopic": "Motivations for Canopy",
-    "enclosingSubtopic": "Specific features of Canopy"
-   },
-   {
-    "text": ", ",
-    "type": "text"
-   },
-   {
     "text": "inline inclusion",
     "type": "global",
     "targetSubtopic": "Inline inclusion",
@@ -191,6 +179,18 @@
     "type": "global",
     "targetSubtopic": "Clarity",
     "targetTopic": "Clarity",
+    "enclosingTopic": "Motivations for Canopy",
+    "enclosingSubtopic": "Qualities of Canopy content"
+   },
+   {
+    "text": ", ",
+    "type": "text"
+   },
+   {
+    "text": "reusability",
+    "type": "global",
+    "targetSubtopic": "Reusability",
+    "targetTopic": "Reusability",
     "enclosingTopic": "Motivations for Canopy",
     "enclosingSubtopic": "Qualities of Canopy content"
    },
