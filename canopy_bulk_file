@@ -365,12 +365,22 @@ Create intermediary syntactic subtopics: If I have the sentence "Bob lives on 4t
 * When to repeat versus reference content: Not every idea that is mentioned in multiple places should be referenced by link, because sometimes the author is trying to define an idea for a local purpose, and not send the reader meandering to a new topic and all its relations. In such a case, the author might repeat information that can be found elsewhere as subtopics of a given topic, so that the reader only sees that which is necessary for the current point being made, (and if the reader chooses to read more, a hyperlink to the topic proper can be included in parentheses, indicating optionality)
 
 
-* When to use topics versus subtopics: It is often ambiguous whether to represent a tangential idea as a [[subtopic]] or a [[subordinate topic]]. In general, if something could be explained in its own right without first explaining the original idea, even if no reader will end up doing so, it makes sense to model it as a subordinate topic. If something cannot be explained without first mentioning another idea, it should be a subtopic.
+* When to use topics versus subtopics: It is often ambiguous whether to represent a tangential idea as a [[subtopic]] or a [[subordinate topic]]. In general, if something could be explained in its own right without first explaining the original idea, even if no reader will end up doing so, it makes sense to model it as a subordinate topic. If something cannot be explained without first mentioning another idea, it should be a subtopic. Another rule of thumb is that names that contain other names should be subtopics, eg "the North entrance to Newark airport."
 
 
 [motivations]
 
-* Motivations for Canopy: The motivations for Canopy include [[realism]], [[customization]], [[reusability]], [[clarity]], [[scale]], [[non-rival media]], [[undersupply]], [[fragmentation]], [[interconnection]], [[discoverability]], [[completeness]], [[hierarchy]], [[interface of the expert]], [[relative addressing]], [[idea addressing]], [[mergability]], [[memorability]], [[explicit prerequisites]], [[explicit state]], [[inline inclusion]], [[proportionality]], [[natural language classification]], [[gaps]], [[rich compositions]], [[prescriptive understandings]], [[holistic review]], [[informed abridgement]], [[pervasive concepts]], [[redundant indexing]], [[document metaphor]], [[recursive clarification]], [[connected synonyms]], [[exhaustive description]], and [[explanatory invariants]].
+* Motivations for Canopy: The motivations for Canopy include [[observations about human explanation]], [[limitations of conventional explanations]], [[specific features of Canopy]], [[qualities of Canopy content]], and [[new possibilities Canopy enables]].
+
+Specific features of Canopy: Canopy is motivated by specific desirable features such as [[recursive clarification]], [[connected synonyms]], [[informed abridgement]], [[reusability]], [[inline inclusion]], [[explicit state]], [[idea addressing]], and [[relative addressing]].
+
+Qualities of Canopy content: Canopy is motivated by qualities of Canopy content, such as  [[customization]], [[clarity]], [[mergability]], [[proportionality]], [[memorability]],  [[explicit prerequisites]], [[discoverability]], [[hierarchy]], [[natural language classification]], and [[non-rival media]].
+
+New possibilities Canopy enables: Canopy is motivated by new possibilities the system enables, such as [[scale]], [[exhaustive description]], [[explanatory invariants]], [[holistic review]], [[pervasive concepts]], [[redundant indexing]], [[prescriptive understandings]], [[rich compositions]], [[interconnection]], and [[completeness]].
+
+Limitations of conventional explanations: Canopy is motivated by limitations of existing explanatory formats, such as [[document metaphor]], [[undersupply]], [[gaps]], [[fragmentation]].
+
+Observations about human explanation: Canopy is motivated by observations about human explanation, such as [[realism]] and [[interface of the expert]].
 
 
 [motivations/Clarity]
