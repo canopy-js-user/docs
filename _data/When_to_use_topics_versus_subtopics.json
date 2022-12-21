@@ -27,7 +27,7 @@
     "enclosingSubtopic": "When to use topics versus subtopics"
    },
    {
-    "text": ". In general, if something could be explained in its own right without first explaining the original idea, even if no reader will end up doing so, it makes sense to model it as a subordinate topic. If something cannot be explained without first mentioning another idea, it should be a subtopic.",
+    "text": ". In general, if something could be explained in its own right without first explaining the original idea, even if no reader will end up doing so, it makes sense to model it as a subordinate topic. If something cannot be explained without first mentioning another idea, it should be a subtopic. Another rule of thumb is that names that contain other names should be subtopics, eg \"the North entrance to Newark airport.\"",
     "type": "text"
    }
   ]
