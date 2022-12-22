@@ -3,7 +3,7 @@
  "paragraphsBySubtopic": {
   "Canopy JS": [
    {
-    "text": "Welcome! This is the documentation of the Canopy JS project. You can use Canopy to create interactive explanatory websites like this one. ",
+    "text": "Welcome! This is the documentation of the Canopy JS project. You can use Canopy to create interactive explanatory websites like this one. (Try using the arrow keys!) ",
     "type": "text"
    },
    {
@@ -96,11 +96,7 @@
     "url": "https://github.com/canopy-js/canopy-js"
    },
    {
-    "text": ". ",
-    "type": "text"
-   },
-   {
-    "text": "(Try using the arrow keys!)",
+    "text": ".",
     "type": "text"
    }
   ]

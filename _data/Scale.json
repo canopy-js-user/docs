@@ -19,9 +19,9 @@
     "type": "text"
    },
    {
-    "text": "non-linear media allows greater explanation size",
+    "text": "non-linear media allow greater explanation size",
     "type": "local",
-    "targetSubtopic": "Non-linear media allows greater explanation size",
+    "targetSubtopic": "Non-linear media allow greater explanation size",
     "targetTopic": "Scale",
     "enclosingTopic": "Scale",
     "enclosingSubtopic": "Scale"
@@ -31,7 +31,7 @@
     "type": "text"
    }
   ],
-  "Non-linear media allows greater explanation size": [
+  "Non-linear media allow greater explanation size": [
    {
     "text": "Non-linear media can grow larger than linear media because ",
     "type": "text"
@@ -42,7 +42,7 @@
     "targetSubtopic": "Non-linear media is more navigable at large sizes",
     "targetTopic": "Scale",
     "enclosingTopic": "Scale",
-    "enclosingSubtopic": "Non-linear media allows greater explanation size"
+    "enclosingSubtopic": "Non-linear media allow greater explanation size"
    },
    {
     "text": ", and also ",
@@ -54,7 +54,7 @@
     "targetSubtopic": "Non-linear media isn't constrained by audience interest",
     "targetTopic": "Scale",
     "enclosingTopic": "Scale",
-    "enclosingSubtopic": "Non-linear media allows greater explanation size"
+    "enclosingSubtopic": "Non-linear media allow greater explanation size"
    },
    {
     "text": ".",
@@ -65,7 +65,7 @@
    {
     "text": "Difficulty navigating large corpuses limits corpus size",
     "type": "local",
-    "targetSubtopic": "difficulty navigating large corpuses limits corpus size",
+    "targetSubtopic": "Difficulty navigating large corpuses limits corpus size",
     "targetTopic": "Scale",
     "enclosingTopic": "Scale",
     "enclosingSubtopic": "Non-linear media is more navigable at large sizes"
@@ -309,7 +309,7 @@
     "type": "text"
    }
   ],
-  "difficulty navigating large corpuses limits corpus size": [
+  "Difficulty navigating large corpuses limits corpus size": [
    {
     "text": "Even if we are physically able to store large corpuses of information, if we don't have a good way of navigating them, then people aren't going to go to the trouble to assemble that much information in the first place.",
     "type": "text"

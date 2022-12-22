@@ -43,6 +43,18 @@
     "type": "text"
    },
    {
+    "text": "building their project",
+    "type": "local",
+    "targetSubtopic": "Building their project",
+    "targetTopic": "Writers",
+    "enclosingTopic": "Writers",
+    "enclosingSubtopic": "Writers"
+   },
+   {
+    "text": ", ",
+    "type": "text"
+   },
+   {
     "text": "serving their project locally",
     "type": "local",
     "targetSubtopic": "Serving their project locally",
@@ -255,7 +267,7 @@
     "type": "text"
    }
   ],
-  "Building the project": [
+  "Building their project": [
    {
     "text": "Building your Canopy project entails taking the `expl` files and generating JSON from them that can be used by the front-end client. You can build your project by navigating to your project directory and running the ",
     "type": "text"
@@ -266,7 +278,7 @@
     "targetSubtopic": "Canopy CLI build command",
     "targetTopic": "Canopy CLI build command",
     "enclosingTopic": "Writers",
-    "enclosingSubtopic": "Building the project"
+    "enclosingSubtopic": "Building their project"
    },
    {
     "text": ".",

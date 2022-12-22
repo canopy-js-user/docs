@@ -85,30 +85,6 @@
     "type": "text"
    },
    {
-    "text": "connected synonyms",
-    "type": "global",
-    "targetSubtopic": "Connected Synonyms",
-    "targetTopic": "Connected Synonyms",
-    "enclosingTopic": "Motivations for Canopy",
-    "enclosingSubtopic": "Specific features of Canopy"
-   },
-   {
-    "text": ", ",
-    "type": "text"
-   },
-   {
-    "text": "informed abridgement",
-    "type": "global",
-    "targetSubtopic": "Informed Abridgement",
-    "targetTopic": "Informed Abridgement",
-    "enclosingTopic": "Motivations for Canopy",
-    "enclosingSubtopic": "Specific features of Canopy"
-   },
-   {
-    "text": ", ",
-    "type": "text"
-   },
-   {
     "text": "inline inclusion",
     "type": "global",
     "targetSubtopic": "Inline inclusion",
@@ -137,6 +113,18 @@
     "type": "global",
     "targetSubtopic": "Idea addressing",
     "targetTopic": "Idea addressing",
+    "enclosingTopic": "Motivations for Canopy",
+    "enclosingSubtopic": "Specific features of Canopy"
+   },
+   {
+    "text": ", ",
+    "type": "text"
+   },
+   {
+    "text": "natural language classification",
+    "type": "global",
+    "targetSubtopic": "Natural language classification",
+    "targetTopic": "Natural language classification",
     "enclosingTopic": "Motivations for Canopy",
     "enclosingSubtopic": "Specific features of Canopy"
    },
@@ -231,7 +219,19 @@
     "enclosingSubtopic": "Qualities of Canopy content"
    },
    {
-    "text": ",  ",
+    "text": ", ",
+    "type": "text"
+   },
+   {
+    "text": "informed abridgement",
+    "type": "global",
+    "targetSubtopic": "Informed Abridgement",
+    "targetTopic": "Informed Abridgement",
+    "enclosingTopic": "Motivations for Canopy",
+    "enclosingSubtopic": "Qualities of Canopy content"
+   },
+   {
+    "text": ", ",
     "type": "text"
    },
    {
@@ -271,10 +271,22 @@
     "type": "text"
    },
    {
-    "text": "natural language classification",
+    "text": "exhaustiveness",
     "type": "global",
-    "targetSubtopic": "Natural language classification",
-    "targetTopic": "Natural language classification",
+    "targetSubtopic": "Exhaustiveness",
+    "targetTopic": "Exhaustiveness",
+    "enclosingTopic": "Motivations for Canopy",
+    "enclosingSubtopic": "Qualities of Canopy content"
+   },
+   {
+    "text": ", ",
+    "type": "text"
+   },
+   {
+    "text": "non-rival media",
+    "type": "global",
+    "targetSubtopic": "Non-rival media",
+    "targetTopic": "Non-rival media",
     "enclosingTopic": "Motivations for Canopy",
     "enclosingSubtopic": "Qualities of Canopy content"
    },
@@ -283,10 +295,10 @@
     "type": "text"
    },
    {
-    "text": "non-rival media",
+    "text": "connected synonyms",
     "type": "global",
-    "targetSubtopic": "Non-rival media",
-    "targetTopic": "Non-rival media",
+    "targetSubtopic": "Connected Synonyms",
+    "targetTopic": "Connected Synonyms",
     "enclosingTopic": "Motivations for Canopy",
     "enclosingSubtopic": "Qualities of Canopy content"
    },
@@ -305,18 +317,6 @@
     "type": "global",
     "targetSubtopic": "Scale",
     "targetTopic": "Scale",
-    "enclosingTopic": "Motivations for Canopy",
-    "enclosingSubtopic": "New possibilities Canopy enables"
-   },
-   {
-    "text": ", ",
-    "type": "text"
-   },
-   {
-    "text": "exhaustive description",
-    "type": "global",
-    "targetSubtopic": "Exhaustive Description",
-    "targetTopic": "Exhaustive Description",
     "enclosingTopic": "Motivations for Canopy",
     "enclosingSubtopic": "New possibilities Canopy enables"
    },
@@ -467,6 +467,18 @@
     "type": "global",
     "targetSubtopic": "Fragmentation",
     "targetTopic": "Fragmentation",
+    "enclosingTopic": "Motivations for Canopy",
+    "enclosingSubtopic": "Limitations of conventional explanations"
+   },
+   {
+    "text": ", and ",
+    "type": "text"
+   },
+   {
+    "text": "Anti-Marginalia",
+    "type": "global",
+    "targetSubtopic": "Anti-Marginalia",
+    "targetTopic": "Anti-Marginalia",
     "enclosingTopic": "Motivations for Canopy",
     "enclosingSubtopic": "Limitations of conventional explanations"
    },

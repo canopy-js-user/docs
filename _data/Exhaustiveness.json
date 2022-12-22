@@ -1,18 +1,18 @@
 {
- "displayTopicName": "Exhaustive Description",
+ "displayTopicName": "Exhaustiveness",
  "paragraphsBySubtopic": {
-  "Exhaustive Description": [
+  "Exhaustiveness": [
    {
-    "text": "Exhaustive description is the idea that whereas linear prose is ",
+    "text": "Exhaustiveness is the idea that whereas linear prose is ",
     "type": "text"
    },
    {
     "text": "written additively",
     "type": "local",
     "targetSubtopic": "Written additively",
-    "targetTopic": "Exhaustive Description",
-    "enclosingTopic": "Exhaustive Description",
-    "enclosingSubtopic": "Exhaustive Description"
+    "targetTopic": "Exhaustiveness",
+    "enclosingTopic": "Exhaustiveness",
+    "enclosingSubtopic": "Exhaustiveness"
    },
    {
     "text": ", in Canopy text is ",
@@ -22,9 +22,9 @@
     "text": "written exhaustively",
     "type": "local",
     "targetSubtopic": "Written exhaustively",
-    "targetTopic": "Exhaustive Description",
-    "enclosingTopic": "Exhaustive Description",
-    "enclosingSubtopic": "Exhaustive Description"
+    "targetTopic": "Exhaustiveness",
+    "enclosingTopic": "Exhaustiveness",
+    "enclosingSubtopic": "Exhaustiveness"
    },
    {
     "text": ", and this ",
@@ -34,9 +34,9 @@
     "text": "simplifies learning",
     "type": "local",
     "targetSubtopic": "Simplifies learning",
-    "targetTopic": "Exhaustive Description",
-    "enclosingTopic": "Exhaustive Description",
-    "enclosingSubtopic": "Exhaustive Description"
+    "targetTopic": "Exhaustiveness",
+    "enclosingTopic": "Exhaustiveness",
+    "enclosingSubtopic": "Exhaustiveness"
    },
    {
     "text": ".",
@@ -65,7 +65,7 @@
     "type": "global",
     "targetSubtopic": "Fragmentation",
     "targetTopic": "Fragmentation",
-    "enclosingTopic": "Exhaustive Description",
+    "enclosingTopic": "Exhaustiveness",
     "enclosingSubtopic": "Simplifies learning"
    },
    {

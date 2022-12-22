@@ -27,25 +27,13 @@
     "enclosingSubtopic": "Natural language classification"
    },
    {
-    "text": ", related to the idea of ",
-    "type": "text"
-   },
-   {
-    "text": "relative addressing",
-    "type": "global",
-    "targetSubtopic": "Relative addressing",
-    "targetTopic": "Relative addressing",
-    "enclosingTopic": "Natural language classification",
-    "enclosingSubtopic": "Natural language classification"
-   },
-   {
     "text": ".",
     "type": "text"
    }
   ],
   "People use natural language as a classification scheme in conversation": [
    {
-    "text": "When someone says \"there is a country called France and there are certain exports that it produces economically,\" the speaker has specified a category in which further information can be put. Similarly, when requesting information, a person might give a brief explanation and then pose a question about something it mentions. Thus, the introductory sentences themselves are functioning as a classification scheme for storing and requesting information.",
+    "text": "When someone says \"there is a country called France and there are certain exports that it produces economically,\" the speaker has specified a category in which further information can be put. Similarly, when requesting information, a person might give a brief explanation and then pose a question about something that was mentioned. Thus, the introductory sentences themselves are functioning as a classification scheme for storing and requesting information.",
     "type": "text"
    }
   ],

@@ -7,10 +7,10 @@
     "type": "text"
    },
    {
-    "text": "Canopy CLI",
+    "text": "Canopy CLI code",
     "type": "global",
-    "targetSubtopic": "Canopy CLI",
-    "targetTopic": "Canopy CLI",
+    "targetSubtopic": "Canopy CLI Code",
+    "targetTopic": "Canopy CLI Code",
     "enclosingTopic": "Codebase",
     "enclosingSubtopic": "Codebase"
    },
@@ -19,10 +19,10 @@
     "type": "text"
    },
    {
-    "text": "Canopy front-end client",
+    "text": "Canopy client code",
     "type": "global",
-    "targetSubtopic": "Canopy front-end client",
-    "targetTopic": "Canopy front-end client",
+    "targetSubtopic": "Canopy client code",
+    "targetTopic": "Canopy client code",
     "enclosingTopic": "Codebase",
     "enclosingSubtopic": "Codebase"
    },

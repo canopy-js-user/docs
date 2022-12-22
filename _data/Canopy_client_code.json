@@ -1,7 +1,7 @@
 {
- "displayTopicName": "Canopy front-end client",
+ "displayTopicName": "Canopy client code",
  "paragraphsBySubtopic": {
-  "Canopy front-end client": [
+  "Canopy client code": [
    {
     "text": "The Canopy front-end client is composed of several major components.",
     "type": "text"

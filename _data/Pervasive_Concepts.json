@@ -57,7 +57,7 @@
   ],
   "Within a domain, there are certain pervasive concepts": [
    {
-    "text": "In programming for example, you have the concept of modularity, that large systems can be composed of smaller units that hide their internal structure in order to make things more understandable.",
+    "text": "In programming for example, you have the concept of modularity, that large systems can be composed of smaller units that hide their internal structure in order to make things more understandable. This idea can be found in different presentations and permutations throughout the branches of engineering.",
     "type": "text"
    }
   ],

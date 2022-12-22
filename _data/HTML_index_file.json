@@ -39,7 +39,19 @@
     "enclosingSubtopic": "HTML index file"
    },
    {
-    "text": ", and it must have an HTML element with the id `_canopy`, which the JS will fill with content.",
+    "text": ", and it must have a ",
+    "type": "text"
+   },
+   {
+    "text": "Canopy root element",
+    "type": "global",
+    "targetSubtopic": "Canopy Root Element",
+    "targetTopic": "Canopy Root Element",
+    "enclosingTopic": "HTML index file",
+    "enclosingSubtopic": "HTML index file"
+   },
+   {
+    "text": ".",
     "type": "text"
    }
   ]
