@@ -1,11 +1,10 @@
 [Canopy]
 
 * Canopy JS:
-Welcome! This is the documentation of the Canopy JS project. You can use Canopy to create interactive explanatory websites like this one.
+Welcome! This is the documentation of the Canopy JS project. You can use Canopy to create interactive explanatory websites like this one. (Try using the arrow keys!)
 There are various [[motivations for Canopy]], and different [[applications of Canopy]].
 Canopy is used by [[readers]] and [[writers]], and this is an explanation of [[how Canopy works]].
 Canopy has a [[codebase]], which you can find on the [project Github page](https://github.com/canopy-js/canopy-js).
-(Try using the arrow keys!)
 
 
 [Applications]
@@ -92,19 +91,17 @@ Note files: Below a category path header you can have notes, which are [[block|b
 
 [Code]
 
-* Codebase: The Canopy codebase is composed of the [[Canopy CLI]] and [[Canopy front-end client]].
+* Codebase: The Canopy codebase is composed of the [[Canopy CLI code]] and [[Canopy client code]].
 
 
 [Code/CLI]
 
-* Canopy CLI Code: The CLI code uses the Commander.js library and is composed of several [[command functions]].
-
-Command functions:
+* Canopy CLI Code: The CLI code uses the Commander.js library and is composed of several command functions.
 
 
 [Code/Client]
 
-* Canopy front-end client: The Canopy front-end client is composed of several major components.
+* Canopy client code: The Canopy front-end client is composed of several major components.
 
 
 [Data model]
@@ -231,7 +228,7 @@ File format: An topic file is composed of [[block|blocks]].
 
 [Project Directory]
 
-* Build directory: The build directory is a directory that gets created by the [[Canopy CLI build command]], or which the author can provide in the case of a custom build. The build directory includes a [[data directory]], an [[HTML index file]], and a [[Canopy javascript asset]].
+* Build directory: The build directory is a directory that gets created by the [[Canopy CLI build command]], or which the author can provide in the case of a custom build. The build directory includes a [[data directory]], an [[HTML index file]], and a [[Canopy JavaScript asset]].
 
 
 * Canopy Javascript asset: The Canopy Javascript asset is a file called `canopy.js` that contains the front-end client code. The `canopy.js` file is expecting to be loaded on a page that has an HTML element with a `_canopy` id, which it will fill with content.
@@ -246,7 +243,7 @@ Data attributes: The Canopy root element is expected to have:
 Only the `default-topic` attribute is strictly mandatory.
 
 
-* Data directory: The data directory is a directory that the Canopy CLI creates inside the project's [[build directory]]. The data directory is named `_data` (because there might be a topic in the project called `data`.)
+* Data directory: The data directory is a directory that the [[Canopy CLI build command]] creates inside the project's [[build directory]]. The data directory is named `_data` (because there might be a topic in the project called `data`.)
 
 
 * Default topic specifier file: The default topic specifier file is a file called `canopy_default_topic` that exists in the root level of the [[project directory]]. The `canopy_default_topic` file contains the [[file path]] of the [[topic file]] for the project's [[default topic]].
@@ -257,7 +254,7 @@ File path: The file path of the [[default topic]] should be given relative to th
 * Explanation files: Explanation files are files ending in the `.expl` extension. Explanation files are the [[topic file|topic files]] that live in the [[topics directory]].
 
 
-* HTML index file: The HTML index file is an `index.html` file that is created in the [[build directory]] either by the [[Canopy CLI build command]], or by the user in the case of a custom build process. The `index.html` file must include the [[Canopy Javascript asset]], and it must have an HTML element with the id `_canopy`, which the JS will fill with content.
+* HTML index file: The HTML index file is an `index.html` file that is created in the [[build directory]] either by the [[Canopy CLI build command]], or by the user in the case of a custom build process. The `index.html` file must include the [[Canopy Javascript asset]], and it must have a [[Canopy root element]].
 
 
 * Project Directory: The project directory is a directory that contains the data for a Canopy project. The project directory contains the [[topics directory]], the [[default topic specifier file]], and the [[build directory]] when the project has been built.
@@ -300,7 +297,7 @@ Selecting links: Readers can select links using [[mouse interactions]], or [[key
 
 [Writers]
 
-* Writers: Writers use Canopy by [[creating a Canopy project]], [[adding content to their project]] that follows [[best practices]], [[serving their project locally]] and [[deploying the project]].
+* Writers: Writers use Canopy by [[creating a Canopy project]], [[adding content to their project]] that follows [[best practices]], [[building their project]], [[serving their project locally]] and [[deploying the project]].
 
 Creating a Canopy project: Creating a Canopy project involves [[creating a project directory]], [[initializing the project]], and optionally [[initializing version control]].
 
@@ -322,8 +319,7 @@ Then, when you build your project, this topic can be viewed in the web interface
 
 Canopy markup: Typical markdown-style styling is available, such as lists, code blocks, tables, footnotes, block quotes, and styling characters. Inline HTML is supported. Asterisks indicate bold and underscores indicate italics.
 
-
-Building the project: Building your Canopy project entails taking the `expl` files and generating JSON from them that can be used by the front-end client. You can build your project by navigating to your project directory and running the [[Canopy CLI build command]].
+Building their project: Building your Canopy project entails taking the `expl` files and generating JSON from them that can be used by the front-end client. You can build your project by navigating to your project directory and running the [[Canopy CLI build command]].
 
 Serving their project locally: To serve your Canopy project locally, navigate to your project folder and running the [[Canopy CLI serve command]].
 
@@ -372,115 +368,97 @@ Create intermediary syntactic subtopics: If I have the sentence "Bob lives on 4t
 
 * Motivations for Canopy: The motivations for Canopy include [[observations about human explanation]], [[limitations of conventional explanations]], [[specific features of Canopy]], [[qualities of Canopy content]], and [[new possibilities Canopy enables]].
 
-Specific features of Canopy: Canopy is motivated by specific desirable features such as [[recursive clarification]], [[connected synonyms]], [[informed abridgement]], [[inline inclusion]], [[explicit state]], [[idea addressing]], and [[relative addressing]].
+Specific features of Canopy: Canopy is motivated by specific desirable features such as [[recursive clarification]], [[inline inclusion]], [[explicit state]], [[idea addressing]], [[natural language classification]], and [[relative addressing]].
 
-Qualities of Canopy content: Canopy is motivated by qualities of Canopy content, such as  [[customization]], [[clarity]], [[reusability]], [[mergability]], [[proportionality]], [[memorability]],  [[explicit prerequisites]], [[discoverability]], [[hierarchy]], [[natural language classification]], and [[non-rival media]].
+Qualities of Canopy content: Canopy is motivated by qualities of Canopy content, such as  [[customization]], [[clarity]], [[reusability]], [[mergability]], [[proportionality]], [[memorability]], [[informed abridgement]], [[explicit prerequisites]], [[discoverability]], [[hierarchy]], [[exhaustiveness]], [[non-rival media]], and [[connected synonyms]].
 
-New possibilities Canopy enables: Canopy is motivated by new possibilities the system enables, such as [[scale]], [[exhaustive description]], [[explanatory invariants]], [[holistic review]], [[pervasive concepts]], [[redundant indexing]], [[prescriptive understandings]], [[rich compositions]], [[interconnection]], and [[completeness]].
+New possibilities Canopy enables: Canopy is motivated by new possibilities the system enables, such as [[scale]], [[explanatory invariants]], [[holistic review]], [[pervasive concepts]], [[redundant indexing]], [[prescriptive understandings]], [[rich compositions]], [[interconnection]], and [[completeness]].
 
-Limitations of conventional explanations: Canopy is motivated by limitations of existing explanatory formats, such as [[document metaphor]], [[undersupply]], [[gaps]], [[fragmentation]].
+Limitations of conventional explanations: Canopy is motivated by limitations of existing explanatory formats, such as [[document metaphor]], [[undersupply]], [[gaps]], [[fragmentation]], and [[Anti-Marginalia]].
 
 Observations about human explanation: Canopy is motivated by observations about human explanation, such as [[realism]] and [[interface of the expert]].
 
 
-[motivations/Clarity]
+[motivations/Features]
 
-* Clarity: Clarity is the idea that [[explanations can contain extra information that assists the listener in reconstructing the expert's understanding]], and [[Canopy forces authors to include this information]].
+* Explicit state: [[Explanation has state]], but [[linear prose makes it unclear what the state of the explanation is]], whereas [[Canopy makes the state of the explanation visibly clear]].
 
-Explanations can contain extra information that assists the listener in reconstructing the expert's understanding: [[Explanation has a nested structure]], but [[the connections between parts of an explanation can be unclear]], and so [[elaborate verbalization can help the listener parse the explanation]].
+Explanation has state: In the course of an explanation, we are at a particular point, there are prior points we are developing, and there are further specifications we could make, and a listener needs this information in order to understand what the explainer will say next.
 
-Explanation has a nested structure: Explanation is a description of something, and it is a description that uses terms which sometimes must themselves be explained, and sometimes those explanations include terms that need explanation, so at any given point, the explainer might be explaining a term in order to use it in the explanation of a term, and so on.
+Linear prose makes it unclear what the state of the explanation is: In linear prose, as I read a given paragraph, I can't easily see how we got to this point, or in what directions we can go, because our early context is scattered throughout the earlier portions, and the possible avenues of specification are scattered throughout the later portions.
 
-The connections between parts of an explanation can be unclear: It is sometimes unclear to the audience how the thing the author is currently speaking about relates to the original topic. For example, a story which is now being told might be intended to illustrate the meaning of a term which the speaker wants to use to describe the original topic, but the author might not have said so explicitly because it seemed obvious. If this remains unclear to the listeners, they will end up with a fragmented understanding, remembering the story itself but not connecting it to their understanding of the original topic.
-
-Elaborate verbalization can help the listener parse the explanation: The author can help the listeners follow the flow of the explanation by adding redundant explicit explanation of how each step of the explanation relates to the previous one. The author might say "I want to explain a certain historical event, but first, in order to understand why it happened, I am going to explain a principle of economics. But, in order to understand this principle of economics, I need to tell you a story that illustrates it," and so on. Thus, every piece of the explanation is clearly related to the piece that came before it.
-
-Canopy forces authors to include this information: In Canopy, every idea is expressed in a paragraph, and the only way to get from one paragraph to another is if the first paragraph mentions a concept that is explained by another. Thus, it is physically impossible for an author to leave it ambiguous why they are discussing a certain point, because by definition, the only way to access a point is by tracing the path to it from the original topic. Thus authors are forced to include this clarifying information even when it seems clear to them already, helping those readers for whom it wasn't clear.
+Canopy makes the state of the explanation visibly clear: In Canopy, the screen doesn't show all prior content the reader has read in a given session, but only the path of paragraphs that explains how they got to the current subject, and links on the page describe all the directions the reader can go now given their position, either adding detail to the current paragraph, or regressing to an earlier idea and adding more detail to it.
 
 
-[motivations/Completeness]
+* Idea addressing: Idea addressing is that rather than having [[the unit of information]] be [[the category]] or [[the work]], [[we can address individual ideas]].
 
-* Completeness: Completeness is the idea that once an author is able to produce works of larger [[scale]], it will be possible to achieve completeness of analysis, such as [[recursive consideration of arguments]], so [[non-inclusion will be clearly intentional]] and [[the costs of including objectionable content will be lower]].
+The unit of information: An information system is broken up into units that can be spoken about and recommended to other people individually. I can recommend a book or a chapter of a book, but it is hard to recommend a specific paragraph because it has no "name" in the system.
 
-Recursive consideration of arguments: Sometimes an author will give an argument for a view, and maybe also show a problem with the argument, but in theory, the tree of arguments and problems with the arguments, and problems with the problems, etc, can become very large, and it is difficult to achieve such coverage of even a small subject area.
+The category: In a traditional library, one unit of information is the category, ie the collection of works on a certain topic. The category has a name, so that people can communicate about it effectively.
 
-Non-inclusion will be clearly intentional: At present, if an author doesn't include a given point or argument, they can claim it is because there isn't space to consider every view. With [[non-rival media]] however, when the author doesn't include a point, it will be more clearly a choice, which might motivate authors to present wider coverage.
+The work: In a traditional library, one unit of information is the work, like a book or periodical. The work has a name so that people can communicate about it effectively.
 
-The costs of including objectionable content will be lower: Many are skeptical of including coverage of arguments they disagree with for fear a reader will see the argument and not the rebuttal, and walk away with an incorrect view, but in Canopy (which has [[informed abridgement]]), the same paragraph that mentions a view will include mention of its rebuttal, and so the reader can only come away with an incomplete view if they themselves choose to, making it less risky for authors to include discussion of objectionable views.
-
-
-[motivations/Connected Synonyms]
-
-* Connected Synonyms: Connected synonyms is the idea that explanations often [[include unclear synonyms]], which [[produces a fragmented understanding]], and Canopy helps by [[interlinking synonyms]].
-
-Include unclear synonyms: Sometimes an expert will use one term for something, and sometimes another, and this could be intentional, in order to refer to slightly different aspects of that thing.
-
-Produces a fragmented understanding: If the listener does not know that these synonyms are referring to the same thing, they might come away with the impression that there are two different things, and that they haven't gotten the full story about either one of them, an example of the phenomenon of [[fragmentation]].
-
-Interlinking synonyms: In Canopy, the author can represent every synonym as its own entity, and then use natural language explanation to connect the different synonyms, so that no matter which term they use, the reader can burrow into the reference to connect it with all the related terms.
+We can address individual ideas: In Canopy, every idea gets a paragraph, and every idea gets a name, and from that name the idea gets a URL, and so we can speak about ideas and recommend explanations on a much finer-grain basis.
 
 
-[motivations/Customization]
+* Inline inclusion: Inline inclusion is the idea that [[natural language references are not semantically redirects]], yet [[in most hypertext systems references cause redirects]], so [[in Canopy references are inlined by default]].
 
-* Customization: Customization is the idea that whereas [[a human explainer can customize explanations for a given listener]], a book, by contrast, is [[mostly the same experience for every reader]], and while [[linear text is efficient for homogeneous groups]], [[Canopy aims to provide the type of customization a human explainer can provide]].
+Natural language references are not semantically redirects: When in conversation I mention something, my intention is usually not to suggest that we change the subject and discuss the idea for its own sake, but rather that we include a brief description of it here so that we can use it to clarify an idea we were already discussing.
 
-A human explainer can customize explanations for a given listener: A human explainer can follow the listener's particular interests, adding more detail for someone advanced, or more background information for a beginner.
+In most hypertext systems references cause redirects: In most hypertext systems, content is composed of documents that have references to other documents, and selecting a reference causes the reader to redirect to another document, "changing the subject" to a discussion of the new idea in its own right, rather than as a means to understand the previous subject.
 
-Mostly the same experience for every reader: A reader can flip around and read some chapters and not others, but fundamentally they are consuming long fixed blocks of linear content, unlike spoken explanation where the units are small, and the direction of the explanation can change based on feedback from the listener.
-
-Linear text is efficient for homogeneous groups: Sometimes you have a group of people who want an explanation, and due to the circumstances, [[their needs are very similar]]. In these cases, [[it is more efficient to use linear prose than it is to use Canopy]].
-
-Their needs are very similar: Two examples of groups of people with similar needs are [[standardized test takers]] and [[news readers]].
-
-Standardized test takers: If students are taking a standardized test, and it is testing them on a subject area that is new to all of them, and the test requires the same level of knowledge for everbody, perhaps their background knowledge is identical, and their desired knowledge is identical, in which case they might not benefit from having customized explanations. (However, even in such a case it might be helpful to have [[customization in review]].)
-
-Customization in review: When students are reviewing information, even if they all are aiming for the same level of final understanding, each particular student might benefit from reviewing different aspects of the content based on where they are having difficulties.
-
-News readers: When an event occurs in the news and there isn't very much information available, most people are in the market for the same explanation, because that's all that is available. However, [[some news stories might benefit from customization]].
-
-Some news stories might benefit from customization: [[Some news stories are complex]], and [[some news stories relate to background knowledge]], therefore some news stories do benefit from customization.
-
-Some news stories are complex: When a news event involves an ongoing sequence of interrelated events, some readers might benefit a recap of the prior context, whereas others don't need it and would be annoyed by it.
-
-Some news stories relate to background knowledge: If a news event has historical context or benefits from theoretical background knowledge, some readers may be interested to learn more about the related background knowledge, and some might just want the practical facts.
-
-It is more efficient to use linear prose than it is to use Canopy: If a group of people all need the same explanation, writing it in linear text is more efficient than writing it in reusable blocks because [[the author can make better assumptions about the prior knowledge of the readers]], and [[the author can more easily capture learning requirements]].
-
-The author can make better assumptions about the prior knowledge of the readers: [[An author of a book or article knows the context of the reader's session]], and [[a customized explanation does not]].
-
-The author can more easily capture learning requirements: If the user is allowed to explore content freely, they might not learn everything they are responsible for knowing, whereas linear text can force them to go through a certain set of content.
-
-An author of a book or article knows the context of the reader's session: An author of a book or article knows what the readers have read so far and what they are going to read, and so the author can reference things they know the reader has seen already, or avoid a certain subject for now because they know it will be explained later at a better time.
-
-A customized explanation does not: Customized explanations are produced by combining reusable units that were not written with knowledge of what the reader has seen or will see, and so customized explanations might accidentally offer the reader information they already know from earlier in the session, or offer information before it is optimal for the reader to learn it.
-
-Canopy aims to provide the type of customization a human explainer can provide: Canopy aims to provide customized explanations to each reader, allowing them to follow their specific interests and request additional information or clarification. ([[But isn't human explanation too complex to reproduce with digital tools?]])
-
-But isn't human explanation too complex to reproduce with digital tools? One of the theses of Canopy is that [[explanation composition is complex]], but [[explanation assembly is not complex]], and [[Canopy only models explanation assembly]].
-
-Explanation composition is complex: When a human composes a new explanation, they are drawing on the sum of their life experience and linguistic abilities, and this is an extremely complex process. In order for a computer to duplicate this task well, it would have to have similar breadth of knowledge to a human, which would be very difficult to accomplish.
-
-Explanation assembly is not complex: The hope of Canopy is that if an author produces explanation in reusable blocks, the assembly of these blocks to fit the needs of the listener is a task that can be automated and done without requiring further input from the expert.
-
-Canopy only models explanation assembly: The purpose of Canopy is to have the author express their knowledge in reusable units that the front-end client can combine into new explanations. Therefore, Canopy is not attempting to replace the author or the process of explanation composition, but only the latter stage of explanation assembly.
+In Canopy references are inlined by default: When selecting a link in Canopy, by default the paragraph associated with the selected link as added to the current page under the paragraph of the link. This allows the reader to retain their place in the earlier explanation, and peruse an explanation of the new idea only insofar as is necessary to continue reading the earlier paragraph. This user experience is more similar to the natural experience of listening to conversation, and so there is a better chance that the reader will be able to assimilate the given information correctly.
 
 
-[motivations/Discoverability]
+* Natural language classification: Natural language classification is the idea that [[people use natural language as a classification scheme in conversation]], and [[Canopy follows the natural classification scheme]].
 
-* Discoverability: Discoverability is the idea that [[it should be easy to find out what information exists in general]], and that [[it should be easy to find information related to a given point]]. Canopy attempts to [[make discovering the scope of available information easier]], and to [[make discovering related points easier]].
+People use natural language as a classification scheme in conversation: When someone says "there is a country called France and there are certain exports that it produces economically," the speaker has specified a category in which further information can be put. Similarly, when requesting information, a person might give a brief explanation and then pose a question about something that was mentioned. Thus, the introductory sentences themselves are functioning as a classification scheme for storing and requesting information.
 
-It should be easy to find out what information exists in general: Often it is very difficult even to just find out what information exists in a domain so that one can know what to request.
-
-It should be easy to find information related to a given point: When someone sees a given piece of information, they should be made aware of other related information, which requires the media to represent the interconnections between the different pieces.
-
-Make discovering the scope of available information easier: By [[decoupling detail from scope]], Canopy makes it easier to get a bird's-eye view of the corpus in order to inform one's requests for information.
-
-Make discovering related points easier: By representing the [[interconnection]] between points, Canopy lets the user discover all the information related to what they're reading.
-
-Decoupling detail from scope: Whereas linear prose will contain a mix of new points and details, in Canopy, details are displayed separately from new points, making it easier to see the scope of available content without getting bogged down in all the available details.
+Canopy follows the natural classification scheme: By having the reader navigate by reading paragraphs and selecting certain portions of them, the user is using the natural language content as the form of navigation, similar to how they would request information in a conversation.
 
 
-[motivations/Document Metaphor]
+* Recursive Clarification: Recursive clarification is the idea that [[explainers must provide conceptual prerequisites]], and whereas the most common solution is to use a [[topological sort]], there are [[downsides to topological sort]], and so Canopy allows readers to [[access prerequisites through recursion]], and there are [[benefits to using recursion]].
+
+Explainers must provide conceptual prerequisites: Most concepts require other concepts in order to understand them, and so when an explainer wants to explain something, they're also going to need to impart all the various concepts that are prerequisite for the given idea.
+
+Topological sort: Topological sort entails taking a set of ideas and their prerequisites and producing a linear ordering in which every prerequisite comes before every idea that requires it. So, the explainer would explain all the simpler ideas first, and only later would attempt to explain the more complex ideas that require the simpler ones. This is the approach followed by most books and lectures.
+
+Downsides to topological sort: Two downsides of topological sort is that it [[produces redundant explanations]], it [[produces unnecessary explanation]], and that it fails to communicate [[the motivation for prerequisites]].
+
+Produces redundant explanations: If all the prerequisites of every idea are front-loaded, then if the reader reads multiple ideas that require the same prerequisite, the reader will be shown that prerequisite every time, even if they already know it.
+
+Produces unnecessary explanation: If all the prerequisites of every idea are always shown before the given idea, then a reader who already knows some of them is forced to wade through information that they already know in order to find the information they don't.
+
+The motivation for prerequisites: If prerequisites are given before the ideas that require them, then the reader isn't entirely clear on why they are learning the idea, as opposed to trying to learn the complex idea, failing due to the lack of the prerequisite, and then going on a tangent to learn the prerequisite in order to learn the given idea.
+
+Access prerequisites through recursion: In Canopy, if a concept requires other concepts, they are not "front-loaded", but rather are referenced as if the reader already knows them, and if the reader doesn't, they may burrow into additional explanation of those prerequisites, and the prerequisites of the prerequisites, etc.
+
+Benefits to using recursion: If the writer assumes the reader has the required background knowledge and the reader must opt in to further explanation, then there is never a problem of over-explaining. Also, because the complex idea was shown first, it is clear to the reader why they are learning the required prerequisite and they will have motivation to learn it.
+
+
+* Relative addressing: Relative addressing is the idea that rather than [[having categories and category contents]], [[content can itself be the category of further content]], enabling [[a richer addressing system]].
+
+Having categories and category contents: A traditional library, for example, has book shelves which represent categories, and books which are the content being put in those categories.
+
+Content can itself be the category of further content: In Canopy, every paragraph can be the "parent" of several other paragraphs, and so a given paragraph is both like a "book" in that it is content, but also like a "book shelf" in that other information can be put under it as a form of classification, expressing that readers of the first paragraph might want to see the second one.
+
+A richer addressing system: In a traditional library, the more things there are, the harder it is to find each things because the categories get very full and hard to sort through. In Canopy however, because every point can be the "bookshelf" for several other points, as the total number of points grows, so does the "surface area" of addresses at which you can put additional points, and so the number of places to discover content grows as the total size of the corpus grows.
+
+
+[motivations/Limitations]
+
+* Anti-Marginalia: Anti-marginalia is the idea that while [[many hypertext systems use the visual metaphor of marginalia]], [[marginalia producing splintering]], [[marginalia has no forward references]], and [[marginalia follows the document metaphor]], whereas [[Canopy incorporates commentary into the primary content]].
+
+Many hypertext systems use the visual metaphor of marginalia: Various systems have based their model of interconnections between ideas on having a traditional article but with additional links and comments on the margin, reminiscent of notes made in the margin of a book. This approach represents a view in which articles are the primary content, and "commentary" is something different and secondary, and it resides at various locations on the primary content.
+
+Marginalia producing splintering: If every point in an article has commentary, and pieces of commentary have commentary, then the reader
+
+Marginalia has no forward references: In a marginalia model, commentary references the original work, but the original work obviously has no inherent references to the commentary on itself, and this means that if one reads the original work, and then reads the commentary, it is very possible that the reader will end up with a fragmented understanding where the idea of the comment brings to mind the original article, but thinking about the original article doesn't bring to mind the commentary, because there was no forward reference in the article to the commentary, as opposed to Canopy where primary content references commentary.
+
+Marginalia follows the document metaphor: Marginalia follows the idea that content should be linear documents, and that interactivity and non-linearity is something to decorate it with on the edges, and thus the article and the commentary are represented as two different types of thing.
+
+Canopy incorporates commentary into the primary content: In Canopy, there is no division between primary content and commentary, so an idea would have a paragraph, and that paragraph would mention the existence of more detail, and also the existence of commentary, and the reader would be able to burrow into either, and both types of content are presented as continuations of the earlier content, as not as if they were a different kind of content.
+
 
 * Document Metaphor: Document metaphor is the idea that [[existing hypertext systems retain the metaphor of documents]], but [[there are shortcomings to the document metaphor]], and so [[Canopy replaces documents with graph traversal]], and [[is itself a generator of documents]].
 
@@ -496,58 +474,6 @@ Canopy replaces documents with graph traversal: Instead of making documents the 
 
 Is itself a generator of documents: Not only isn't Canopy a hypertext composed of fixed documents, Canopy is a definition of what makes a valid document, ie, paragraphs in a prose explanation are valid if every a later paragraph specifies a point made in an earlier paragraph like paths in Canopy, and so Canopy is a system for producing valid linear documents of explanation, rather than itself being a hypertext composed of such documents.
 
-
-[motivations/Exhaustive Description]
-
-* Exhaustive Description: Exhaustive description is the idea that whereas linear prose is [[written additively]], in Canopy text is [[written exhaustively]], and this [[simplifies learning]].
-
-Written additively: In prose, the author might say "there are cats and there are dogs," but I have no way of knowing if these are all the kinds of animal, or whether there will be other ones scattered throughout the work.
-
-Written exhaustively: In Canopy, you would have a paragraph called "kinds of animal" and it would exhaustively list all the kinds of animal, because every category or entity has one dedicated paragraph in Canopy which must exhaustively contain all information on that topic.
-
-Simplifies learning: If paragraphs are not written cumulatively, students might end up learning incomplete lists in multiple places, causing [[fragmentation]], whereas exhaustive descriptions put everything in one place, and are more likely to end up together in the mind of the reader.
-
-
-[motivations/Explanatory Invariants]
-
-* Explanatory Invariants: Explanatory invariants is the idea that [[there are reoccuring types of relation between facts in a corpus]], and that [[it is sometimes desirable to capture every relation of a given type]], and while [[free-form prose makes it difficult to capture explanatory invariants]], [[Canopy makes it easy to capture them]], and [[without edging out existing analysis]].
-
-There are reoccuring types of relation between facts in a corpus: You might have a corpus of historical facts and for every fact claim one could ask "what historical documents exist to corroborate this fact?" Or, you might have a description of the components of a system, and for each one you might ask "how does this component work?" Or for every idea stated in a discussion you can ask, "what is the historical origin of this idea?" – Thus, a corpus can be composed of reoccuring types of fact, and each type of fact might always have a certain related question.
-
-It is sometimes desirable to capture every relation of a given type: If we want to have [[completeness]] in capturing a corpus, it might be desirable to express the expectation that every fact of a certain type should have a relation of a certain type.
-
-Free-form prose makes it difficult to capture explanatory invariants: When writing books and articles in free-form prose, different questions and forms of analysis are applied ad-hoc, and it can be difficult to see whether a certain question is asked uniformly in every place where it is relevant.
-
-Canopy makes it easy to capture them: In Canopy, by modeling topics and all their relations in an abstract way before filling in the details, it is easier to see whether a certain question or relation is being expressed for every statement of a given type, and writers can make templates that require topics of a certain type to have different expected subcomponents, for example every historical event having a date or corroborating documents.
-
-Without edging out existing analysis: If you take a book about different historical events and add a list of historical documents corroborating every point, then these added sources are making it harder for people to get the flow of the events themselves. Yet with Canopy, every point of type "historical claim" can have a subpoint of type "corroborating documentation" without these subpoints taking space away from the original analysis, which is an example of how Canopy is [[non-rival media]].
-
-
-[motivations/Explicit Prerequisites]
-
-* Explicit Prerequisites: [[A linear work represents prerequisites implicitly via sequence]], [[making it difficult to consume small parts of a large work]], but [[Canopy represents scope explicitly via prerequisite enumeration]], [[making it easier to consume parts of a large work]].
-
-A linear work represents prerequisites implicitly via sequence: In a book or lecture, the author assumes the listener knows everything that was said earlier in the session. Thus, the set prior knowledge that is assumed and might get referenced in a given paragraph is represented approximately by the set of all earlier paragraphs, even if not all prior paragraphs are actually necessary to understand a given point.
-
-Making it difficult to consume small parts of a large work: If every paragraph could in theory reference ideas developed in any prior paragraph, then there isn't a good way to read just one paragraph of a book because you don't know which specific prior paragraphs it is building one.
-
-Canopy represents scope explicitly via prerequisite enumeration: Canopy represents the prerequisites of each idea explicitly, and so you can in effect "read one paragraph from a book," and only those earlier paragraphs that are necessary to understand it. So, the "scope" of prior knowledge that the author is able to reference is represented explicitly via linked prerequisites, as opposed to implicitly via the sequence of the linear work.
-
-Making it easier to consume parts of a large work: If the scope of each paragraph is defined explicitly, by labeling every prior idea that is mentioned explicitly, then it is very easy to pick a paragraph and read only those paragraphs that are necessary to understand it.
-
-
-[motivations/Explicit State]
-
-* Explicit state: [[Explanation has state]], but [[linear prose makes it unclear what the state of the explanation is]], whereas [[Canopy makes the state of the explanation visibly clear]].
-
-Explanation has state: In the course of an explanation, we are at a particular point, there are prior points we are developing, and there are further specifications we could make, and a listener needs this information in order to understand what the explainer will say next.
-
-Linear prose makes it unclear what the state of the explanation is: In linear prose, as I read a given paragraph, I can't easily see how we got to this point, or in what directions we can go, because our early context is scattered throughout the earlier portions, and the possible avenues of specification are scattered throughout the later portions.
-
-Canopy makes the state of the explanation visibly clear: In Canopy, the screen doesn't show all prior content the reader has read in a given session, but only the path of paragraphs that explains how they got to the current subject, and links on the page describe all the directions the reader can go now given their position, either adding detail to the current paragraph, or regressing to an earlier idea and adding more detail to it.
-
-
-[motivations/Fragmentation]
 
 * Fragmentation: Fragmentation is the idea that some systems of information storage unintentionally [[separate things that are connected]], which [[harms discoverability]], and [[harms the development of mastery]], [[producing fragmented understandings in the minds of readers]]. Fragmentation is the opposite of [[interconnection]].
 
@@ -582,8 +508,6 @@ Non-experts cannot reach mastery over even small units: Non-experts are prevente
 Creating large discrepancies in knowledge: If only an expert who is able to learn everything about a domain can reach a nuanced understanding of any part of it, then the population will be divided into a few experts who know everything about a domain, and many people with no nuanced understanding of any part of it.
 
 
-[motivations/Gaps]
-
 * Gaps: "Gaps" is the idea that [[when transmitting a graph via smaller linearizations]], [[as the corpus gets larger, the chances of having incomplete information at any given point grows]], and [[even for information that is highly valued]], and [[Canopy helps by presenting information exhaustively]].
 
 When transmitting a graph via smaller linearizations: If a person builds an understanding for example by reading many books and articles on the subject.
@@ -595,101 +519,18 @@ Even for information that is highly valued: Even if someone is very interested i
 Canopy helps by presenting information exhaustively: In Canopy, a topic's paragraph is an exhaustive list of all information in the graph about that topic, and so it is much harder for pieces of information to fall between the cracks, as opposed to someone who is constructing an understanding by reading various books and articles, none of which may be attempting to provide an exhaustive list.
 
 
-[motivations/Hierarchy]
+* Undersupply: Undersupply is the idea that [[there is a systematic undersupply of expert explanation]], and [[systems like Canopy offer good-enough substitutes for expert explanation]].
 
-* Hierarchy: Hierarchy is the idea that [[in every complex domain, human understanding requires the creation of hierarchy]], and [[Canopy bakes hierarchy into the medium itself]].
+There is a systematic undersupply of expert explanation: For most students, access to individual tutoring from an expert would be highly beneficial, and the reason that this is impossible is cost and limited expert time, not an excess of student expertise, and so this is reason to believe that customized access to expert explanation would be beneficial to many people who cannot access it at present.
 
-In every complex domain, human understanding requires the creation of hierarchy: Because there are [[several limitations on the amount of information that can be dealt with at any given time]], [[humans deal with complexity by creating hierarchical models]], which [[enable them to manipulate complex information in small units]].
+Systems like Canopy offer good-enough substitutes for expert explanation: At the present, [[expert time was the limiting factor to accessing expert knowledge]], and so [[mere access to expert knowledge will make a previously finite resource infinite]].
 
-Several limitations on the amount of information that can be dealt with at any given time: Two such limitations are the fact that working memory can only store ideas composed of a certain number of "chunks", and that long-term memory can only directly associate a given fact or entity with a small number of other facts and entities.
+Expert time was the limiting factor to accessing expert knowledge: Currently, many people would have many more queries for experts than experts have time to answer.
 
-Humans deal with complexity by creating hierarchical models: If a system has many interconnected parts, those who try to understand it might break it up into parts, or organize the interconnections between the pieces into categories so that different layers of the system can be studied one at a time.
-
-Enable them to manipulate complex information in small units: By having ways of breaking a complex reality into simpler theoretical units, people are able to build models that are highly complex, without the author ever having to think about all the complexity at any single moment. By grouping the entities of the domain into larger hierarchical chunks, more information can be held in working memory at any given time, and by segmenting the connections different entities have by type, one can have good visibility into a single aspect of the network at each time.
-
-Canopy bakes hierarchy into the medium itself: Canopy gives an author the ability to express a complex system out of a hierarchy of simpler parts, which makes it a natural tool for expressing the connections of a highly complex subject domain.
+Mere access to expert knowledge will make a previously finite resource infinite: If previously access to expert knowledge was limited, just making that information available, by using mediums more amenable to large interconnected knowledge sets, many people in the market for expert explanations might be able to settle for this "good enough" imitation of access to an expert.
 
 
-[motivations/Holistic Review]
-
-* Holistic Review: Holistic review is the idea that rather than [[reviewing information in small pieces]], [[Canopy allows people to review information in large connected units]], which is possible because [[Canopy allows progressive occlusion of referenced prerequisites]] and because [[Canopy allows repeated access to complex structures]].
-
-Reviewing information in small pieces: When someone makes flash cards to learn an interconnected subject matter, they are reviewing pieces of that subject matter independently without also reviewing the connections at the same time.
-
-Canopy allows people to review information in large connected units: By iterating repeatedly over a Canopy graph in different traversals, a reader is able to review not only the facts but also an organizing structure that includes the facts and relates them to one another.
-
-Canopy allows progressive occlusion of referenced prerequisites: While [[a first time reader only can cover small portions of graph in each session]], [[over multiple reviews the size that can be reviewed in each session increases]], and because [[references reviewed in separate sessions can become fragmented]], [[larger review sessions produce better understanding]].
-
-A first time reader only can cover small portions of graph in each session: When a person reads a Canopy paragraph for the first time, they might have to open many child paragraphs to understand all the different prerequisite concepts, so they end up not covering that much material because they need to burrow into so much clarification.
-
-Over multiple reviews the size that can be reviewed in each session increases: As the reader reviews more and more, eventually they will remember the definitions of various terms and thus will not have to open as many child paragraphs, and so they can review larger and larger portions of the graph in one sitting.
-
-References reviewed in separate sessions can become fragmented: If someone learns about New York on Sunday and hears that its capital is Albany, and then on Friday learns about New Jersey and hears that it is next to another state called New York, the person might fail to connect that the New York they heard about on Sunday is the same one they later heard about on Friday, and so they would fail to understand that New Jersey is next to a state whose capital is Albany, even though they've heard everything they need to understand it.
-
-Larger review sessions produce better understanding: If a reader sees a description of something and then sees it referenced on the same day, there is a much better chance that this will produce a seamless, unfragmented understanding where new knowledge added to any point becomes accessible from every other.
-
-Canopy allows repeated access to complex structures: When learning a complex new domain, one inherent difficulty is that you can't create interconnected knowledge without review of the various parts and their connections, but on the other hand, it is difficult to review a complex interconnected domain without continued access to the instructor because you lack a master copy of the interconnected knowledge you're trying to internalize, (and [[review of a complex system in stages can be problematic]].) So, Canopy allows the instructor to make available a perfect copy of the "goal" understanding, so that students have a reliable version to review in the first place.
-
-Review of a complex system in stages can be problematic: Why not just have the student take notes on the basics, review that, and over time build their understanding of the system as a whole? It is possible, but one difficulty is that an oversimple initial understanding can stick long after it is time to have understood better, and so if the student begins by reviewing notes on a few disconnected incomplete statements, it will be much harder to later add the missing information than if from the get-go they had reviewed definitions that mentioned the existence of further complexity and interrelation so that later they could add that nuanced information without fundamentally changing their initial understanding.
-
-
-[motivations/Idea addressing]
-
-* Idea addressing: Idea addressing is that rather than having [[the unit of information]] be [[the category]] or [[the work]], [[we can address individual ideas]].
-
-The unit of information: An information system is broken up into units that can be spoken about and recommended to other people individually. I can recommend a book or a chapter of a book, but it is hard to recommend a specific paragraph because it has no "name" in the system.
-
-The category: In a traditional library, one unit of information is the category, ie the collection of works on a certain topic. The category has a name, so that people can communicate about it effectively.
-
-The work: In a traditional library, one unit of information is the work, like a book or periodical. The work has a name so that people can communicate about it effectively.
-
-We can address individual ideas: In Canopy, every idea gets a paragraph, and every idea gets a name, and from that name the idea gets a URL, and so we can speak about ideas and recommend explanations on a much finer-grain basis.
-
-
-[motivations/Informed Abridgement]
-
-* Informed Abridgement: Informed abridgement is the idea that whereas [[other mediums abridge without informing the reader]], [[in a Canopy project the reader makes an informed decision about when to stop reading]], and thus [[the reader has a better sense of their level of knowledge]].
-
-Other mediums abridge without informing the reader: When an expert writes in a popular publication, they will often simplify concepts and leave out opposing views due to the limitations of the venue, all without informing the reader of this, and so the reader doesn't know how much they don't know about the subject.
-
-In a Canopy project the reader makes an informed decision about when to stop reading: In a Canopy project, an expert can include all relevant information on a subject, and so the reader can begin with a brief description that mentions the existence of more information, and if they request that information, it will mention the existence of still more information, and so at each level of detail, the reader is notified of what else there is to know, so that if they decide to stop reading, it is with full knowledge that they haven't seen everything there was to read.
-
-The reader has a better sense of their level of knowledge: If the reader is offered more information and makes an informed decision to stop reading, then they will be much more modest in their self-appraisal because they know they are missing information, not like the reader of a popular publication.
-
-
-[motivations/Inline inclusion]
-
-* Inline inclusion: Inline inclusion is the idea that [[natural language references are not semantically redirects]], yet [[in most hypertext systems references cause redirects]], so [[in Canopy references are inlined by default]].
-
-Natural language references are not semantically redirects: When in conversation I mention something, my intention is usually not to suggest that we change the subject and discuss the idea for its own sake, but rather that we include a brief description of it here so that we can use it to clarify an idea we were already discussing.
-
-In most hypertext systems references cause redirects: In most hypertext systems, content is composed of documents that have references to other documents, and selecting a reference causes the reader to redirect to another document, "changing the subject" to a discussion of the new idea in its own right, rather than as a means to understand the previous subject.
-
-In Canopy references are inlined by default: When selecting a link in Canopy, by default the paragraph associated with the selected link as added to the current page under the paragraph of the link. This allows the reader to retain their place in the earlier explanation, and peruse an explanation of the new idea only insofar as is necessary to continue reading the earlier paragraph. This user experience is more similar to the natural experience of listening to conversation, and so there is a better chance that the reader will be able to assimilate the given information correctly.
-
-
-[motivations/Interconnection]
-
-* Interconnection: Interconnection is the idea that [[the connections between different facts are valuable data]], but that [[linear content limits the representation of interconnections]], whereas [[Canopy decouples information storage from presentation]], and so [[Canopy increases the number of connections that can be stored]], making it more similar to the [[interface of the expert]]. Interconnection is the opposite of [[fragmentation]].
-
-The connections between different facts are valuable data: Even if a person knows many facts, if they lack an understanding of the connection between them, they will miss implications from one to another, and new information might not update all relevant knowledge.
-
-Linear content limits the representation of interconnections: When information is stored in linear books and articles, the author cannot share every relevant interconnection because [[audience interest is limited]] and [[the shared prior knowledge is small]].
-
-Audience interest is limited: The audience might not be interested in hearing every connection between every idea, and so the author won't include them even for those readers who do.
-
-The shared prior knowledge is small: The author can only include interconnections between facts that the readers know about, which limits the author to interconnections between facts mentioned in the given book or article, but because [[there are constraints on the size of books and articles]], this ends up meaning that [[there is no work that stores enough facts to also include all interconnections]].
-
-There are constraints on the size of books and articles: Practically speaking a book or article can only become so long and retain reader interest.
-
-There is no work that stores enough facts to also include all interconnections: No work has all the given points, and no work can connect points that it doesn't include, and so no work exists that can include all the interconnections of a domain, even if there would be reader interest.
-
-Canopy decouples information storage from presentation: With Canopy, what the author writes and what the reader reads doesn't have to be the same thing.
-
-Canopy increases the number of connections that can be stored: The author can store all the points and interconnections they know about, and not every reader has to read every one.
-
-
-[motivations/Interface of the expert]
+[motivations/Observations]
 
 * Interface of the expert: One of the design goals of Canopy is to mimic [[the interface of speaking with an expert]], as opposed to [[other forms of knowledge representation]], because [[information that is presented in a human format is more likely to be assimilated]].
 
@@ -751,101 +592,6 @@ Scale information is lost in logical fact storage: If the cities of a country ar
 
 Information that is presented in a human format is more likely to be assimilated: There are many projects that allow a user to navigate a network of information, but their goal is not to produce _the_ output that an expert would. Experts producing explanation are performing a traversal of information stored in "the human knowledge format," whatever that is, and information produced from the human knowledge format is more likely to be directly assimilable by listeners _into_ the human knowledge format, and so by trying to preserve that format, Canopy presents information in the way most likely to be mentally reconstructed by readers into the desired understanding.
 
-, in whatever format it is stored, and so a system that attempts to preserve the structure of expert output is more likely to produce content that listeners can reconstruct into a human format of knowledge.
-
-
-[motivations/Memorability]
-
-* Memorability: [[Memory entails associating a cue with a response]] which is achieved by [[seeing the cue alone before the response]] but [[traditional prose presents information as a single unit]], so [[Canopy presents information in stages]], and [[this will make content easier to remember]].
-
-Memory entails associating a cue with a response: It seems that the major systems of memory create associations so that one particular thought brings to mind another, and so when we think about teaching students a certain corpus, we have to be clear about what specific cues we want them to recognize, and what specific responses we want them to think of when they see those cues.
-
-Seeing the cue alone before the response: In order to make someone remember to buy milk when they pass the grocery store, they should think about "passing the grocery store" by itself, and then think about getting milk, so that when they are in the real world and are passing the grocery store, the idea of passing the store by itself brings the idea of getting milk to mind. If they merely review the idea of "getting milk when passing the grocery store" as one big unit, then they are associating the task in memory with itself, and so the situation of "passing the store" by itself might not bring it to mind, defeating the purpose of memorization.
-
-Traditional prose presents information as a single unit: When I learn information about New York, I want that information to be the "response" that comes to mind when I think about the "cue" of New York. Prose, however, presents me the cue and the response all as one unit, and so I am not practicing retrieval of the content by topic name, but rather, I am practicing retrieval of the content by content, which isn't helpful.
-
-Canopy presents information in stages: Canopy presents a brief paragraph that mentions a few entities by name, and only once the user interacts with a topic name does the user see more information, so the "cue" of the topic name is seen before the "response" of the topic's paragraph.
-
-This will make content easier to remember: In Canopy, the reader sees the "cue" of the link before the "response" of the child paragraph, and so the reader is being trained to expect the paragraph when they see the topic name alone, creating a vast network of cues that trigger responses which contain in them multiple further cues, producing mental structures that will enable the reader to reliably retrieve later the new information they are receiving, preventing "orphans" where information is learned but without creating a cue by which to access it later.
-
-
-[motivations/Mergability]
-
-* Mergability: Mergability is the idea that whereas [[linear works address content approximately]], [[Canopy addresses ideas individually]], [[it is easier to merge multiple explanations]], [[making possible new types of composite works]].
-
-Linear works address content approximately: In a book, ideas are organized by chapter and page number, and so the system of addressing isn't very precise.
-
-Canopy addresses ideas individually: Every idea in Canopy has a unique address, and it exists at a point in a larger series of topics.
-
-It is easier to merge multiple explanations: If two books speak about the same subjects, it is not very easy to "put them into conversation" and line up the bits that speak about the same things. With Canopy however, because the content is already organized in small labeled units, it might be much easier to line up one work with another and compare what they both say on a given topic.
-
-Making possible new types of composite works: By making it easy to "merge" different works together, it might become possible to produce new types of work that cull all the points of a set of works by topic and present them in dialog, capturing every point made in the original works, but without following the exact train of thought of each original author, allowing readers to take a complex topic, break it into smaller questions, and see the range of perspectives that exist on each one. Thus, a group of people could produce a "balanced" presentation of views on all the points of a topic area even if they do not agree, so long as they agree on what question each view is coming to answer.
-
-
-[motivations/Natural language classification]
-
-* Natural language classification: Natural language classification is the idea that [[people use natural language as a classification scheme in conversation]], and [[Canopy follows the natural classification scheme]], related to the idea of [[relative addressing]].
-
-People use natural language as a classification scheme in conversation: When someone says "there is a country called France and there are certain exports that it produces economically," the speaker has specified a category in which further information can be put. Similarly, when requesting information, a person might give a brief explanation and then pose a question about something it mentions. Thus, the introductory sentences themselves are functioning as a classification scheme for storing and requesting information.
-
-Canopy follows the natural classification scheme: By having the reader navigate by reading paragraphs and selecting certain portions of them, the user is using the natural language content as the form of navigation, similar to how they would request information in a conversation.
-
-
-[motivations/Non-rival media]
-
-* Non-rival media: Non-rival media is the idea that [[linear mediums are rival]], whereas [[non-linear mediums like Canopy are non-rival]], and [[non-rival mediums have various benefits]].
-
-Linear mediums are rival: In books and articles, including one point comes at the expense of space for another, and thus they are "rival," because each point crowds out some other point.
-
-Non-linear mediums like Canopy are non-rival: [[Non-linear mediums are non-rival for space]], although [[they are rival for attention]].
-
-Non-linear mediums are non-rival for space: Non-linear media can grow happily to any size, and so no point is taking space from any other point, because every category of point has a its own special location in the project.
-
-They are rival for attention: Because Canopy presents information in a hierarchical format, even if there is unlimited space for points in general, there is limited space for a point to get "top billing" in a high-order paragraph. So in that sense even Canopy isn't entirely "non-rival."
-
-Non-rival mediums have various benefits: When different points don't take space from one another, then authors can adopt an attitude of default inclusion, making space for any point any reader might want to see, even if most readers aren't interested, (thus creating works of greater [[scale]] and [[customization]].)
-
-
-[motivations/Pervasive Concepts]
-
-* Pervasive Concepts: Pervasive concepts is the idea that [[within a domain, there are certain pervasive concepts]], and [[it can be difficult for the reader to keep track of all the situations in which they've seen a pervasive concept]], and [[keeping track of different examples is be necessary to produce an abstract understanding of a pervasive concept]], and so [[Canopy helps by allowing you to link to pervasive concepts as you work through the material of a course]].
-
-Within a domain, there are certain pervasive concepts: In programming for example, you have the concept of modularity, that large systems can be composed of smaller units that hide their internal structure in order to make things more understandable.
-
-It can be difficult for the reader to keep track of all the situations in which they've seen a pervasive concept: Throughout a computer science education, a student might have seen a concept like modularity crop up in hundreds of situations, and if they were a more casual reader, they might have forgotten some of them.
-
-Keeping track of different examples is be necessary to produce an abstract understanding of a pervasive concept: In order to have an abstract and flexible concept of modularity, it might be necessary to remember many different examples, and hold in mind at the same time the way in which each example has unique details but still expresses the concept abstractly.
-
-Canopy helps by allowing you to link to pervasive concepts as you work through the material of a course: By using [[redundant indexing]], all the units of a curriculum can be accessible by topic, but also accessible by theme, and so a reader can review prior material specifically in so far as it illustrates a pervasive concept like modularity.
-
-
-[motivations/Prescriptive Understandings]
-
-* Prescriptive Understandings: Prescriptive understandings is the idea that [[experts have vast organizational structures]], but that [[experts omit portions of their mental representation when speaking]], and [[this prevents listeners from building the proper understanding]] but [[Canopy requires the author to enumerate the desired understanding]].
-
-Experts have vast organizational structures: Experts don't just memorize a list of facts, they have many heuristic subcategories that are a function of their way of grouping things.
-
-Experts omit portions of their mental representation when speaking: Sometimes an expert's private groupings are extremely useful practically to have, yet aspects of them may be controversial or oversimple, and so the expert might be motivated to omit them and just present the facts in sequence without offering any helpful mnemonics or groupings.
-
-This prevents listeners from building the proper understanding: The expert is only able to navigate their knowledge using these helpful groupings, and so by removing them from the explanation, the expert is failing to fully enumerate the mental structure that the listener should produce from the data.
-
-Canopy requires the author to enumerate the desired understanding: Canopy requires information be presented hierarchically, and so it isn't possible to give undifferentiated lists, and so authors will be forced to provide the reader with helpful intermediary groupings with which to retrieve the information in question.
-
-
-[motivations/Proportionality]
-
-* Proportionality: Proportionality is the idea that because [[Canopy organizes information hierarchically]], if [[one reads top to bottom]], [[one will end up with a proportional understanding]], [[unlike reading a book or article]].
-
-Canopy organizes information hierarchically: Canopy takes a domain and lists the important topics in it, and for each topic it lists the major ideas, and for the major ideas it lists the details, etc.
-
-One reads top to bottom: If one reads about all the big ideas before burrowing into details.
-
-One will end up with a proportional understanding: Whether a person has one hour to read about a subject or one year, if they read the hierarchy top-down, then they will end up with the most accurate picture of the subject matter possible given that time constraint, because they are always reading about the big ideas before going into any details.
-
-Unlike reading a book or article: When reading a book or article, if one only has time for a small portion of it, it is very hard to allocate that time effectively to find the subset of the work that paints the most accurate picture given the time constraint. One is likely to end up with certain concepts in great detail, while not knowing anything about certain other ones.
-
-
-[motivations/Realism]
 
 * Realism: Realism is the idea that [[human explanation really is the serialization of a graph]], and so [[any representation of explanation besides a graph will be distortive]], which is why [[Canopy represents the underlying explanation graph]], so that [[we preserve all possible explanations that can be produced from the original data]].
 
@@ -861,7 +607,7 @@ Serializations are just one of many presentations of an underlying data structur
 
 It makes sense to think that the underlying data structure is a graph: A graph is composed of a series of entities and connections, and so if knowledge were stored as a graph, it would make sense how you could make many different explanations from the same original data, because with a single graph you can explore the nodes via their connections in many different orderings.
 
-Any representation of explanation besides a graph will be distortive: If you represent the graph as a linearization that goes deep into detail before going broad, then different parts of the same thing will be explained very far apart from one another in the resulting work, making it hard to get a high-level picture, but if you go broad before going deep, then the different details of a subject are scattered around different parts of the work, making it hard to dive into details of a subject.
+Any representation of explanation besides a graph will be distortive: If you represent a graph as a linearization, either you will go deep into detail before going broad, making it hard to get a high-level picture, or you will go broad before going deep, making it hard to dive into details of a subject.
 
 Canopy represents the underlying explanation graph: Rather than have an author produce a series of books and articles, capturing their knowledge graph only approximately, Canopy has the author capture the underlying graph itself, offering tools to make this easier for them to do.
 
@@ -879,28 +625,91 @@ We preserve the original multiplicity of possible explanations: From the graph t
 The author can produce many possible linearizations, but if the author produces a linearization, we only captures their underlying graph rather than capturing only a few particular traversals like books or articles, then we have richer data from which we can can generate all the possible linearizations of the graph, allowing one reader to go into depth whereas another reader can get a general picture, a potential that would have been lost if the author had just produced one big text.
 
 
-[motivations/Recursive Clarification]
+[motivations/Possibilities]
 
-* Recursive Clarification: Recursive clarification is the idea that [[explainers must provide conceptual prerequisites]], and whereas the most common solution is to use a [[topological sort]], there are [[downsides to topological sort]], and so Canopy allows readers to [[access prerequisites through recursion]], and there are [[benefits to using recursion]].
+* Completeness: Completeness is the idea that once an author is able to produce works of larger [[scale]], it will be possible to achieve completeness of analysis, such as [[recursive consideration of arguments]], so [[non-inclusion will be clearly intentional]] and [[the costs of including objectionable content will be lower]].
 
-Explainers must provide conceptual prerequisites: Most concepts require other concepts in order to understand them, and so when an explainer wants to explain something, they're also going to need to impart all the various concepts that are prerequisite for the given idea.
+Recursive consideration of arguments: Sometimes an author will give an argument for a view, and maybe also show a problem with the argument, but in theory, the tree of arguments and problems with the arguments, and problems with the problems, etc, can become very large, and it is difficult to achieve such coverage of even a small subject area.
 
-Topological sort: Topological sort entails taking a set of ideas and their prerequisites and producing a linear ordering in which every prerequisite comes before every idea that requires it. So, the explainer would explain all the simpler ideas first, and only later would attempt to explain the more complex ideas that require the simpler ones. This is the approach followed by most books and lectures.
+Non-inclusion will be clearly intentional: At present, if an author doesn't include a given point or argument, they can claim it is because there isn't space to consider every view. With [[non-rival media]] however, when the author doesn't include a point, it will be more clearly a choice, which might motivate authors to present wider coverage.
 
-Downsides to topological sort: Two downsides of topological sort is that it [[produces redundant explanations]], it [[produces unnecessary explanation]], and that it fails to communicate [[the motivation for prerequisites]].
-
-Produces redundant explanations: If all the prerequisites of every idea are front-loaded, then if the reader reads multiple ideas that require the same prerequisite, the reader will be shown that prerequisite every time, even if they already know it.
-
-Produces unnecessary explanation: If all the prerequisites of every idea are always shown before the given idea, then a reader who already knows some of them is forced to wade through information that they already know in order to find the information they don't.
-
-The motivation for prerequisites: If prerequisites are given before the ideas that require them, then the reader isn't entirely clear on why they are learning the idea, as opposed to trying to learn the complex idea, failing due to the lack of the prerequisite, and then going on a tangent to learn the prerequisite in order to learn the given idea.
-
-Access prerequisites through recursion: In Canopy, if a concept requires other concepts, they are not "front-loaded", but rather are referenced as if the reader already knows them, and if the reader doesn't, they may burrow into additional explanation of those prerequisites, and the prerequisites of the prerequisites, etc.
-
-Benefits to using recursion: If the writer assumes the reader has the required background knowledge and the reader must opt in to further explanation, then there is never a problem of over-explaining. Also, because the complex idea was shown first, it is clear to the reader why they are learning the required prerequisite and they will have motivation to learn it.
+The costs of including objectionable content will be lower: Many are skeptical of including coverage of arguments they disagree with for fear a reader will see the argument and not the rebuttal, and walk away with an incorrect view, but in Canopy (which has [[informed abridgement]]), the same paragraph that mentions a view will include mention of its rebuttal, and so the reader can only come away with an incomplete view if they themselves choose to, making it less risky for authors to include discussion of objectionable views.
 
 
-[motivations/Redundant Indexing]
+* Explanatory Invariants: Explanatory invariants is the idea that [[there are reoccuring types of relation between facts in a corpus]], and that [[it is sometimes desirable to capture every relation of a given type]], and while [[free-form prose makes it difficult to capture explanatory invariants]], [[Canopy makes it easy to capture them]], and [[without edging out existing analysis]].
+
+There are reoccuring types of relation between facts in a corpus: You might have a corpus of historical facts and for every fact claim one could ask "what historical documents exist to corroborate this fact?" Or, you might have a description of the components of a system, and for each one you might ask "how does this component work?" Or for every idea stated in a discussion you can ask, "what is the historical origin of this idea?" – Thus, a corpus can be composed of reoccuring types of fact, and each type of fact might always have a certain related question.
+
+It is sometimes desirable to capture every relation of a given type: If we want to have [[completeness]] in capturing a corpus, it might be desirable to express the expectation that every fact of a certain type should have a relation of a certain type.
+
+Free-form prose makes it difficult to capture explanatory invariants: When writing books and articles in free-form prose, different questions and forms of analysis are applied ad-hoc, and it can be difficult to see whether a certain question is asked uniformly in every place where it is relevant.
+
+Canopy makes it easy to capture them: In Canopy, by modeling topics and all their relations in an abstract way before filling in the details, it is easier to see whether a certain question or relation is being expressed for every statement of a given type, and writers can make templates that require topics of a certain type to have different expected subcomponents, for example every historical event having a date or corroborating documents.
+
+Without edging out existing analysis: If you take a book about different historical events and add a list of historical documents corroborating every point, then these added sources are making it harder for people to get the flow of the events themselves. Yet with Canopy, every point of type "historical claim" can have a subpoint of type "corroborating documentation" without these subpoints taking space away from the original analysis, which is an example of how Canopy is [[non-rival media]].
+
+
+* Holistic Review: Holistic review is the idea that rather than [[reviewing information in small pieces]], [[Canopy allows people to review information in large connected units]], which is possible because [[Canopy allows progressive occlusion of referenced prerequisites]] and because [[Canopy allows repeated access to complex structures]].
+
+Reviewing information in small pieces: When someone makes flash cards to learn an interconnected subject matter, they are reviewing pieces of that subject matter independently without also reviewing the connections at the same time.
+
+Canopy allows people to review information in large connected units: By iterating repeatedly over a Canopy graph in different traversals, a reader is able to review not only the facts but also an organizing structure that includes the facts and relates them to one another.
+
+Canopy allows progressive occlusion of referenced prerequisites: While [[a first time reader only can cover small portions of graph in each session]], [[over multiple reviews the size that can be reviewed in each session increases]], and because [[references reviewed in separate sessions can become fragmented]], [[larger review sessions produce better understanding]].
+
+A first time reader only can cover small portions of graph in each session: When a person reads a Canopy paragraph for the first time, they might have to open many child paragraphs to understand all the different prerequisite concepts, so they end up not covering that much material because they need to burrow into so much clarification.
+
+Over multiple reviews the size that can be reviewed in each session increases: As the reader reviews more and more, eventually they will remember the definitions of various terms and thus will not have to open as many child paragraphs, and so they can review larger and larger portions of the graph in one sitting.
+
+References reviewed in separate sessions can become fragmented: If someone learns about New York on Sunday and hears that its capital is Albany, and then on Friday learns about New Jersey and hears that it is next to another state called New York, the person might fail to connect that the New York they heard about on Sunday is the same one they later heard about on Friday, and so they would fail to understand that New Jersey is next to a state whose capital is Albany, even though they've heard everything they need to understand it.
+
+Larger review sessions produce better understanding: If a reader sees a description of something and then sees it referenced on the same day, there is a much better chance that this will produce a seamless, unfragmented understanding where new knowledge added to any point becomes accessible from every other.
+
+Canopy allows repeated access to complex structures: When learning a complex new domain, one inherent difficulty is that you can't create interconnected knowledge without review of the various parts and their connections, but on the other hand, it is difficult to review a complex interconnected domain without continued access to the instructor because you lack a master copy of the interconnected knowledge you're trying to internalize, (and [[review of a complex system in stages can be problematic]].) So, Canopy allows the instructor to make available a perfect copy of the "goal" understanding, so that students have a reliable version to review in the first place.
+
+Review of a complex system in stages can be problematic: Why not just have the student take notes on the basics, review that, and over time build their understanding of the system as a whole? It is possible, but one difficulty is that an oversimple initial understanding can stick long after it is time to have understood better, and so if the student begins by reviewing notes on a few disconnected incomplete statements, it will be much harder to later add the missing information than if from the get-go they had reviewed definitions that mentioned the existence of further complexity and interrelation so that later they could add that nuanced information without fundamentally changing their initial understanding.
+
+
+* Interconnection: Interconnection is the idea that [[the connections between different facts are valuable data]], but that [[linear content limits the representation of interconnections]], whereas [[Canopy decouples information storage from presentation]], and so [[Canopy increases the number of connections that can be stored]], making it more similar to the [[interface of the expert]]. Interconnection is the opposite of [[fragmentation]].
+
+The connections between different facts are valuable data: Even if a person knows many facts, if they lack an understanding of the connection between them, they will miss implications from one to another, and new information might not update all relevant knowledge.
+
+Linear content limits the representation of interconnections: When information is stored in linear books and articles, the author cannot share every relevant interconnection because [[audience interest is limited]] and [[the shared prior knowledge is small]].
+
+Audience interest is limited: The audience might not be interested in hearing every connection between every idea, and so the author won't include them even for those readers who do.
+
+The shared prior knowledge is small: The author can only include interconnections between facts that the readers know about, which limits the author to interconnections between facts mentioned in the given book or article, but because [[there are constraints on the size of books and articles]], this ends up meaning that [[there is no work that stores enough facts to also include all interconnections]].
+
+There are constraints on the size of books and articles: Practically speaking a book or article can only become so long and retain reader interest.
+
+There is no work that stores enough facts to also include all interconnections: No work has all the given points, and no work can connect points that it doesn't include, and so no work exists that can include all the interconnections of a domain, even if there would be reader interest.
+
+Canopy decouples information storage from presentation: With Canopy, what the author writes and what the reader reads doesn't have to be the same thing.
+
+Canopy increases the number of connections that can be stored: The author can store all the points and interconnections they know about, and not every reader has to read every one.
+
+
+* Pervasive Concepts: Pervasive concepts is the idea that [[within a domain, there are certain pervasive concepts]], and [[it can be difficult for the reader to keep track of all the situations in which they've seen a pervasive concept]], and [[keeping track of different examples is be necessary to produce an abstract understanding of a pervasive concept]], and so [[Canopy helps by allowing you to link to pervasive concepts as you work through the material of a course]].
+
+Within a domain, there are certain pervasive concepts: In programming for example, you have the concept of modularity, that large systems can be composed of smaller units that hide their internal structure in order to make things more understandable. This idea can be found in different presentations and permutations throughout the branches of engineering.
+
+It can be difficult for the reader to keep track of all the situations in which they've seen a pervasive concept: Throughout a computer science education, a student might have seen a concept like modularity crop up in hundreds of situations, and if they were a more casual reader, they might have forgotten some of them.
+
+Keeping track of different examples is be necessary to produce an abstract understanding of a pervasive concept: In order to have an abstract and flexible concept of modularity, it might be necessary to remember many different examples, and hold in mind at the same time the way in which each example has unique details but still expresses the concept abstractly.
+
+Canopy helps by allowing you to link to pervasive concepts as you work through the material of a course: By using [[redundant indexing]], all the units of a curriculum can be accessible by topic, but also accessible by theme, and so a reader can review prior material specifically in so far as it illustrates a pervasive concept like modularity.
+
+
+* Prescriptive Understandings: Prescriptive understandings is the idea that [[experts have vast organizational structures]], but that [[experts omit portions of their mental representation when speaking]], and [[this prevents listeners from building the proper understanding]] but [[Canopy requires the author to enumerate the desired understanding]].
+
+Experts have vast organizational structures: Experts don't just memorize a list of facts, they have many heuristic subcategories that are a function of their way of grouping things.
+
+Experts omit portions of their mental representation when speaking: Sometimes an expert's private groupings are extremely useful practically to have, yet aspects of them may be controversial or oversimple, and so the expert might be motivated to omit them and just present the facts in sequence without offering any helpful mnemonics or groupings.
+
+This prevents listeners from building the proper understanding: The expert is only able to navigate their knowledge using these helpful groupings, and so by removing them from the explanation, the expert is failing to fully enumerate the mental structure that the listener should produce from the data.
+
+Canopy requires the author to enumerate the desired understanding: Canopy requires information be presented hierarchically, and so it isn't possible to give undifferentiated lists, and so authors will be forced to provide the reader with helpful intermediary groupings with which to retrieve the information in question.
+
 
 * Redundant Indexing: Redundant indexing is the idea that [[the different entities of a subject area can be organized in different ways]], and [[Canopy lets you explore the data of a project in these different organizations]].
 
@@ -909,18 +718,243 @@ The different entities of a subject area can be organized in different ways: You
 Canopy lets you explore the data of a project in these different organizations: Canopy lets you define a set of topics with all their details and subcomponents, but also to define arbitrarily many indexes of these topics, listing different groups of topics in different ways, and no matter what manner you arrive at a given topic, you can still burrow into the details and remind yourself of the specifics of the topic before trying to redundantly index it via multiple organizational schemes.
 
 
-[motivations/Relative addressing]
+* Rich Compositions: Rich compositions is the idea that [[descriptions can be complex]], but [[humans are currently limited in the size of the descriptions they can consume]], and so because [[Canopy makes it easier to share rich compositions]], [[Canopy increases the maximum complexity of ideas that can be successfully communicated]], creating the potential for a world where [[complex ideas are communicated with higher fidelity]].
 
-* Relative addressing: Relative addressing is the idea that rather than [[having categories and category contents]], [[content can itself be the category of further content]], enabling [[a richer addressing system]], related to the idea of [[natural language classification]].
+Descriptions can be complex: A description of a complex thing might require describing several aspects of the thing, which might in turn require defining several terms, which might require giving background information, and so the overall description could end up being a complex structure of many small nested explanations.
 
-Having categories and category contents: A traditional library, for example, has book shelves which represent categories, and books which are the content being put in those categories.
+Humans are currently limited in the size of the descriptions they can consume: There are [[limits to working memory size]], and there are [[limits to maximum session length]].
 
-Content can itself be the category of further content: In Canopy, every paragraph can be the "parent" of several other paragraphs, and so a given paragraph is both like a "book" in that it is content, but also like a "book shelf" in that other information can be put under it as a form of classification, expressing that readers of the first paragraph might want to see the second one.
+Limits to working memory size: A person can only keep track of a certain number of things at any given time, so a definition that contains a definition that contains a definition might end up overflowing the amount of things the person can keep track of, causing them to forget how all the parts fit together into the original big picture.
 
-A richer addressing system: In a traditional library, the more things there are, the harder it is to find each things because the categories get very full and hard to sort through. In Canopy however, because every point can be the "bookshelf" for several other points, as the total number of points grows, so does the "surface area" of addresses at which you can put additional points, and so the number of places to discover content grows as the total size of the corpus grows.
+Limits to maximum session length: The amount of content that can be communicated in a given session is limited by the listener's attention span, and information communicated in one session might be forgotten by the next, making it difficult to keep all the required subdefinitions in memory long enough to form the desired picture.
+
+Canopy makes it easier to share rich compositions: Canopy makes it easier to make rich compositions because [[Canopy makes it easier for readers to reconstruct complex compositions]], [[reusability makes it easier for authors to produce complex compositions]], and [[Canopy removes traditional limits on content length]].
+
+Canopy makes it easier for readers to reconstruct complex compositions: By showing a brief paragraph, followed by a definition, followed by a definition required for the definition, and so on, a reader can burrow many levels down in the composition of an idea, and yet still still see clearly on the page how they got to a given point, and afterwords can regress back upwards and progressively reassemble the pieces they've seen into the overarching original composition, all without having themselves to keep track of the complexity of what piece goes where.
+
+Canopy removes traditional limits on content length: Whereas books and articles have a fixed maximum length, preventing authors from sharing many rich compositions due to length constraints, Canopy projects decouple storage from presentation, and so can grow to a very large [[scale]].
+
+Canopy increases the maximum complexity of ideas that can be successfully communicated: If it becomes easier for authors to communicate to readers complex ideas that require the proper assembly of many complex subcomponents, and if readers become more likely to be successful in reconstructing such complex compositions, then authors and readers might choose to express and consume ideas of greater complexity than are currently communicated.
+
+Reusability makes it easier for authors to produce complex compositions: Canopy allows authors to produce [[reusability|reusable units of explanation]], and thus it is easier for authors to produce complex compositions because they can reuse terms and ideas that they've defined elsewhere.
+
+Complex ideas are communicated with higher fidelity: The friction with which complex ideas are communicated is one of the major limiting factors of growth and economic mobility in the world today. Access to videos and textbooks is high, but career paths like medicine and engineering still are extremely challenging for most people due to the difficulty entailed in converting these resources to a nuanced understanding, so any medium that reduced this friction could benefit many people.
 
 
-[motivations/Reusability]
+* Scale: Scale is the idea that [[linear mediums limit the maximum size of explanations]], whereas [[non-linear media allow greater explanation size]].
+
+Non-linear media allow greater explanation size: Non-linear media can grow larger than linear media because [[non-linear media is more navigable at large sizes]], and also [[non-linear media isn't constrained by audience interest]].
+
+Non-linear media is more navigable at large sizes: [[Difficulty navigating large corpuses limits corpus size]], so because [[non-linear organization increases the ease of navigating large corpuses]], [[non-linear media enables larger explanations]]. (But [[what about search?]])
+
+What about search? Doesn't the existence of search make it tractable to find things in a large corpus of linear explanations very quickly? Yes, but [[identifying the right search terms and content tagging is difficult]], and [[search doesn't give the reader an organizational scheme]].
+
+Identifying the right search terms and content tagging is difficult: If I am searching for content, I have to predict what keywords it will include, or the author will have to have labeled it properly, and in large corpuses, anticipating how to label content and search for it becomes more difficult.
+
+Search doesn't give the reader an organizational scheme: When the reader accesses the portions of a corpus by search, they are jumping directly to one piece of information, and don't know anything about where it is in the grand scheme of things, whereas if they access the information via a subsuming tree structure, they will have a general idea of what exists, and can use that structure to organize the information in their mind.
+
+Non-linear media isn't constrained by audience interest: Non-linear media can grow large even if people prefer to consume small explanations because [[non-linear explanations decouple storage from presentation]], and so [[demand for content of a certain size won't prevent large corpuses]].
+
+Linear mediums limit the maximum size of explanations: Authors are constrained in the length of books and articles by [[medium constraints]] and [[audience relevance]], and so even if the author has information they would like to publish, often they have no good place to put it. (And [[even niche works have the same problem]].)
+
+Medium constraints: Practically speaking, a book or article cannot become greater than a certain size, both because there isn't an audience for such large works, and sometimes because of literal constraints on how much content can be printed and circulated.
+
+Audience relevance: Given that most readers of a book or article are reading more or less from beginning to end, an author can't include things that aren't relevant to all readers.
+
+Even niche works have the same problem: You might say [[niche content solves limitations of audience relevance]], but [[niche content is constrained by audience relevance on a smaller scale]], and [[fragmented works create problems of discoverability]].
+
+Niche content solves limitations of audience relevance: You might say when there is a subpopulation that wants more information than the rest of the audience, an author can produce additional chapters, books, or articles just for them, meaning there will always be space for any given piece of information.
+
+Niche content is constrained by audience relevance on a smaller scale: Niche books and articles will also be forced to leave things out, because within the niche readership there will be people with different particular interests, and the author still won't be able to include points that aren't relevant to all readers.
+
+Fragmented works create problems of discoverability: Even if an author could find space for everything they want to share by producing multiple works for different audiences, this produces problems of [[discoverability]] because eventually not everyone will know about the existence of all the various works and what they contain, defeating the purpose of finding a place for information so that it can be shared.
+
+Difficulty navigating large corpuses limits corpus size: Even if we are physically able to store large corpuses of information, if we don't have a good way of navigating them, then people aren't going to go to the trouble to assemble that much information in the first place.
+
+Non-linear organization increases the ease of navigating large corpuses: One of the foundational findings of computer science is that [[finding things in a list is slow]], but [[finding things in a tree is quick]], and so if non-linear media organizes content by tree, it will drastically increase the speed at which the reader can find what they are looking for.
+
+Non-linear media enables larger explanations: Because it is more easily navigable at large sizes, non-linear media removes one of the limiting factors on the size of explanations.
+
+Finding things in a list is slow: Finding something in a linear sequence like a book requires scanning the entire sequence, and even tables of contents require scanning the table of contents, which becomes impracticable if there are many things in it.
+
+Finding things in a tree is quick: Imagine an employee is trying to find their name in a company org-chart. All they have to do is find their division, department, and team. Thus, they are able to find their name while only looking at a few nodes in the tree, which is much faster than having to read through a list of every employee name. This is an example of how finding things in trees is faster than finding them in lists.
+
+If tree organization makes it easier for users to find what they are looking for in large corpuses of information, then it will be worth while for authors to produce larger corpuses.
+
+non-linear explanations decouple storage from presentation: With customized explanations, what the author produces and what the reader consumes don't have to be the same thing, and so the author is no longer constrained to produce content in exactly the format in which the reader wants to read it.
+
+Demand for content of a certain size won't prevent large corpuses: Even if readers want explanations of a certain size, authors will not be constrained to produce only that much content, but can produce much more, and let each reader read what they want to.
+
+
+[motivations/Qualities]
+
+* Clarity: Clarity is the idea that [[explanations can contain extra information that assists the listener in reconstructing the expert's understanding]], and [[Canopy forces authors to include this information]].
+
+Explanations can contain extra information that assists the listener in reconstructing the expert's understanding: [[Explanation has a nested structure]], but [[the connections between parts of an explanation can be unclear]], and so [[elaborate verbalization can help the listener parse the explanation]].
+
+Explanation has a nested structure: Explanation is a description of something, and it is a description that uses terms which sometimes must themselves be explained, and sometimes those explanations include terms that need explanation, so at any given point, the explainer might be explaining a term in order to use it in the explanation of a term, and so on.
+
+The connections between parts of an explanation can be unclear: It is sometimes unclear to the audience how the thing the author is currently speaking about relates to the original topic. For example, a story which is now being told might be intended to illustrate the meaning of a term which the speaker wants to use to describe the original topic, but the author might not have said so explicitly because it seemed obvious. If this remains unclear to the listeners, they will end up with a fragmented understanding, remembering the story itself but not connecting it to their understanding of the original topic.
+
+Elaborate verbalization can help the listener parse the explanation: The author can help the listeners follow the flow of the explanation by adding redundant explicit explanation of how each step of the explanation relates to the previous one. The author might say "I want to explain a certain historical event, but first, in order to understand why it happened, I am going to explain a principle of economics. But, in order to understand this principle of economics, I need to tell you a story that illustrates it," and so on. Thus, every piece of the explanation is clearly related to the piece that came before it.
+
+Canopy forces authors to include this information: In Canopy, every idea is expressed in a paragraph, and the only way to get from one paragraph to another is if the first paragraph mentions a concept that is explained by another. Thus, it is physically impossible for an author to leave it ambiguous why they are discussing a certain point, because by definition, the only way to access a point is by tracing the path to it from the original topic. Thus authors are forced to include this clarifying information even when it seems clear to them already, helping those readers for whom it wasn't clear.
+
+
+* Connected Synonyms: Connected synonyms is the idea that explanations often [[include unclear synonyms]], which [[produces a fragmented understanding]], and Canopy helps by [[interlinking synonyms]].
+
+Include unclear synonyms: Sometimes an expert will use one term for something, and sometimes another, and this could be intentional, in order to refer to slightly different aspects of that thing.
+
+Produces a fragmented understanding: If the listener does not know that these synonyms are referring to the same thing, they might come away with the impression that there are two different things, and that they haven't gotten the full story about either one of them, an example of the phenomenon of [[fragmentation]].
+
+Interlinking synonyms: In Canopy, the author can represent every synonym as its own entity, and then use natural language explanation to connect the different synonyms, so that no matter which term they use, the reader can burrow into the reference to connect it with all the related terms.
+
+
+* Customization: Customization is the idea that whereas [[a human explainer can customize explanations for a given listener]], a book, by contrast, is [[mostly the same experience for every reader]], and while [[linear text is efficient for homogeneous groups]], [[Canopy aims to provide the type of customization a human explainer can provide]].
+
+A human explainer can customize explanations for a given listener: A human explainer can follow the listener's particular interests, adding more detail for someone advanced, or more background information for a beginner.
+
+Mostly the same experience for every reader: A reader can flip around and read some chapters and not others, but fundamentally they are consuming long fixed blocks of linear content, unlike spoken explanation where the units are small, and the direction of the explanation can change based on feedback from the listener.
+
+Linear text is efficient for homogeneous groups: Sometimes you have a group of people who want an explanation, and due to the circumstances, [[their needs are very similar]]. In these cases, [[it is more efficient to use linear prose than it is to use Canopy]].
+
+Their needs are very similar: Two examples of groups of people with similar needs are [[standardized test takers]] and [[news readers]].
+
+Standardized test takers: If students are taking a standardized test, and it is testing them on a subject area that is new to all of them, and the test requires the same level of knowledge for everbody, perhaps their background knowledge is identical, and their desired knowledge is identical, in which case they might not benefit from having customized explanations. (However, even in such a case it might be helpful to have [[customization in review]].)
+
+Customization in review: When students are reviewing information, even if they all are aiming for the same level of final understanding, each particular student might benefit from reviewing different aspects of the content based on where they are having difficulties.
+
+News readers: When an event occurs in the news and there isn't very much information available, most people are in the market for the same explanation, because that's all that is available. However, [[some news stories might benefit from customization]].
+
+Some news stories might benefit from customization: [[Some news stories are complex]], and [[some news stories relate to background knowledge]], therefore some news stories do benefit from customization.
+
+Some news stories are complex: When a news event involves an ongoing sequence of interrelated events, some readers might benefit a recap of the prior context, whereas others don't need it and would be annoyed by it.
+
+Some news stories relate to background knowledge: If a news event has historical context or benefits from theoretical background knowledge, some readers may be interested to learn more about the related background knowledge, and some might just want the practical facts.
+
+It is more efficient to use linear prose than it is to use Canopy: If a group of people all need the same explanation, writing it in linear text is more efficient than writing it in reusable blocks because [[the author can make better assumptions about the prior knowledge of the readers]], and [[the author can more easily capture learning requirements]].
+
+The author can make better assumptions about the prior knowledge of the readers: [[An author of a book or article knows the context of the reader's session]], and [[a customized explanation does not]].
+
+The author can more easily capture learning requirements: If the user is allowed to explore content freely, they might not learn everything they are responsible for knowing, whereas linear text can force them to go through a certain set of content.
+
+An author of a book or article knows the context of the reader's session: An author of a book or article knows what the readers have read so far and what they are going to read, and so the author can reference things they know the reader has seen already, or avoid a certain subject for now because they know it will be explained later at a better time.
+
+A customized explanation does not: Customized explanations are produced by combining reusable units that were not written with knowledge of what the reader has seen or will see, and so customized explanations might accidentally offer the reader information they already know from earlier in the session, or offer information before it is optimal for the reader to learn it.
+
+Canopy aims to provide the type of customization a human explainer can provide: Canopy aims to provide customized explanations to each reader, allowing them to follow their specific interests and request additional information or clarification. ([[But isn't human explanation too complex to reproduce with digital tools?]])
+
+But isn't human explanation too complex to reproduce with digital tools? One of the theses of Canopy is that [[explanation composition is complex]], but [[explanation assembly is not complex]], and [[Canopy only models explanation assembly]].
+
+Explanation composition is complex: When a human composes a new explanation, they are drawing on the sum of their life experience and linguistic abilities, and this is an extremely complex process. In order for a computer to duplicate this task well, it would have to have similar breadth of knowledge to a human, which would be very difficult to accomplish.
+
+Explanation assembly is not complex: The hope of Canopy is that if an author produces explanation in reusable blocks, the assembly of these blocks to fit the needs of the listener is a task that can be automated and done without requiring further input from the expert.
+
+Canopy only models explanation assembly: The purpose of Canopy is to have the author express their knowledge in reusable units that the front-end client can combine into new explanations. Therefore, Canopy is not attempting to replace the author or the process of explanation composition, but only the latter stage of explanation assembly.
+
+
+* Discoverability: Discoverability is the idea that [[it should be easy to find out what information exists in general]], and that [[it should be easy to find information related to a given point]]. Canopy attempts to [[make discovering the scope of available information easier]], and to [[make discovering related points easier]].
+
+It should be easy to find out what information exists in general: Often it is very difficult even to just find out what information exists in a domain so that one can know what to request.
+
+It should be easy to find information related to a given point: When someone sees a given piece of information, they should be made aware of other related information, which requires the media to represent the interconnections between the different pieces.
+
+Make discovering the scope of available information easier: By [[decoupling detail from scope]], Canopy makes it easier to get a bird's-eye view of the corpus in order to inform one's requests for information.
+
+Make discovering related points easier: By representing the [[interconnection]] between points, Canopy lets the user discover all the information related to what they're reading.
+
+Decoupling detail from scope: Whereas linear prose will contain a mix of new points and details, in Canopy, details are displayed separately from new points, making it easier to see the scope of available content without getting bogged down in all the available details.
+
+
+* Exhaustiveness: Exhaustiveness is the idea that whereas linear prose is [[written additively]], in Canopy text is [[written exhaustively]], and this [[simplifies learning]].
+
+Written additively: In prose, the author might say "there are cats and there are dogs," but I have no way of knowing if these are all the kinds of animal, or whether there will be other ones scattered throughout the work.
+
+Written exhaustively: In Canopy, you would have a paragraph called "kinds of animal" and it would exhaustively list all the kinds of animal, because every category or entity has one dedicated paragraph in Canopy which must exhaustively contain all information on that topic.
+
+Simplifies learning: If paragraphs are not written cumulatively, students might end up learning incomplete lists in multiple places, causing [[fragmentation]], whereas exhaustive descriptions put everything in one place, and are more likely to end up together in the mind of the reader.
+
+
+* Explicit Prerequisites: [[A linear work represents prerequisites implicitly via sequence]], [[making it difficult to consume small parts of a large work]], but [[Canopy represents scope explicitly via prerequisite enumeration]], [[making it easier to consume parts of a large work]].
+
+A linear work represents prerequisites implicitly via sequence: In a book or lecture, the author assumes the listener knows everything that was said earlier in the session. Thus, the set prior knowledge that is assumed and might get referenced in a given paragraph is represented approximately by the set of all earlier paragraphs, even if not all prior paragraphs are actually necessary to understand a given point.
+
+Making it difficult to consume small parts of a large work: If every paragraph could in theory reference ideas developed in any prior paragraph, then there isn't a good way to read just one paragraph of a book because you don't know which specific prior paragraphs it is building one.
+
+Canopy represents scope explicitly via prerequisite enumeration: Canopy represents the prerequisites of each idea explicitly, and so you can in effect "read one paragraph from a book," and only those earlier paragraphs that are necessary to understand it. So, the "scope" of prior knowledge that the author is able to reference is represented explicitly via linked prerequisites, as opposed to implicitly via the sequence of the linear work.
+
+Making it easier to consume parts of a large work: If the scope of each paragraph is defined explicitly, by labeling every prior idea that is mentioned explicitly, then it is very easy to pick a paragraph and read only those paragraphs that are necessary to understand it.
+
+
+* Hierarchy: Hierarchy is the idea that [[in every complex domain, human understanding requires the creation of hierarchy]], and [[Canopy bakes hierarchy into the medium itself]].
+
+In every complex domain, human understanding requires the creation of hierarchy: Because there are [[several limitations on the amount of information that can be dealt with at any given time]], [[humans deal with complexity by creating hierarchical models]], which [[enable them to manipulate complex information in small units]].
+
+Several limitations on the amount of information that can be dealt with at any given time: Two such limitations are the fact that working memory can only store ideas composed of a certain number of "chunks", and that long-term memory can only directly associate a given fact or entity with a small number of other facts and entities.
+
+Humans deal with complexity by creating hierarchical models: If a system has many interconnected parts, those who try to understand it might break it up into parts, or organize the interconnections between the pieces into categories so that different layers of the system can be studied one at a time.
+
+Enable them to manipulate complex information in small units: By having ways of breaking a complex reality into simpler theoretical units, people are able to build models that are highly complex, without the author ever having to think about all the complexity at any single moment. By grouping the entities of the domain into larger hierarchical chunks, more information can be held in working memory at any given time, and by segmenting the connections different entities have by type, one can have good visibility into a single aspect of the network at each time.
+
+Canopy bakes hierarchy into the medium itself: Canopy gives an author the ability to express a complex system out of a hierarchy of simpler parts, which makes it a natural tool for expressing the connections of a highly complex subject domain.
+
+
+* Informed Abridgement: Informed abridgement is the idea that whereas [[other mediums abridge without informing the reader]], [[in a Canopy project the reader makes an informed decision about when to stop reading]], and thus [[the reader has a better sense of their level of knowledge]].
+
+Other mediums abridge without informing the reader: When an expert writes in a popular publication, they will often simplify concepts and leave out opposing views due to the limitations of the venue, all without informing the reader of this, and so the reader doesn't know how much they don't know about the subject.
+
+In a Canopy project the reader makes an informed decision about when to stop reading: In a Canopy project, an expert can include all relevant information on a subject, and so the reader can begin with a brief description that mentions the existence of more information, and if they request that information, it will mention the existence of still more information, and so at each level of detail, the reader is notified of what else there is to know, so that if they decide to stop reading, it is with full knowledge that they haven't seen everything there was to read.
+
+The reader has a better sense of their level of knowledge: If the reader is offered more information and makes an informed decision to stop reading, then they will be much more modest in their self-appraisal because they know they are missing information, not like the reader of a popular publication.
+
+
+* Memorability: [[Memory entails associating a cue with a response]] which is achieved by [[seeing the cue alone before the response]] but [[traditional prose presents information as a single unit]], so [[Canopy presents information in stages]], and [[this will make content easier to remember]].
+
+Memory entails associating a cue with a response: It seems that the major systems of memory create associations so that one particular thought brings to mind another, and so when we think about teaching students a certain corpus, we have to be clear about what specific cues we want them to recognize, and what specific responses we want them to think of when they see those cues.
+
+Seeing the cue alone before the response: In order to make someone remember to buy milk when they pass the grocery store, they should think about "passing the grocery store" by itself, and then think about getting milk, so that when they are in the real world and are passing the grocery store, the idea of passing the store by itself brings the idea of getting milk to mind. If they merely review the idea of "getting milk when passing the grocery store" as one big unit, then they are associating the task in memory with itself, and so the situation of "passing the store" by itself might not bring it to mind, defeating the purpose of memorization.
+
+Traditional prose presents information as a single unit: When I learn information about New York, I want that information to be the "response" that comes to mind when I think about the "cue" of New York. Prose, however, presents me the cue and the response all as one unit, and so I am not practicing retrieval of the content by topic name, but rather, I am practicing retrieval of the content by content, which isn't helpful.
+
+Canopy presents information in stages: Canopy presents a brief paragraph that mentions a few entities by name, and only once the user interacts with a topic name does the user see more information, so the "cue" of the topic name is seen before the "response" of the topic's paragraph.
+
+This will make content easier to remember: In Canopy, the reader sees the "cue" of the link before the "response" of the child paragraph, and so the reader is being trained to expect the paragraph when they see the topic name alone, creating a vast network of cues that trigger responses which contain in them multiple further cues, producing mental structures that will enable the reader to reliably retrieve later the new information they are receiving, preventing "orphans" where information is learned but without creating a cue by which to access it later.
+
+
+* Mergability: Mergability is the idea that whereas [[linear works address content approximately]], [[Canopy addresses ideas individually]], [[it is easier to merge multiple explanations]], [[making possible new types of composite works]].
+
+Linear works address content approximately: In a book, ideas are organized by chapter and page number, and so the system of addressing isn't very precise.
+
+Canopy addresses ideas individually: Every idea in Canopy has a unique address, and it exists at a point in a larger series of topics.
+
+It is easier to merge multiple explanations: If two books speak about the same subjects, it is not very easy to "put them into conversation" and line up the bits that speak about the same things. With Canopy however, because the content is already organized in small labeled units, it might be much easier to line up one work with another and compare what they both say on a given topic.
+
+Making possible new types of composite works: By making it easy to "merge" different works together, it might become possible to produce new types of work that cull all the points of a set of works by topic and present them in dialog, capturing every point made in the original works, but without following the exact train of thought of each original author, allowing readers to take a complex topic, break it into smaller questions, and see the range of perspectives that exist on each one. Thus, a group of people could produce a "balanced" presentation of views on all the points of a topic area even if they do not agree, so long as they agree on what question each view is coming to answer.
+
+
+* Non-rival media: Non-rival media is the idea that [[linear mediums are rival]], whereas [[non-linear mediums like Canopy are non-rival]], and [[non-rival mediums have various benefits]].
+
+Linear mediums are rival: In books and articles, including one point comes at the expense of space for another, and thus they are "rival," because each point crowds out some other point.
+
+Non-linear mediums like Canopy are non-rival: [[Non-linear mediums are non-rival for space]], although [[they are rival for attention]].
+
+Non-linear mediums are non-rival for space: Non-linear media can grow happily to any size, and so no point is taking space from any other point, because every category of point has a its own special location in the project.
+
+They are rival for attention: Because Canopy presents information in a hierarchical format, even if there is unlimited space for points in general, there is limited space for a point to get "top billing" in a high-order paragraph. So in that sense even Canopy isn't entirely "non-rival."
+
+Non-rival mediums have various benefits: When different points don't take space from one another, then authors can adopt an attitude of default inclusion, making space for any point any reader might want to see, even if most readers aren't interested, (thus creating works of greater [[scale]] and [[customization]].)
+
+
+* Proportionality: Proportionality is the idea that because [[Canopy organizes information hierarchically]], if [[one reads top to bottom]], [[one will end up with a proportional understanding]], [[unlike reading a book or article]].
+
+Canopy organizes information hierarchically: Canopy takes a domain and lists the important topics in it, and for each topic it lists the major ideas, and for the major ideas it lists the details, etc.
+
+One reads top to bottom: If one reads about all the big ideas before burrowing into details.
+
+One will end up with a proportional understanding: Whether a person has one hour to read about a subject or one year, if they read the hierarchy top-down, then they will end up with the most accurate picture of the subject matter possible given that time constraint, because they are always reading about the big ideas before going into any details.
+
+Unlike reading a book or article: When reading a book or article, if one only has time for a small portion of it, it is very hard to allocate that time effectively to find the subset of the work that paints the most accurate picture given the time constraint. One is likely to end up with certain concepts in great detail, while not knowing anything about certain other ones.
+
 
 * Reusability: Reusability is the idea that instead of [[producing large linear units of explanation]], [[an author can produce reusable blocks of content]], and [[reusable content utilizes the author's time more efficiently]], and [[increases explanation quality]]. But [[how is this different from the internet generally?]]
 
@@ -947,91 +981,6 @@ Reading connected paragraphs connects content in the mind: When a reader reads m
 Reading disconnected explanations produces disconnected understandings: If one explanation sends me by hyperlink to a different location that has a new explanation that isn't explicitly connected to a concrete aspect of the previous one, it will be difficult when thinking about the first to remember that I read the second, and I am likely to develop two siloed understandings of the two articles, with neither bringing to mind the other.
 
 What the reader wants is a single merged understanding: What the reader needs is a composite understanding that merges information from the two explanations, making facts from either one available when they recall the subject matter. This can be done by the reader manually, but it can also be done by the writer in the first place.
-
-
-[motivations/Rich Compositions]
-
-* Rich Compositions: Rich compositions is the idea that [[descriptions can be complex]], but [[humans are currently limited in the size of the descriptions they can consume]], and so because [[Canopy makes it easier to share rich compositions]], [[Canopy increases the maximum complexity of ideas that can be successfully communicated]], creating the potential for a world where [[complex ideas are communicated with higher fidelity]].
-
-Descriptions can be complex: A description of a complex thing might require describing several aspects of the thing, which might in turn require defining several terms, which might require giving background information, and so the overall description could end up being a complex structure of many small nested explanations.
-
-Humans are currently limited in the size of the descriptions they can consume: There are [[limits to working memory size]], and there are [[limits to maximum session length]].
-
-Limits to working memory size: A person can only keep track of a certain number of things at any given time, so a definition that contains a definition that contains a definition might end up overflowing the amount of things the person can keep track of, causing them to forget how all the parts fit together into the original big picture.
-
-Limits to maximum session length: The amount of content that can be communicated in a given session is limited by the listener's attention span, and information communicated in one session might be forgotten by the next, making it difficult to keep all the required subdefinitions in memory long enough to form the desired picture.
-
-Canopy makes it easier to share rich compositions: Canopy makes it easier to make rich compositions because [[Canopy makes it easier for readers to reconstruct complex compositions]], [[reusability makes it easier for authors to produce complex compositions]], and [[Canopy removes traditional limits on content length]].
-
-Canopy makes it easier for readers to reconstruct complex compositions: By showing a brief paragraph, followed by a definition, followed by a definition required for the definition, and so on, a reader can burrow many levels down in the composition of an idea, and yet still still see clearly on the page how they got to a given point, and afterwords can regress back upwards and progressively reassemble the pieces they've seen into the overarching original composition, all without having themselves to keep track of the complexity of what piece goes where.
-
-Canopy removes traditional limits on content length: Whereas books and articles have a fixed maximum length, preventing authors from sharing many rich compositions due to length constraints, Canopy projects decouple storage from presentation, and so can grow to a very large [[scale]].
-
-Canopy increases the maximum complexity of ideas that can be successfully communicated: If it becomes easier for authors to communicate to readers complex ideas that require the proper assembly of many complex subcomponents, and if readers become more likely to be successful in reconstructing such complex compositions, then authors and readers might choose to express and consume ideas of greater complexity than are currently communicated.
-
-Reusability makes it easier for authors to produce complex compositions: Canopy allows authors to produce [[reusability|reusable units of explanation]], and thus it is easier for authors to produce complex compositions because they can reuse terms and ideas that they've defined elsewhere.
-
-Complex ideas are communicated with higher fidelity: The friction with which complex ideas are communicated is one of the major limiting factors of growth and economic mobility in the world today. Access to videos and textbooks is high, but career paths like medicine and engineering still are extremely challenging for most people due to the difficulty entailed in converting these resources to a nuanced understanding, so any medium that reduced this friction could benefit many people.
-
-
-[motivations/Scale]
-
-* Scale: Scale is the idea that [[linear mediums limit the maximum size of explanations]], whereas [[non-linear media allows greater explanation size]].
-
-Non-linear media allows greater explanation size: Non-linear media can grow larger than linear media because [[non-linear media is more navigable at large sizes]], and also [[non-linear media isn't constrained by audience interest]].
-
-Non-linear media is more navigable at large sizes: [[Difficulty navigating large corpuses limits corpus size]], so because [[non-linear organization increases the ease of navigating large corpuses]], [[non-linear media enables larger explanations]]. (But [[what about search?]])
-
-What about search? Doesn't the existence of search make it tractable to find things in a large corpus of linear explanations very quickly? Yes, but [[identifying the right search terms and content tagging is difficult]], and [[search doesn't give the reader an organizational scheme]].
-
-Identifying the right search terms and content tagging is difficult: If I am searching for content, I have to predict what keywords it will include, or the author will have to have labeled it properly, and in large corpuses, anticipating how to label content and search for it becomes more difficult.
-
-Search doesn't give the reader an organizational scheme: When the reader accesses the portions of a corpus by search, they are jumping directly to one piece of information, and don't know anything about where it is in the grand scheme of things, whereas if they access the information via a subsuming tree structure, they will have a general idea of what exists, and can use that structure to organize the information in their mind.
-
-Non-linear media isn't constrained by audience interest: Non-linear media can grow large even if people prefer to consume small explanations because [[non-linear explanations decouple storage from presentation]], and so [[demand for content of a certain size won't prevent large corpuses]].
-
-Linear mediums limit the maximum size of explanations: Authors are constrained in the length of books and articles by [[medium constraints]] and [[audience relevance]], and so even if the author has information they would like to publish, often they have no good place to put it. (And [[even niche works have the same problem]].)
-
-Medium constraints: Practically speaking, a book or article cannot become greater than a certain size, both because there isn't an audience for such large works, and sometimes because of literal constraints on how much content can be printed and circulated.
-
-Audience relevance: Given that most readers of a book or article are reading more or less from beginning to end, an author can't include things that aren't relevant to all readers.
-
-Even niche works have the same problem: You might say [[niche content solves limitations of audience relevance]], but [[niche content is constrained by audience relevance on a smaller scale]], and [[fragmented works create problems of discoverability]].
-
-Niche content solves limitations of audience relevance: You might say when there is a subpopulation that wants more information than the rest of the audience, an author can produce additional chapters, books, or articles just for them, meaning there will always be space for any given piece of information.
-
-Niche content is constrained by audience relevance on a smaller scale: Niche books and articles will also be forced to leave things out, because within the niche readership there will be people with different particular interests, and the author still won't be able to include points that aren't relevant to all readers.
-
-Fragmented works create problems of discoverability: Even if an author could find space for everything they want to share by producing multiple works for different audiences, this produces problems of [[discoverability]] because eventually not everyone will know about the existence of all the various works and what they contain, defeating the purpose of finding a place for information so that it can be shared.
-
-difficulty navigating large corpuses limits corpus size: Even if we are physically able to store large corpuses of information, if we don't have a good way of navigating them, then people aren't going to go to the trouble to assemble that much information in the first place.
-
-Non-linear organization increases the ease of navigating large corpuses: One of the foundational findings of computer science is that [[finding things in a list is slow]], but [[finding things in a tree is quick]], and so if non-linear media organizes content by tree, it will drastically increase the speed at which the reader can find what they are looking for.
-
-Non-linear media enables larger explanations: Because it is more easily navigable at large sizes, non-linear media removes one of the limiting factors on the size of explanations.
-
-Finding things in a list is slow: Finding something in a linear sequence like a book requires scanning the entire sequence, and even tables of contents require scanning the table of contents, which becomes impracticable if there are many things in it.
-
-Finding things in a tree is quick: Imagine an employee is trying to find their name in a company org-chart. All they have to do is find their division, department, and team. Thus, they are able to find their name while only looking at a few nodes in the tree, which is much faster than having to read through a list of every employee name. This is an example of how finding things in trees is faster than finding them in lists.
-
-If tree organization makes it easier for users to find what they are looking for in large corpuses of information, then it will be worth while for authors to produce larger corpuses.
-
-non-linear explanations decouple storage from presentation: With customized explanations, what the author produces and what the reader consumes don't have to be the same thing, and so the author is no longer constrained to produce content in exactly the format in which the reader wants to read it.
-
-Demand for content of a certain size won't prevent large corpuses: Even if readers want explanations of a certain size, authors will not be constrained to produce only that much content, but can produce much more, and let each reader read what they want to.
-
-
-[motivations/Undersupply]
-
-* Undersupply: Undersupply is the idea that [[there is a systematic undersupply of expert explanation]], and [[systems like Canopy offer good-enough substitutes for expert explanation]].
-
-There is a systematic undersupply of expert explanation: For most students, access to individual tutoring from an expert would be highly beneficial, and the reason that this is impossible is cost and limited expert time, not an excess of student expertise, and so this is reason to believe that customized access to expert explanation would be beneficial to many people who cannot access it at present.
-
-Systems like Canopy offer good-enough substitutes for expert explanation: At the present, [[expert time was the limiting factor to accessing expert knowledge]], and so [[mere access to expert knowledge will make a previously finite resource infinite]].
-
-Expert time was the limiting factor to accessing expert knowledge: Currently, many people would have many more queries for experts than experts have time to answer.
-
-Mere access to expert knowledge will make a previously finite resource infinite: If previously access to expert knowledge was limited, just making that information available, by using mediums more amenable to large interconnected knowledge sets, many people in the market for expert explanations might be able to settle for this "good enough" imitation of access to an expert.
 
 
 [Inbox]

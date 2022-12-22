@@ -1,4 +1,4 @@
-Writers: Writers use Canopy by [[creating a Canopy project]], [[adding content to their project]] that follows [[best practices]], [[serving their project locally]] and [[deploying the project]].
+Writers: Writers use Canopy by [[creating a Canopy project]], [[adding content to their project]] that follows [[best practices]], [[building their project]], [[serving their project locally]] and [[deploying the project]].
 
 Creating a Canopy project: Creating a Canopy project involves [[creating a project directory]], [[initializing the project]], and optionally [[initializing version control]].
 
@@ -20,8 +20,7 @@ Then, when you build your project, this topic can be viewed in the web interface
 
 Canopy markup: Typical markdown-style styling is available, such as lists, code blocks, tables, footnotes, block quotes, and styling characters. Inline HTML is supported. Asterisks indicate bold and underscores indicate italics.
 
-
-Building the project: Building your Canopy project entails taking the `expl` files and generating JSON from them that can be used by the front-end client. You can build your project by navigating to your project directory and running the [[Canopy CLI build command]].
+Building their project: Building your Canopy project entails taking the `expl` files and generating JSON from them that can be used by the front-end client. You can build your project by navigating to your project directory and running the [[Canopy CLI build command]].
 
 Serving their project locally: To serve your Canopy project locally, navigate to your project folder and running the [[Canopy CLI serve command]].
 

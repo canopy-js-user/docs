@@ -1,1 +1,1 @@
-Data directory: The data directory is a directory that the Canopy CLI creates inside the project's [[build directory]]. The data directory is named `_data` (because there might be a topic in the project called `data`.)
+Data directory: The data directory is a directory that the [[Canopy CLI build command]] creates inside the project's [[build directory]]. The data directory is named `_data` (because there might be a topic in the project called `data`.)

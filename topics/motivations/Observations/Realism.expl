@@ -12,7 +12,7 @@ Serializations are just one of many presentations of an underlying data structur
 
 It makes sense to think that the underlying data structure is a graph: A graph is composed of a series of entities and connections, and so if knowledge were stored as a graph, it would make sense how you could make many different explanations from the same original data, because with a single graph you can explore the nodes via their connections in many different orderings.
 
-Any representation of explanation besides a graph will be distortive: If you represent the graph as a linearization that goes deep into detail before going broad, then different parts of the same thing will be explained very far apart from one another in the resulting work, making it hard to get a high-level picture, but if you go broad before going deep, then the different details of a subject are scattered around different parts of the work, making it hard to dive into details of a subject.
+Any representation of explanation besides a graph will be distortive: If you represent a graph as a linearization, either you will go deep into detail before going broad, making it hard to get a high-level picture, or you will go broad before going deep, making it hard to dive into details of a subject.
 
 Canopy represents the underlying explanation graph: Rather than have an author produce a series of books and articles, capturing their knowledge graph only approximately, Canopy has the author capture the underlying graph itself, offering tools to make this easier for them to do.
 
