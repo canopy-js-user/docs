@@ -39,6 +39,18 @@
     "enclosingSubtopic": "Informed Abridgement"
    },
    {
+    "text": ", ",
+    "type": "text"
+   },
+   {
+    "text": "reducing unknown unknowns",
+    "type": "local",
+    "targetSubtopic": "Reducing unknown unknowns",
+    "targetTopic": "Informed Abridgement",
+    "enclosingTopic": "Informed Abridgement",
+    "enclosingSubtopic": "Informed Abridgement"
+   },
+   {
     "text": ".",
     "type": "text"
    }
@@ -58,6 +70,12 @@
   "The reader has a better sense of their level of knowledge": [
    {
     "text": "If the reader is offered more information and makes an informed decision to stop reading, then they will be much more modest in their self-appraisal because they know they are missing information, not like the reader of a popular publication.",
+    "type": "text"
+   }
+  ],
+  "Reducing unknown unknowns": [
+   {
+    "text": "When mediums abridge the complexity of a topic without notifying the reader, it is common for the reader to come away with an inflated sense of the accuracy of their understanding, because their mental theory accounts for 100% of the things they've heard about the phenomenon in question, but only because they know so little about the phenomenon.",
     "type": "text"
    }
   ]
