@@ -129,6 +129,18 @@
     "enclosingSubtopic": "Specific features of Canopy"
    },
    {
+    "text": ", ",
+    "type": "text"
+   },
+   {
+    "text": "many small categories",
+    "type": "global",
+    "targetSubtopic": "Many small categories",
+    "targetTopic": "Many small categories",
+    "enclosingTopic": "Motivations for Canopy",
+    "enclosingSubtopic": "Specific features of Canopy"
+   },
+   {
     "text": ", and ",
     "type": "text"
    },

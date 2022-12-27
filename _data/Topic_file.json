@@ -3,7 +3,7 @@
  "paragraphsBySubtopic": {
   "Topic file": [
    {
-    "text": "An topic file is a file stored in the ",
+    "text": "A topic file is a file stored in the ",
     "type": "text"
    },
    {
@@ -45,7 +45,7 @@
   ],
   "File format": [
    {
-    "text": "An topic file is composed of ",
+    "text": "A topic file is composed of ",
     "type": "text"
    },
    {
