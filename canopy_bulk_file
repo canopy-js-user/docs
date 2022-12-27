@@ -222,9 +222,9 @@ Sentence 3
 * Topic definition: A topic definition is a type of [[block]] in a topic file that defines a [[topic]].
 
 
-* Topic file: An topic file is a file stored in the [[topics directory]] that defines a [[topic]] of a Canopy project. Topic files end in a `.expl` extension. Topic files have a certain [[file format]].
+* Topic file: A topic file is a file stored in the [[topics directory]] that defines a [[topic]] of a Canopy project. Topic files end in a `.expl` extension. Topic files have a certain [[file format]].
 
-File format: An topic file is composed of [[block|blocks]].
+File format: A topic file is composed of [[block|blocks]].
 
 
 [Mechanics/Settings]
@@ -301,6 +301,18 @@ Click Global References: If you click a [[global reference]], if alt/option is n
 Selecting links: Readers can select links using [[mouse interactions]], or [[keyboard shortcuts]].
 
 
+[Roadmap]
+
+* Roadmap: There are various features that would be nice to have, such as [[Electron builds]].
+
+Electron builds: It would be nice to have a build option that wraps a Canopy website in an electron app so that people can offer downloadable assets for a project.
+
+
+[Theory]
+
+* Theoretical questions: There are various theoretical questions related to Canopy.
+
+
 [Writers]
 
 * Writers: Writers use Canopy by [[creating a Canopy project]], [[adding content to their project]] that follows [[best practices]], [[building their project]], [[serving their project locally]] and [[deploying the project]].
@@ -374,7 +386,7 @@ Create intermediary syntactic subtopics: If I have the sentence "Bob lives on 4t
 
 * Motivations for Canopy: The motivations for Canopy include [[observations about human explanation]], [[limitations of conventional explanations]], [[specific features of Canopy]], [[qualities of Canopy content]], and [[new possibilities Canopy enables]].
 
-Specific features of Canopy: Canopy is motivated by specific desirable features such as [[recursive clarification]], [[inline inclusion]], [[explicit state]], [[idea addressing]], [[natural language classification]], and [[relative addressing]].
+Specific features of Canopy: Canopy is motivated by specific desirable features such as [[recursive clarification]], [[inline inclusion]], [[explicit state]], [[idea addressing]], [[natural language classification]], [[many small categories]], and [[relative addressing]].
 
 Qualities of Canopy content: Canopy is motivated by qualities of Canopy content, such as  [[customization]], [[clarity]], [[reusability]], [[mergability]], [[proportionality]], [[memorability]], [[informed abridgement]], [[explicit prerequisites]], [[discoverability]], [[hierarchy]], [[exhaustiveness]], [[non-rival media]], and [[connected synonyms]].
 
@@ -414,6 +426,15 @@ Natural language references are not semantically redirects: When in conversation
 In most hypertext systems references cause redirects: In most hypertext systems, content is composed of documents that have references to other documents, and selecting a reference causes the reader to redirect to another document, "changing the subject" to a discussion of the new idea in its own right, rather than as a means to understand the previous subject.
 
 In Canopy references are inlined by default: When selecting a link in Canopy, by default the paragraph associated with the selected link as added to the current page under the paragraph of the link. This allows the reader to retain their place in the earlier explanation, and peruse an explanation of the new idea only insofar as is necessary to continue reading the earlier paragraph. This user experience is more similar to the natural experience of listening to conversation, and so there is a better chance that the reader will be able to assimilate the given information correctly.
+
+
+* Many small categories: Many small categories is the idea that [[the number of categories in a conventional classification scheme is limited]], which causes [[overly large categories]], whereas [[categories in Canopy can be deeply nested]].
+
+The number of categories in a conventional classification scheme is limited: Most organizational systems have categories which contain subtcategories, and the subcategories may contain subcategories, but there will only be 2-4 levels of nested subcategories, after which things are added to the subcategories in an undifferentiated list.
+
+Overly large categories: When categories can only be nested 2-4 levels, if the corpus is large, then the size of categories will get very large also, and if a category is very large, it becomes intractable for the reader to see the whole list and it becomes random what content they see or don't see when navigating to a category.
+
+Categories in Canopy can be deeply nested: In Canopy, categories can be deeply nested because the content itself is the categorization scheme, and so categories of content can be nested very deeply, and thus there can be very many categories, each of which contain only a few things, so the user who navigates to a given category will be able to see everything it contains and it will not be random which contents get seen or not seen, producing a more precise experience for the reader.
 
 
 * Natural language classification: Natural language classification is the idea that [[people use natural language as a classification scheme in conversation]], and [[Canopy follows the natural classification scheme]].

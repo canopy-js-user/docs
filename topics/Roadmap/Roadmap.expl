@@ -1,0 +1,3 @@
+Roadmap: There are various features that would be nice to have, such as [[Electron builds]].
+
+Electron builds: It would be nice to have a build option that wraps a Canopy website in an electron app so that people can offer downloadable assets for a project.
