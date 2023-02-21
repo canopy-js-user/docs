@@ -1,5 +1,11 @@
 {
  "displayTopicName": "Natural language classification",
+ "topicTokens": [
+  {
+   "text": "Natural language classification",
+   "type": "text"
+  }
+ ],
  "paragraphsBySubtopic": {
   "Natural language classification": [
    {
@@ -9,6 +15,12 @@
    {
     "text": "people use natural language as a classification scheme in conversation",
     "type": "local",
+    "tokens": [
+     {
+      "text": "people use natural language as a classification scheme in conversation",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "People use natural language as a classification scheme in conversation",
     "targetTopic": "Natural language classification",
     "enclosingTopic": "Natural language classification",
@@ -21,6 +33,12 @@
    {
     "text": "Canopy follows the natural classification scheme",
     "type": "local",
+    "tokens": [
+     {
+      "text": "Canopy follows the natural classification scheme",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Canopy follows the natural classification scheme",
     "targetTopic": "Natural language classification",
     "enclosingTopic": "Natural language classification",

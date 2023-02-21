@@ -1,5 +1,11 @@
 {
  "displayTopicName": "Local reference",
+ "topicTokens": [
+  {
+   "text": "Local reference",
+   "type": "text"
+  }
+ ],
  "paragraphsBySubtopic": {
   "Local reference": [
    {
@@ -9,6 +15,12 @@
    {
     "text": "subtopic",
     "type": "global",
+    "tokens": [
+     {
+      "text": "subtopic",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Subtopic",
     "targetTopic": "Subtopic",
     "enclosingTopic": "Local reference",
@@ -21,6 +33,12 @@
    {
     "text": "global reference",
     "type": "global",
+    "tokens": [
+     {
+      "text": "global reference",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Global reference",
     "targetTopic": "Global reference",
     "enclosingTopic": "Local reference",

@@ -1,5 +1,11 @@
 {
  "displayTopicName": "Document Metaphor",
+ "topicTokens": [
+  {
+   "text": "Document Metaphor",
+   "type": "text"
+  }
+ ],
  "paragraphsBySubtopic": {
   "Document Metaphor": [
    {
@@ -9,6 +15,12 @@
    {
     "text": "existing hypertext systems retain the metaphor of documents",
     "type": "local",
+    "tokens": [
+     {
+      "text": "existing hypertext systems retain the metaphor of documents",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Existing hypertext systems retain the metaphor of documents",
     "targetTopic": "Document Metaphor",
     "enclosingTopic": "Document Metaphor",
@@ -21,6 +33,12 @@
    {
     "text": "there are shortcomings to the document metaphor",
     "type": "local",
+    "tokens": [
+     {
+      "text": "there are shortcomings to the document metaphor",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "There are shortcomings to the document metaphor",
     "targetTopic": "Document Metaphor",
     "enclosingTopic": "Document Metaphor",
@@ -33,6 +51,12 @@
    {
     "text": "Canopy replaces documents with graph traversal",
     "type": "local",
+    "tokens": [
+     {
+      "text": "Canopy replaces documents with graph traversal",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Canopy replaces documents with graph traversal",
     "targetTopic": "Document Metaphor",
     "enclosingTopic": "Document Metaphor",
@@ -45,6 +69,12 @@
    {
     "text": "is itself a generator of documents",
     "type": "local",
+    "tokens": [
+     {
+      "text": "is itself a generator of documents",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Is itself a generator of documents",
     "targetTopic": "Document Metaphor",
     "enclosingTopic": "Document Metaphor",
@@ -69,6 +99,12 @@
    {
     "text": "less customizable",
     "type": "local",
+    "tokens": [
+     {
+      "text": "less customizable",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Less customizable",
     "targetTopic": "Document Metaphor",
     "enclosingTopic": "Document Metaphor",
@@ -81,6 +117,12 @@
    {
     "text": "more disjointed",
     "type": "local",
+    "tokens": [
+     {
+      "text": "more disjointed",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "More disjointed",
     "targetTopic": "Document Metaphor",
     "enclosingTopic": "Document Metaphor",
@@ -99,6 +141,12 @@
    {
     "text": "customization",
     "type": "global",
+    "tokens": [
+     {
+      "text": "customization",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Customization",
     "targetTopic": "Customization",
     "enclosingTopic": "Document Metaphor",

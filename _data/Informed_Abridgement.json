@@ -1,5 +1,11 @@
 {
  "displayTopicName": "Informed Abridgement",
+ "topicTokens": [
+  {
+   "text": "Informed Abridgement",
+   "type": "text"
+  }
+ ],
  "paragraphsBySubtopic": {
   "Informed Abridgement": [
    {
@@ -9,6 +15,12 @@
    {
     "text": "other mediums abridge without informing the reader",
     "type": "local",
+    "tokens": [
+     {
+      "text": "other mediums abridge without informing the reader",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Other mediums abridge without informing the reader",
     "targetTopic": "Informed Abridgement",
     "enclosingTopic": "Informed Abridgement",
@@ -21,6 +33,12 @@
    {
     "text": "in a Canopy project the reader makes an informed decision about when to stop reading",
     "type": "local",
+    "tokens": [
+     {
+      "text": "in a Canopy project the reader makes an informed decision about when to stop reading",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "In a Canopy project the reader makes an informed decision about when to stop reading",
     "targetTopic": "Informed Abridgement",
     "enclosingTopic": "Informed Abridgement",
@@ -33,6 +51,12 @@
    {
     "text": "the reader has a better sense of their level of knowledge",
     "type": "local",
+    "tokens": [
+     {
+      "text": "the reader has a better sense of their level of knowledge",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "The reader has a better sense of their level of knowledge",
     "targetTopic": "Informed Abridgement",
     "enclosingTopic": "Informed Abridgement",
@@ -45,6 +69,12 @@
    {
     "text": "reducing unknown unknowns",
     "type": "local",
+    "tokens": [
+     {
+      "text": "reducing unknown unknowns",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Reducing unknown unknowns",
     "targetTopic": "Informed Abridgement",
     "enclosingTopic": "Informed Abridgement",

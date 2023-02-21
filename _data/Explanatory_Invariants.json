@@ -1,5 +1,11 @@
 {
  "displayTopicName": "Explanatory Invariants",
+ "topicTokens": [
+  {
+   "text": "Explanatory Invariants",
+   "type": "text"
+  }
+ ],
  "paragraphsBySubtopic": {
   "Explanatory Invariants": [
    {
@@ -9,6 +15,12 @@
    {
     "text": "there are reoccuring types of relation between facts in a corpus",
     "type": "local",
+    "tokens": [
+     {
+      "text": "there are reoccuring types of relation between facts in a corpus",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "There are reoccuring types of relation between facts in a corpus",
     "targetTopic": "Explanatory Invariants",
     "enclosingTopic": "Explanatory Invariants",
@@ -21,6 +33,12 @@
    {
     "text": "it is sometimes desirable to capture every relation of a given type",
     "type": "local",
+    "tokens": [
+     {
+      "text": "it is sometimes desirable to capture every relation of a given type",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "It is sometimes desirable to capture every relation of a given type",
     "targetTopic": "Explanatory Invariants",
     "enclosingTopic": "Explanatory Invariants",
@@ -33,6 +51,12 @@
    {
     "text": "free-form prose makes it difficult to capture explanatory invariants",
     "type": "local",
+    "tokens": [
+     {
+      "text": "free-form prose makes it difficult to capture explanatory invariants",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Free-form prose makes it difficult to capture explanatory invariants",
     "targetTopic": "Explanatory Invariants",
     "enclosingTopic": "Explanatory Invariants",
@@ -45,6 +69,12 @@
    {
     "text": "Canopy makes it easy to capture them",
     "type": "local",
+    "tokens": [
+     {
+      "text": "Canopy makes it easy to capture them",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Canopy makes it easy to capture them",
     "targetTopic": "Explanatory Invariants",
     "enclosingTopic": "Explanatory Invariants",
@@ -57,6 +87,12 @@
    {
     "text": "without edging out existing analysis",
     "type": "local",
+    "tokens": [
+     {
+      "text": "without edging out existing analysis",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Without edging out existing analysis",
     "targetTopic": "Explanatory Invariants",
     "enclosingTopic": "Explanatory Invariants",
@@ -81,6 +117,12 @@
    {
     "text": "completeness",
     "type": "global",
+    "tokens": [
+     {
+      "text": "completeness",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Completeness",
     "targetTopic": "Completeness",
     "enclosingTopic": "Explanatory Invariants",
@@ -111,6 +153,12 @@
    {
     "text": "non-rival media",
     "type": "global",
+    "tokens": [
+     {
+      "text": "non-rival media",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Non-rival media",
     "targetTopic": "Non-rival media",
     "enclosingTopic": "Explanatory Invariants",

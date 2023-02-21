@@ -1,5 +1,11 @@
 {
  "displayTopicName": "Organizational knowledge",
+ "topicTokens": [
+  {
+   "text": "Organizational knowledge",
+   "type": "text"
+  }
+ ],
  "paragraphsBySubtopic": {
   "Organizational knowledge": [
    {

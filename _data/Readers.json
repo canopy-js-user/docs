@@ -1,5 +1,11 @@
 {
  "displayTopicName": "Readers",
+ "topicTokens": [
+  {
+   "text": "Readers",
+   "type": "text"
+  }
+ ],
  "paragraphsBySubtopic": {
   "Readers": [
    {
@@ -9,6 +15,12 @@
    {
     "text": "root paragraph",
     "type": "global",
+    "tokens": [
+     {
+      "text": "root paragraph",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Root paragraph",
     "targetTopic": "Root paragraph",
     "enclosingTopic": "Readers",
@@ -21,6 +33,12 @@
    {
     "text": "selecting links",
     "type": "local",
+    "tokens": [
+     {
+      "text": "selecting links",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Selecting links",
     "targetTopic": "Readers",
     "enclosingTopic": "Readers",
@@ -39,6 +57,12 @@
    {
     "text": "mouse interactions",
     "type": "global",
+    "tokens": [
+     {
+      "text": "mouse interactions",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Mouse interactions",
     "targetTopic": "Mouse interactions",
     "enclosingTopic": "Readers",
@@ -51,6 +75,12 @@
    {
     "text": "keyboard shortcuts",
     "type": "global",
+    "tokens": [
+     {
+      "text": "keyboard shortcuts",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Keyboard shortcuts",
     "targetTopic": "Keyboard shortcuts",
     "enclosingTopic": "Readers",

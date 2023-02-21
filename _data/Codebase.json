@@ -1,5 +1,11 @@
 {
  "displayTopicName": "Codebase",
+ "topicTokens": [
+  {
+   "text": "Codebase",
+   "type": "text"
+  }
+ ],
  "paragraphsBySubtopic": {
   "Codebase": [
    {
@@ -9,6 +15,12 @@
    {
     "text": "Canopy CLI code",
     "type": "global",
+    "tokens": [
+     {
+      "text": "Canopy CLI code",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Canopy CLI Code",
     "targetTopic": "Canopy CLI Code",
     "enclosingTopic": "Codebase",
@@ -21,13 +33,37 @@
    {
     "text": "Canopy client code",
     "type": "global",
+    "tokens": [
+     {
+      "text": "Canopy client code",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Canopy client code",
     "targetTopic": "Canopy client code",
     "enclosingTopic": "Codebase",
     "enclosingSubtopic": "Codebase"
    },
    {
-    "text": ".",
+    "text": ". (Ideally this section would include every major component of the code, with cross references to how that component factors into ",
+    "type": "text"
+   },
+   {
+    "text": "how Canopy works",
+    "type": "global",
+    "tokens": [
+     {
+      "text": "how Canopy works",
+      "type": "text"
+     }
+    ],
+    "targetSubtopic": "How Canopy works",
+    "targetTopic": "How Canopy works",
+    "enclosingTopic": "Codebase",
+    "enclosingSubtopic": "Codebase"
+   },
+   {
+    "text": ".)",
     "type": "text"
    }
   ]

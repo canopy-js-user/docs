@@ -1,5 +1,11 @@
 {
  "displayTopicName": "Subtopic",
+ "topicTokens": [
+  {
+   "text": "Subtopic",
+   "type": "text"
+  }
+ ],
  "paragraphsBySubtopic": {
   "Subtopic": [
    {
@@ -9,32 +15,68 @@
    {
     "text": "topic",
     "type": "global",
+    "tokens": [
+     {
+      "text": "topic",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Topic",
     "targetTopic": "Topic",
     "enclosingTopic": "Subtopic",
     "enclosingSubtopic": "Subtopic"
    },
    {
-    "text": ". A subtopic models an entity or idea that requires additional context before it can be explained, as opposed to a ",
+    "text": ", and exist in the ",
     "type": "text"
    },
    {
-    "text": "topic",
+    "text": "topic's tree",
     "type": "global",
-    "targetSubtopic": "Topic",
-    "targetTopic": "Topic",
+    "tokens": [
+     {
+      "text": "topic's tree",
+      "type": "text"
+     }
+    ],
+    "targetSubtopic": "Topic tree",
+    "targetTopic": "Topic tree",
     "enclosingTopic": "Subtopic",
     "enclosingSubtopic": "Subtopic"
    },
    {
-    "text": ". Because a subtopic requires context, it is displayed at a ",
+    "text": " and a particular ",
     "type": "text"
    },
    {
     "text": "subtopic path",
     "type": "global",
+    "tokens": [
+     {
+      "text": "subtopic path",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Subtopic path",
     "targetTopic": "Subtopic path",
+    "enclosingTopic": "Subtopic",
+    "enclosingSubtopic": "Subtopic"
+   },
+   {
+    "text": ". Subtopics are for modeling entities or ideas that requires additional context before they can be explained, as opposed to a ",
+    "type": "text"
+   },
+   {
+    "text": "topic",
+    "type": "global",
+    "tokens": [
+     {
+      "text": "topic",
+      "type": "text"
+     }
+    ],
+    "targetSubtopic": "Topic",
+    "targetTopic": "Topic",
     "enclosingTopic": "Subtopic",
     "enclosingSubtopic": "Subtopic"
    },
@@ -45,18 +87,30 @@
    {
     "text": "subordinate topic",
     "type": "global",
+    "tokens": [
+     {
+      "text": "subordinate topic",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Subordinate topic",
     "targetTopic": "Subordinate topic",
     "enclosingTopic": "Subtopic",
     "enclosingSubtopic": "Subtopic"
    },
    {
-    "text": ". It is important to know ",
+    "text": ". It is a best practice to know ",
     "type": "text"
    },
    {
     "text": "when to use topics versus subtopics",
     "type": "global",
+    "tokens": [
+     {
+      "text": "when to use topics versus subtopics",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "When to use topics versus subtopics",
     "targetTopic": "When to use topics versus subtopics",
     "enclosingTopic": "Subtopic",

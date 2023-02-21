@@ -1,5 +1,11 @@
 {
  "displayTopicName": "Topic file",
+ "topicTokens": [
+  {
+   "text": "Topic file",
+   "type": "text"
+  }
+ ],
  "paragraphsBySubtopic": {
   "Topic file": [
    {
@@ -9,6 +15,12 @@
    {
     "text": "topics directory",
     "type": "global",
+    "tokens": [
+     {
+      "text": "topics directory",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Topics Directory",
     "targetTopic": "Topics Directory",
     "enclosingTopic": "Topic file",
@@ -21,18 +33,38 @@
    {
     "text": "topic",
     "type": "global",
+    "tokens": [
+     {
+      "text": "topic",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Topic",
     "targetTopic": "Topic",
     "enclosingTopic": "Topic file",
     "enclosingSubtopic": "Topic file"
    },
    {
-    "text": " of a Canopy project. Topic files end in a `.expl` extension. Topic files have a certain ",
+    "text": " of a Canopy project. Topic files end in a ",
+    "type": "text"
+   },
+   {
+    "type": "inline_code",
+    "text": ".expl"
+   },
+   {
+    "text": " extension. Topic files have a certain ",
     "type": "text"
    },
    {
     "text": "file format",
     "type": "local",
+    "tokens": [
+     {
+      "text": "file format",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "File format",
     "targetTopic": "Topic file",
     "enclosingTopic": "Topic file",
@@ -51,6 +83,12 @@
    {
     "text": "blocks",
     "type": "global",
+    "tokens": [
+     {
+      "text": "blocks",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Block",
     "targetTopic": "Block",
     "enclosingTopic": "Topic file",

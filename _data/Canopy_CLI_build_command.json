@@ -1,14 +1,34 @@
 {
  "displayTopicName": "Canopy CLI build command",
+ "topicTokens": [
+  {
+   "text": "Canopy CLI build command",
+   "type": "text"
+  }
+ ],
  "paragraphsBySubtopic": {
   "Canopy CLI build command": [
    {
-    "text": "The `canopy build` command takes the ",
+    "text": "The ",
+    "type": "text"
+   },
+   {
+    "type": "inline_code",
+    "text": "canopy build"
+   },
+   {
+    "text": " command takes the ",
     "type": "text"
    },
    {
     "text": "topic files",
     "type": "global",
+    "tokens": [
+     {
+      "text": "topic files",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Topic file",
     "targetTopic": "Topic file",
     "enclosingTopic": "Canopy CLI build command",
@@ -21,6 +41,12 @@
    {
     "text": "topics directory",
     "type": "global",
+    "tokens": [
+     {
+      "text": "topics directory",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Topics Directory",
     "targetTopic": "Topics Directory",
     "enclosingTopic": "Canopy CLI build command",
@@ -33,6 +59,12 @@
    {
     "text": "build directory",
     "type": "global",
+    "tokens": [
+     {
+      "text": "build directory",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Build directory",
     "targetTopic": "Build directory",
     "enclosingTopic": "Canopy CLI build command",
@@ -45,6 +77,12 @@
    {
     "text": "parameters",
     "type": "local",
+    "tokens": [
+     {
+      "text": "parameters",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Parameters",
     "targetTopic": "Canopy CLI build command",
     "enclosingTopic": "Canopy CLI build command",
@@ -63,6 +101,12 @@
    {
     "text": "project path prefix parameter",
     "type": "local",
+    "tokens": [
+     {
+      "text": "project path prefix parameter",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Project path prefix parameter",
     "targetTopic": "Canopy CLI build command",
     "enclosingTopic": "Canopy CLI build command",
@@ -81,19 +125,36 @@
    {
     "text": "project path prefix",
     "type": "global",
+    "tokens": [
+     {
+      "text": "project path prefix",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Project Path Prefix",
     "targetTopic": "Project Path Prefix",
     "enclosingTopic": "Canopy CLI build command",
     "enclosingSubtopic": "Project path prefix parameter"
    },
    {
-    "text": ". If the hosting URL will be `www.example.com/myProject/`, then the project should be built like this: ",
+    "text": ". If the hosting URL will be ",
     "type": "text"
    },
    {
-    "type": "code_block",
-    "open": true,
-    "text": "canopy build --project-path-prefix myProject\n"
+    "type": "inline_code",
+    "text": "www.example.com/myProject/"
+   },
+   {
+    "text": ", then the project should be built like this: ",
+    "type": "text"
+   },
+   {
+    "type": "inline_code",
+    "text": "`"
+   },
+   {
+    "text": " canopy build --project-path-prefix myProject",
+    "type": "text"
    }
   ]
  }

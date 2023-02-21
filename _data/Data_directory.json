@@ -1,5 +1,11 @@
 {
  "displayTopicName": "Data directory",
+ "topicTokens": [
+  {
+   "text": "Data directory",
+   "type": "text"
+  }
+ ],
  "paragraphsBySubtopic": {
   "Data directory": [
    {
@@ -9,6 +15,12 @@
    {
     "text": "Canopy CLI build command",
     "type": "global",
+    "tokens": [
+     {
+      "text": "Canopy CLI build command",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Canopy CLI build command",
     "targetTopic": "Canopy CLI build command",
     "enclosingTopic": "Data directory",
@@ -21,13 +33,35 @@
    {
     "text": "build directory",
     "type": "global",
+    "tokens": [
+     {
+      "text": "build directory",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Build directory",
     "targetTopic": "Build directory",
     "enclosingTopic": "Data directory",
     "enclosingSubtopic": "Data directory"
    },
    {
-    "text": ". The data directory is named `_data` (because there might be a topic in the project called `data`.)",
+    "text": ". The data directory is named ",
+    "type": "text"
+   },
+   {
+    "type": "inline_code",
+    "text": "_data"
+   },
+   {
+    "text": " (because there might be a topic in the project called ",
+    "type": "text"
+   },
+   {
+    "type": "inline_code",
+    "text": "data"
+   },
+   {
+    "text": ".)",
     "type": "text"
    }
   ]

@@ -1,5 +1,11 @@
 {
  "displayTopicName": "Applications of Canopy",
+ "topicTokens": [
+  {
+   "text": "Applications of Canopy",
+   "type": "text"
+  }
+ ],
  "paragraphsBySubtopic": {
   "Applications of Canopy": [
    {
@@ -9,6 +15,12 @@
    {
     "text": "journalism",
     "type": "global",
+    "tokens": [
+     {
+      "text": "journalism",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Journalism",
     "targetTopic": "Journalism",
     "enclosingTopic": "Applications of Canopy",
@@ -21,6 +33,12 @@
    {
     "text": "academia",
     "type": "global",
+    "tokens": [
+     {
+      "text": "academia",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Academia",
     "targetTopic": "Academia",
     "enclosingTopic": "Applications of Canopy",
@@ -33,6 +51,12 @@
    {
     "text": "economics",
     "type": "global",
+    "tokens": [
+     {
+      "text": "economics",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Economics",
     "targetTopic": "Economics",
     "enclosingTopic": "Applications of Canopy",
@@ -45,6 +69,12 @@
    {
     "text": "education",
     "type": "global",
+    "tokens": [
+     {
+      "text": "education",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Education",
     "targetTopic": "Education",
     "enclosingTopic": "Applications of Canopy",
@@ -57,6 +87,12 @@
    {
     "text": "software engineering",
     "type": "global",
+    "tokens": [
+     {
+      "text": "software engineering",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Software engineering",
     "targetTopic": "Software engineering",
     "enclosingTopic": "Applications of Canopy",
@@ -69,6 +105,12 @@
    {
     "text": "organizational knowledge",
     "type": "global",
+    "tokens": [
+     {
+      "text": "organizational knowledge",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Organizational knowledge",
     "targetTopic": "Organizational knowledge",
     "enclosingTopic": "Applications of Canopy",
@@ -81,6 +123,12 @@
    {
     "text": "library science",
     "type": "global",
+    "tokens": [
+     {
+      "text": "library science",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Library science",
     "targetTopic": "Library science",
     "enclosingTopic": "Applications of Canopy",

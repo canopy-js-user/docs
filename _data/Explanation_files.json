@@ -1,14 +1,34 @@
 {
  "displayTopicName": "Explanation files",
+ "topicTokens": [
+  {
+   "text": "Explanation files",
+   "type": "text"
+  }
+ ],
  "paragraphsBySubtopic": {
   "Explanation files": [
    {
-    "text": "Explanation files are files ending in the `.expl` extension. Explanation files are the ",
+    "text": "Explanation files are files ending in the ",
+    "type": "text"
+   },
+   {
+    "type": "inline_code",
+    "text": ".expl"
+   },
+   {
+    "text": " extension. Explanation files are the ",
     "type": "text"
    },
    {
     "text": "topic files",
     "type": "global",
+    "tokens": [
+     {
+      "text": "topic files",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Topic file",
     "targetTopic": "Topic file",
     "enclosingTopic": "Explanation files",
@@ -21,6 +41,12 @@
    {
     "text": "topics directory",
     "type": "global",
+    "tokens": [
+     {
+      "text": "topics directory",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Topics Directory",
     "targetTopic": "Topics Directory",
     "enclosingTopic": "Explanation files",

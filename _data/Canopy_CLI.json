@@ -1,5 +1,11 @@
 {
  "displayTopicName": "Canopy CLI",
+ "topicTokens": [
+  {
+   "text": "Canopy CLI",
+   "type": "text"
+  }
+ ],
  "paragraphsBySubtopic": {
   "Canopy CLI": [
    {
@@ -9,6 +15,12 @@
    {
     "text": "commands",
     "type": "local",
+    "tokens": [
+     {
+      "text": "commands",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Commands",
     "targetTopic": "Canopy CLI",
     "enclosingTopic": "Canopy CLI",
@@ -27,6 +39,12 @@
    {
     "text": "Canopy CLI init command",
     "type": "global",
+    "tokens": [
+     {
+      "text": "Canopy CLI init command",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Canopy CLI init command",
     "targetTopic": "Canopy CLI init command",
     "enclosingTopic": "Canopy CLI",
@@ -39,6 +57,12 @@
    {
     "text": "Canopy CLI build command",
     "type": "global",
+    "tokens": [
+     {
+      "text": "Canopy CLI build command",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Canopy CLI build command",
     "targetTopic": "Canopy CLI build command",
     "enclosingTopic": "Canopy CLI",
@@ -51,6 +75,12 @@
    {
     "text": "Canopy CLI bulk command",
     "type": "global",
+    "tokens": [
+     {
+      "text": "Canopy CLI bulk command",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Canopy CLI bulk command",
     "targetTopic": "Canopy CLI bulk command",
     "enclosingTopic": "Canopy CLI",

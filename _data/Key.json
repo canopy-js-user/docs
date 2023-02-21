@@ -1,5 +1,11 @@
 {
  "displayTopicName": "Key",
+ "topicTokens": [
+  {
+   "text": "Key",
+   "type": "text"
+  }
+ ],
  "paragraphsBySubtopic": {
   "Key": [
    {
@@ -9,18 +15,46 @@
    {
     "text": "block",
     "type": "global",
+    "tokens": [
+     {
+      "text": "block",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Block",
     "targetTopic": "Block",
     "enclosingTopic": "Key",
     "enclosingSubtopic": "Key"
    },
    {
-    "text": ". A key is a string that ends in a `:` or `?` character. The key represents The presence of a key indicates that a ",
+    "text": ". A key is a string that ends in a ",
+    "type": "text"
+   },
+   {
+    "type": "inline_code",
+    "text": ":"
+   },
+   {
+    "text": " or ",
+    "type": "text"
+   },
+   {
+    "type": "inline_code",
+    "text": "?"
+   },
+   {
+    "text": " character. The key represents The presence of a key indicates that a ",
     "type": "text"
    },
    {
     "text": "block",
     "type": "global",
+    "tokens": [
+     {
+      "text": "block",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Block",
     "targetTopic": "Block",
     "enclosingTopic": "Key",
@@ -33,6 +67,12 @@
    {
     "text": "topic",
     "type": "global",
+    "tokens": [
+     {
+      "text": "topic",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Topic",
     "targetTopic": "Topic",
     "enclosingTopic": "Key",
@@ -45,6 +85,12 @@
    {
     "text": "subtopic",
     "type": "global",
+    "tokens": [
+     {
+      "text": "subtopic",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Subtopic",
     "targetTopic": "Subtopic",
     "enclosingTopic": "Key",
@@ -57,6 +103,12 @@
    {
     "text": "note",
     "type": "global",
+    "tokens": [
+     {
+      "text": "note",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Note",
     "targetTopic": "Note",
     "enclosingTopic": "Key",
@@ -69,6 +121,12 @@
    {
     "text": "orphan subtopic",
     "type": "global",
+    "tokens": [
+     {
+      "text": "orphan subtopic",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Orphan Subtopic",
     "targetTopic": "Orphan Subtopic",
     "enclosingTopic": "Key",
@@ -81,6 +139,12 @@
    {
     "text": "note",
     "type": "global",
+    "tokens": [
+     {
+      "text": "note",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Note",
     "targetTopic": "Note",
     "enclosingTopic": "Key",
@@ -93,6 +157,12 @@
    {
     "text": "topic name",
     "type": "global",
+    "tokens": [
+     {
+      "text": "topic name",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Topic name",
     "targetTopic": "Topic name",
     "enclosingTopic": "Key",
@@ -105,6 +175,12 @@
    {
     "text": "subtopic name",
     "type": "global",
+    "tokens": [
+     {
+      "text": "subtopic name",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Subtopic name",
     "targetTopic": "Subtopic name",
     "enclosingTopic": "Key",
@@ -117,6 +193,12 @@
    {
     "text": "A key can be given on its own line",
     "type": "local",
+    "tokens": [
+     {
+      "text": "A key can be given on its own line",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "A key can be given on its own line",
     "targetTopic": "Key",
     "enclosingTopic": "Key",
@@ -133,9 +215,12 @@
     "type": "text"
    },
    {
-    "type": "code_block",
-    "open": true,
-    "text": "Key:\nSentence 1\nSentence 2\nSentence 3\n"
+    "type": "inline_code",
+    "text": "`"
+   },
+   {
+    "text": " Key:\nSentence 1\nSentence 2\nSentence 3",
+    "type": "text"
    }
   ]
  }

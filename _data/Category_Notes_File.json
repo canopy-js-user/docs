@@ -1,5 +1,11 @@
 {
  "displayTopicName": "Category Notes File",
+ "topicTokens": [
+  {
+   "text": "Category Notes File",
+   "type": "text"
+  }
+ ],
  "paragraphsBySubtopic": {
   "Category Notes File": [
    {
@@ -9,6 +15,12 @@
    {
     "text": "category directory",
     "type": "global",
+    "tokens": [
+     {
+      "text": "category directory",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Category directory",
     "targetTopic": "Category directory",
     "enclosingTopic": "Category Notes File",

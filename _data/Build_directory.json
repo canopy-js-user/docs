@@ -1,5 +1,11 @@
 {
  "displayTopicName": "Build directory",
+ "topicTokens": [
+  {
+   "text": "Build directory",
+   "type": "text"
+  }
+ ],
  "paragraphsBySubtopic": {
   "Build directory": [
    {
@@ -9,6 +15,12 @@
    {
     "text": "Canopy CLI build command",
     "type": "global",
+    "tokens": [
+     {
+      "text": "Canopy CLI build command",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Canopy CLI build command",
     "targetTopic": "Canopy CLI build command",
     "enclosingTopic": "Build directory",
@@ -21,6 +33,12 @@
    {
     "text": "data directory",
     "type": "global",
+    "tokens": [
+     {
+      "text": "data directory",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Data directory",
     "targetTopic": "Data directory",
     "enclosingTopic": "Build directory",
@@ -33,6 +51,12 @@
    {
     "text": "HTML index file",
     "type": "global",
+    "tokens": [
+     {
+      "text": "HTML index file",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "HTML index file",
     "targetTopic": "HTML index file",
     "enclosingTopic": "Build directory",
@@ -45,6 +69,12 @@
    {
     "text": "Canopy JavaScript asset",
     "type": "global",
+    "tokens": [
+     {
+      "text": "Canopy JavaScript asset",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Canopy Javascript asset",
     "targetTopic": "Canopy Javascript asset",
     "enclosingTopic": "Build directory",

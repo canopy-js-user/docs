@@ -1,5 +1,11 @@
 {
  "displayTopicName": "Library science",
+ "topicTokens": [
+  {
+   "text": "Library science",
+   "type": "text"
+  }
+ ],
  "paragraphsBySubtopic": {
   "Library science": [
    {
@@ -9,6 +15,12 @@
    {
     "text": "showing all the information related to a point in a classic work",
     "type": "local",
+    "tokens": [
+     {
+      "text": "showing all the information related to a point in a classic work",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Showing all the information related to a point in a classic work",
     "targetTopic": "Library science",
     "enclosingTopic": "Library science",
@@ -21,6 +33,12 @@
    {
     "text": "all the words that discuss a given point",
     "type": "local",
+    "tokens": [
+     {
+      "text": "all the words that discuss a given point",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "All the words that discuss a given point",
     "targetTopic": "Library science",
     "enclosingTopic": "Library science",
@@ -33,6 +51,12 @@
    {
     "text": "without taking any content positions",
     "type": "local",
+    "tokens": [
+     {
+      "text": "without taking any content positions",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Without taking any content positions",
     "targetTopic": "Library science",
     "enclosingTopic": "Library science",
@@ -45,6 +69,12 @@
    {
     "text": "similar to the speech of a librarian",
     "type": "local",
+    "tokens": [
+     {
+      "text": "similar to the speech of a librarian",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Similar to the speech of a librarian",
     "targetTopic": "Library science",
     "enclosingTopic": "Library science",

@@ -1,5 +1,11 @@
 {
  "displayTopicName": "Scale",
+ "topicTokens": [
+  {
+   "text": "Scale",
+   "type": "text"
+  }
+ ],
  "paragraphsBySubtopic": {
   "Scale": [
    {
@@ -9,6 +15,12 @@
    {
     "text": "linear mediums limit the maximum size of explanations",
     "type": "local",
+    "tokens": [
+     {
+      "text": "linear mediums limit the maximum size of explanations",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Linear mediums limit the maximum size of explanations",
     "targetTopic": "Scale",
     "enclosingTopic": "Scale",
@@ -21,6 +33,12 @@
    {
     "text": "non-linear media allow greater explanation size",
     "type": "local",
+    "tokens": [
+     {
+      "text": "non-linear media allow greater explanation size",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Non-linear media allow greater explanation size",
     "targetTopic": "Scale",
     "enclosingTopic": "Scale",
@@ -39,6 +57,12 @@
    {
     "text": "non-linear media is more navigable at large sizes",
     "type": "local",
+    "tokens": [
+     {
+      "text": "non-linear media is more navigable at large sizes",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Non-linear media is more navigable at large sizes",
     "targetTopic": "Scale",
     "enclosingTopic": "Scale",
@@ -51,6 +75,12 @@
    {
     "text": "non-linear media isn't constrained by audience interest",
     "type": "local",
+    "tokens": [
+     {
+      "text": "non-linear media isn't constrained by audience interest",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Non-linear media isn't constrained by audience interest",
     "targetTopic": "Scale",
     "enclosingTopic": "Scale",
@@ -65,6 +95,12 @@
    {
     "text": "Difficulty navigating large corpuses limits corpus size",
     "type": "local",
+    "tokens": [
+     {
+      "text": "Difficulty navigating large corpuses limits corpus size",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Difficulty navigating large corpuses limits corpus size",
     "targetTopic": "Scale",
     "enclosingTopic": "Scale",
@@ -77,6 +113,12 @@
    {
     "text": "non-linear organization increases the ease of navigating large corpuses",
     "type": "local",
+    "tokens": [
+     {
+      "text": "non-linear organization increases the ease of navigating large corpuses",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Non-linear organization increases the ease of navigating large corpuses",
     "targetTopic": "Scale",
     "enclosingTopic": "Scale",
@@ -89,6 +131,12 @@
    {
     "text": "non-linear media enables larger explanations",
     "type": "local",
+    "tokens": [
+     {
+      "text": "non-linear media enables larger explanations",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Non-linear media enables larger explanations",
     "targetTopic": "Scale",
     "enclosingTopic": "Scale",
@@ -101,6 +149,12 @@
    {
     "text": "what about search?",
     "type": "local",
+    "tokens": [
+     {
+      "text": "what about search?",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "What about search?",
     "targetTopic": "Scale",
     "enclosingTopic": "Scale",
@@ -119,6 +173,12 @@
    {
     "text": "identifying the right search terms and content tagging is difficult",
     "type": "local",
+    "tokens": [
+     {
+      "text": "identifying the right search terms and content tagging is difficult",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Identifying the right search terms and content tagging is difficult",
     "targetTopic": "Scale",
     "enclosingTopic": "Scale",
@@ -131,6 +191,12 @@
    {
     "text": "search doesn't give the reader an organizational scheme",
     "type": "local",
+    "tokens": [
+     {
+      "text": "search doesn't give the reader an organizational scheme",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Search doesn't give the reader an organizational scheme",
     "targetTopic": "Scale",
     "enclosingTopic": "Scale",
@@ -161,6 +227,12 @@
    {
     "text": "non-linear explanations decouple storage from presentation",
     "type": "local",
+    "tokens": [
+     {
+      "text": "non-linear explanations decouple storage from presentation",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "non-linear explanations decouple storage from presentation",
     "targetTopic": "Scale",
     "enclosingTopic": "Scale",
@@ -173,6 +245,12 @@
    {
     "text": "demand for content of a certain size won't prevent large corpuses",
     "type": "local",
+    "tokens": [
+     {
+      "text": "demand for content of a certain size won't prevent large corpuses",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Demand for content of a certain size won't prevent large corpuses",
     "targetTopic": "Scale",
     "enclosingTopic": "Scale",
@@ -191,6 +269,12 @@
    {
     "text": "medium constraints",
     "type": "local",
+    "tokens": [
+     {
+      "text": "medium constraints",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Medium constraints",
     "targetTopic": "Scale",
     "enclosingTopic": "Scale",
@@ -203,6 +287,12 @@
    {
     "text": "audience relevance",
     "type": "local",
+    "tokens": [
+     {
+      "text": "audience relevance",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Audience relevance",
     "targetTopic": "Scale",
     "enclosingTopic": "Scale",
@@ -215,6 +305,12 @@
    {
     "text": "even niche works have the same problem",
     "type": "local",
+    "tokens": [
+     {
+      "text": "even niche works have the same problem",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Even niche works have the same problem",
     "targetTopic": "Scale",
     "enclosingTopic": "Scale",
@@ -245,6 +341,12 @@
    {
     "text": "niche content solves limitations of audience relevance",
     "type": "local",
+    "tokens": [
+     {
+      "text": "niche content solves limitations of audience relevance",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Niche content solves limitations of audience relevance",
     "targetTopic": "Scale",
     "enclosingTopic": "Scale",
@@ -257,6 +359,12 @@
    {
     "text": "niche content is constrained by audience relevance on a smaller scale",
     "type": "local",
+    "tokens": [
+     {
+      "text": "niche content is constrained by audience relevance on a smaller scale",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Niche content is constrained by audience relevance on a smaller scale",
     "targetTopic": "Scale",
     "enclosingTopic": "Scale",
@@ -269,6 +377,12 @@
    {
     "text": "fragmented works create problems of discoverability",
     "type": "local",
+    "tokens": [
+     {
+      "text": "fragmented works create problems of discoverability",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Fragmented works create problems of discoverability",
     "targetTopic": "Scale",
     "enclosingTopic": "Scale",
@@ -299,6 +413,12 @@
    {
     "text": "discoverability",
     "type": "global",
+    "tokens": [
+     {
+      "text": "discoverability",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Discoverability",
     "targetTopic": "Discoverability",
     "enclosingTopic": "Scale",
@@ -323,6 +443,12 @@
    {
     "text": "finding things in a list is slow",
     "type": "local",
+    "tokens": [
+     {
+      "text": "finding things in a list is slow",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Finding things in a list is slow",
     "targetTopic": "Scale",
     "enclosingTopic": "Scale",
@@ -335,6 +461,12 @@
    {
     "text": "finding things in a tree is quick",
     "type": "local",
+    "tokens": [
+     {
+      "text": "finding things in a tree is quick",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Finding things in a tree is quick",
     "targetTopic": "Scale",
     "enclosingTopic": "Scale",

@@ -1,5 +1,11 @@
 {
  "displayTopicName": "Topic paragraph",
+ "topicTokens": [
+  {
+   "text": "Topic paragraph",
+   "type": "text"
+  }
+ ],
  "paragraphsBySubtopic": {
   "Topic paragraph": [
    {
@@ -9,6 +15,12 @@
    {
     "text": "topic",
     "type": "global",
+    "tokens": [
+     {
+      "text": "topic",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Topic",
     "targetTopic": "Topic",
     "enclosingTopic": "Topic paragraph",
@@ -21,6 +33,12 @@
    {
     "text": "local references",
     "type": "global",
+    "tokens": [
+     {
+      "text": "local references",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Local reference",
     "targetTopic": "Local reference",
     "enclosingTopic": "Topic paragraph",
@@ -33,6 +51,12 @@
    {
     "text": "subtopics",
     "type": "global",
+    "tokens": [
+     {
+      "text": "subtopics",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Subtopic",
     "targetTopic": "Subtopic",
     "enclosingTopic": "Topic paragraph",
@@ -45,6 +69,12 @@
    {
     "text": "subtopic paragraphs",
     "type": "global",
+    "tokens": [
+     {
+      "text": "subtopic paragraphs",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Subtopic paragraph",
     "targetTopic": "Subtopic paragraph",
     "enclosingTopic": "Topic paragraph",
@@ -57,6 +87,12 @@
    {
     "text": "topic tree",
     "type": "global",
+    "tokens": [
+     {
+      "text": "topic tree",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Topic tree",
     "targetTopic": "Topic tree",
     "enclosingTopic": "Topic paragraph",

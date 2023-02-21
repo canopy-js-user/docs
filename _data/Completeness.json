@@ -1,5 +1,11 @@
 {
  "displayTopicName": "Completeness",
+ "topicTokens": [
+  {
+   "text": "Completeness",
+   "type": "text"
+  }
+ ],
  "paragraphsBySubtopic": {
   "Completeness": [
    {
@@ -9,6 +15,12 @@
    {
     "text": "scale",
     "type": "global",
+    "tokens": [
+     {
+      "text": "scale",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Scale",
     "targetTopic": "Scale",
     "enclosingTopic": "Completeness",
@@ -21,6 +33,12 @@
    {
     "text": "recursive consideration of arguments",
     "type": "local",
+    "tokens": [
+     {
+      "text": "recursive consideration of arguments",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Recursive consideration of arguments",
     "targetTopic": "Completeness",
     "enclosingTopic": "Completeness",
@@ -33,6 +51,12 @@
    {
     "text": "non-inclusion will be clearly intentional",
     "type": "local",
+    "tokens": [
+     {
+      "text": "non-inclusion will be clearly intentional",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Non-inclusion will be clearly intentional",
     "targetTopic": "Completeness",
     "enclosingTopic": "Completeness",
@@ -45,6 +69,12 @@
    {
     "text": "the costs of including objectionable content will be lower",
     "type": "local",
+    "tokens": [
+     {
+      "text": "the costs of including objectionable content will be lower",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "The costs of including objectionable content will be lower",
     "targetTopic": "Completeness",
     "enclosingTopic": "Completeness",
@@ -69,6 +99,12 @@
    {
     "text": "non-rival media",
     "type": "global",
+    "tokens": [
+     {
+      "text": "non-rival media",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Non-rival media",
     "targetTopic": "Non-rival media",
     "enclosingTopic": "Completeness",
@@ -87,6 +123,12 @@
    {
     "text": "informed abridgement",
     "type": "global",
+    "tokens": [
+     {
+      "text": "informed abridgement",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Informed Abridgement",
     "targetTopic": "Informed Abridgement",
     "enclosingTopic": "Completeness",

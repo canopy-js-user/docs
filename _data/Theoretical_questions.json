@@ -1,9 +1,51 @@
 {
  "displayTopicName": "Theoretical questions",
+ "topicTokens": [
+  {
+   "text": "Theoretical questions",
+   "type": "text"
+  }
+ ],
  "paragraphsBySubtopic": {
   "Theoretical questions": [
    {
-    "text": "There are various theoretical questions related to Canopy.",
+    "text": "There are various theoretical questions related to Canopy, such as ",
+    "type": "text"
+   },
+   {
+    "text": "how Canopy corresponds to memory",
+    "type": "global",
+    "tokens": [
+     {
+      "text": "how Canopy corresponds to memory",
+      "type": "text"
+     }
+    ],
+    "targetSubtopic": "How Canopy corresponds to memory",
+    "targetTopic": "How Canopy corresponds to memory",
+    "enclosingTopic": "Theoretical questions",
+    "enclosingSubtopic": "Theoretical questions"
+   },
+   {
+    "text": " and ",
+    "type": "text"
+   },
+   {
+    "text": "on what basis one paragraph follows another",
+    "type": "global",
+    "tokens": [
+     {
+      "text": "on what basis one paragraph follows another",
+      "type": "text"
+     }
+    ],
+    "targetSubtopic": "On what basis one paragraph follows another",
+    "targetTopic": "On what basis one paragraph follows another",
+    "enclosingTopic": "Theoretical questions",
+    "enclosingSubtopic": "Theoretical questions"
+   },
+   {
+    "text": ".",
     "type": "text"
    }
   ]

@@ -1,5 +1,11 @@
 {
  "displayTopicName": "When to use topics versus subtopics",
+ "topicTokens": [
+  {
+   "text": "When to use topics versus subtopics",
+   "type": "text"
+  }
+ ],
  "paragraphsBySubtopic": {
   "When to use topics versus subtopics": [
    {
@@ -9,6 +15,12 @@
    {
     "text": "subtopic",
     "type": "global",
+    "tokens": [
+     {
+      "text": "subtopic",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Subtopic",
     "targetTopic": "Subtopic",
     "enclosingTopic": "When to use topics versus subtopics",
@@ -21,6 +33,12 @@
    {
     "text": "subordinate topic",
     "type": "global",
+    "tokens": [
+     {
+      "text": "subordinate topic",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Subordinate topic",
     "targetTopic": "Subordinate topic",
     "enclosingTopic": "When to use topics versus subtopics",

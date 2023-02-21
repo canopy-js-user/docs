@@ -1,5 +1,11 @@
 {
  "displayTopicName": "Connected Synonyms",
+ "topicTokens": [
+  {
+   "text": "Connected Synonyms",
+   "type": "text"
+  }
+ ],
  "paragraphsBySubtopic": {
   "Connected Synonyms": [
    {
@@ -9,6 +15,12 @@
    {
     "text": "include unclear synonyms",
     "type": "local",
+    "tokens": [
+     {
+      "text": "include unclear synonyms",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Include unclear synonyms",
     "targetTopic": "Connected Synonyms",
     "enclosingTopic": "Connected Synonyms",
@@ -21,6 +33,12 @@
    {
     "text": "produces a fragmented understanding",
     "type": "local",
+    "tokens": [
+     {
+      "text": "produces a fragmented understanding",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Produces a fragmented understanding",
     "targetTopic": "Connected Synonyms",
     "enclosingTopic": "Connected Synonyms",
@@ -33,6 +51,12 @@
    {
     "text": "interlinking synonyms",
     "type": "local",
+    "tokens": [
+     {
+      "text": "interlinking synonyms",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Interlinking synonyms",
     "targetTopic": "Connected Synonyms",
     "enclosingTopic": "Connected Synonyms",
@@ -57,6 +81,12 @@
    {
     "text": "fragmentation",
     "type": "global",
+    "tokens": [
+     {
+      "text": "fragmentation",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Fragmentation",
     "targetTopic": "Fragmentation",
     "enclosingTopic": "Connected Synonyms",

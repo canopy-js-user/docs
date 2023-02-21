@@ -1,5 +1,11 @@
 {
  "displayTopicName": "Prescriptive Understandings",
+ "topicTokens": [
+  {
+   "text": "Prescriptive Understandings",
+   "type": "text"
+  }
+ ],
  "paragraphsBySubtopic": {
   "Prescriptive Understandings": [
    {
@@ -9,6 +15,12 @@
    {
     "text": "experts have vast organizational structures",
     "type": "local",
+    "tokens": [
+     {
+      "text": "experts have vast organizational structures",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Experts have vast organizational structures",
     "targetTopic": "Prescriptive Understandings",
     "enclosingTopic": "Prescriptive Understandings",
@@ -21,6 +33,12 @@
    {
     "text": "experts omit portions of their mental representation when speaking",
     "type": "local",
+    "tokens": [
+     {
+      "text": "experts omit portions of their mental representation when speaking",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Experts omit portions of their mental representation when speaking",
     "targetTopic": "Prescriptive Understandings",
     "enclosingTopic": "Prescriptive Understandings",
@@ -33,6 +51,12 @@
    {
     "text": "this prevents listeners from building the proper understanding",
     "type": "local",
+    "tokens": [
+     {
+      "text": "this prevents listeners from building the proper understanding",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "This prevents listeners from building the proper understanding",
     "targetTopic": "Prescriptive Understandings",
     "enclosingTopic": "Prescriptive Understandings",
@@ -45,6 +69,12 @@
    {
     "text": "Canopy requires the author to enumerate the desired understanding",
     "type": "local",
+    "tokens": [
+     {
+      "text": "Canopy requires the author to enumerate the desired understanding",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Canopy requires the author to enumerate the desired understanding",
     "targetTopic": "Prescriptive Understandings",
     "enclosingTopic": "Prescriptive Understandings",

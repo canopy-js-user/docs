@@ -1,5 +1,11 @@
 {
  "displayTopicName": "Path segment",
+ "topicTokens": [
+  {
+   "text": "Path segment",
+   "type": "text"
+  }
+ ],
  "paragraphsBySubtopic": {
   "Path segment": [
    {
@@ -9,6 +15,12 @@
    {
     "text": "Canopy path",
     "type": "global",
+    "tokens": [
+     {
+      "text": "Canopy path",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Canopy Path",
     "targetTopic": "Canopy Path",
     "enclosingTopic": "Path segment",
@@ -21,6 +33,12 @@
    {
     "text": "topic",
     "type": "global",
+    "tokens": [
+     {
+      "text": "topic",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Topic",
     "targetTopic": "Topic",
     "enclosingTopic": "Path segment",
@@ -33,6 +51,12 @@
    {
     "text": "subtopic",
     "type": "global",
+    "tokens": [
+     {
+      "text": "subtopic",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Subtopic",
     "targetTopic": "Subtopic",
     "enclosingTopic": "Path segment",
@@ -45,6 +69,12 @@
    {
     "text": "subtopic path",
     "type": "global",
+    "tokens": [
+     {
+      "text": "subtopic path",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Subtopic path",
     "targetTopic": "Subtopic path",
     "enclosingTopic": "Path segment",

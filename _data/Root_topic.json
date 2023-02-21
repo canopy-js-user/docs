@@ -1,5 +1,11 @@
 {
  "displayTopicName": "Root topic",
+ "topicTokens": [
+  {
+   "text": "Root topic",
+   "type": "text"
+  }
+ ],
  "paragraphsBySubtopic": {
   "Root topic": [
    {
@@ -9,6 +15,12 @@
    {
     "text": "path segment",
     "type": "global",
+    "tokens": [
+     {
+      "text": "path segment",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Path segment",
     "targetTopic": "Path segment",
     "enclosingTopic": "Root topic",
@@ -21,6 +33,12 @@
    {
     "text": "root paragraph",
     "type": "global",
+    "tokens": [
+     {
+      "text": "root paragraph",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Root paragraph",
     "targetTopic": "Root paragraph",
     "enclosingTopic": "Root topic",

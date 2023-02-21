@@ -1,5 +1,11 @@
 {
  "displayTopicName": "Import reference",
+ "topicTokens": [
+  {
+   "text": "Import reference",
+   "type": "text"
+  }
+ ],
  "paragraphsBySubtopic": {
   "Import reference": [
    {
@@ -9,6 +15,12 @@
    {
     "text": "subtopic",
     "type": "global",
+    "tokens": [
+     {
+      "text": "subtopic",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Subtopic",
     "targetTopic": "Subtopic",
     "enclosingTopic": "Import reference",
@@ -21,6 +33,12 @@
    {
     "text": "topic",
     "type": "global",
+    "tokens": [
+     {
+      "text": "topic",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Topic",
     "targetTopic": "Topic",
     "enclosingTopic": "Import reference",
@@ -33,6 +51,12 @@
    {
     "text": "global reference",
     "type": "global",
+    "tokens": [
+     {
+      "text": "global reference",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Global reference",
     "targetTopic": "Global reference",
     "enclosingTopic": "Import reference",
@@ -45,6 +69,12 @@
    {
     "text": "global reference",
     "type": "global",
+    "tokens": [
+     {
+      "text": "global reference",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Global reference",
     "targetTopic": "Global reference",
     "enclosingTopic": "Import reference",
@@ -57,6 +87,12 @@
    {
     "text": "subordinate topic",
     "type": "global",
+    "tokens": [
+     {
+      "text": "subordinate topic",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Subordinate topic",
     "targetTopic": "Subordinate topic",
     "enclosingTopic": "Import reference",

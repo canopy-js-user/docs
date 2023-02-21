@@ -1,5 +1,11 @@
 {
  "displayTopicName": "Canopy CLI bulk command",
+ "topicTokens": [
+  {
+   "text": "Canopy CLI bulk command",
+   "type": "text"
+  }
+ ],
  "paragraphsBySubtopic": {
   "Canopy CLI bulk command": [
    {
@@ -9,18 +15,38 @@
    {
     "text": "topic files",
     "type": "global",
+    "tokens": [
+     {
+      "text": "topic files",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Topic file",
     "targetTopic": "Topic file",
     "enclosingTopic": "Canopy CLI bulk command",
     "enclosingSubtopic": "Canopy CLI bulk command"
    },
    {
-    "text": " individually by hand. The writer runs the `canopy bulk` command, and the project topic files get loaded into the ",
+    "text": " individually by hand. The writer runs the ",
+    "type": "text"
+   },
+   {
+    "type": "inline_code",
+    "text": "canopy bulk"
+   },
+   {
+    "text": " command, and the project topic files get loaded into the ",
     "type": "text"
    },
    {
     "text": "Canopy bulk file format",
     "type": "global",
+    "tokens": [
+     {
+      "text": "Canopy bulk file format",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Canopy bulk file format",
     "targetTopic": "Canopy bulk file format",
     "enclosingTopic": "Canopy CLI bulk command",
@@ -33,6 +59,12 @@
    {
     "text": "topics directory",
     "type": "global",
+    "tokens": [
+     {
+      "text": "topics directory",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Topics Directory",
     "targetTopic": "Topics Directory",
     "enclosingTopic": "Canopy CLI bulk command",
@@ -45,6 +77,12 @@
    {
     "text": "sync mode",
     "type": "local",
+    "tokens": [
+     {
+      "text": "sync mode",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Sync mode",
     "targetTopic": "Canopy CLI bulk command",
     "enclosingTopic": "Canopy CLI bulk command",
@@ -57,6 +95,12 @@
    {
     "text": "delayed mode",
     "type": "local",
+    "tokens": [
+     {
+      "text": "delayed mode",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Delayed mode",
     "targetTopic": "Canopy CLI bulk command",
     "enclosingTopic": "Canopy CLI bulk command",
@@ -75,6 +119,12 @@
    {
     "text": "Canopy CLI bulk command",
     "type": "global",
+    "tokens": [
+     {
+      "text": "Canopy CLI bulk command",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Canopy CLI bulk command",
     "targetTopic": "Canopy CLI bulk command",
     "enclosingTopic": "Canopy CLI bulk command",
@@ -87,6 +137,12 @@
    {
     "text": "topic files",
     "type": "global",
+    "tokens": [
+     {
+      "text": "topic files",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Topic file",
     "targetTopic": "Topic file",
     "enclosingTopic": "Canopy CLI bulk command",

@@ -1,5 +1,11 @@
 {
  "displayTopicName": "Undersupply",
+ "topicTokens": [
+  {
+   "text": "Undersupply",
+   "type": "text"
+  }
+ ],
  "paragraphsBySubtopic": {
   "Undersupply": [
    {
@@ -9,6 +15,12 @@
    {
     "text": "there is a systematic undersupply of expert explanation",
     "type": "local",
+    "tokens": [
+     {
+      "text": "there is a systematic undersupply of expert explanation",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "There is a systematic undersupply of expert explanation",
     "targetTopic": "Undersupply",
     "enclosingTopic": "Undersupply",
@@ -21,6 +33,12 @@
    {
     "text": "systems like Canopy offer good-enough substitutes for expert explanation",
     "type": "local",
+    "tokens": [
+     {
+      "text": "systems like Canopy offer good-enough substitutes for expert explanation",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Systems like Canopy offer good-enough substitutes for expert explanation",
     "targetTopic": "Undersupply",
     "enclosingTopic": "Undersupply",
@@ -45,6 +63,12 @@
    {
     "text": "expert time was the limiting factor to accessing expert knowledge",
     "type": "local",
+    "tokens": [
+     {
+      "text": "expert time was the limiting factor to accessing expert knowledge",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Expert time was the limiting factor to accessing expert knowledge",
     "targetTopic": "Undersupply",
     "enclosingTopic": "Undersupply",
@@ -57,6 +81,12 @@
    {
     "text": "mere access to expert knowledge will make a previously finite resource infinite",
     "type": "local",
+    "tokens": [
+     {
+      "text": "mere access to expert knowledge will make a previously finite resource infinite",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Mere access to expert knowledge will make a previously finite resource infinite",
     "targetTopic": "Undersupply",
     "enclosingTopic": "Undersupply",

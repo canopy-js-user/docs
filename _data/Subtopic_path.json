@@ -1,5 +1,11 @@
 {
  "displayTopicName": "Subtopic path",
+ "topicTokens": [
+  {
+   "text": "Subtopic path",
+   "type": "text"
+  }
+ ],
  "paragraphsBySubtopic": {
   "Subtopic path": [
    {
@@ -9,6 +15,12 @@
    {
     "text": "topic tree",
     "type": "global",
+    "tokens": [
+     {
+      "text": "topic tree",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Topic tree",
     "targetTopic": "Topic tree",
     "enclosingTopic": "Subtopic path",

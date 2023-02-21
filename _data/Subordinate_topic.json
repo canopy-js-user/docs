@@ -1,5 +1,11 @@
 {
  "displayTopicName": "Subordinate topic",
+ "topicTokens": [
+  {
+   "text": "Subordinate topic",
+   "type": "text"
+  }
+ ],
  "paragraphsBySubtopic": {
   "Subordinate topic": [
    {
@@ -9,6 +15,12 @@
    {
     "text": "subtopics",
     "type": "global",
+    "tokens": [
+     {
+      "text": "subtopics",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Subtopic",
     "targetTopic": "Subtopic",
     "enclosingTopic": "Subordinate topic",

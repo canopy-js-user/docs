@@ -1,5 +1,11 @@
 {
  "displayTopicName": "Topic definition",
+ "topicTokens": [
+  {
+   "text": "Topic definition",
+   "type": "text"
+  }
+ ],
  "paragraphsBySubtopic": {
   "Topic definition": [
    {
@@ -9,6 +15,12 @@
    {
     "text": "block",
     "type": "global",
+    "tokens": [
+     {
+      "text": "block",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Block",
     "targetTopic": "Block",
     "enclosingTopic": "Topic definition",
@@ -21,6 +33,12 @@
    {
     "text": "topic",
     "type": "global",
+    "tokens": [
+     {
+      "text": "topic",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Topic",
     "targetTopic": "Topic",
     "enclosingTopic": "Topic definition",

@@ -1,5 +1,11 @@
 {
  "displayTopicName": "Education",
+ "topicTokens": [
+  {
+   "text": "Education",
+   "type": "text"
+  }
+ ],
  "paragraphsBySubtopic": {
   "Education": [
    {
@@ -9,6 +15,12 @@
    {
     "text": "help organize pedagogic content knowledge",
     "type": "local",
+    "tokens": [
+     {
+      "text": "help organize pedagogic content knowledge",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Help organize pedagogic content knowledge",
     "targetTopic": "Education",
     "enclosingTopic": "Education",
@@ -21,6 +33,12 @@
    {
     "text": "offer more clarificatory information",
     "type": "local",
+    "tokens": [
+     {
+      "text": "offer more clarificatory information",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Offer more clarificatory information",
     "targetTopic": "Education",
     "enclosingTopic": "Education",
@@ -33,6 +51,12 @@
    {
     "text": "make accessing prerequisites easier",
     "type": "local",
+    "tokens": [
+     {
+      "text": "make accessing prerequisites easier",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Make accessing prerequisites easier",
     "targetTopic": "Education",
     "enclosingTopic": "Education",

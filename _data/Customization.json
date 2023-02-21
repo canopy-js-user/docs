@@ -1,5 +1,11 @@
 {
  "displayTopicName": "Customization",
+ "topicTokens": [
+  {
+   "text": "Customization",
+   "type": "text"
+  }
+ ],
  "paragraphsBySubtopic": {
   "Customization": [
    {
@@ -9,6 +15,12 @@
    {
     "text": "a human explainer can customize explanations for a given listener",
     "type": "local",
+    "tokens": [
+     {
+      "text": "a human explainer can customize explanations for a given listener",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "A human explainer can customize explanations for a given listener",
     "targetTopic": "Customization",
     "enclosingTopic": "Customization",
@@ -21,6 +33,12 @@
    {
     "text": "mostly the same experience for every reader",
     "type": "local",
+    "tokens": [
+     {
+      "text": "mostly the same experience for every reader",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Mostly the same experience for every reader",
     "targetTopic": "Customization",
     "enclosingTopic": "Customization",
@@ -33,6 +51,12 @@
    {
     "text": "linear text is efficient for homogeneous groups",
     "type": "local",
+    "tokens": [
+     {
+      "text": "linear text is efficient for homogeneous groups",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Linear text is efficient for homogeneous groups",
     "targetTopic": "Customization",
     "enclosingTopic": "Customization",
@@ -45,6 +69,12 @@
    {
     "text": "Canopy aims to provide the type of customization a human explainer can provide",
     "type": "local",
+    "tokens": [
+     {
+      "text": "Canopy aims to provide the type of customization a human explainer can provide",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Canopy aims to provide the type of customization a human explainer can provide",
     "targetTopic": "Customization",
     "enclosingTopic": "Customization",
@@ -75,6 +105,12 @@
    {
     "text": "their needs are very similar",
     "type": "local",
+    "tokens": [
+     {
+      "text": "their needs are very similar",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Their needs are very similar",
     "targetTopic": "Customization",
     "enclosingTopic": "Customization",
@@ -87,6 +123,12 @@
    {
     "text": "it is more efficient to use linear prose than it is to use Canopy",
     "type": "local",
+    "tokens": [
+     {
+      "text": "it is more efficient to use linear prose than it is to use Canopy",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "It is more efficient to use linear prose than it is to use Canopy",
     "targetTopic": "Customization",
     "enclosingTopic": "Customization",
@@ -105,6 +147,12 @@
    {
     "text": "standardized test takers",
     "type": "local",
+    "tokens": [
+     {
+      "text": "standardized test takers",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Standardized test takers",
     "targetTopic": "Customization",
     "enclosingTopic": "Customization",
@@ -117,6 +165,12 @@
    {
     "text": "news readers",
     "type": "local",
+    "tokens": [
+     {
+      "text": "news readers",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "News readers",
     "targetTopic": "Customization",
     "enclosingTopic": "Customization",
@@ -135,6 +189,12 @@
    {
     "text": "customization in review",
     "type": "local",
+    "tokens": [
+     {
+      "text": "customization in review",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Customization in review",
     "targetTopic": "Customization",
     "enclosingTopic": "Customization",
@@ -159,6 +219,12 @@
    {
     "text": "some news stories might benefit from customization",
     "type": "local",
+    "tokens": [
+     {
+      "text": "some news stories might benefit from customization",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Some news stories might benefit from customization",
     "targetTopic": "Customization",
     "enclosingTopic": "Customization",
@@ -173,6 +239,12 @@
    {
     "text": "Some news stories are complex",
     "type": "local",
+    "tokens": [
+     {
+      "text": "Some news stories are complex",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Some news stories are complex",
     "targetTopic": "Customization",
     "enclosingTopic": "Customization",
@@ -185,6 +257,12 @@
    {
     "text": "some news stories relate to background knowledge",
     "type": "local",
+    "tokens": [
+     {
+      "text": "some news stories relate to background knowledge",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Some news stories relate to background knowledge",
     "targetTopic": "Customization",
     "enclosingTopic": "Customization",
@@ -215,6 +293,12 @@
    {
     "text": "the author can make better assumptions about the prior knowledge of the readers",
     "type": "local",
+    "tokens": [
+     {
+      "text": "the author can make better assumptions about the prior knowledge of the readers",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "The author can make better assumptions about the prior knowledge of the readers",
     "targetTopic": "Customization",
     "enclosingTopic": "Customization",
@@ -227,6 +311,12 @@
    {
     "text": "the author can more easily capture learning requirements",
     "type": "local",
+    "tokens": [
+     {
+      "text": "the author can more easily capture learning requirements",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "The author can more easily capture learning requirements",
     "targetTopic": "Customization",
     "enclosingTopic": "Customization",
@@ -241,6 +331,12 @@
    {
     "text": "An author of a book or article knows the context of the reader's session",
     "type": "local",
+    "tokens": [
+     {
+      "text": "An author of a book or article knows the context of the reader's session",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "An author of a book or article knows the context of the reader's session",
     "targetTopic": "Customization",
     "enclosingTopic": "Customization",
@@ -253,6 +349,12 @@
    {
     "text": "a customized explanation does not",
     "type": "local",
+    "tokens": [
+     {
+      "text": "a customized explanation does not",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "A customized explanation does not",
     "targetTopic": "Customization",
     "enclosingTopic": "Customization",
@@ -289,6 +391,12 @@
    {
     "text": "But isn't human explanation too complex to reproduce with digital tools?",
     "type": "local",
+    "tokens": [
+     {
+      "text": "But isn't human explanation too complex to reproduce with digital tools?",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "But isn't human explanation too complex to reproduce with digital tools?",
     "targetTopic": "Customization",
     "enclosingTopic": "Customization",
@@ -307,6 +415,12 @@
    {
     "text": "explanation composition is complex",
     "type": "local",
+    "tokens": [
+     {
+      "text": "explanation composition is complex",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Explanation composition is complex",
     "targetTopic": "Customization",
     "enclosingTopic": "Customization",
@@ -319,6 +433,12 @@
    {
     "text": "explanation assembly is not complex",
     "type": "local",
+    "tokens": [
+     {
+      "text": "explanation assembly is not complex",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Explanation assembly is not complex",
     "targetTopic": "Customization",
     "enclosingTopic": "Customization",
@@ -331,6 +451,12 @@
    {
     "text": "Canopy only models explanation assembly",
     "type": "local",
+    "tokens": [
+     {
+      "text": "Canopy only models explanation assembly",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Canopy only models explanation assembly",
     "targetTopic": "Customization",
     "enclosingTopic": "Customization",

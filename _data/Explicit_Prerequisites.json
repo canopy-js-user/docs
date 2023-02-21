@@ -1,10 +1,22 @@
 {
  "displayTopicName": "Explicit Prerequisites",
+ "topicTokens": [
+  {
+   "text": "Explicit Prerequisites",
+   "type": "text"
+  }
+ ],
  "paragraphsBySubtopic": {
   "Explicit Prerequisites": [
    {
     "text": "A linear work represents prerequisites implicitly via sequence",
     "type": "local",
+    "tokens": [
+     {
+      "text": "A linear work represents prerequisites implicitly via sequence",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "A linear work represents prerequisites implicitly via sequence",
     "targetTopic": "Explicit Prerequisites",
     "enclosingTopic": "Explicit Prerequisites",
@@ -17,6 +29,12 @@
    {
     "text": "making it difficult to consume small parts of a large work",
     "type": "local",
+    "tokens": [
+     {
+      "text": "making it difficult to consume small parts of a large work",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Making it difficult to consume small parts of a large work",
     "targetTopic": "Explicit Prerequisites",
     "enclosingTopic": "Explicit Prerequisites",
@@ -29,6 +47,12 @@
    {
     "text": "Canopy represents scope explicitly via prerequisite enumeration",
     "type": "local",
+    "tokens": [
+     {
+      "text": "Canopy represents scope explicitly via prerequisite enumeration",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Canopy represents scope explicitly via prerequisite enumeration",
     "targetTopic": "Explicit Prerequisites",
     "enclosingTopic": "Explicit Prerequisites",
@@ -41,6 +65,12 @@
    {
     "text": "making it easier to consume parts of a large work",
     "type": "local",
+    "tokens": [
+     {
+      "text": "making it easier to consume parts of a large work",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Making it easier to consume parts of a large work",
     "targetTopic": "Explicit Prerequisites",
     "enclosingTopic": "Explicit Prerequisites",

@@ -1,14 +1,34 @@
 {
  "displayTopicName": "Canopy Root Element",
+ "topicTokens": [
+  {
+   "text": "Canopy Root Element",
+   "type": "text"
+  }
+ ],
  "paragraphsBySubtopic": {
   "Canopy Root Element": [
    {
-    "text": "The Canopy root element is a DOM element that has the id `_canopy_`. If the user is using the standard ",
+    "text": "The Canopy root element is a DOM element that has the id ",
+    "type": "text"
+   },
+   {
+    "type": "inline_code",
+    "text": "_canopy_"
+   },
+   {
+    "text": ". If the user is using the standard ",
     "type": "text"
    },
    {
     "text": "Canopy CLI build command",
     "type": "global",
+    "tokens": [
+     {
+      "text": "Canopy CLI build command",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Canopy CLI build command",
     "targetTopic": "Canopy CLI build command",
     "enclosingTopic": "Canopy Root Element",
@@ -21,6 +41,12 @@
    {
     "text": "HTML index file",
     "type": "global",
+    "tokens": [
+     {
+      "text": "HTML index file",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "HTML index file",
     "targetTopic": "HTML index file",
     "enclosingTopic": "Canopy Root Element",
@@ -33,6 +59,12 @@
    {
     "text": "data attributes",
     "type": "local",
+    "tokens": [
+     {
+      "text": "data attributes",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Data attributes",
     "targetTopic": "Canopy Root Element",
     "enclosingTopic": "Canopy Root Element",
@@ -55,12 +87,26 @@
       "ordered": true,
       "tokensOfLine": [
        {
-        "text": "A `default-topic` data attribute, which gives the mixed-case topic name of the ",
+        "text": "A ",
+        "type": "text"
+       },
+       {
+        "type": "inline_code",
+        "text": "default-topic"
+       },
+       {
+        "text": " data attribute, which gives the mixed-case topic name of the ",
         "type": "text"
        },
        {
         "text": "default topic",
         "type": "global",
+        "tokens": [
+         {
+          "text": "default topic",
+          "type": "text"
+         }
+        ],
         "targetSubtopic": "Default Topic",
         "targetTopic": "Default Topic",
         "enclosingTopic": "Canopy Root Element",
@@ -74,12 +120,26 @@
       "ordered": true,
       "tokensOfLine": [
        {
-        "text": "A `project-path-prefix` data attribute, which gives the ",
+        "text": "A ",
+        "type": "text"
+       },
+       {
+        "type": "inline_code",
+        "text": "project-path-prefix"
+       },
+       {
+        "text": " data attribute, which gives the ",
         "type": "text"
        },
        {
         "text": "project path prefix",
         "type": "global",
+        "tokens": [
+         {
+          "text": "project path prefix",
+          "type": "text"
+         }
+        ],
         "targetSubtopic": "Project Path Prefix",
         "targetTopic": "Project Path Prefix",
         "enclosingTopic": "Canopy Root Element",
@@ -93,18 +153,33 @@
       "ordered": true,
       "tokensOfLine": [
        {
-        "text": "A `hash-urls` data attribute, which indicates whether Canopy should use the hash URLs feature.",
+        "text": "A ",
+        "type": "text"
+       },
+       {
+        "type": "inline_code",
+        "text": "hash-urls"
+       },
+       {
+        "text": " data attribute, which indicates whether Canopy should use the hash URLs feature.",
         "type": "text"
        }
       ],
       "children": []
      }
     ],
-    "type": "list",
-    "text": "1. A `default-topic` data attribute, which gives the mixed-case topic name of the [[default topic]]\n2. A `project-path-prefix` data attribute, which gives the [[project path prefix]]\n3. A `hash-urls` data attribute, which indicates whether Canopy should use the hash URLs feature.\n"
+    "type": "outline"
    },
    {
-    "text": "Only the `default-topic` attribute is strictly mandatory.",
+    "text": "Only the ",
+    "type": "text"
+   },
+   {
+    "type": "inline_code",
+    "text": "default-topic"
+   },
+   {
+    "text": " attribute is strictly mandatory.",
     "type": "text"
    }
   ]

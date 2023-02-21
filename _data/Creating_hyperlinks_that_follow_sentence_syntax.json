@@ -1,5 +1,11 @@
 {
  "displayTopicName": "Creating hyperlinks that follow sentence syntax",
+ "topicTokens": [
+  {
+   "text": "Creating hyperlinks that follow sentence syntax",
+   "type": "text"
+  }
+ ],
  "paragraphsBySubtopic": {
   "Creating hyperlinks that follow sentence syntax": [
    {
@@ -9,6 +15,12 @@
    {
     "text": "hyperlinks that do not match sentence syntax",
     "type": "local",
+    "tokens": [
+     {
+      "text": "hyperlinks that do not match sentence syntax",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Hyperlinks that do not match sentence syntax",
     "targetTopic": "Creating hyperlinks that follow sentence syntax",
     "enclosingTopic": "Creating hyperlinks that follow sentence syntax",
@@ -21,6 +33,12 @@
    {
     "text": "create intermediary syntactic subtopics",
     "type": "local",
+    "tokens": [
+     {
+      "text": "create intermediary syntactic subtopics",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Create intermediary syntactic subtopics",
     "targetTopic": "Creating hyperlinks that follow sentence syntax",
     "enclosingTopic": "Creating hyperlinks that follow sentence syntax",
@@ -33,25 +51,55 @@
   ],
   "Hyperlinks that do not match sentence syntax": [
    {
-    "text": "If I have the sentence \"Bob lives on 4th Street\", and I make the word \"street\" into a hyperlink to the topic of \"streets\" generally, then this is a hyperlink that does not match sentence syntax, because in our sentence, \"4th Street\" is one unit, and it is a name, and so the word \"street\" is not actually being used as the generic term, (like in the sentence: \"I prefer streets to alleyways,\") and so if one hyperlinks \"4th `street`\" to the generic topic \"street\", then there is a mismatch between how the term is being used syntactically and what the hyperlink is pointing to, which can be confusing to the reader.",
+    "text": "If I have the sentence \"Bob lives on 4th Street\", and I make the word \"street\" into a hyperlink to the topic of \"streets\" generally, then this is a hyperlink that does not match sentence syntax, because in our sentence, \"4th Street\" is one unit, and it is a name, and so the word \"street\" is not actually being used as the generic term, (like in the sentence: \"I prefer streets to alleyways,\") and so if one hyperlinks \"4th ",
+    "type": "text"
+   },
+   {
+    "type": "inline_code",
+    "text": "street"
+   },
+   {
+    "text": "\" to the generic topic \"street\", then there is a mismatch between how the term is being used syntactically and what the hyperlink is pointing to, which can be confusing to the reader.",
     "type": "text"
    }
   ],
   "Create intermediary syntactic subtopics": [
    {
-    "text": "If I have the sentence \"Bob lives on 4th Street,\" and I am worried that someone will not know what a \"street\" is, and I want to link them to that concept, then rather than linkifying the word \"street\", I can create a subtopic called \"4th Street\", and make \"Bob lives on `4th Street`\" a local reference to that subtopic, and in the ",
+    "text": "If I have the sentence \"Bob lives on 4th Street,\" and I am worried that someone will not know what a \"street\" is, and I want to link them to that concept, then rather than linkifying the word \"street\", I can create a subtopic called \"4th Street\", and make \"Bob lives on ",
+    "type": "text"
+   },
+   {
+    "type": "inline_code",
+    "text": "4th Street"
+   },
+   {
+    "text": "\" a local reference to that subtopic, and in the ",
     "type": "text"
    },
    {
     "text": "subtopic paragraph",
     "type": "global",
+    "tokens": [
+     {
+      "text": "subtopic paragraph",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Subtopic paragraph",
     "targetTopic": "Subtopic paragraph",
     "enclosingTopic": "Creating hyperlinks that follow sentence syntax",
     "enclosingSubtopic": "Create intermediary syntactic subtopics"
    },
    {
-    "text": " I can say \"4th Street is a `street`\", and put the hyperlink in the subtopic, and thus, I am able to offer the reader a definition of the word \"street\", without creating any hyperlinks that are mismatched to sentence syntax.",
+    "text": " I can say \"4th Street is a ",
+    "type": "text"
+   },
+   {
+    "type": "inline_code",
+    "text": "street"
+   },
+   {
+    "text": "\", and put the hyperlink in the subtopic, and thus, I am able to offer the reader a definition of the word \"street\", without creating any hyperlinks that are mismatched to sentence syntax.",
     "type": "text"
    }
   ]

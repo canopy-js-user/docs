@@ -1,5 +1,11 @@
 {
  "displayTopicName": "Discoverability",
+ "topicTokens": [
+  {
+   "text": "Discoverability",
+   "type": "text"
+  }
+ ],
  "paragraphsBySubtopic": {
   "Discoverability": [
    {
@@ -9,6 +15,12 @@
    {
     "text": "it should be easy to find out what information exists in general",
     "type": "local",
+    "tokens": [
+     {
+      "text": "it should be easy to find out what information exists in general",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "It should be easy to find out what information exists in general",
     "targetTopic": "Discoverability",
     "enclosingTopic": "Discoverability",
@@ -21,6 +33,12 @@
    {
     "text": "it should be easy to find information related to a given point",
     "type": "local",
+    "tokens": [
+     {
+      "text": "it should be easy to find information related to a given point",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "It should be easy to find information related to a given point",
     "targetTopic": "Discoverability",
     "enclosingTopic": "Discoverability",
@@ -33,6 +51,12 @@
    {
     "text": "make discovering the scope of available information easier",
     "type": "local",
+    "tokens": [
+     {
+      "text": "make discovering the scope of available information easier",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Make discovering the scope of available information easier",
     "targetTopic": "Discoverability",
     "enclosingTopic": "Discoverability",
@@ -45,6 +69,12 @@
    {
     "text": "make discovering related points easier",
     "type": "local",
+    "tokens": [
+     {
+      "text": "make discovering related points easier",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Make discovering related points easier",
     "targetTopic": "Discoverability",
     "enclosingTopic": "Discoverability",
@@ -75,6 +105,12 @@
    {
     "text": "decoupling detail from scope",
     "type": "local",
+    "tokens": [
+     {
+      "text": "decoupling detail from scope",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Decoupling detail from scope",
     "targetTopic": "Discoverability",
     "enclosingTopic": "Discoverability",
@@ -93,6 +129,12 @@
    {
     "text": "interconnection",
     "type": "global",
+    "tokens": [
+     {
+      "text": "interconnection",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Interconnection",
     "targetTopic": "Interconnection",
     "enclosingTopic": "Discoverability",

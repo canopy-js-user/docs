@@ -1,5 +1,11 @@
 {
  "displayTopicName": "Fragmentation",
+ "topicTokens": [
+  {
+   "text": "Fragmentation",
+   "type": "text"
+  }
+ ],
  "paragraphsBySubtopic": {
   "Fragmentation": [
    {
@@ -9,6 +15,12 @@
    {
     "text": "separate things that are connected",
     "type": "local",
+    "tokens": [
+     {
+      "text": "separate things that are connected",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Separate things that are connected",
     "targetTopic": "Fragmentation",
     "enclosingTopic": "Fragmentation",
@@ -21,6 +33,12 @@
    {
     "text": "harms discoverability",
     "type": "local",
+    "tokens": [
+     {
+      "text": "harms discoverability",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Harms discoverability",
     "targetTopic": "Fragmentation",
     "enclosingTopic": "Fragmentation",
@@ -33,6 +51,12 @@
    {
     "text": "harms the development of mastery",
     "type": "local",
+    "tokens": [
+     {
+      "text": "harms the development of mastery",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Harms the development of mastery",
     "targetTopic": "Fragmentation",
     "enclosingTopic": "Fragmentation",
@@ -45,6 +69,12 @@
    {
     "text": "producing fragmented understandings in the minds of readers",
     "type": "local",
+    "tokens": [
+     {
+      "text": "producing fragmented understandings in the minds of readers",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Producing fragmented understandings in the minds of readers",
     "targetTopic": "Fragmentation",
     "enclosingTopic": "Fragmentation",
@@ -57,6 +87,12 @@
    {
     "text": "interconnection",
     "type": "global",
+    "tokens": [
+     {
+      "text": "interconnection",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Interconnection",
     "targetTopic": "Interconnection",
     "enclosingTopic": "Fragmentation",
@@ -75,6 +111,12 @@
    {
     "text": "when storage is coupled to presentation",
     "type": "local",
+    "tokens": [
+     {
+      "text": "when storage is coupled to presentation",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "When storage is coupled to presentation",
     "targetTopic": "Fragmentation",
     "enclosingTopic": "Fragmentation",
@@ -87,6 +129,12 @@
    {
     "text": "information will end up far from related information",
     "type": "local",
+    "tokens": [
+     {
+      "text": "information will end up far from related information",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Information will end up far from related information",
     "targetTopic": "Fragmentation",
     "enclosingTopic": "Fragmentation",
@@ -123,6 +171,12 @@
    {
     "text": "mastery requires interconnection",
     "type": "local",
+    "tokens": [
+     {
+      "text": "mastery requires interconnection",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Mastery requires interconnection",
     "targetTopic": "Fragmentation",
     "enclosingTopic": "Fragmentation",
@@ -135,6 +189,12 @@
    {
     "text": "explanations are siloed",
     "type": "local",
+    "tokens": [
+     {
+      "text": "explanations are siloed",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Explanations are siloed",
     "targetTopic": "Fragmentation",
     "enclosingTopic": "Fragmentation",
@@ -147,6 +207,12 @@
    {
     "text": "only experts will achieve any mastery",
     "type": "local",
+    "tokens": [
+     {
+      "text": "only experts will achieve any mastery",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Only experts will achieve any mastery",
     "targetTopic": "Fragmentation",
     "enclosingTopic": "Fragmentation",
@@ -183,6 +249,12 @@
    {
     "text": "an expert can overcome fragmented media",
     "type": "local",
+    "tokens": [
+     {
+      "text": "an expert can overcome fragmented media",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "An expert can overcome fragmented media",
     "targetTopic": "Fragmentation",
     "enclosingTopic": "Fragmentation",
@@ -195,6 +267,12 @@
    {
     "text": "a casual reader retains media fragmentation",
     "type": "local",
+    "tokens": [
+     {
+      "text": "a casual reader retains media fragmentation",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "A casual reader retains media fragmentation",
     "targetTopic": "Fragmentation",
     "enclosingTopic": "Fragmentation",
@@ -207,6 +285,12 @@
    {
     "text": "non-experts cannot reach mastery over even small units",
     "type": "local",
+    "tokens": [
+     {
+      "text": "non-experts cannot reach mastery over even small units",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Non-experts cannot reach mastery over even small units",
     "targetTopic": "Fragmentation",
     "enclosingTopic": "Fragmentation",
@@ -219,6 +303,12 @@
    {
     "text": "creating large discrepancies in knowledge",
     "type": "local",
+    "tokens": [
+     {
+      "text": "creating large discrepancies in knowledge",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Creating large discrepancies in knowledge",
     "targetTopic": "Fragmentation",
     "enclosingTopic": "Fragmentation",
@@ -243,6 +333,12 @@
    {
     "text": "a fragmented understanding of the domain as a whole",
     "type": "local",
+    "tokens": [
+     {
+      "text": "a fragmented understanding of the domain as a whole",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "A fragmented understanding of the domain as a whole",
     "targetTopic": "Fragmentation",
     "enclosingTopic": "Fragmentation",
@@ -255,6 +351,12 @@
    {
     "text": "a fragmented understanding of the portions of the domain they do learn",
     "type": "local",
+    "tokens": [
+     {
+      "text": "a fragmented understanding of the portions of the domain they do learn",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "A fragmented understanding of the portions of the domain they do learn",
     "targetTopic": "Fragmentation",
     "enclosingTopic": "Fragmentation",

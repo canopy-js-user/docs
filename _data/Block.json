@@ -1,5 +1,11 @@
 {
  "displayTopicName": "Block",
+ "topicTokens": [
+  {
+   "text": "Block",
+   "type": "text"
+  }
+ ],
  "paragraphsBySubtopic": {
   "Block": [
    {
@@ -9,6 +15,12 @@
    {
     "text": "topic file",
     "type": "global",
+    "tokens": [
+     {
+      "text": "topic file",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Topic file",
     "targetTopic": "Topic file",
     "enclosingTopic": "Block",
@@ -21,6 +33,12 @@
    {
     "text": "key",
     "type": "global",
+    "tokens": [
+     {
+      "text": "key",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Key",
     "targetTopic": "Key",
     "enclosingTopic": "Block",
@@ -33,6 +51,12 @@
    {
     "text": "topic definition",
     "type": "global",
+    "tokens": [
+     {
+      "text": "topic definition",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Topic definition",
     "targetTopic": "Topic definition",
     "enclosingTopic": "Block",
@@ -45,6 +69,12 @@
    {
     "text": "subtopic",
     "type": "global",
+    "tokens": [
+     {
+      "text": "subtopic",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Subtopic",
     "targetTopic": "Subtopic",
     "enclosingTopic": "Block",
@@ -57,6 +87,12 @@
    {
     "text": "subsumed subtopic",
     "type": "global",
+    "tokens": [
+     {
+      "text": "subsumed subtopic",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Subsumed Subtopic",
     "targetTopic": "Subsumed Subtopic",
     "enclosingTopic": "Block",
@@ -69,6 +105,12 @@
    {
     "text": "note",
     "type": "global",
+    "tokens": [
+     {
+      "text": "note",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Note",
     "targetTopic": "Note",
     "enclosingTopic": "Block",

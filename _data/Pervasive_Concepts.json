@@ -1,5 +1,11 @@
 {
  "displayTopicName": "Pervasive Concepts",
+ "topicTokens": [
+  {
+   "text": "Pervasive Concepts",
+   "type": "text"
+  }
+ ],
  "paragraphsBySubtopic": {
   "Pervasive Concepts": [
    {
@@ -9,6 +15,12 @@
    {
     "text": "within a domain, there are certain pervasive concepts",
     "type": "local",
+    "tokens": [
+     {
+      "text": "within a domain, there are certain pervasive concepts",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Within a domain, there are certain pervasive concepts",
     "targetTopic": "Pervasive Concepts",
     "enclosingTopic": "Pervasive Concepts",
@@ -21,6 +33,12 @@
    {
     "text": "it can be difficult for the reader to keep track of all the situations in which they've seen a pervasive concept",
     "type": "local",
+    "tokens": [
+     {
+      "text": "it can be difficult for the reader to keep track of all the situations in which they've seen a pervasive concept",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "It can be difficult for the reader to keep track of all the situations in which they've seen a pervasive concept",
     "targetTopic": "Pervasive Concepts",
     "enclosingTopic": "Pervasive Concepts",
@@ -33,6 +51,12 @@
    {
     "text": "keeping track of different examples is be necessary to produce an abstract understanding of a pervasive concept",
     "type": "local",
+    "tokens": [
+     {
+      "text": "keeping track of different examples is be necessary to produce an abstract understanding of a pervasive concept",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Keeping track of different examples is be necessary to produce an abstract understanding of a pervasive concept",
     "targetTopic": "Pervasive Concepts",
     "enclosingTopic": "Pervasive Concepts",
@@ -45,6 +69,12 @@
    {
     "text": "Canopy helps by allowing you to link to pervasive concepts as you work through the material of a course",
     "type": "local",
+    "tokens": [
+     {
+      "text": "Canopy helps by allowing you to link to pervasive concepts as you work through the material of a course",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Canopy helps by allowing you to link to pervasive concepts as you work through the material of a course",
     "targetTopic": "Pervasive Concepts",
     "enclosingTopic": "Pervasive Concepts",
@@ -81,6 +111,12 @@
    {
     "text": "redundant indexing",
     "type": "global",
+    "tokens": [
+     {
+      "text": "redundant indexing",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Redundant Indexing",
     "targetTopic": "Redundant Indexing",
     "enclosingTopic": "Pervasive Concepts",

@@ -1,5 +1,11 @@
 {
  "displayTopicName": "Idea addressing",
+ "topicTokens": [
+  {
+   "text": "Idea addressing",
+   "type": "text"
+  }
+ ],
  "paragraphsBySubtopic": {
   "Idea addressing": [
    {
@@ -9,6 +15,12 @@
    {
     "text": "the unit of information",
     "type": "local",
+    "tokens": [
+     {
+      "text": "the unit of information",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "The unit of information",
     "targetTopic": "Idea addressing",
     "enclosingTopic": "Idea addressing",
@@ -21,6 +33,12 @@
    {
     "text": "the category",
     "type": "local",
+    "tokens": [
+     {
+      "text": "the category",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "The category",
     "targetTopic": "Idea addressing",
     "enclosingTopic": "Idea addressing",
@@ -33,6 +51,12 @@
    {
     "text": "the work",
     "type": "local",
+    "tokens": [
+     {
+      "text": "the work",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "The work",
     "targetTopic": "Idea addressing",
     "enclosingTopic": "Idea addressing",
@@ -45,6 +69,12 @@
    {
     "text": "we can address individual ideas",
     "type": "local",
+    "tokens": [
+     {
+      "text": "we can address individual ideas",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "We can address individual ideas",
     "targetTopic": "Idea addressing",
     "enclosingTopic": "Idea addressing",

@@ -1,10 +1,22 @@
 {
  "displayTopicName": "Memorability",
+ "topicTokens": [
+  {
+   "text": "Memorability",
+   "type": "text"
+  }
+ ],
  "paragraphsBySubtopic": {
   "Memorability": [
    {
     "text": "Memory entails associating a cue with a response",
     "type": "local",
+    "tokens": [
+     {
+      "text": "Memory entails associating a cue with a response",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Memory entails associating a cue with a response",
     "targetTopic": "Memorability",
     "enclosingTopic": "Memorability",
@@ -17,6 +29,12 @@
    {
     "text": "seeing the cue alone before the response",
     "type": "local",
+    "tokens": [
+     {
+      "text": "seeing the cue alone before the response",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Seeing the cue alone before the response",
     "targetTopic": "Memorability",
     "enclosingTopic": "Memorability",
@@ -29,6 +47,12 @@
    {
     "text": "traditional prose presents information as a single unit",
     "type": "local",
+    "tokens": [
+     {
+      "text": "traditional prose presents information as a single unit",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Traditional prose presents information as a single unit",
     "targetTopic": "Memorability",
     "enclosingTopic": "Memorability",
@@ -41,6 +65,12 @@
    {
     "text": "Canopy presents information in stages",
     "type": "local",
+    "tokens": [
+     {
+      "text": "Canopy presents information in stages",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Canopy presents information in stages",
     "targetTopic": "Memorability",
     "enclosingTopic": "Memorability",
@@ -53,6 +83,12 @@
    {
     "text": "this will make content easier to remember",
     "type": "local",
+    "tokens": [
+     {
+      "text": "this will make content easier to remember",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "This will make content easier to remember",
     "targetTopic": "Memorability",
     "enclosingTopic": "Memorability",

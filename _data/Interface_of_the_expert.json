@@ -1,5 +1,11 @@
 {
  "displayTopicName": "Interface of the expert",
+ "topicTokens": [
+  {
+   "text": "Interface of the expert",
+   "type": "text"
+  }
+ ],
  "paragraphsBySubtopic": {
   "Interface of the expert": [
    {
@@ -9,6 +15,12 @@
    {
     "text": "the interface of speaking with an expert",
     "type": "local",
+    "tokens": [
+     {
+      "text": "the interface of speaking with an expert",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "The interface of speaking with an expert",
     "targetTopic": "Interface of the expert",
     "enclosingTopic": "Interface of the expert",
@@ -21,6 +33,12 @@
    {
     "text": "other forms of knowledge representation",
     "type": "local",
+    "tokens": [
+     {
+      "text": "other forms of knowledge representation",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Other forms of knowledge representation",
     "targetTopic": "Interface of the expert",
     "enclosingTopic": "Interface of the expert",
@@ -33,6 +51,12 @@
    {
     "text": "information that is presented in a human format is more likely to be assimilated",
     "type": "local",
+    "tokens": [
+     {
+      "text": "information that is presented in a human format is more likely to be assimilated",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Information that is presented in a human format is more likely to be assimilated",
     "targetTopic": "Interface of the expert",
     "enclosingTopic": "Interface of the expert",
@@ -51,6 +75,12 @@
    {
     "text": "store information the way an expert does",
     "type": "local",
+    "tokens": [
+     {
+      "text": "store information the way an expert does",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Store information the way an expert does",
     "targetTopic": "Interface of the expert",
     "enclosingTopic": "Interface of the expert",
@@ -63,6 +93,12 @@
    {
     "text": "reproduce the interactions a person can have with an expert",
     "type": "local",
+    "tokens": [
+     {
+      "text": "reproduce the interactions a person can have with an expert",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Reproduce the interactions a person can have with an expert",
     "targetTopic": "Interface of the expert",
     "enclosingTopic": "Interface of the expert",
@@ -77,6 +113,12 @@
    {
     "text": "Experts store information in small units",
     "type": "local",
+    "tokens": [
+     {
+      "text": "Experts store information in small units",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Experts store information in small units",
     "targetTopic": "Interface of the expert",
     "enclosingTopic": "Interface of the expert",
@@ -89,6 +131,12 @@
    {
     "text": "experts store information in densely connected units",
     "type": "local",
+    "tokens": [
+     {
+      "text": "experts store information in densely connected units",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Experts store information in densely connected units",
     "targetTopic": "Interface of the expert",
     "enclosingTopic": "Interface of the expert",
@@ -119,6 +167,12 @@
    {
     "text": "accept follow-up questions",
     "type": "local",
+    "tokens": [
+     {
+      "text": "accept follow-up questions",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Accept follow-up questions",
     "targetTopic": "Interface of the expert",
     "enclosingTopic": "Interface of the expert",
@@ -131,6 +185,12 @@
    {
     "text": "reuse explanations",
     "type": "local",
+    "tokens": [
+     {
+      "text": "reuse explanations",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Reuse explanations",
     "targetTopic": "Interface of the expert",
     "enclosingTopic": "Interface of the expert",
@@ -143,6 +203,12 @@
    {
     "text": "mention interconnections",
     "type": "local",
+    "tokens": [
+     {
+      "text": "mention interconnections",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Mention interconnections",
     "targetTopic": "Interface of the expert",
     "enclosingTopic": "Interface of the expert",
@@ -179,6 +245,12 @@
    {
     "text": "model a set of facts logically",
     "type": "local",
+    "tokens": [
+     {
+      "text": "model a set of facts logically",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Model a set of facts logically",
     "targetTopic": "Interface of the expert",
     "enclosingTopic": "Interface of the expert",
@@ -191,6 +263,12 @@
    {
     "text": "people don't organize information logically",
     "type": "local",
+    "tokens": [
+     {
+      "text": "people don't organize information logically",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "People don't organize information logically",
     "targetTopic": "Interface of the expert",
     "enclosingTopic": "Interface of the expert",
@@ -203,6 +281,12 @@
    {
     "text": "model a set of facts using linear prose",
     "type": "local",
+    "tokens": [
+     {
+      "text": "model a set of facts using linear prose",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Model a set of facts using linear prose",
     "targetTopic": "Interface of the expert",
     "enclosingTopic": "Interface of the expert",
@@ -215,6 +299,12 @@
    {
     "text": "people don't organize information as linear prose",
     "type": "local",
+    "tokens": [
+     {
+      "text": "people don't organize information as linear prose",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "People don't organize information as linear prose",
     "targetTopic": "Interface of the expert",
     "enclosingTopic": "Interface of the expert",
@@ -239,6 +329,12 @@
    {
     "text": "humans represent facts and their inferences separately",
     "type": "local",
+    "tokens": [
+     {
+      "text": "humans represent facts and their inferences separately",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Humans represent facts and their inferences separately",
     "targetTopic": "Interface of the expert",
     "enclosingTopic": "Interface of the expert",
@@ -251,6 +347,12 @@
    {
     "text": "there is hierarchy to human fact storage",
     "type": "local",
+    "tokens": [
+     {
+      "text": "there is hierarchy to human fact storage",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "There is hierarchy to human fact storage",
     "targetTopic": "Interface of the expert",
     "enclosingTopic": "Interface of the expert",
@@ -265,6 +367,12 @@
    {
     "text": "A person can know a fact but not its inferences",
     "type": "local",
+    "tokens": [
+     {
+      "text": "A person can know a fact but not its inferences",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "A person can know a fact but not its inferences",
     "targetTopic": "Interface of the expert",
     "enclosingTopic": "Interface of the expert",
@@ -277,6 +385,12 @@
    {
     "text": "non-inferential fact storage is useful",
     "type": "local",
+    "tokens": [
+     {
+      "text": "non-inferential fact storage is useful",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Non-inferential fact storage is useful",
     "targetTopic": "Interface of the expert",
     "enclosingTopic": "Interface of the expert",
@@ -301,6 +415,12 @@
    {
     "text": "record my intention to do a task",
     "type": "local",
+    "tokens": [
+     {
+      "text": "record my intention to do a task",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Record my intention to do a task",
     "targetTopic": "Interface of the expert",
     "enclosingTopic": "Interface of the expert",
@@ -313,6 +433,12 @@
    {
     "text": "adding it to my list of things to do",
     "type": "local",
+    "tokens": [
+     {
+      "text": "adding it to my list of things to do",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Adding it to my list of things to do",
     "targetTopic": "Interface of the expert",
     "enclosingTopic": "Interface of the expert",
@@ -325,6 +451,12 @@
    {
     "text": "storing facts and inferences together destroys information about directionality",
     "type": "local",
+    "tokens": [
+     {
+      "text": "storing facts and inferences together destroys information about directionality",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Storing facts and inferences together destroys information about directionality",
     "targetTopic": "Interface of the expert",
     "enclosingTopic": "Interface of the expert",
@@ -367,6 +499,12 @@
    {
     "text": "people store information as large collections of small units",
     "type": "local",
+    "tokens": [
+     {
+      "text": "people store information as large collections of small units",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "People store information as large collections of small units",
     "targetTopic": "Interface of the expert",
     "enclosingTopic": "Interface of the expert",
@@ -379,6 +517,12 @@
    {
     "text": "linear prose stores knowledge as small collections of large units",
     "type": "local",
+    "tokens": [
+     {
+      "text": "linear prose stores knowledge as small collections of large units",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Linear prose stores knowledge as small collections of large units",
     "targetTopic": "Interface of the expert",
     "enclosingTopic": "Interface of the expert",
@@ -393,6 +537,12 @@
    {
     "text": "A person stores information about a subject as small units",
     "type": "local",
+    "tokens": [
+     {
+      "text": "A person stores information about a subject as small units",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "A person stores information about a subject as small units",
     "targetTopic": "Interface of the expert",
     "enclosingTopic": "Interface of the expert",
@@ -405,6 +555,12 @@
    {
     "text": "a person can store a large number of units",
     "type": "local",
+    "tokens": [
+     {
+      "text": "a person can store a large number of units",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "A person can store a large number of units",
     "targetTopic": "Interface of the expert",
     "enclosingTopic": "Interface of the expert",
@@ -431,6 +587,12 @@
    {
     "text": "Linear prose stores information in large units",
     "type": "local",
+    "tokens": [
+     {
+      "text": "Linear prose stores information in large units",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Linear prose stores information in large units",
     "targetTopic": "Interface of the expert",
     "enclosingTopic": "Interface of the expert",
@@ -443,6 +605,12 @@
    {
     "text": "the total size of linear prose is limited",
     "type": "local",
+    "tokens": [
+     {
+      "text": "the total size of linear prose is limited",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "The total size of linear prose is limited",
     "targetTopic": "Interface of the expert",
     "enclosingTopic": "Interface of the expert",
@@ -469,6 +637,12 @@
    {
     "text": "People segment relations by scale",
     "type": "local",
+    "tokens": [
+     {
+      "text": "People segment relations by scale",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "People segment relations by scale",
     "targetTopic": "Interface of the expert",
     "enclosingTopic": "Interface of the expert",
@@ -481,6 +655,12 @@
    {
     "text": "scale information is lost in logical fact storage",
     "type": "local",
+    "tokens": [
+     {
+      "text": "scale information is lost in logical fact storage",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Scale information is lost in logical fact storage",
     "targetTopic": "Interface of the expert",
     "enclosingTopic": "Interface of the expert",
@@ -505,7 +685,33 @@
   ],
   "Information that is presented in a human format is more likely to be assimilated": [
    {
-    "text": "There are many projects that allow a user to navigate a network of information, but their goal is not to produce _the_ output that an expert would. Experts producing explanation are performing a traversal of information stored in \"the human knowledge format,\" whatever that is, and information produced from the human knowledge format is more likely to be directly assimilable by listeners _into_ the human knowledge format, and so by trying to preserve that format, Canopy presents information in the way most likely to be mentally reconstructed by readers into the desired understanding.",
+    "text": "There are many projects that allow a user to navigate a network of information, but their goal is not to produce ",
+    "type": "text"
+   },
+   {
+    "type": "italics",
+    "tokens": [
+     {
+      "text": "the",
+      "type": "text"
+     }
+    ]
+   },
+   {
+    "text": " output that an expert would. Experts producing explanation are performing a traversal of information stored in \"the human knowledge format,\" whatever that is, and information produced from the human knowledge format is more likely to be directly assimilable by listeners ",
+    "type": "text"
+   },
+   {
+    "type": "italics",
+    "tokens": [
+     {
+      "text": "into",
+      "type": "text"
+     }
+    ]
+   },
+   {
+    "text": " the human knowledge format, and so by trying to preserve that format, Canopy presents information in the way most likely to be mentally reconstructed by readers into the desired understanding.",
     "type": "text"
    }
   ]

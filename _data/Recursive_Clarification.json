@@ -1,5 +1,11 @@
 {
  "displayTopicName": "Recursive Clarification",
+ "topicTokens": [
+  {
+   "text": "Recursive Clarification",
+   "type": "text"
+  }
+ ],
  "paragraphsBySubtopic": {
   "Recursive Clarification": [
    {
@@ -9,6 +15,12 @@
    {
     "text": "explainers must provide conceptual prerequisites",
     "type": "local",
+    "tokens": [
+     {
+      "text": "explainers must provide conceptual prerequisites",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Explainers must provide conceptual prerequisites",
     "targetTopic": "Recursive Clarification",
     "enclosingTopic": "Recursive Clarification",
@@ -21,6 +33,12 @@
    {
     "text": "topological sort",
     "type": "local",
+    "tokens": [
+     {
+      "text": "topological sort",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Topological sort",
     "targetTopic": "Recursive Clarification",
     "enclosingTopic": "Recursive Clarification",
@@ -33,6 +51,12 @@
    {
     "text": "downsides to topological sort",
     "type": "local",
+    "tokens": [
+     {
+      "text": "downsides to topological sort",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Downsides to topological sort",
     "targetTopic": "Recursive Clarification",
     "enclosingTopic": "Recursive Clarification",
@@ -45,6 +69,12 @@
    {
     "text": "access prerequisites through recursion",
     "type": "local",
+    "tokens": [
+     {
+      "text": "access prerequisites through recursion",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Access prerequisites through recursion",
     "targetTopic": "Recursive Clarification",
     "enclosingTopic": "Recursive Clarification",
@@ -57,6 +87,12 @@
    {
     "text": "benefits to using recursion",
     "type": "local",
+    "tokens": [
+     {
+      "text": "benefits to using recursion",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Benefits to using recursion",
     "targetTopic": "Recursive Clarification",
     "enclosingTopic": "Recursive Clarification",
@@ -87,6 +123,12 @@
    {
     "text": "produces redundant explanations",
     "type": "local",
+    "tokens": [
+     {
+      "text": "produces redundant explanations",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Produces redundant explanations",
     "targetTopic": "Recursive Clarification",
     "enclosingTopic": "Recursive Clarification",
@@ -99,6 +141,12 @@
    {
     "text": "produces unnecessary explanation",
     "type": "local",
+    "tokens": [
+     {
+      "text": "produces unnecessary explanation",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Produces unnecessary explanation",
     "targetTopic": "Recursive Clarification",
     "enclosingTopic": "Recursive Clarification",
@@ -111,6 +159,12 @@
    {
     "text": "the motivation for prerequisites",
     "type": "local",
+    "tokens": [
+     {
+      "text": "the motivation for prerequisites",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "The motivation for prerequisites",
     "targetTopic": "Recursive Clarification",
     "enclosingTopic": "Recursive Clarification",

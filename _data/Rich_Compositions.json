@@ -1,5 +1,11 @@
 {
  "displayTopicName": "Rich Compositions",
+ "topicTokens": [
+  {
+   "text": "Rich Compositions",
+   "type": "text"
+  }
+ ],
  "paragraphsBySubtopic": {
   "Rich Compositions": [
    {
@@ -9,6 +15,12 @@
    {
     "text": "descriptions can be complex",
     "type": "local",
+    "tokens": [
+     {
+      "text": "descriptions can be complex",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Descriptions can be complex",
     "targetTopic": "Rich Compositions",
     "enclosingTopic": "Rich Compositions",
@@ -21,6 +33,12 @@
    {
     "text": "humans are currently limited in the size of the descriptions they can consume",
     "type": "local",
+    "tokens": [
+     {
+      "text": "humans are currently limited in the size of the descriptions they can consume",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Humans are currently limited in the size of the descriptions they can consume",
     "targetTopic": "Rich Compositions",
     "enclosingTopic": "Rich Compositions",
@@ -33,6 +51,12 @@
    {
     "text": "Canopy makes it easier to share rich compositions",
     "type": "local",
+    "tokens": [
+     {
+      "text": "Canopy makes it easier to share rich compositions",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Canopy makes it easier to share rich compositions",
     "targetTopic": "Rich Compositions",
     "enclosingTopic": "Rich Compositions",
@@ -45,6 +69,12 @@
    {
     "text": "Canopy increases the maximum complexity of ideas that can be successfully communicated",
     "type": "local",
+    "tokens": [
+     {
+      "text": "Canopy increases the maximum complexity of ideas that can be successfully communicated",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Canopy increases the maximum complexity of ideas that can be successfully communicated",
     "targetTopic": "Rich Compositions",
     "enclosingTopic": "Rich Compositions",
@@ -57,6 +87,12 @@
    {
     "text": "complex ideas are communicated with higher fidelity",
     "type": "local",
+    "tokens": [
+     {
+      "text": "complex ideas are communicated with higher fidelity",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Complex ideas are communicated with higher fidelity",
     "targetTopic": "Rich Compositions",
     "enclosingTopic": "Rich Compositions",
@@ -81,6 +117,12 @@
    {
     "text": "limits to working memory size",
     "type": "local",
+    "tokens": [
+     {
+      "text": "limits to working memory size",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Limits to working memory size",
     "targetTopic": "Rich Compositions",
     "enclosingTopic": "Rich Compositions",
@@ -93,6 +135,12 @@
    {
     "text": "limits to maximum session length",
     "type": "local",
+    "tokens": [
+     {
+      "text": "limits to maximum session length",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Limits to maximum session length",
     "targetTopic": "Rich Compositions",
     "enclosingTopic": "Rich Compositions",
@@ -123,6 +171,12 @@
    {
     "text": "Canopy makes it easier for readers to reconstruct complex compositions",
     "type": "local",
+    "tokens": [
+     {
+      "text": "Canopy makes it easier for readers to reconstruct complex compositions",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Canopy makes it easier for readers to reconstruct complex compositions",
     "targetTopic": "Rich Compositions",
     "enclosingTopic": "Rich Compositions",
@@ -135,6 +189,12 @@
    {
     "text": "reusability makes it easier for authors to produce complex compositions",
     "type": "local",
+    "tokens": [
+     {
+      "text": "reusability makes it easier for authors to produce complex compositions",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Reusability makes it easier for authors to produce complex compositions",
     "targetTopic": "Rich Compositions",
     "enclosingTopic": "Rich Compositions",
@@ -147,6 +207,12 @@
    {
     "text": "Canopy removes traditional limits on content length",
     "type": "local",
+    "tokens": [
+     {
+      "text": "Canopy removes traditional limits on content length",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Canopy removes traditional limits on content length",
     "targetTopic": "Rich Compositions",
     "enclosingTopic": "Rich Compositions",
@@ -171,6 +237,12 @@
    {
     "text": "scale",
     "type": "global",
+    "tokens": [
+     {
+      "text": "scale",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Scale",
     "targetTopic": "Scale",
     "enclosingTopic": "Rich Compositions",
@@ -195,6 +267,12 @@
    {
     "text": "reusable units of explanation",
     "type": "global",
+    "tokens": [
+     {
+      "text": "reusable units of explanation",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Reusability",
     "targetTopic": "Reusability",
     "enclosingTopic": "Rich Compositions",

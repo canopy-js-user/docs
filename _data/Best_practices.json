@@ -1,5 +1,11 @@
 {
  "displayTopicName": "Best practices",
+ "topicTokens": [
+  {
+   "text": "Best practices",
+   "type": "text"
+  }
+ ],
  "paragraphsBySubtopic": {
   "Best practices": [
    {
@@ -9,6 +15,12 @@
    {
     "text": "when to use topics versus subtopics",
     "type": "global",
+    "tokens": [
+     {
+      "text": "when to use topics versus subtopics",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "When to use topics versus subtopics",
     "targetTopic": "When to use topics versus subtopics",
     "enclosingTopic": "Best practices",
@@ -21,6 +33,12 @@
    {
     "text": "when to repeat versus reference content",
     "type": "global",
+    "tokens": [
+     {
+      "text": "when to repeat versus reference content",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "When to repeat versus reference content",
     "targetTopic": "When to repeat versus reference content",
     "enclosingTopic": "Best practices",
@@ -33,6 +51,12 @@
    {
     "text": "thinking about entities and relations rather than explanations",
     "type": "global",
+    "tokens": [
+     {
+      "text": "thinking about entities and relations rather than explanations",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Thinking about entities and relations rather than explanations",
     "targetTopic": "Thinking about entities and relations rather than explanations",
     "enclosingTopic": "Best practices",
@@ -45,6 +69,12 @@
    {
     "text": "creating hyperlinks that follow sentence syntax",
     "type": "global",
+    "tokens": [
+     {
+      "text": "creating hyperlinks that follow sentence syntax",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Creating hyperlinks that follow sentence syntax",
     "targetTopic": "Creating hyperlinks that follow sentence syntax",
     "enclosingTopic": "Best practices",
@@ -57,6 +87,12 @@
    {
     "text": "representing different versions of the same idea for different purposes",
     "type": "global",
+    "tokens": [
+     {
+      "text": "representing different versions of the same idea for different purposes",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Representing different versions of the same idea for different purposes",
     "targetTopic": "Representing different versions of the same idea for different purposes",
     "enclosingTopic": "Best practices",

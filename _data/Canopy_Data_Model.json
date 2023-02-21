@@ -1,5 +1,11 @@
 {
  "displayTopicName": "Canopy Data Model",
+ "topicTokens": [
+  {
+   "text": "Canopy Data Model",
+   "type": "text"
+  }
+ ],
  "paragraphsBySubtopic": {
   "Canopy Data Model": [
    {
@@ -9,6 +15,12 @@
    {
     "text": "categories",
     "type": "global",
+    "tokens": [
+     {
+      "text": "categories",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Category",
     "targetTopic": "Category",
     "enclosingTopic": "Canopy Data Model",
@@ -21,6 +33,12 @@
    {
     "text": "topics",
     "type": "global",
+    "tokens": [
+     {
+      "text": "topics",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Topic",
     "targetTopic": "Topic",
     "enclosingTopic": "Canopy Data Model",
@@ -33,6 +51,12 @@
    {
     "text": "subtopics",
     "type": "global",
+    "tokens": [
+     {
+      "text": "subtopics",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Subtopic",
     "targetTopic": "Subtopic",
     "enclosingTopic": "Canopy Data Model",

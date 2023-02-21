@@ -1,14 +1,34 @@
 {
  "displayTopicName": "HTML index file",
+ "topicTokens": [
+  {
+   "text": "HTML index file",
+   "type": "text"
+  }
+ ],
  "paragraphsBySubtopic": {
   "HTML index file": [
    {
-    "text": "The HTML index file is an `index.html` file that is created in the ",
+    "text": "The HTML index file is an ",
+    "type": "text"
+   },
+   {
+    "type": "inline_code",
+    "text": "index.html"
+   },
+   {
+    "text": " file that is created in the ",
     "type": "text"
    },
    {
     "text": "build directory",
     "type": "global",
+    "tokens": [
+     {
+      "text": "build directory",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Build directory",
     "targetTopic": "Build directory",
     "enclosingTopic": "HTML index file",
@@ -21,18 +41,38 @@
    {
     "text": "Canopy CLI build command",
     "type": "global",
+    "tokens": [
+     {
+      "text": "Canopy CLI build command",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Canopy CLI build command",
     "targetTopic": "Canopy CLI build command",
     "enclosingTopic": "HTML index file",
     "enclosingSubtopic": "HTML index file"
    },
    {
-    "text": ", or by the user in the case of a custom build process. The `index.html` file must include the ",
+    "text": ", or by the user in the case of a custom build process. The ",
+    "type": "text"
+   },
+   {
+    "type": "inline_code",
+    "text": "index.html"
+   },
+   {
+    "text": " file must include the ",
     "type": "text"
    },
    {
     "text": "Canopy Javascript asset",
     "type": "global",
+    "tokens": [
+     {
+      "text": "Canopy Javascript asset",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Canopy Javascript asset",
     "targetTopic": "Canopy Javascript asset",
     "enclosingTopic": "HTML index file",
@@ -45,6 +85,12 @@
    {
     "text": "Canopy root element",
     "type": "global",
+    "tokens": [
+     {
+      "text": "Canopy root element",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Canopy Root Element",
     "targetTopic": "Canopy Root Element",
     "enclosingTopic": "HTML index file",

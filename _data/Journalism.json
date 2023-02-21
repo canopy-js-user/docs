@@ -1,5 +1,11 @@
 {
  "displayTopicName": "Journalism",
+ "topicTokens": [
+  {
+   "text": "Journalism",
+   "type": "text"
+  }
+ ],
  "paragraphsBySubtopic": {
   "Journalism": [
    {

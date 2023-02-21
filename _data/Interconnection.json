@@ -1,5 +1,11 @@
 {
  "displayTopicName": "Interconnection",
+ "topicTokens": [
+  {
+   "text": "Interconnection",
+   "type": "text"
+  }
+ ],
  "paragraphsBySubtopic": {
   "Interconnection": [
    {
@@ -9,6 +15,12 @@
    {
     "text": "the connections between different facts are valuable data",
     "type": "local",
+    "tokens": [
+     {
+      "text": "the connections between different facts are valuable data",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "The connections between different facts are valuable data",
     "targetTopic": "Interconnection",
     "enclosingTopic": "Interconnection",
@@ -21,6 +33,12 @@
    {
     "text": "linear content limits the representation of interconnections",
     "type": "local",
+    "tokens": [
+     {
+      "text": "linear content limits the representation of interconnections",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Linear content limits the representation of interconnections",
     "targetTopic": "Interconnection",
     "enclosingTopic": "Interconnection",
@@ -33,6 +51,12 @@
    {
     "text": "Canopy decouples information storage from presentation",
     "type": "local",
+    "tokens": [
+     {
+      "text": "Canopy decouples information storage from presentation",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Canopy decouples information storage from presentation",
     "targetTopic": "Interconnection",
     "enclosingTopic": "Interconnection",
@@ -45,6 +69,12 @@
    {
     "text": "Canopy increases the number of connections that can be stored",
     "type": "local",
+    "tokens": [
+     {
+      "text": "Canopy increases the number of connections that can be stored",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Canopy increases the number of connections that can be stored",
     "targetTopic": "Interconnection",
     "enclosingTopic": "Interconnection",
@@ -57,6 +87,12 @@
    {
     "text": "interface of the expert",
     "type": "global",
+    "tokens": [
+     {
+      "text": "interface of the expert",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Interface of the expert",
     "targetTopic": "Interface of the expert",
     "enclosingTopic": "Interconnection",
@@ -69,6 +105,12 @@
    {
     "text": "fragmentation",
     "type": "global",
+    "tokens": [
+     {
+      "text": "fragmentation",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Fragmentation",
     "targetTopic": "Fragmentation",
     "enclosingTopic": "Interconnection",
@@ -93,6 +135,12 @@
    {
     "text": "audience interest is limited",
     "type": "local",
+    "tokens": [
+     {
+      "text": "audience interest is limited",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Audience interest is limited",
     "targetTopic": "Interconnection",
     "enclosingTopic": "Interconnection",
@@ -105,6 +153,12 @@
    {
     "text": "the shared prior knowledge is small",
     "type": "local",
+    "tokens": [
+     {
+      "text": "the shared prior knowledge is small",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "The shared prior knowledge is small",
     "targetTopic": "Interconnection",
     "enclosingTopic": "Interconnection",
@@ -129,6 +183,12 @@
    {
     "text": "there are constraints on the size of books and articles",
     "type": "local",
+    "tokens": [
+     {
+      "text": "there are constraints on the size of books and articles",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "There are constraints on the size of books and articles",
     "targetTopic": "Interconnection",
     "enclosingTopic": "Interconnection",
@@ -141,6 +201,12 @@
    {
     "text": "there is no work that stores enough facts to also include all interconnections",
     "type": "local",
+    "tokens": [
+     {
+      "text": "there is no work that stores enough facts to also include all interconnections",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "There is no work that stores enough facts to also include all interconnections",
     "targetTopic": "Interconnection",
     "enclosingTopic": "Interconnection",

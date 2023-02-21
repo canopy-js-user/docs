@@ -1,5 +1,11 @@
 {
  "displayTopicName": "Representing different versions of the same idea for different purposes",
+ "topicTokens": [
+  {
+   "text": "Representing different versions of the same idea for different purposes",
+   "type": "text"
+  }
+ ],
  "paragraphsBySubtopic": {
   "Representing different versions of the same idea for different purposes": [
    {
@@ -9,6 +15,12 @@
    {
     "text": "import reference",
     "type": "global",
+    "tokens": [
+     {
+      "text": "import reference",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Import reference",
     "targetTopic": "Import reference",
     "enclosingTopic": "Representing different versions of the same idea for different purposes",

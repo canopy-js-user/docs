@@ -1,5 +1,11 @@
 {
  "displayTopicName": "Many small categories",
+ "topicTokens": [
+  {
+   "text": "Many small categories",
+   "type": "text"
+  }
+ ],
  "paragraphsBySubtopic": {
   "Many small categories": [
    {
@@ -9,6 +15,12 @@
    {
     "text": "the number of categories in a conventional classification scheme is limited",
     "type": "local",
+    "tokens": [
+     {
+      "text": "the number of categories in a conventional classification scheme is limited",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "The number of categories in a conventional classification scheme is limited",
     "targetTopic": "Many small categories",
     "enclosingTopic": "Many small categories",
@@ -21,6 +33,12 @@
    {
     "text": "overly large categories",
     "type": "local",
+    "tokens": [
+     {
+      "text": "overly large categories",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Overly large categories",
     "targetTopic": "Many small categories",
     "enclosingTopic": "Many small categories",
@@ -33,6 +51,12 @@
    {
     "text": "categories in Canopy can be deeply nested",
     "type": "local",
+    "tokens": [
+     {
+      "text": "categories in Canopy can be deeply nested",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Categories in Canopy can be deeply nested",
     "targetTopic": "Many small categories",
     "enclosingTopic": "Many small categories",

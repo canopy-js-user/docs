@@ -1,5 +1,11 @@
 {
  "displayTopicName": "Relative addressing",
+ "topicTokens": [
+  {
+   "text": "Relative addressing",
+   "type": "text"
+  }
+ ],
  "paragraphsBySubtopic": {
   "Relative addressing": [
    {
@@ -9,6 +15,12 @@
    {
     "text": "having categories and category contents",
     "type": "local",
+    "tokens": [
+     {
+      "text": "having categories and category contents",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Having categories and category contents",
     "targetTopic": "Relative addressing",
     "enclosingTopic": "Relative addressing",
@@ -21,6 +33,12 @@
    {
     "text": "content can itself be the category of further content",
     "type": "local",
+    "tokens": [
+     {
+      "text": "content can itself be the category of further content",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Content can itself be the category of further content",
     "targetTopic": "Relative addressing",
     "enclosingTopic": "Relative addressing",
@@ -33,6 +51,12 @@
    {
     "text": "a richer addressing system",
     "type": "local",
+    "tokens": [
+     {
+      "text": "a richer addressing system",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "A richer addressing system",
     "targetTopic": "Relative addressing",
     "enclosingTopic": "Relative addressing",

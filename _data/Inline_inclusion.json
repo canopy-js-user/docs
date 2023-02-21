@@ -1,5 +1,11 @@
 {
  "displayTopicName": "Inline inclusion",
+ "topicTokens": [
+  {
+   "text": "Inline inclusion",
+   "type": "text"
+  }
+ ],
  "paragraphsBySubtopic": {
   "Inline inclusion": [
    {
@@ -9,6 +15,12 @@
    {
     "text": "natural language references are not semantically redirects",
     "type": "local",
+    "tokens": [
+     {
+      "text": "natural language references are not semantically redirects",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Natural language references are not semantically redirects",
     "targetTopic": "Inline inclusion",
     "enclosingTopic": "Inline inclusion",
@@ -21,6 +33,12 @@
    {
     "text": "in most hypertext systems references cause redirects",
     "type": "local",
+    "tokens": [
+     {
+      "text": "in most hypertext systems references cause redirects",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "In most hypertext systems references cause redirects",
     "targetTopic": "Inline inclusion",
     "enclosingTopic": "Inline inclusion",
@@ -33,6 +51,12 @@
    {
     "text": "in Canopy references are inlined by default",
     "type": "local",
+    "tokens": [
+     {
+      "text": "in Canopy references are inlined by default",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "In Canopy references are inlined by default",
     "targetTopic": "Inline inclusion",
     "enclosingTopic": "Inline inclusion",

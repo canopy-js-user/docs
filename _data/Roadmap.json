@@ -1,5 +1,11 @@
 {
  "displayTopicName": "Roadmap",
+ "topicTokens": [
+  {
+   "text": "Roadmap",
+   "type": "text"
+  }
+ ],
  "paragraphsBySubtopic": {
   "Roadmap": [
    {
@@ -9,6 +15,12 @@
    {
     "text": "Electron builds",
     "type": "local",
+    "tokens": [
+     {
+      "text": "Electron builds",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Electron builds",
     "targetTopic": "Roadmap",
     "enclosingTopic": "Roadmap",

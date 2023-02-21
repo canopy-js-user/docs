@@ -1,5 +1,11 @@
 {
  "displayTopicName": "Category directory",
+ "topicTokens": [
+  {
+   "text": "Category directory",
+   "type": "text"
+  }
+ ],
  "paragraphsBySubtopic": {
   "Category directory": [
    {
@@ -9,6 +15,12 @@
    {
     "text": "category",
     "type": "global",
+    "tokens": [
+     {
+      "text": "category",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Category",
     "targetTopic": "Category",
     "enclosingTopic": "Category directory",
@@ -21,6 +33,12 @@
    {
     "text": "topics directory",
     "type": "global",
+    "tokens": [
+     {
+      "text": "topics directory",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Topics Directory",
     "targetTopic": "Topics Directory",
     "enclosingTopic": "Category directory",
@@ -33,6 +51,12 @@
    {
     "text": "topics directory",
     "type": "global",
+    "tokens": [
+     {
+      "text": "topics directory",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Topics Directory",
     "targetTopic": "Topics Directory",
     "enclosingTopic": "Category directory",
@@ -45,6 +69,12 @@
    {
     "text": "topic files",
     "type": "global",
+    "tokens": [
+     {
+      "text": "topic files",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Topic file",
     "targetTopic": "Topic file",
     "enclosingTopic": "Category directory",

@@ -1,21 +1,73 @@
 {
  "displayTopicName": "Page path string",
+ "topicTokens": [
+  {
+   "text": "Page path string",
+   "type": "text"
+  }
+ ],
  "paragraphsBySubtopic": {
   "Page path string": [
    {
-    "text": "The page path string is the portion of the URL that indicates the current path of the reader. If the user began on the page for `A`, and then opened a subtopic of `A` called `B`, then opened a ",
+    "text": "The page path string is the portion of the URL that indicates the current path of the reader. If the user began on the page for ",
+    "type": "text"
+   },
+   {
+    "type": "inline_code",
+    "text": "A"
+   },
+   {
+    "text": ", and then opened a subtopic of ",
+    "type": "text"
+   },
+   {
+    "type": "inline_code",
+    "text": "A"
+   },
+   {
+    "text": " called ",
+    "type": "text"
+   },
+   {
+    "type": "inline_code",
+    "text": "B"
+   },
+   {
+    "text": ", then opened a ",
     "type": "text"
    },
    {
     "text": "global reference",
     "type": "global",
+    "tokens": [
+     {
+      "text": "global reference",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Global reference",
     "targetTopic": "Global reference",
     "enclosingTopic": "Page path string",
     "enclosingSubtopic": "Page path string"
    },
    {
-    "text": " to a topic called `C`, the reader's page path string would be `A#B/C`.",
+    "text": " to a topic called ",
+    "type": "text"
+   },
+   {
+    "type": "inline_code",
+    "text": "C"
+   },
+   {
+    "text": ", the reader's page path string would be ",
+    "type": "text"
+   },
+   {
+    "type": "inline_code",
+    "text": "A#B/C"
+   },
+   {
+    "text": ".",
     "type": "text"
    }
   ]

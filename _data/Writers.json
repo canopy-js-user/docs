@@ -1,5 +1,11 @@
 {
  "displayTopicName": "Writers",
+ "topicTokens": [
+  {
+   "text": "Writers",
+   "type": "text"
+  }
+ ],
  "paragraphsBySubtopic": {
   "Writers": [
    {
@@ -9,6 +15,12 @@
    {
     "text": "creating a Canopy project",
     "type": "local",
+    "tokens": [
+     {
+      "text": "creating a Canopy project",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Creating a Canopy project",
     "targetTopic": "Writers",
     "enclosingTopic": "Writers",
@@ -21,6 +33,12 @@
    {
     "text": "adding content to their project",
     "type": "local",
+    "tokens": [
+     {
+      "text": "adding content to their project",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Adding content to their project",
     "targetTopic": "Writers",
     "enclosingTopic": "Writers",
@@ -33,6 +51,12 @@
    {
     "text": "best practices",
     "type": "global",
+    "tokens": [
+     {
+      "text": "best practices",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Best practices",
     "targetTopic": "Best practices",
     "enclosingTopic": "Writers",
@@ -45,6 +69,12 @@
    {
     "text": "building their project",
     "type": "local",
+    "tokens": [
+     {
+      "text": "building their project",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Building their project",
     "targetTopic": "Writers",
     "enclosingTopic": "Writers",
@@ -57,6 +87,12 @@
    {
     "text": "serving their project locally",
     "type": "local",
+    "tokens": [
+     {
+      "text": "serving their project locally",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Serving their project locally",
     "targetTopic": "Writers",
     "enclosingTopic": "Writers",
@@ -69,6 +105,12 @@
    {
     "text": "deploying the project",
     "type": "local",
+    "tokens": [
+     {
+      "text": "deploying the project",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Deploying the project",
     "targetTopic": "Writers",
     "enclosingTopic": "Writers",
@@ -87,6 +129,12 @@
    {
     "text": "creating a project directory",
     "type": "local",
+    "tokens": [
+     {
+      "text": "creating a project directory",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Creating a project directory",
     "targetTopic": "Writers",
     "enclosingTopic": "Writers",
@@ -99,6 +147,12 @@
    {
     "text": "initializing the project",
     "type": "local",
+    "tokens": [
+     {
+      "text": "initializing the project",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Initializing the project",
     "targetTopic": "Writers",
     "enclosingTopic": "Writers",
@@ -111,6 +165,12 @@
    {
     "text": "initializing version control",
     "type": "local",
+    "tokens": [
+     {
+      "text": "initializing version control",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Initializing version control",
     "targetTopic": "Writers",
     "enclosingTopic": "Writers",
@@ -123,18 +183,48 @@
   ],
   "Creating a project directory": [
    {
-    "text": "Creating the project directory is done by creating a directory, eg running `mkdir my_project` on a Unix-like system. There is nothing special about the type of directory.",
+    "text": "Creating the project directory is done by creating a directory, eg running ",
+    "type": "text"
+   },
+   {
+    "type": "inline_code",
+    "text": "mkdir my_project"
+   },
+   {
+    "text": " on a Unix-like system. There is nothing special about the type of directory.",
     "type": "text"
    }
   ],
   "Initializing the project": [
    {
-    "text": "To initialize a project, enter the project directory (`cd` on a Unix system), then run `canopy init`. The ",
+    "text": "To initialize a project, enter the project directory (",
+    "type": "text"
+   },
+   {
+    "type": "inline_code",
+    "text": "cd"
+   },
+   {
+    "text": " on a Unix system), then run ",
+    "type": "text"
+   },
+   {
+    "type": "inline_code",
+    "text": "canopy init"
+   },
+   {
+    "text": ". The ",
     "type": "text"
    },
    {
     "text": "Canopy CLI init command",
     "type": "global",
+    "tokens": [
+     {
+      "text": "Canopy CLI init command",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Canopy CLI init command",
     "targetTopic": "Canopy CLI init command",
     "enclosingTopic": "Writers",
@@ -147,6 +237,12 @@
    {
     "text": "default topic",
     "type": "global",
+    "tokens": [
+     {
+      "text": "default topic",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Default Topic",
     "targetTopic": "Default Topic",
     "enclosingTopic": "Writers",
@@ -159,7 +255,15 @@
   ],
   "Initializing version control": [
    {
-    "text": "At this point you might want to run a `git init` in your project directory and store your project on a service like Github. Storing your project on a hosting service like Github makes it easier to host and deploy your project when it changes.",
+    "text": "At this point you might want to run a ",
+    "type": "text"
+   },
+   {
+    "type": "inline_code",
+    "text": "git init"
+   },
+   {
+    "text": " in your project directory and store your project on a service like Github. Storing your project on a hosting service like Github makes it easier to host and deploy your project when it changes.",
     "type": "text"
    }
   ],
@@ -171,6 +275,12 @@
    {
     "text": "Canopy data model",
     "type": "global",
+    "tokens": [
+     {
+      "text": "Canopy data model",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Canopy Data Model",
     "targetTopic": "Canopy Data Model",
     "enclosingTopic": "Writers",
@@ -183,6 +293,12 @@
    {
     "text": "Canopy markup",
     "type": "local",
+    "tokens": [
+     {
+      "text": "Canopy markup",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Canopy markup",
     "targetTopic": "Writers",
     "enclosingTopic": "Writers",
@@ -195,6 +311,12 @@
    {
     "text": "methods of producing content",
     "type": "local",
+    "tokens": [
+     {
+      "text": "methods of producing content",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Methods of producing content",
     "targetTopic": "Writers",
     "enclosingTopic": "Writers",
@@ -207,6 +329,12 @@
    {
     "text": "best practices",
     "type": "global",
+    "tokens": [
+     {
+      "text": "best practices",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Best practices",
     "targetTopic": "Best practices",
     "enclosingTopic": "Writers",
@@ -225,6 +353,12 @@
    {
     "text": "manually creating topic files",
     "type": "local",
+    "tokens": [
+     {
+      "text": "manually creating topic files",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Manually creating topic files",
     "targetTopic": "Writers",
     "enclosingTopic": "Writers",
@@ -237,6 +371,12 @@
    {
     "text": "Canopy CLI bulk command",
     "type": "global",
+    "tokens": [
+     {
+      "text": "Canopy CLI bulk command",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Canopy CLI bulk command",
     "targetTopic": "Canopy CLI bulk command",
     "enclosingTopic": "Writers",
@@ -249,12 +389,28 @@
   ],
   "Manually creating topic files": [
    {
-    "text": "If you create a file in your `topics` directory like `project/topics/category/topic.expl`, and you add a root paragraph to the file like this: ",
+    "text": "If you create a file in your ",
+    "type": "text"
+   },
+   {
+    "type": "inline_code",
+    "text": "topics"
+   },
+   {
+    "text": " directory like ",
+    "type": "text"
+   },
+   {
+    "type": "inline_code",
+    "text": "project/topics/category/topic.expl"
+   },
+   {
+    "text": ", and you add a root paragraph to the file like this: ",
     "type": "text"
    },
    {
     "type": "code_block",
-    "text": "\nTopic: This is a paragraph for the topic \"Topic.\"\n\n"
+    "text": "\nTopic: This is a paragraph for the topic \"Topic.\"\n"
    },
    {
     "text": "Then, when you build your project, this topic can be viewed in the web interface.",
@@ -269,12 +425,26 @@
   ],
   "Building their project": [
    {
-    "text": "Building your Canopy project entails taking the `expl` files and generating JSON from them that can be used by the front-end client. You can build your project by navigating to your project directory and running the ",
+    "text": "Building your Canopy project entails taking the ",
+    "type": "text"
+   },
+   {
+    "type": "inline_code",
+    "text": "expl"
+   },
+   {
+    "text": " files and generating JSON from them that can be used by the front-end client. You can build your project by navigating to your project directory and running the ",
     "type": "text"
    },
    {
     "text": "Canopy CLI build command",
     "type": "global",
+    "tokens": [
+     {
+      "text": "Canopy CLI build command",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Canopy CLI build command",
     "targetTopic": "Canopy CLI build command",
     "enclosingTopic": "Writers",
@@ -293,6 +463,12 @@
    {
     "text": "Canopy CLI serve command",
     "type": "global",
+    "tokens": [
+     {
+      "text": "Canopy CLI serve command",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Canopy CLI serve command",
     "targetTopic": "Canopy CLI serve command",
     "enclosingTopic": "Writers",
@@ -311,6 +487,12 @@
    {
     "text": "cosmetic paths",
     "type": "local",
+    "tokens": [
+     {
+      "text": "cosmetic paths",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Cosmetic paths",
     "targetTopic": "Writers",
     "enclosingTopic": "Writers",
@@ -323,6 +505,12 @@
    {
     "text": "hosting a Canopy project",
     "type": "local",
+    "tokens": [
+     {
+      "text": "hosting a Canopy project",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Hosting a Canopy project",
     "targetTopic": "Writers",
     "enclosingTopic": "Writers",
@@ -335,6 +523,12 @@
    {
     "text": "continuously building a Canopy project",
     "type": "local",
+    "tokens": [
+     {
+      "text": "continuously building a Canopy project",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Continuously building a Canopy project",
     "targetTopic": "Writers",
     "enclosingTopic": "Writers",
@@ -347,7 +541,39 @@
   ],
   "Cosmetic paths": [
    {
-    "text": "When reading a Canopy website, the URL adapts to reflect the path of topics and subtopics that the reader has navigated through. The URL of the page might for example read `www.example.com/Topic_1/Topic_2`. However, if the site is hosted on a static assets server, the client will request a directory `Topic_1` that contains a directory `Topic_2`, neither of which exists, when really we just want to serve the root `index.html` asset regardless of the requested path.",
+    "text": "When reading a Canopy website, the URL adapts to reflect the path of topics and subtopics that the reader has navigated through. The URL of the page might for example read ",
+    "type": "text"
+   },
+   {
+    "type": "inline_code",
+    "text": "www.example.com/Topic_1/Topic_2"
+   },
+   {
+    "text": ". However, if the site is hosted on a static assets server, the client will request a directory ",
+    "type": "text"
+   },
+   {
+    "type": "inline_code",
+    "text": "Topic_1"
+   },
+   {
+    "text": " that contains a directory ",
+    "type": "text"
+   },
+   {
+    "type": "inline_code",
+    "text": "Topic_2"
+   },
+   {
+    "text": ", neither of which exists, when really we just want to serve the root ",
+    "type": "text"
+   },
+   {
+    "type": "inline_code",
+    "text": "index.html"
+   },
+   {
+    "text": " asset regardless of the requested path.",
     "type": "text"
    }
   ],
@@ -359,6 +585,12 @@
    {
     "text": "dynamic server",
     "type": "local",
+    "tokens": [
+     {
+      "text": "dynamic server",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Dynamic server",
     "targetTopic": "Writers",
     "enclosingTopic": "Writers",
@@ -371,6 +603,12 @@
    {
     "text": "hash URLs",
     "type": "local",
+    "tokens": [
+     {
+      "text": "hash URLs",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Hash URLs",
     "targetTopic": "Writers",
     "enclosingTopic": "Writers",
@@ -383,6 +621,12 @@
    {
     "text": "symlinks",
     "type": "local",
+    "tokens": [
+     {
+      "text": "symlinks",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Symlinks",
     "targetTopic": "Writers",
     "enclosingTopic": "Writers",
@@ -395,6 +639,12 @@
    {
     "text": "custom static hosting provider",
     "type": "local",
+    "tokens": [
+     {
+      "text": "custom static hosting provider",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Custom static hosting provider",
     "targetTopic": "Writers",
     "enclosingTopic": "Writers",
@@ -407,19 +657,51 @@
   ],
   "Dynamic server": [
    {
-    "text": "The simplest way of avoiding the problem of cosmetic paths is to not use a static assets server. The Canopy CLI ships with a dynamic Express server that will ignore request paths and serve the root `index.html` file for all requests. The downside of this option is that dynamic hosting is often more expensive than static assets hosting.",
+    "text": "The simplest way of avoiding the problem of cosmetic paths is to not use a static assets server. The Canopy CLI ships with a dynamic Express server that will ignore request paths and serve the root ",
+    "type": "text"
+   },
+   {
+    "type": "inline_code",
+    "text": "index.html"
+   },
+   {
+    "text": " file for all requests. The downside of this option is that dynamic hosting is often more expensive than static assets hosting.",
     "type": "text"
    }
   ],
   "Hash URLs": [
    {
-    "text": "Canopy has a build option called \"hash URLs\" that causes the project to prepend all paths with `/#/`, making it irrelevant to the server what comes after the hash symbol. The downside of this approach is that it adds an extra character to all URLs.",
+    "text": "Canopy has a build option called \"hash URLs\" that causes the project to prepend all paths with ",
+    "type": "text"
+   },
+   {
+    "type": "inline_code",
+    "text": "/#/"
+   },
+   {
+    "text": ", making it irrelevant to the server what comes after the hash symbol. The downside of this approach is that it adds an extra character to all URLs.",
     "type": "text"
    }
   ],
   "Symlinks": [
    {
-    "text": "Symlinks is build option that creates directories for every topic in the project and symlinks to every other topic directory, each of which contains the same `index.html` asset, so requests like `www.example.com/Topic_A/Topic_B` follow a valid directory path via the symlinks. The downside of this approach is that most hosting providers do not permit symlinks, and creating the directories and linking them is an O(N",
+    "text": "Symlinks is build option that creates directories for every topic in the project and symlinks to every other topic directory, each of which contains the same ",
+    "type": "text"
+   },
+   {
+    "type": "inline_code",
+    "text": "index.html"
+   },
+   {
+    "text": " asset, so requests like ",
+    "type": "text"
+   },
+   {
+    "type": "inline_code",
+    "text": "www.example.com/Topic_A/Topic_B"
+   },
+   {
+    "text": " follow a valid directory path via the symlinks. The downside of this approach is that most hosting providers do not permit symlinks, and creating the directories and linking them is an O(N",
     "type": "text"
    },
    {
@@ -438,8 +720,14 @@
    },
    {
     "type": "url",
+    "url": "https://github.com/canopy-js/example-workflows",
     "text": "Canopy Github's \"example workflows\" repo",
-    "url": "https://github.com/canopy-js/example-workflows"
+    "tokens": [
+     {
+      "text": "Canopy Github's \"example workflows\" repo",
+      "type": "text"
+     }
+    ]
    },
    {
     "text": ".",
@@ -448,13 +736,27 @@
   ],
   "Continuously building a Canopy project": [
    {
-    "text": "You might want to store your Canopy project on Github and trigger builds whenever an `expl` file is changed. Template Github workflows for continuously building a Canopy project hosted in a Github repository can be found on the ",
+    "text": "You might want to store your Canopy project on Github and trigger builds whenever an ",
+    "type": "text"
+   },
+   {
+    "type": "inline_code",
+    "text": "expl"
+   },
+   {
+    "text": " file is changed. Template Github workflows for continuously building a Canopy project hosted in a Github repository can be found on the ",
     "type": "text"
    },
    {
     "type": "url",
+    "url": "https://github.com/canopy-js/example-workflows",
     "text": "Canopy Github's \"example workflows\" repo",
-    "url": "https://github.com/canopy-js/example-workflows"
+    "tokens": [
+     {
+      "text": "Canopy Github's \"example workflows\" repo",
+      "type": "text"
+     }
+    ]
    },
    {
     "text": ".",

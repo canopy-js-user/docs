@@ -1,5 +1,11 @@
 {
  "displayTopicName": "Topic name",
+ "topicTokens": [
+  {
+   "text": "Topic name",
+   "type": "text"
+  }
+ ],
  "paragraphsBySubtopic": {
   "Topic name": [
    {
@@ -9,6 +15,12 @@
    {
     "text": "key",
     "type": "global",
+    "tokens": [
+     {
+      "text": "key",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Key",
     "targetTopic": "Key",
     "enclosingTopic": "Topic name",
@@ -21,6 +33,12 @@
    {
     "text": "topic file",
     "type": "global",
+    "tokens": [
+     {
+      "text": "topic file",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Topic file",
     "targetTopic": "Topic file",
     "enclosingTopic": "Topic name",
@@ -33,6 +51,12 @@
    {
     "text": "Global references",
     "type": "global",
+    "tokens": [
+     {
+      "text": "Global references",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Global reference",
     "targetTopic": "Global reference",
     "enclosingTopic": "Topic name",

@@ -1,5 +1,11 @@
 {
  "displayTopicName": "Hierarchy",
+ "topicTokens": [
+  {
+   "text": "Hierarchy",
+   "type": "text"
+  }
+ ],
  "paragraphsBySubtopic": {
   "Hierarchy": [
    {
@@ -9,6 +15,12 @@
    {
     "text": "in every complex domain, human understanding requires the creation of hierarchy",
     "type": "local",
+    "tokens": [
+     {
+      "text": "in every complex domain, human understanding requires the creation of hierarchy",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "In every complex domain, human understanding requires the creation of hierarchy",
     "targetTopic": "Hierarchy",
     "enclosingTopic": "Hierarchy",
@@ -21,6 +33,12 @@
    {
     "text": "Canopy bakes hierarchy into the medium itself",
     "type": "local",
+    "tokens": [
+     {
+      "text": "Canopy bakes hierarchy into the medium itself",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Canopy bakes hierarchy into the medium itself",
     "targetTopic": "Hierarchy",
     "enclosingTopic": "Hierarchy",
@@ -39,6 +57,12 @@
    {
     "text": "several limitations on the amount of information that can be dealt with at any given time",
     "type": "local",
+    "tokens": [
+     {
+      "text": "several limitations on the amount of information that can be dealt with at any given time",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Several limitations on the amount of information that can be dealt with at any given time",
     "targetTopic": "Hierarchy",
     "enclosingTopic": "Hierarchy",
@@ -51,6 +75,12 @@
    {
     "text": "humans deal with complexity by creating hierarchical models",
     "type": "local",
+    "tokens": [
+     {
+      "text": "humans deal with complexity by creating hierarchical models",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Humans deal with complexity by creating hierarchical models",
     "targetTopic": "Hierarchy",
     "enclosingTopic": "Hierarchy",
@@ -63,6 +93,12 @@
    {
     "text": "enable them to manipulate complex information in small units",
     "type": "local",
+    "tokens": [
+     {
+      "text": "enable them to manipulate complex information in small units",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Enable them to manipulate complex information in small units",
     "targetTopic": "Hierarchy",
     "enclosingTopic": "Hierarchy",

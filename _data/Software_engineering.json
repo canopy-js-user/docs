@@ -1,5 +1,11 @@
 {
  "displayTopicName": "Software engineering",
+ "topicTokens": [
+  {
+   "text": "Software engineering",
+   "type": "text"
+  }
+ ],
  "paragraphsBySubtopic": {
   "Software engineering": [
    {
@@ -9,6 +15,12 @@
    {
     "text": "makes it easier to understand the connections between subcomponents of a system",
     "type": "local",
+    "tokens": [
+     {
+      "text": "makes it easier to understand the connections between subcomponents of a system",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Makes it easier to understand the connections between subcomponents of a system",
     "targetTopic": "Software engineering",
     "enclosingTopic": "Software engineering",
@@ -21,6 +33,12 @@
    {
     "text": "find reasons for the properties of the system",
     "type": "local",
+    "tokens": [
+     {
+      "text": "find reasons for the properties of the system",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Find reasons for the properties of the system",
     "targetTopic": "Software engineering",
     "enclosingTopic": "Software engineering",

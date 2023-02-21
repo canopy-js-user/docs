@@ -1,5 +1,11 @@
 {
  "displayTopicName": "Redundant Indexing",
+ "topicTokens": [
+  {
+   "text": "Redundant Indexing",
+   "type": "text"
+  }
+ ],
  "paragraphsBySubtopic": {
   "Redundant Indexing": [
    {
@@ -9,6 +15,12 @@
    {
     "text": "the different entities of a subject area can be organized in different ways",
     "type": "local",
+    "tokens": [
+     {
+      "text": "the different entities of a subject area can be organized in different ways",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "The different entities of a subject area can be organized in different ways",
     "targetTopic": "Redundant Indexing",
     "enclosingTopic": "Redundant Indexing",
@@ -21,6 +33,12 @@
    {
     "text": "Canopy lets you explore the data of a project in these different organizations",
     "type": "local",
+    "tokens": [
+     {
+      "text": "Canopy lets you explore the data of a project in these different organizations",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Canopy lets you explore the data of a project in these different organizations",
     "targetTopic": "Redundant Indexing",
     "enclosingTopic": "Redundant Indexing",

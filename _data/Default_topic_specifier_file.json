@@ -1,26 +1,60 @@
 {
  "displayTopicName": "Default topic specifier file",
+ "topicTokens": [
+  {
+   "text": "Default topic specifier file",
+   "type": "text"
+  }
+ ],
  "paragraphsBySubtopic": {
   "Default topic specifier file": [
    {
-    "text": "The default topic specifier file is a file called `canopy_default_topic` that exists in the root level of the ",
+    "text": "The default topic specifier file is a file called ",
+    "type": "text"
+   },
+   {
+    "type": "inline_code",
+    "text": "canopy_default_topic"
+   },
+   {
+    "text": " that exists in the root level of the ",
     "type": "text"
    },
    {
     "text": "project directory",
     "type": "global",
+    "tokens": [
+     {
+      "text": "project directory",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Project Directory",
     "targetTopic": "Project Directory",
     "enclosingTopic": "Default topic specifier file",
     "enclosingSubtopic": "Default topic specifier file"
    },
    {
-    "text": ". The `canopy_default_topic` file contains the ",
+    "text": ". The ",
+    "type": "text"
+   },
+   {
+    "type": "inline_code",
+    "text": "canopy_default_topic"
+   },
+   {
+    "text": " file contains the ",
     "type": "text"
    },
    {
     "text": "file path",
     "type": "local",
+    "tokens": [
+     {
+      "text": "file path",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "File path",
     "targetTopic": "Default topic specifier file",
     "enclosingTopic": "Default topic specifier file",
@@ -33,6 +67,12 @@
    {
     "text": "topic file",
     "type": "global",
+    "tokens": [
+     {
+      "text": "topic file",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Topic file",
     "targetTopic": "Topic file",
     "enclosingTopic": "Default topic specifier file",
@@ -45,6 +85,12 @@
    {
     "text": "default topic",
     "type": "global",
+    "tokens": [
+     {
+      "text": "default topic",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Default Topic",
     "targetTopic": "Default Topic",
     "enclosingTopic": "Default topic specifier file",
@@ -63,13 +109,27 @@
    {
     "text": "default topic",
     "type": "global",
+    "tokens": [
+     {
+      "text": "default topic",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Default Topic",
     "targetTopic": "Default Topic",
     "enclosingTopic": "Default topic specifier file",
     "enclosingSubtopic": "File path"
    },
    {
-    "text": " should be given relative to the root of the project directory, eg `topics/Category_A/Topic.expl`.",
+    "text": " should be given relative to the root of the project directory, eg ",
+    "type": "text"
+   },
+   {
+    "type": "inline_code",
+    "text": "topics/Category_A/Topic.expl"
+   },
+   {
+    "text": ".",
     "type": "text"
    }
   ]

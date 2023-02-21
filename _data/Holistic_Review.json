@@ -1,5 +1,11 @@
 {
  "displayTopicName": "Holistic Review",
+ "topicTokens": [
+  {
+   "text": "Holistic Review",
+   "type": "text"
+  }
+ ],
  "paragraphsBySubtopic": {
   "Holistic Review": [
    {
@@ -9,6 +15,12 @@
    {
     "text": "reviewing information in small pieces",
     "type": "local",
+    "tokens": [
+     {
+      "text": "reviewing information in small pieces",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Reviewing information in small pieces",
     "targetTopic": "Holistic Review",
     "enclosingTopic": "Holistic Review",
@@ -21,6 +33,12 @@
    {
     "text": "Canopy allows people to review information in large connected units",
     "type": "local",
+    "tokens": [
+     {
+      "text": "Canopy allows people to review information in large connected units",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Canopy allows people to review information in large connected units",
     "targetTopic": "Holistic Review",
     "enclosingTopic": "Holistic Review",
@@ -33,6 +51,12 @@
    {
     "text": "Canopy allows progressive occlusion of referenced prerequisites",
     "type": "local",
+    "tokens": [
+     {
+      "text": "Canopy allows progressive occlusion of referenced prerequisites",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Canopy allows progressive occlusion of referenced prerequisites",
     "targetTopic": "Holistic Review",
     "enclosingTopic": "Holistic Review",
@@ -45,6 +69,12 @@
    {
     "text": "Canopy allows repeated access to complex structures",
     "type": "local",
+    "tokens": [
+     {
+      "text": "Canopy allows repeated access to complex structures",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Canopy allows repeated access to complex structures",
     "targetTopic": "Holistic Review",
     "enclosingTopic": "Holistic Review",
@@ -75,6 +105,12 @@
    {
     "text": "a first time reader only can cover small portions of graph in each session",
     "type": "local",
+    "tokens": [
+     {
+      "text": "a first time reader only can cover small portions of graph in each session",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "A first time reader only can cover small portions of graph in each session",
     "targetTopic": "Holistic Review",
     "enclosingTopic": "Holistic Review",
@@ -87,6 +123,12 @@
    {
     "text": "over multiple reviews the size that can be reviewed in each session increases",
     "type": "local",
+    "tokens": [
+     {
+      "text": "over multiple reviews the size that can be reviewed in each session increases",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Over multiple reviews the size that can be reviewed in each session increases",
     "targetTopic": "Holistic Review",
     "enclosingTopic": "Holistic Review",
@@ -99,6 +141,12 @@
    {
     "text": "references reviewed in separate sessions can become fragmented",
     "type": "local",
+    "tokens": [
+     {
+      "text": "references reviewed in separate sessions can become fragmented",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "References reviewed in separate sessions can become fragmented",
     "targetTopic": "Holistic Review",
     "enclosingTopic": "Holistic Review",
@@ -111,6 +159,12 @@
    {
     "text": "larger review sessions produce better understanding",
     "type": "local",
+    "tokens": [
+     {
+      "text": "larger review sessions produce better understanding",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Larger review sessions produce better understanding",
     "targetTopic": "Holistic Review",
     "enclosingTopic": "Holistic Review",
@@ -153,6 +207,12 @@
    {
     "text": "review of a complex system in stages can be problematic",
     "type": "local",
+    "tokens": [
+     {
+      "text": "review of a complex system in stages can be problematic",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Review of a complex system in stages can be problematic",
     "targetTopic": "Holistic Review",
     "enclosingTopic": "Holistic Review",

@@ -1,5 +1,11 @@
 {
  "displayTopicName": "Exhaustiveness",
+ "topicTokens": [
+  {
+   "text": "Exhaustiveness",
+   "type": "text"
+  }
+ ],
  "paragraphsBySubtopic": {
   "Exhaustiveness": [
    {
@@ -9,6 +15,12 @@
    {
     "text": "written additively",
     "type": "local",
+    "tokens": [
+     {
+      "text": "written additively",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Written additively",
     "targetTopic": "Exhaustiveness",
     "enclosingTopic": "Exhaustiveness",
@@ -21,6 +33,12 @@
    {
     "text": "written exhaustively",
     "type": "local",
+    "tokens": [
+     {
+      "text": "written exhaustively",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Written exhaustively",
     "targetTopic": "Exhaustiveness",
     "enclosingTopic": "Exhaustiveness",
@@ -33,6 +51,12 @@
    {
     "text": "simplifies learning",
     "type": "local",
+    "tokens": [
+     {
+      "text": "simplifies learning",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Simplifies learning",
     "targetTopic": "Exhaustiveness",
     "enclosingTopic": "Exhaustiveness",
@@ -63,6 +87,12 @@
    {
     "text": "fragmentation",
     "type": "global",
+    "tokens": [
+     {
+      "text": "fragmentation",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Fragmentation",
     "targetTopic": "Fragmentation",
     "enclosingTopic": "Exhaustiveness",

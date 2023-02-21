@@ -1,5 +1,11 @@
 {
  "displayTopicName": "Project Directory",
+ "topicTokens": [
+  {
+   "text": "Project Directory",
+   "type": "text"
+  }
+ ],
  "paragraphsBySubtopic": {
   "Project Directory": [
    {
@@ -9,6 +15,12 @@
    {
     "text": "topics directory",
     "type": "global",
+    "tokens": [
+     {
+      "text": "topics directory",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Topics Directory",
     "targetTopic": "Topics Directory",
     "enclosingTopic": "Project Directory",
@@ -21,6 +33,12 @@
    {
     "text": "default topic specifier file",
     "type": "global",
+    "tokens": [
+     {
+      "text": "default topic specifier file",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Default topic specifier file",
     "targetTopic": "Default topic specifier file",
     "enclosingTopic": "Project Directory",
@@ -33,6 +51,12 @@
    {
     "text": "build directory",
     "type": "global",
+    "tokens": [
+     {
+      "text": "build directory",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Build directory",
     "targetTopic": "Build directory",
     "enclosingTopic": "Project Directory",

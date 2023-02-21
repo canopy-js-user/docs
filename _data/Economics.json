@@ -1,5 +1,11 @@
 {
  "displayTopicName": "Economics",
+ "topicTokens": [
+  {
+   "text": "Economics",
+   "type": "text"
+  }
+ ],
  "paragraphsBySubtopic": {
   "Economics": [
    {

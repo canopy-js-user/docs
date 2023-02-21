@@ -1,5 +1,11 @@
 {
  "displayTopicName": "Gaps",
+ "topicTokens": [
+  {
+   "text": "Gaps",
+   "type": "text"
+  }
+ ],
  "paragraphsBySubtopic": {
   "Gaps": [
    {
@@ -9,6 +15,12 @@
    {
     "text": "when transmitting a graph via smaller linearizations",
     "type": "local",
+    "tokens": [
+     {
+      "text": "when transmitting a graph via smaller linearizations",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "When transmitting a graph via smaller linearizations",
     "targetTopic": "Gaps",
     "enclosingTopic": "Gaps",
@@ -21,6 +33,12 @@
    {
     "text": "as the corpus gets larger, the chances of having incomplete information at any given point grows",
     "type": "local",
+    "tokens": [
+     {
+      "text": "as the corpus gets larger, the chances of having incomplete information at any given point grows",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "As the corpus gets larger, the chances of having incomplete information at any given point grows",
     "targetTopic": "Gaps",
     "enclosingTopic": "Gaps",
@@ -33,6 +51,12 @@
    {
     "text": "even for information that is highly valued",
     "type": "local",
+    "tokens": [
+     {
+      "text": "even for information that is highly valued",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Even for information that is highly valued",
     "targetTopic": "Gaps",
     "enclosingTopic": "Gaps",
@@ -45,6 +69,12 @@
    {
     "text": "Canopy helps by presenting information exhaustively",
     "type": "local",
+    "tokens": [
+     {
+      "text": "Canopy helps by presenting information exhaustively",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Canopy helps by presenting information exhaustively",
     "targetTopic": "Gaps",
     "enclosingTopic": "Gaps",

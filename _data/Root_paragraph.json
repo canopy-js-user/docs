@@ -1,5 +1,11 @@
 {
  "displayTopicName": "Root paragraph",
+ "topicTokens": [
+  {
+   "text": "Root paragraph",
+   "type": "text"
+  }
+ ],
  "paragraphsBySubtopic": {
   "Root paragraph": [
    {
@@ -9,6 +15,12 @@
    {
     "text": "topic paragraph",
     "type": "global",
+    "tokens": [
+     {
+      "text": "topic paragraph",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Topic paragraph",
     "targetTopic": "Topic paragraph",
     "enclosingTopic": "Root paragraph",
@@ -21,6 +33,12 @@
    {
     "text": "topic",
     "type": "global",
+    "tokens": [
+     {
+      "text": "topic",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Topic",
     "targetTopic": "Topic",
     "enclosingTopic": "Root paragraph",
@@ -33,6 +51,12 @@
    {
     "text": "path segment",
     "type": "global",
+    "tokens": [
+     {
+      "text": "path segment",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Path segment",
     "targetTopic": "Path segment",
     "enclosingTopic": "Root paragraph",

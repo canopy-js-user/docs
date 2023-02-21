@@ -1,5 +1,11 @@
 {
  "displayTopicName": "Mergability",
+ "topicTokens": [
+  {
+   "text": "Mergability",
+   "type": "text"
+  }
+ ],
  "paragraphsBySubtopic": {
   "Mergability": [
    {
@@ -9,6 +15,12 @@
    {
     "text": "linear works address content approximately",
     "type": "local",
+    "tokens": [
+     {
+      "text": "linear works address content approximately",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Linear works address content approximately",
     "targetTopic": "Mergability",
     "enclosingTopic": "Mergability",
@@ -21,6 +33,12 @@
    {
     "text": "Canopy addresses ideas individually",
     "type": "local",
+    "tokens": [
+     {
+      "text": "Canopy addresses ideas individually",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Canopy addresses ideas individually",
     "targetTopic": "Mergability",
     "enclosingTopic": "Mergability",
@@ -33,6 +51,12 @@
    {
     "text": "it is easier to merge multiple explanations",
     "type": "local",
+    "tokens": [
+     {
+      "text": "it is easier to merge multiple explanations",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "It is easier to merge multiple explanations",
     "targetTopic": "Mergability",
     "enclosingTopic": "Mergability",
@@ -45,6 +69,12 @@
    {
     "text": "making possible new types of composite works",
     "type": "local",
+    "tokens": [
+     {
+      "text": "making possible new types of composite works",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Making possible new types of composite works",
     "targetTopic": "Mergability",
     "enclosingTopic": "Mergability",

@@ -1,5 +1,11 @@
 {
  "displayTopicName": "Paragraph node",
+ "topicTokens": [
+  {
+   "text": "Paragraph node",
+   "type": "text"
+  }
+ ],
  "paragraphsBySubtopic": {
   "Paragraph node": [
    {
@@ -9,6 +15,12 @@
    {
     "text": "block",
     "type": "global",
+    "tokens": [
+     {
+      "text": "block",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Block",
     "targetTopic": "Block",
     "enclosingTopic": "Paragraph node",
@@ -21,6 +33,12 @@
    {
     "text": "topic",
     "type": "global",
+    "tokens": [
+     {
+      "text": "topic",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Topic",
     "targetTopic": "Topic",
     "enclosingTopic": "Paragraph node",
@@ -33,6 +51,12 @@
    {
     "text": "subtopic",
     "type": "global",
+    "tokens": [
+     {
+      "text": "subtopic",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Subtopic",
     "targetTopic": "Subtopic",
     "enclosingTopic": "Paragraph node",

@@ -1,5 +1,11 @@
 {
  "displayTopicName": "Proportionality",
+ "topicTokens": [
+  {
+   "text": "Proportionality",
+   "type": "text"
+  }
+ ],
  "paragraphsBySubtopic": {
   "Proportionality": [
    {
@@ -9,6 +15,12 @@
    {
     "text": "Canopy organizes information hierarchically",
     "type": "local",
+    "tokens": [
+     {
+      "text": "Canopy organizes information hierarchically",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Canopy organizes information hierarchically",
     "targetTopic": "Proportionality",
     "enclosingTopic": "Proportionality",
@@ -21,6 +33,12 @@
    {
     "text": "one reads top to bottom",
     "type": "local",
+    "tokens": [
+     {
+      "text": "one reads top to bottom",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "One reads top to bottom",
     "targetTopic": "Proportionality",
     "enclosingTopic": "Proportionality",
@@ -33,6 +51,12 @@
    {
     "text": "one will end up with a proportional understanding",
     "type": "local",
+    "tokens": [
+     {
+      "text": "one will end up with a proportional understanding",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "One will end up with a proportional understanding",
     "targetTopic": "Proportionality",
     "enclosingTopic": "Proportionality",
@@ -45,6 +69,12 @@
    {
     "text": "unlike reading a book or article",
     "type": "local",
+    "tokens": [
+     {
+      "text": "unlike reading a book or article",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Unlike reading a book or article",
     "targetTopic": "Proportionality",
     "enclosingTopic": "Proportionality",

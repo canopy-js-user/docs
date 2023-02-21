@@ -1,5 +1,11 @@
 {
  "displayTopicName": "Canopy bulk file format",
+ "topicTokens": [
+  {
+   "text": "Canopy bulk file format",
+   "type": "text"
+  }
+ ],
  "paragraphsBySubtopic": {
   "Canopy bulk file format": [
    {
@@ -9,6 +15,12 @@
    {
     "text": "category path header",
     "type": "local",
+    "tokens": [
+     {
+      "text": "category path header",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Category path header",
     "targetTopic": "Canopy bulk file format",
     "enclosingTopic": "Canopy bulk file format",
@@ -21,6 +33,12 @@
    {
     "text": "topic files",
     "type": "local",
+    "tokens": [
+     {
+      "text": "topic files",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Topic files",
     "targetTopic": "Canopy bulk file format",
     "enclosingTopic": "Canopy bulk file format",
@@ -33,6 +51,12 @@
    {
     "text": "note files",
     "type": "local",
+    "tokens": [
+     {
+      "text": "note files",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Note files",
     "targetTopic": "Canopy bulk file format",
     "enclosingTopic": "Canopy bulk file format",
@@ -57,6 +81,12 @@
    {
     "text": "topic file",
     "type": "global",
+    "tokens": [
+     {
+      "text": "topic file",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Topic file",
     "targetTopic": "Topic file",
     "enclosingTopic": "Canopy bulk file format",
@@ -75,6 +105,12 @@
    {
     "text": "blocks",
     "type": "global",
+    "tokens": [
+     {
+      "text": "blocks",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Block",
     "targetTopic": "Block",
     "enclosingTopic": "Canopy bulk file format",
@@ -87,6 +123,12 @@
    {
     "text": "key",
     "type": "global",
+    "tokens": [
+     {
+      "text": "key",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Key",
     "targetTopic": "Key",
     "enclosingTopic": "Canopy bulk file format",
@@ -99,6 +141,12 @@
    {
     "text": "category notes file",
     "type": "global",
+    "tokens": [
+     {
+      "text": "category notes file",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Category Notes File",
     "targetTopic": "Category Notes File",
     "enclosingTopic": "Canopy bulk file format",

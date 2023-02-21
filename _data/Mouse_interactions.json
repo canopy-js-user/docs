@@ -1,5 +1,11 @@
 {
  "displayTopicName": "Mouse interactions",
+ "topicTokens": [
+  {
+   "text": "Mouse interactions",
+   "type": "text"
+  }
+ ],
  "paragraphsBySubtopic": {
   "Mouse interactions": [
    {
@@ -9,6 +15,12 @@
    {
     "text": "click local references",
     "type": "local",
+    "tokens": [
+     {
+      "text": "click local references",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Click Local References",
     "targetTopic": "Mouse interactions",
     "enclosingTopic": "Mouse interactions",
@@ -21,6 +33,12 @@
    {
     "text": "click global references",
     "type": "local",
+    "tokens": [
+     {
+      "text": "click global references",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Click Global References",
     "targetTopic": "Mouse interactions",
     "enclosingTopic": "Mouse interactions",
@@ -39,6 +57,12 @@
    {
     "text": "local reference",
     "type": "global",
+    "tokens": [
+     {
+      "text": "local reference",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Local reference",
     "targetTopic": "Local reference",
     "enclosingTopic": "Mouse interactions",
@@ -57,13 +81,32 @@
    {
     "text": "global reference",
     "type": "global",
+    "tokens": [
+     {
+      "text": "global reference",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Global reference",
     "targetTopic": "Global reference",
     "enclosingTopic": "Mouse interactions",
     "enclosingSubtopic": "Click Global References"
    },
    {
-    "text": ", if alt/option is not pressed, the target paragraph will be inlined below the current paragraph, and if alt/option _is_ pressed, then the page will redirect to the target paragraph as the new page root.",
+    "text": ", if alt/option is not pressed, the target paragraph will be inlined below the current paragraph, and if alt/option ",
+    "type": "text"
+   },
+   {
+    "type": "italics",
+    "tokens": [
+     {
+      "text": "is",
+      "type": "text"
+     }
+    ]
+   },
+   {
+    "text": " pressed, then the page will redirect to the target paragraph as the new page root.",
     "type": "text"
    }
   ]

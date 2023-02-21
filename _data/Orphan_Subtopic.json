@@ -1,5 +1,11 @@
 {
  "displayTopicName": "Orphan Subtopic",
+ "topicTokens": [
+  {
+   "text": "Orphan Subtopic",
+   "type": "text"
+  }
+ ],
  "paragraphsBySubtopic": {
   "Orphan Subtopic": [
    {
@@ -9,6 +15,12 @@
    {
     "text": "subtopic",
     "type": "global",
+    "tokens": [
+     {
+      "text": "subtopic",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Subtopic",
     "targetTopic": "Subtopic",
     "enclosingTopic": "Orphan Subtopic",
@@ -21,6 +33,12 @@
    {
     "text": "subtopic name",
     "type": "global",
+    "tokens": [
+     {
+      "text": "subtopic name",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Subtopic name",
     "targetTopic": "Subtopic name",
     "enclosingTopic": "Orphan Subtopic",
@@ -33,6 +51,12 @@
    {
     "text": "subtopic paragraph",
     "type": "global",
+    "tokens": [
+     {
+      "text": "subtopic paragraph",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Subtopic paragraph",
     "targetTopic": "Subtopic paragraph",
     "enclosingTopic": "Orphan Subtopic",
@@ -45,6 +69,12 @@
    {
     "text": "topic",
     "type": "global",
+    "tokens": [
+     {
+      "text": "topic",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Topic",
     "targetTopic": "Topic",
     "enclosingTopic": "Orphan Subtopic",
@@ -57,6 +87,12 @@
    {
     "text": "subtopic path",
     "type": "global",
+    "tokens": [
+     {
+      "text": "subtopic path",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Subtopic path",
     "targetTopic": "Subtopic path",
     "enclosingTopic": "Orphan Subtopic",

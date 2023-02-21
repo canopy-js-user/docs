@@ -1,26 +1,44 @@
 {
  "displayTopicName": "Topic",
+ "topicTokens": [
+  {
+   "text": "Topic",
+   "type": "text"
+  }
+ ],
  "paragraphsBySubtopic": {
   "Topic": [
    {
-    "text": "Topics are the fundamental organizing units of information in a Canopy project. A Canopy topic is an explanation of some idea or entity. A topic is an entity that can be explained without prior context, as opposed to a ",
+    "text": "Topics are the fundamental organizing units of information in a Canopy project. Topics are for modeling ideas or entities that can be explained alone without prior context, as opposed to ",
     "type": "text"
    },
    {
-    "text": "subtopic",
+    "text": "subtopics",
     "type": "global",
+    "tokens": [
+     {
+      "text": "subtopics",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Subtopic",
     "targetTopic": "Subtopic",
     "enclosingTopic": "Topic",
     "enclosingSubtopic": "Topic"
    },
    {
-    "text": ". A topic in Canopy has a ",
+    "text": ". A topic in Canopy is composed of a ",
     "type": "text"
    },
    {
     "text": "topic name",
     "type": "global",
+    "tokens": [
+     {
+      "text": "topic name",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Topic name",
     "targetTopic": "Topic name",
     "enclosingTopic": "Topic",
@@ -33,42 +51,30 @@
    {
     "text": "topic paragraph",
     "type": "global",
+    "tokens": [
+     {
+      "text": "topic paragraph",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Topic paragraph",
     "targetTopic": "Topic paragraph",
     "enclosingTopic": "Topic",
     "enclosingSubtopic": "Topic"
    },
    {
-    "text": ", whose ",
-    "type": "text"
-   },
-   {
-    "text": "subtopics",
-    "type": "global",
-    "targetSubtopic": "Subtopic",
-    "targetTopic": "Subtopic",
-    "enclosingTopic": "Topic",
-    "enclosingSubtopic": "Topic"
-   },
-   {
-    "text": " form a ",
-    "type": "text"
-   },
-   {
-    "text": "topic tree",
-    "type": "global",
-    "targetSubtopic": "Topic tree",
-    "targetTopic": "Topic tree",
-    "enclosingTopic": "Topic",
-    "enclosingSubtopic": "Topic"
-   },
-   {
-    "text": ". The data of a topic is stored in a ",
+    "text": ", like this one. In the Canopy interface, a topic corresponds to a paragraph that either appears first on the page, or after a dividing line. The  The data of a topic is stored in a ",
     "type": "text"
    },
    {
     "text": "topic file",
     "type": "global",
+    "tokens": [
+     {
+      "text": "topic file",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Topic file",
     "targetTopic": "Topic file",
     "enclosingTopic": "Topic",
@@ -81,18 +87,30 @@
    {
     "text": "default topic",
     "type": "global",
+    "tokens": [
+     {
+      "text": "default topic",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Default Topic",
     "targetTopic": "Default Topic",
     "enclosingTopic": "Topic",
     "enclosingSubtopic": "Topic"
    },
    {
-    "text": ". It is important to know ",
+    "text": ". It is a best practice to know ",
     "type": "text"
    },
    {
     "text": "when to use topics versus subtopics",
     "type": "global",
+    "tokens": [
+     {
+      "text": "when to use topics versus subtopics",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "When to use topics versus subtopics",
     "targetTopic": "When to use topics versus subtopics",
     "enclosingTopic": "Topic",

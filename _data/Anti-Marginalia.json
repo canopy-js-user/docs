@@ -1,5 +1,11 @@
 {
  "displayTopicName": "Anti-Marginalia",
+ "topicTokens": [
+  {
+   "text": "Anti-Marginalia",
+   "type": "text"
+  }
+ ],
  "paragraphsBySubtopic": {
   "Anti-Marginalia": [
    {
@@ -9,6 +15,12 @@
    {
     "text": "many hypertext systems use the visual metaphor of marginalia",
     "type": "local",
+    "tokens": [
+     {
+      "text": "many hypertext systems use the visual metaphor of marginalia",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Many hypertext systems use the visual metaphor of marginalia",
     "targetTopic": "Anti-Marginalia",
     "enclosingTopic": "Anti-Marginalia",
@@ -21,6 +33,12 @@
    {
     "text": "marginalia producing splintering",
     "type": "local",
+    "tokens": [
+     {
+      "text": "marginalia producing splintering",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Marginalia producing splintering",
     "targetTopic": "Anti-Marginalia",
     "enclosingTopic": "Anti-Marginalia",
@@ -33,6 +51,12 @@
    {
     "text": "marginalia has no forward references",
     "type": "local",
+    "tokens": [
+     {
+      "text": "marginalia has no forward references",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Marginalia has no forward references",
     "targetTopic": "Anti-Marginalia",
     "enclosingTopic": "Anti-Marginalia",
@@ -45,6 +69,12 @@
    {
     "text": "marginalia follows the document metaphor",
     "type": "local",
+    "tokens": [
+     {
+      "text": "marginalia follows the document metaphor",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Marginalia follows the document metaphor",
     "targetTopic": "Anti-Marginalia",
     "enclosingTopic": "Anti-Marginalia",
@@ -57,6 +87,12 @@
    {
     "text": "Canopy incorporates commentary into the primary content",
     "type": "local",
+    "tokens": [
+     {
+      "text": "Canopy incorporates commentary into the primary content",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Canopy incorporates commentary into the primary content",
     "targetTopic": "Anti-Marginalia",
     "enclosingTopic": "Anti-Marginalia",

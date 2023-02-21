@@ -1,5 +1,11 @@
 {
  "displayTopicName": "How Canopy works",
+ "topicTokens": [
+  {
+   "text": "How Canopy works",
+   "type": "text"
+  }
+ ],
  "paragraphsBySubtopic": {
   "How Canopy works": [
    {
@@ -9,6 +15,12 @@
    {
     "text": "explanation files",
     "type": "global",
+    "tokens": [
+     {
+      "text": "explanation files",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Explanation files",
     "targetTopic": "Explanation files",
     "enclosingTopic": "How Canopy works",
@@ -21,6 +33,12 @@
    {
     "text": "uses them to produce build data",
     "type": "local",
+    "tokens": [
+     {
+      "text": "uses them to produce build data",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Uses them to produce build data",
     "targetTopic": "How Canopy works",
     "enclosingTopic": "How Canopy works",
@@ -33,6 +51,12 @@
    {
     "text": "the front-end client uses to build a web interface",
     "type": "local",
+    "tokens": [
+     {
+      "text": "the front-end client uses to build a web interface",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "The front-end client uses to build a web interface",
     "targetTopic": "How Canopy works",
     "enclosingTopic": "How Canopy works",
@@ -45,13 +69,37 @@
    {
     "text": "the user interacts with it",
     "type": "local",
+    "tokens": [
+     {
+      "text": "the user interacts with it",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "The user interacts with it",
     "targetTopic": "How Canopy works",
     "enclosingTopic": "How Canopy works",
     "enclosingSubtopic": "How Canopy works"
    },
    {
-    "text": ".",
+    "text": ". (Ideally this section would expand to describe every aspect of the process, and for each aspect, cross references to where that aspect is implemented in the ",
+    "type": "text"
+   },
+   {
+    "text": "codebase",
+    "type": "global",
+    "tokens": [
+     {
+      "text": "codebase",
+      "type": "text"
+     }
+    ],
+    "targetSubtopic": "Codebase",
+    "targetTopic": "Codebase",
+    "enclosingTopic": "How Canopy works",
+    "enclosingSubtopic": "How Canopy works"
+   },
+   {
+    "text": ".)",
     "type": "text"
    }
   ],

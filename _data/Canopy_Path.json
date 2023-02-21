@@ -1,5 +1,11 @@
 {
  "displayTopicName": "Canopy Path",
+ "topicTokens": [
+  {
+   "text": "Canopy Path",
+   "type": "text"
+  }
+ ],
  "paragraphsBySubtopic": {
   "Canopy Path": [
    {
@@ -9,6 +15,12 @@
    {
     "text": "URL",
     "type": "local",
+    "tokens": [
+     {
+      "text": "URL",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "URL",
     "targetTopic": "Canopy Path",
     "enclosingTopic": "Canopy Path",
@@ -21,6 +33,12 @@
    {
     "text": "path segments",
     "type": "global",
+    "tokens": [
+     {
+      "text": "path segments",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Path segment",
     "targetTopic": "Path segment",
     "enclosingTopic": "Canopy Path",
@@ -33,6 +51,12 @@
    {
     "text": "root topic",
     "type": "global",
+    "tokens": [
+     {
+      "text": "root topic",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Root topic",
     "targetTopic": "Root topic",
     "enclosingTopic": "Canopy Path",
@@ -51,13 +75,27 @@
    {
     "text": "path segment",
     "type": "global",
+    "tokens": [
+     {
+      "text": "path segment",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Path segment",
     "targetTopic": "Path segment",
     "enclosingTopic": "Canopy Path",
     "enclosingSubtopic": "URL"
    },
    {
-    "text": " separated with a forward slash, and if the path segment has a subtopic, it is appended to the topic name with a leading pound sign, for example, `A/B#C/D`.",
+    "text": " separated with a forward slash, and if the path segment has a subtopic, it is appended to the topic name with a leading pound sign, for example, ",
+    "type": "text"
+   },
+   {
+    "type": "inline_code",
+    "text": "A/B#C/D"
+   },
+   {
+    "text": ".",
     "type": "text"
    }
   ]

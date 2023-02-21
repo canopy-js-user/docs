@@ -1,5 +1,11 @@
 {
  "displayTopicName": "Note",
+ "topicTokens": [
+  {
+   "text": "Note",
+   "type": "text"
+  }
+ ],
  "paragraphsBySubtopic": {
   "Note": [
    {
@@ -9,6 +15,12 @@
    {
     "text": "paragraph nodes",
     "type": "global",
+    "tokens": [
+     {
+      "text": "paragraph nodes",
+      "type": "text"
+     }
+    ],
     "targetSubtopic": "Paragraph node",
     "targetTopic": "Paragraph node",
     "enclosingTopic": "Note",

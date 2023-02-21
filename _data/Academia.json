@@ -1,5 +1,11 @@
 {
  "displayTopicName": "Academia",
+ "topicTokens": [
+  {
+   "text": "Academia",
+   "type": "text"
+  }
+ ],
  "paragraphsBySubtopic": {
   "Academia": [
    {
