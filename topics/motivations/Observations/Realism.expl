@@ -14,7 +14,7 @@ It makes sense to think that the underlying data structure is a graph: A graph i
 
 Any representation of explanation besides a graph will be distortive: If you represent a graph as a linearization, either you will go deep into detail before going broad, making it hard to get a high-level picture, or you will go broad before going deep, making it hard to dive into details of a subject.
 
-Canopy represents the underlying explanation graph: Rather than have an author produce a series of books and articles, capturing their knowledge graph only approximately, Canopy has the author capture the underlying graph itself, offering tools to make this easier for them to do.
+Canopy represents the underlying explanation graph: Rather than have the author produce a series of books and articles, capturing their knowledge graph only approximately, Canopy allows the author capture the underlying graph itself, and offers them tools to make this easier to do.
 
 We preserve all possible explanations that can be produced from the original data: [[The author in person can produce many linearizations]], but [[capturing their knowledge as a sequence destroys this original flexibility]], however, [[if the author captures their knowledge with a graph]], [[we preserve the original multiplicity of possible explanations]].
 
@@ -22,7 +22,7 @@ The author in person can produce many linearizations: An expert in-person can pr
 
 Capturing their knowledge as a sequence destroys this original flexibility: If the expert captures their knowledge as one big book, then we went from having the expert, who could produce infinitely many linearizations of their knowledge, to having a book, which is only one linearization, destroying all of the other potential explanations the expert could have produced.
 
-If the author captures their knowledge with a graph: If the expert uses a tool like Canopy to capture their underling knowledge graph as opposed to writing a single long book,
+If the author captures their knowledge with a graph: If the expert uses a tool like Canopy to capture their underling knowledge graph, as opposed to writing a single long book;
 
 We preserve the original multiplicity of possible explanations: From the graph that the expert produces, we are able to produce the infinite number of possible linearizations that the expert themselves could produce, meaning that less creative potential is lost in converting expert knowledge to a graph format than is destroyed when converting expert knowledge into linear text.
 

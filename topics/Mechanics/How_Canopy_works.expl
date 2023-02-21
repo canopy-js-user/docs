@@ -1,4 +1,4 @@
-How Canopy works: Canopy takes [[explanation files]] and [[uses them to produce build data]], which [[the front-end client uses to build a web interface]] and [[the user interacts with it]].
+How Canopy works: Canopy takes [[explanation files]] and [[uses them to produce build data]], which [[the front-end client uses to build a web interface]] and [[the user interacts with it]]. (Ideally this section would expand to describe every aspect of the process, and for each aspect, cross references to where that aspect is implemented in the [[codebase]].)
 
 Uses them to produce build data: The build process produces JSON files that tell the front-end client how to render the paragraphs of the project.
 

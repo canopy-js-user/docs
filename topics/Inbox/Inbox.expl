@@ -129,3 +129,9 @@ When does a person use a subtopic eg "France#Economy" and when does a person use
 Different kinds of diagraph eg pedagogic diagraph where a simple version of the idea is the root, and specifications are complications.
 
 Diagraph is a dependency graph
+
+Don't use subtopics when you could use topics, because the import reference jump is intimidating.
+
+I've seen confusion from ST links that have the same name as globals, which should perhaps be longer global topics.
+
+I recognize that in a certain place "the chabura" can be the proper name for something, but the chiddish here seems to be that even in a place where that is not the proper name for it, a reference has a certain context ie the paragraph, and so I would call it the chabura if it was previously mentioned in that paragraph, etc.
