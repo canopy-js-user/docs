@@ -1,9 +1,3 @@
 Canopy CLI build command: The `canopy build` command takes the [[topic file|topic files]] in the [[topics directory]] and uses them to populate the [[build directory]]. The Canopy CLI build command takes varies [[parameters]]. It must be run from the project directory.
 
 Parameters: There are various optional parameters to the build function. There is the [[project path prefix parameter]].
-
-Project path prefix parameter: The project path prefix parameter lets the user specify the [[project path prefix]]. If the hosting URL will be `www.example.com/myProject/`, then the project should be built like this:
-```
-canopy build --project-path-prefix myProject
-
-```

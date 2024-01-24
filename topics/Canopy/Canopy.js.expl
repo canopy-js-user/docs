@@ -1,4 +1,11 @@
-Canopy JS:
+Canopy\.js:
+Welcome! This is a placeholder for documentation of the Canopy.js project.
+- Check out our [Github repo](https://github.com/canopy-js/canopy-js) for basic info.
+- Check out an [interactive playground](https://playground.canopyjs.org) to see what Canopy does.
+- Make a [Canopy notebook](https://notebook.canopyjs.org) hosted from your own Dropbox.
+- Clone [the template repo](https://github.com/canopy-js/template-repo) and publish your own Canopy project.
+- Get in touch at `hello at canopyjs dot org`.
+
 Welcome! This is a draft of the documentation for the Canopy JS project. Canopy makes interactive websites like this one. (Try using the arrow keys!)
 There are various [[motivations for Canopy]], and different [[applications of Canopy]].
 Canopy is used by [[readers]] and [[writers]], and this is an explanation of [[how Canopy works]].
