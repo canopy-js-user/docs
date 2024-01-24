@@ -1,17 +1,1 @@
-{
- "displayTopicName": "Journalism",
- "topicTokens": [
-  {
-   "text": "Journalism",
-   "type": "text"
-  }
- ],
- "paragraphsBySubtopic": {
-  "Journalism": [
-   {
-    "text": "Canopy would let journalists tap into reusable background content: When a journalist discusses a news story that has larger historical context, Canopy would let them connect their story to reusable background content, allowing readers who are interested to burrow into the historical context without every journalist having to produce it from scratch.",
-    "type": "text"
-   }
-  ]
- }
-}
+{"displayTopicName":"Journalism","topicTokens":[{"text":"Journalism","type":"text"}],"paragraphsBySubtopic":{"Journalism":[{"text":"Canopy would let journalists tap into reusable background content: When a journalist discusses a news story that has larger historical context, Canopy would let them connect their story to reusable background content, allowing readers who are interested to burrow into the historical context without every journalist having to produce it from scratch.","type":"text"}]}}

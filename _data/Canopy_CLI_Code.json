@@ -1,17 +1,1 @@
-{
- "displayTopicName": "Canopy CLI Code",
- "topicTokens": [
-  {
-   "text": "Canopy CLI Code",
-   "type": "text"
-  }
- ],
- "paragraphsBySubtopic": {
-  "Canopy CLI Code": [
-   {
-    "text": "The CLI code uses the Commander.js library and is composed of several command functions.",
-    "type": "text"
-   }
-  ]
- }
-}
+{"displayTopicName":"Canopy CLI Code","topicTokens":[{"text":"Canopy CLI Code","type":"text"}],"paragraphsBySubtopic":{"Canopy CLI Code":[{"text":"The CLI code uses the Commander.js library and is composed of several command functions.","type":"text"}]}}

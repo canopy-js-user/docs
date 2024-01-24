@@ -1,17 +1,1 @@
-{
- "displayTopicName": "Canopy client code",
- "topicTokens": [
-  {
-   "text": "Canopy client code",
-   "type": "text"
-  }
- ],
- "paragraphsBySubtopic": {
-  "Canopy client code": [
-   {
-    "text": "The Canopy front-end client is composed of several major components.",
-    "type": "text"
-   }
-  ]
- }
-}
+{"displayTopicName":"Canopy client code","topicTokens":[{"text":"Canopy client code","type":"text"}],"paragraphsBySubtopic":{"Canopy client code":[{"text":"The Canopy front-end client is composed of several major components.","type":"text"}]}}

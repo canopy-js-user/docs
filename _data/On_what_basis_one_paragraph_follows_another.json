@@ -1,17 +1,1 @@
-{
- "displayTopicName": "On what basis one paragraph follows another",
- "topicTokens": [
-  {
-   "text": "On what basis one paragraph follows another",
-   "type": "text"
-  }
- ],
- "paragraphsBySubtopic": {
-  "On what basis one paragraph follows another": [
-   {
-    "text": "In prose, some orderings of paragraph are considered valid explanations whereas others are not. What makes an ordering a valid explanation? An ordering is valid when each paragraph references something that a further paragraph is an elaboration or definition of. In dramatic prose, descriptions can come before the connection between the described thing and the original topic, but Canopy makes things clearer by requiring strict precedence of references to referents. Thus, Canopy is an implementation of this definition of valid explanation, producing all valid explanations from a corpus of paragraphs.",
-    "type": "text"
-   }
-  ]
- }
-}
+{"displayTopicName":"On what basis one paragraph follows another","topicTokens":[{"text":"On what basis one paragraph follows another","type":"text"}],"paragraphsBySubtopic":{"On what basis one paragraph follows another":[{"text":"In prose, some orderings of paragraph are considered valid explanations whereas others are not. What makes an ordering a valid explanation? An ordering is valid when each paragraph references something that a further paragraph is an elaboration or definition of. In dramatic prose, descriptions can come before the connection between the described thing and the original topic, but Canopy makes things clearer by requiring strict precedence of references to referents. Thus, Canopy is an implementation of this definition of valid explanation, producing all valid explanations from a corpus of paragraphs.","type":"text"}]}}

@@ -1,17 +1,1 @@
-{
- "displayTopicName": "Academia",
- "topicTokens": [
-  {
-   "text": "Academia",
-   "type": "text"
-  }
- ],
- "paragraphsBySubtopic": {
-  "Academia": [
-   {
-    "text": "Canopy would allow academics to produce larger cumulative works: Rather than producing original research on a narrow point, some academics want to express their view of a domain or discipline in its entirety, yet this type of work would be difficult to produce in the format of books and articles, but Canopy makes it easy to produce very large interconnected works.",
-    "type": "text"
-   }
-  ]
- }
-}
+{"displayTopicName":"Academia","topicTokens":[{"text":"Academia","type":"text"}],"paragraphsBySubtopic":{"Academia":[{"text":"Canopy would allow academics to produce larger cumulative works: Rather than producing original research on a narrow point, some academics want to express their view of a domain or discipline in its entirety, yet this type of work would be difficult to produce in the format of books and articles, but Canopy makes it easy to produce very large interconnected works.","type":"text"}]}}
