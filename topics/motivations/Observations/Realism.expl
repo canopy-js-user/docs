@@ -26,5 +26,4 @@ If the author captures their knowledge with a graph: If the expert uses a tool l
 
 We preserve the original multiplicity of possible explanations: From the graph that the expert produces, we are able to produce the infinite number of possible linearizations that the expert themselves could produce, meaning that less creative potential is lost in converting expert knowledge to a graph format than is destroyed when converting expert knowledge into linear text.
 
-
 The author can produce many possible linearizations, but if the author produces a linearization, we only captures their underlying graph rather than capturing only a few particular traversals like books or articles, then we have richer data from which we can can generate all the possible linearizations of the graph, allowing one reader to go into depth whereas another reader can get a general picture, a potential that would have been lost if the author had just produced one big text.

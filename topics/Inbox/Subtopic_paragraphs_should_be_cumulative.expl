@@ -88,7 +88,6 @@ Canopy bulk mode: The canopy bulk mode is a CLI tool for making diagraph.
 
 Implementations of the diagraph data structure: Of which, the Canopy project is one.
 
-
 Functions of the Canopy library: There are certain functions the Canopy library performs, like run a Canopy server.
 
 Canopy server: A Canopy server is a server that serves and supports the Canopy.js library. The Canopy server can be a static assets server or a node.js script. The server delivers the Canopy.js library on the first request, and then handles subsequent requests from the browser for JSON data files. The Canopy server is necessary to view an example of the Canopy project.
@@ -115,7 +114,6 @@ How to use a Canopy website: Here is how.
 
 How to produce diagraph with Canopy: Canopy turns a directory of diagraph script files into -
 
-
 First, it is useful to understand the [ problems Canopy solves]. Then, we can discuss [how Canopy helps], and also specifically, the [ applications of Canopy] in different use-cases. Those interested can inquire into [how Canopy works] on a technical level and understand the [ design of Canopy]. Those wishing to make their own project with Canopy can read about [how Canopy is used] practically speaking. Anyone unfamiliar with the user interface can do a short [walk through]. (Try using the arrow keys.)
 
 Canopy is a JavaScript library for creating and browsing the diagraph data structure. There are functions of the Canopy library. There are motivations for Canopy. There are design principles of Canopy. There are applications of Canopy. There is a way how to use Canopy. There is a Canopy codebase.
@@ -135,3 +133,7 @@ Don't use subtopics when you could use topics, because the import reference jump
 I've seen confusion from ST links that have the same name as globals, which should perhaps be longer global topics.
 
 I recognize that in a certain place "the chabura" can be the proper name for something, but the chiddish here seems to be that even in a place where that is not the proper name for it, a reference has a certain context ie the paragraph, and so I would call it the chabura if it was previously mentioned in that paragraph, etc.
+
+Most people are not speaking cumulatively, and so mentioning something is a statement and so it is harder to reach consensus. Bias comes out less in what one holds is true and more in what one holds is worth mentioning.
+
+Footnotes are the wrong metaphor for compositions made out of compositions because they are only one level deep, and assume the thing being derived is a large amorphous sequence.

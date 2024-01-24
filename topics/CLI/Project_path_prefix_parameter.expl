@@ -1,0 +1,5 @@
+Project path prefix parameter: The project path prefix parameter lets the user specify the [[project path prefix]]. If the hosting URL will be `www.example.com/myProject/`, then the project should be built like this:
+```
+canopy build --project-path-prefix myProject
+
+```
