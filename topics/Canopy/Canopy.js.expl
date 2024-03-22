@@ -4,7 +4,6 @@ Welcome! This is a placeholder for documentation of the Canopy.js project.
 - Check out an [interactive playground](https://playground.canopyjs.org) for Canopy.js.
 - Make a [Canopy notebook](https://notebook.canopyjs.org) hosted from your own Dropbox.
 - Get in touch at `hello at canopyjs dot org`.
-- Check back here for more info down the road.
 
 Welcome! This is a draft of the documentation for the Canopy JS project. Canopy makes interactive websites like this one. (Try using the arrow keys!)
 There are various [[motivations for Canopy]], and different [[applications of Canopy]].
