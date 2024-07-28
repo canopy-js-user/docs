@@ -1,0 +1,17 @@
+.side-panel {
+    position: fixed; /* Fixing the div to the viewport */
+    top: 0;
+    bottom: 0;
+    width: 6%; 
+    background-color: #1a5b01;
+    background-size: 300%;
+    z-index: -1; /* This ensures the side panels are behind the main content */
+}
+
+.side-panel.left {
+    left: 0;
+}
+
+.side-panel.right {
+    right: 0;
+}
